@@ -24,8 +24,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Homepage (SPA)', 'https://captainalan.github.io/me/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('GitHub', 'https://github.com/captainalan'),
+SOCIAL = (('GitHub', 'https://github.com/captainalan'),
           ('Linked In', 'https://www.linkedin.com/in/alan-wong-bb342569/'),
           ('Facebook', 'https://www.facebook.com/captainalan'),)
 
