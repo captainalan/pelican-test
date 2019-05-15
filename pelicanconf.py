@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Alan Wong'
-SITENAME = 'Trying out Pelican'
+SITENAME = "Alan's Static Site"
 SITEURL = 'https://captainalan.github.io/pelican-test/'
 
 PATH = 'content'
@@ -21,7 +21,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Homepage', 'https://captainalan.github.io/me/'),)
+         ('Homepage (SPA)', 'https://captainalan.github.io/me/'),)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
