@@ -18,7 +18,20 @@ side JavaScript.
 
 ### Installing things
 
-You need a working installation of Python (3) and `pip` to use Pelican.
+You need a working installation of Python (3) and `pip` to use Pelican. In the
+[official Pelican docs](http://docs.getpelican.com/en/3.6.3/install.html) there
+are some instructions for setting up a virtual environment:
+
+    virtualenv ~/virtualenvs/pelican
+    cd ~/virtualenvs/pelican
+    source bin/activate
+
+This way of going about things is good because you can just activate this same
+virtual environment when working with any of your Pelican projects.
+
+(Depending on your installation(s) of Python, you may have to do something like
+`python3 -m virtualenv ~/virtualenvs/pelican` to explicitly call `virtualenv` as
+a module using a particular version of Python)
 
 To get GitHub Pages to work, you need to install `ghp-import`.
 Then, just run `make github`.
