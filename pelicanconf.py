@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Alan Wong'
 SITENAME = 'Trying out Pelican'
-SITEURL = ''
+SITEURL = 'https://captainalan.github.io/pelican-test/'
 
 PATH = 'content'
 
@@ -21,13 +21,12 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Homepage', 'https://captainalan.github.io/me/'),)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+          ('GitHub', 'https://github.com/captainalan'),
+          ('Linked In', 'https://www.linkedin.com/in/alan-wong-bb342569/'),)
 
 DEFAULT_PAGINATION = 10
 
