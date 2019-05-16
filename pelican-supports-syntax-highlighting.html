@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>Alan's Static Site - Alan Wong</title>
+        <title>Pelican Supports Syntax Highlighting</title>
         <link rel="stylesheet" href="https://captainalan.github.io/pelican-test/theme/css/main.css" />
         <link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Alan's Static Site Atom Feed" />
 </head>
@@ -12,63 +12,18 @@
                 <h1><a href="https://captainalan.github.io/pelican-test/">Alan's Static Site </a></h1>
                 <nav><ul>
                     <li><a href="https://captainalan.github.io/pelican-test/category/fun.html">Fun</a></li>
-                    <li><a href="https://captainalan.github.io/pelican-test/category/programming.html">Programming</a></li>
+                    <li class="active"><a href="https://captainalan.github.io/pelican-test/category/programming.html">Programming</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://captainalan.github.io/pelican-test/pelican-supports-syntax-highlighting.html" rel="bookmark"
+           title="Permalink to Pelican Supports Syntax Highlighting">Pelican Supports Syntax Highlighting</a></h1>
+    </header>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="https://captainalan.github.io/pelican-test/hehehehehe.html">HEHEHEHEHE</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2019-05-15T10:50:00-07:00">
-                Published: Wed 15 May 2019
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://captainalan.github.io/pelican-test/author/alan-wong.html">Alan Wong</a>
-        </address>
-<p>In <a href="https://captainalan.github.io/pelican-test/category/fun.html">Fun</a>.</p>
-
-</footer><!-- /.post-info --><p>It is a pleasure to edit in Markdown! </p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://captainalan.github.io/pelican-test/why-static-sites.html" rel="bookmark"
-                           title="Permalink to Why Static Sites?">Why Static Sites?</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-05-15T10:13:00-07:00">
-                Published: Wed 15 May 2019
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://captainalan.github.io/pelican-test/author/alan-wong.html">Alan Wong</a>
-        </address>
-<p>In <a href="https://captainalan.github.io/pelican-test/category/programming.html">Programming</a>.</p>
-
-</footer><!-- /.post-info -->                <p>Static sites deploy easily, without special considerations about what
-will compile, what will be allowed, etc. Everything is packaged up
-nicely and good to go. Its like grabbing an an acoustic guitar and
-just beginning to play versus doing a complex setup with an electric
-guitar. Sure, you can make …</p>
-                <a class="readmore" href="https://captainalan.github.io/pelican-test/why-static-sites.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://captainalan.github.io/pelican-test/pelican-supports-syntax-highlighting.html" rel="bookmark"
-                           title="Permalink to Pelican Supports Syntax Highlighting">Pelican Supports Syntax Highlighting</a></h1>
-                </header>
-
-                <div class="entry-content">
+    <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2019-05-14T00:00:00-07:00">
                 Published: Tue 14 May 2019
@@ -79,7 +34,7 @@ guitar. Sure, you can make …</p>
         </address>
 <p>In <a href="https://captainalan.github.io/pelican-test/category/programming.html">Programming</a>.</p>
 
-</footer><!-- /.post-info -->                <h2>JavaScript</h2>
+</footer><!-- /.post-info -->      <h2>JavaScript</h2>
 <p>Does code highlighting work here?</p>
 <div class="highlight"><pre><span></span><span class="c1">// ES5</span>
 <span class="kd">function</span> <span class="nx">foo</span><span class="p">()</span> <span class="p">{</span>
@@ -101,12 +56,51 @@ guitar. Sure, you can make …</p>
 </pre></div>
 
 
-<p>Why might you want to do that …</p>
-                <a class="readmore" href="https://captainalan.github.io/pelican-test/pelican-supports-syntax-highlighting.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-                </ol><!-- /#posts-list -->
-                </section><!-- /#content -->
+<p>Why might you want to do that?</p>
+<div class="highlight"><pre><span></span><span class="kt">Just</span> <span class="p">(</span><span class="o">*</span><span class="mi">2</span><span class="p">)</span> <span class="o">&lt;*&gt;</span> <span class="kt">Just</span> <span class="s">&quot;asdf&quot;</span>
+<span class="c1">-- ERROR....!!!</span>
+</pre></div>
+
+
+<p>Things blow up if incompatible types are used. Whoa!</p>
+<p>Here's some more functional fun.</p>
+<div class="highlight"><pre><span></span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="o">&lt;$&gt;</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span> <span class="o">&lt;*&gt;</span> <span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+<span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">6</span><span class="p">]</span>
+</pre></div>
+
+
+<p>The code above maps the multiplication operator to the first list [1,2] to produce 
+the functions something like this <code>[(\x -&gt; x * 1), (\x -&gt; x * 2)]</code>. These functions
+are in turn each applied to to <code>[3]</code> giving <code>[3,6]</code>.</p>
+<h2>Python</h2>
+<p>Input</p>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+<span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">9</span><span class="p">),</span><span class="n">reshape</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">a</span>
+</pre></div>
+
+
+<p>Output:</p>
+<div class="highlight"><pre><span></span><span class="n">array</span><span class="p">([[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+       <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span>
+       <span class="p">[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">]])</span>
+</pre></div>
+
+
+<p>Multiplying <code>a</code> by a scalar quantity</p>
+<div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">*</span> <span class="mi">2</span>
+</pre></div>
+
+
+<p>Gives:</p>
+<div class="highlight"><pre><span></span><span class="n">array</span><span class="p">([[</span> <span class="mi">0</span><span class="p">,</span>  <span class="mi">2</span><span class="p">,</span>  <span class="mi">4</span><span class="p">],</span>
+       <span class="p">[</span> <span class="mi">6</span><span class="p">,</span>  <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">],</span>
+       <span class="p">[</span><span class="mi">12</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">16</span><span class="p">]])</span>
+</pre></div>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>links</h2>
