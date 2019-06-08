@@ -150,7 +150,7 @@ Let's make make some new directories to mount stuff. First do
 `mkdir /mnt/boot` create a mount point for our boot partition. Then, run
 `mount /dev/sda1 /mnt/boot` to do the actual mounting.
 
-Finally, do `mkdir /mnt/home`. Run `mount /dev/sda4 /mnt/boot` to mount your 
+Finally, do `mkdir /mnt/home`. Run `mount /dev/sda4 /mnt/home` to mount your 
 home partition.
 
 ## Installing the base system
@@ -159,7 +159,7 @@ We now have all of our partitions and have mounted these partitions on our
 file systems. Mounting allows us to modify the data on these partitions,
 which means we can install softare (like Arch Linux!).
 
-Run `lsblk` to see that all is ass it should be.
+Run `lsblk` to see that all is as it should be.
 
 ### The fun starts with `pacstrap`
 
@@ -276,7 +276,8 @@ password.
 Next, run
 
 ```bash
-curl -LO larbs.xyz/larbs.sh
+curl -LO larbs.xyz/larbs.sh  # Download the script
+bash larbs.sh                # Run the script you just downloaded! 
 ```
 
 ### Logging in
