@@ -142,13 +142,13 @@ set these partitions' filesystems.</p>
 <p>Let's make make some new directories to mount stuff. First do 
 <code>mkdir /mnt/boot</code> create a mount point for our boot partition. Then, run
 <code>mount /dev/sda1 /mnt/boot</code> to do the actual mounting.</p>
-<p>Finally, do <code>mkdir /mnt/home</code>. Run <code>mount /dev/sda4 /mnt/boot</code> to mount your 
+<p>Finally, do <code>mkdir /mnt/home</code>. Run <code>mount /dev/sda4 /mnt/home</code> to mount your 
 home partition.</p>
 <h2>Installing the base system</h2>
 <p>We now have all of our partitions and have mounted these partitions on our
 file systems. Mounting allows us to modify the data on these partitions,
 which means we can install softare (like Arch Linux!).</p>
-<p>Run <code>lsblk</code> to see that all is ass it should be.</p>
+<p>Run <code>lsblk</code> to see that all is as it should be.</p>
 <h3>The fun starts with <code>pacstrap</code></h3>
 <p>Run <code>pacstrap /mnt base base-devel</code> to install the base package and basic
 development tools. If you want more things, add them like so to this command.</p>
@@ -231,7 +231,8 @@ Luke Smith's <a href="https://larbs.xyz">LARBS</a> setup.</p>
 <p>Booting your new Arch setup, login as <code>root</code>. You'll be prompted for your
 password.</p>
 <p>Next, run</p>
-<div class="highlight"><pre><span></span>curl -LO larbs.xyz/larbs.sh
+<div class="highlight"><pre><span></span>curl -LO larbs.xyz/larbs.sh  <span class="c1"># Download the script</span>
+bash larbs.sh                <span class="c1"># Run the script you just downloaded! </span>
 </pre></div>
 
 

@@ -110,13 +110,13 @@ set these partitions' filesystems.&lt;/p&gt;
 &lt;p&gt;Let's make make some new directories to mount stuff. First do 
 &lt;code&gt;mkdir /mnt/boot&lt;/code&gt; create a mount point for our boot partition. Then, run
 &lt;code&gt;mount /dev/sda1 /mnt/boot&lt;/code&gt; to do the actual mounting.&lt;/p&gt;
-&lt;p&gt;Finally, do &lt;code&gt;mkdir /mnt/home&lt;/code&gt;. Run &lt;code&gt;mount /dev/sda4 /mnt/boot&lt;/code&gt; to mount your 
+&lt;p&gt;Finally, do &lt;code&gt;mkdir /mnt/home&lt;/code&gt;. Run &lt;code&gt;mount /dev/sda4 /mnt/home&lt;/code&gt; to mount your 
 home partition.&lt;/p&gt;
 &lt;h2&gt;Installing the base system&lt;/h2&gt;
 &lt;p&gt;We now have all of our partitions and have mounted these partitions on our
 file systems. Mounting allows us to modify the data on these partitions,
 which means we can install softare (like Arch Linux!).&lt;/p&gt;
-&lt;p&gt;Run &lt;code&gt;lsblk&lt;/code&gt; to see that all is ass it should be.&lt;/p&gt;
+&lt;p&gt;Run &lt;code&gt;lsblk&lt;/code&gt; to see that all is as it should be.&lt;/p&gt;
 &lt;h3&gt;The fun starts with &lt;code&gt;pacstrap&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;Run &lt;code&gt;pacstrap /mnt base base-devel&lt;/code&gt; to install the base package and basic
 development tools. If you want more things, add them like so to this command.&lt;/p&gt;
@@ -199,7 +199,8 @@ Luke Smith's &lt;a href="https://larbs.xyz"&gt;LARBS&lt;/a&gt; setup.&lt;/p&gt;
 &lt;p&gt;Booting your new Arch setup, login as &lt;code&gt;root&lt;/code&gt;. You'll be prompted for your
 password.&lt;/p&gt;
 &lt;p&gt;Next, run&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;curl -LO larbs.xyz/larbs.sh
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;curl -LO larbs.xyz/larbs.sh  &lt;span class="c1"&gt;# Download the script&lt;/span&gt;
+bash larbs.sh                &lt;span class="c1"&gt;# Run the script you just downloaded! &lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
