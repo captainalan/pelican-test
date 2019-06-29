@@ -1,5 +1,5 @@
 title: Arch Linux Install for n00bs
-date: 2019-06-02  
+date: 2019-06-02
 category: Linux
 
 In this tutorial, I will go through installing Arch Linux. These instructions
@@ -146,11 +146,11 @@ First, do `mount /dev/sda3 /mnt` to mount your root partition.
 
 Type `ls /mnt`. You should see something like `lost+found` there.
 
-Let's make make some new directories to mount stuff. First do 
+Let's make make some new directories to mount stuff. First do
 `mkdir /mnt/boot` create a mount point for our boot partition. Then, run
 `mount /dev/sda1 /mnt/boot` to do the actual mounting.
 
-Finally, do `mkdir /mnt/home`. Run `mount /dev/sda4 /mnt/home` to mount your 
+Finally, do `mkdir /mnt/home`. Run `mount /dev/sda4 /mnt/home` to mount your
 home partition.
 
 ## Installing the base system
@@ -179,7 +179,7 @@ Linux what to try to load (see `etc/fstab`). Run `genfstab /mnt`. This will
 generate an `fstab` file based on how `mnt` looks. Running this command will
 just output a bunch of stuff.
 
-We need to save these things to a file. Run 
+We need to save these things to a file. Run
 `genfstab -U /mnt >> /mnt/etc/fstab`.
 
 Now Arch Linux will know what goes where.
@@ -232,7 +232,7 @@ file.
 Let's edit one more file to set our (default) language: `vim
 /etc/locale.conf`. I changed the contents of this file to:
 
-    LANG=en-US.UTF-8
+    LANG=en_US.UTF-8
 
 ### Setting a timezone
 
@@ -277,7 +277,7 @@ Next, run
 
 ```bash
 curl -LO larbs.xyz/larbs.sh  # Download the script
-bash larbs.sh                # Run the script you just downloaded! 
+bash larbs.sh                # Run the script you just downloaded!
 ```
 
 ### Logging in
