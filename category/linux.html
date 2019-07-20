@@ -12,6 +12,8 @@
                 <h1><a href="https://captainalan.github.io/pelican-test/">Alan's Static Site </a></h1>
                 <nav><ul>
                     <li><a href="https://captainalan.github.io/pelican-test/category/fun.html">Fun</a></li>
+                    <li><a href="https://captainalan.github.io/pelican-test/category/interwebs.html">Interwebs</a></li>
+                    <li><a href="https://captainalan.github.io/pelican-test/category/lifestyle.html">Lifestyle</a></li>
                     <li class="active"><a href="https://captainalan.github.io/pelican-test/category/linux.html">Linux</a></li>
                     <li><a href="https://captainalan.github.io/pelican-test/category/programming.html">Programming</a></li>
                 </ul></nav>
@@ -134,10 +136,10 @@ set these partitions' filesystems.</p>
 <p><strong>Note</strong> at any point during this tutorial you may want to run <code>lsblk</code> to see
 *how your disks currently look.</p>
 <p>Type <code>ls /mnt</code>. You should see something like <code>lost+found</code> there.</p>
-<p>Let's make make some new directories to mount stuff. First do 
+<p>Let's make make some new directories to mount stuff. First do
 <code>mkdir /mnt/boot</code> create a mount point for our boot partition. Then, run
 <code>mount /dev/sda1 /mnt/boot</code> to do the actual mounting.</p>
-<p>Finally, do <code>mkdir /mnt/home</code>. Run <code>mount /dev/sda4 /mnt/home</code> to mount your 
+<p>Finally, do <code>mkdir /mnt/home</code>. Run <code>mount /dev/sda4 /mnt/home</code> to mount your
 home partition.</p>
 <h2>Installing the base system</h2>
 <p>We now have all of our partitions and have mounted these partitions on our
@@ -158,7 +160,7 @@ base system.</p>
 Linux what to try to load (see <code>etc/fstab</code>). Run <code>genfstab /mnt</code>. This will
 generate an <code>fstab</code> file based on how <code>mnt</code> looks. Running this command will
 just output a bunch of stuff.</p>
-<p>We need to save these things to a file. Run 
+<p>We need to save these things to a file. Run
 <code>genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code>.</p>
 <p>Now Arch Linux will know what goes where.</p>
 <h2>Making our installation bootable</h2>
@@ -196,7 +198,7 @@ exit this file.</p>
 file.</p>
 <p>Let's edit one more file to set our (default) language: <code>vim
 /etc/locale.conf</code>. I changed the contents of this file to:</p>
-<div class="highlight"><pre><span></span><span class="n">LANG</span><span class="o">=</span><span class="n">en</span><span class="o">-</span><span class="n">US</span><span class="p">.</span><span class="n">UTF</span><span class="o">-</span><span class="mi">8</span>
+<div class="highlight"><pre><span></span><span class="n">LANG</span><span class="o">=</span><span class="n">en_US</span><span class="p">.</span><span class="n">UTF</span><span class="o">-</span><span class="mi">8</span>
 </pre></div>
 
 
@@ -227,7 +229,7 @@ Luke Smith's <a href="https://larbs.xyz">LARBS</a> setup.</p>
 password.</p>
 <p>Next, run</p>
 <div class="highlight"><pre><span></span>curl -LO larbs.xyz/larbs.sh  <span class="c1"># Download the script</span>
-bash larbs.sh                <span class="c1"># Run the script you just downloaded! </span>
+bash larbs.sh                <span class="c1"># Run the script you just downloaded!</span>
 </pre></div>
 
 
@@ -239,6 +241,40 @@ Arch install.</p>
 <p>If you aren't connected to the Internet, this step can be a pain in the ass.
 Search the Arch Wiki for wisdom.</p>                </article>
             </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://captainalan.github.io/pelican-test/getting-comfortable-with-linux.html" rel="bookmark"
+                           title="Permalink to Getting Comfortable with Linux">Getting Comfortable with Linux</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-06-02T00:00:00-07:00">
+                Published: Sun 02 June 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://captainalan.github.io/pelican-test/author/alan-wong.html">Alan Wong</a>
+        </address>
+<p>In <a href="https://captainalan.github.io/pelican-test/category/linux.html">Linux</a>.</p>
+
+</footer><!-- /.post-info -->                <p>This tutorial aims to answer this question:</p>
+<p><strong>Now that I have a Linux system running, how do I go about learning more?
+(prefarably offline)</strong></p>
+<p>That is, this tutorial is aimed at eager beginners and aspiring computer users
+that have decided to no longer be casuals.</p>
+<h2>Requirements</h2>
+<p>In a previous tutorial …</p>
+                <a class="readmore" href="https://captainalan.github.io/pelican-test/getting-comfortable-with-linux.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>links</h2>

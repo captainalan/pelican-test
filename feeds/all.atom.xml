@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Static Site</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-06-02T00:00:00-07:00</updated><entry><title>Arch Linux Install for n00bs</title><link href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html" rel="alternate"></link><published>2019-06-02T00:00:00-07:00</published><updated>2019-06-02T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-06-02:/pelican-test/arch-linux-install-for-n00bs.html</id><summary type="html">&lt;p&gt;In this tutorial, I will go through installing Arch Linux. These instructions
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Static Site</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-07-20T00:00:00-07:00</updated><entry><title>Approaches to computing</title><link href="https://captainalan.github.io/pelican-test/approaches-to-computing.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/approaches-to-computing.html</id><content type="html">&lt;p&gt;After hours, I boot up Linux (see my &lt;a href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html"&gt;Arch Linux install
+guide&lt;/a&gt;),
+launch emacs (see my &lt;a href="https://gist.github.com/captainalan/d2d94f8ff88ba0c74e85560246d51fdf"&gt;config
+file&lt;/a&gt;,
+and proceed to write code, prose, and everything in between.&lt;/p&gt;</content></entry><entry><title>Chairs suck.</title><link href="https://captainalan.github.io/pelican-test/chairs-suck.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/chairs-suck.html</id><summary type="html">&lt;p&gt;I personally dislike chairs and mattresses (for sitting and sleeping,
+respectively). Most days, I use my chair as a laptop stand while using
+an external keyboard and sleep on the floor.&lt;/p&gt;
+&lt;h2&gt;Clean feet cultures&lt;/h2&gt;
+&lt;p&gt;Chairs are useful if you are wearing shoes, don't plan on taking them
+off, and want …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I personally dislike chairs and mattresses (for sitting and sleeping,
+respectively). Most days, I use my chair as a laptop stand while using
+an external keyboard and sleep on the floor.&lt;/p&gt;
+&lt;h2&gt;Clean feet cultures&lt;/h2&gt;
+&lt;p&gt;Chairs are useful if you are wearing shoes, don't plan on taking them
+off, and want to sit down.&lt;/p&gt;
+&lt;p&gt;(Hot weather, cold weather...)&lt;/p&gt;</content></entry><entry><title>I choose HTML</title><link href="https://captainalan.github.io/pelican-test/i-choose-html.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/i-choose-html.html</id><summary type="html">&lt;p&gt;Before, I built &lt;a href="https://captainalan.github.io/me"&gt;my website in
+React&lt;/a&gt;. Now, it is being rebuilt in
+plain HTML/CSS (with some help from Bootstrap and jQuery to make
+things like mobile responsiveness less tedious). After spending a
+considerable amount of time with fancy frameworks, why take a step
+"backwards"?&lt;/p&gt;
+&lt;p&gt;(Story about using Trisquel …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Before, I built &lt;a href="https://captainalan.github.io/me"&gt;my website in
+React&lt;/a&gt;. Now, it is being rebuilt in
+plain HTML/CSS (with some help from Bootstrap and jQuery to make
+things like mobile responsiveness less tedious). After spending a
+considerable amount of time with fancy frameworks, why take a step
+"backwards"?&lt;/p&gt;
+&lt;p&gt;(Story about using Trisquel and seeing my own site being
+blocked)&lt;/p&gt;
+&lt;p&gt;It is my goal to produce informative, unobtrusive websites
+that are easily indexed, linked, downloaded, etc.&lt;/p&gt;</content></entry><entry><title>Arch Linux Install for n00bs</title><link href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html" rel="alternate"></link><published>2019-06-02T00:00:00-07:00</published><updated>2019-06-02T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-06-02:/pelican-test/arch-linux-install-for-n00bs.html</id><summary type="html">&lt;p&gt;In this tutorial, I will go through installing Arch Linux. These instructions
 were tried out on both a virtual machine and an old laptop. We will do a base
 installation of Arch Linux and then run &lt;a href="https://lukesmith.xyz"&gt;Luke Smith's&lt;/a&gt;
 &lt;a href="https://larbs.xyz/"&gt;LARBS&lt;/a&gt; script to get an awesome i3 tiling window manager
@@ -107,10 +137,10 @@ set these partitions' filesystems.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; at any point during this tutorial you may want to run &lt;code&gt;lsblk&lt;/code&gt; to see
 *how your disks currently look.&lt;/p&gt;
 &lt;p&gt;Type &lt;code&gt;ls /mnt&lt;/code&gt;. You should see something like &lt;code&gt;lost+found&lt;/code&gt; there.&lt;/p&gt;
-&lt;p&gt;Let's make make some new directories to mount stuff. First do 
+&lt;p&gt;Let's make make some new directories to mount stuff. First do
 &lt;code&gt;mkdir /mnt/boot&lt;/code&gt; create a mount point for our boot partition. Then, run
 &lt;code&gt;mount /dev/sda1 /mnt/boot&lt;/code&gt; to do the actual mounting.&lt;/p&gt;
-&lt;p&gt;Finally, do &lt;code&gt;mkdir /mnt/home&lt;/code&gt;. Run &lt;code&gt;mount /dev/sda4 /mnt/home&lt;/code&gt; to mount your 
+&lt;p&gt;Finally, do &lt;code&gt;mkdir /mnt/home&lt;/code&gt;. Run &lt;code&gt;mount /dev/sda4 /mnt/home&lt;/code&gt; to mount your
 home partition.&lt;/p&gt;
 &lt;h2&gt;Installing the base system&lt;/h2&gt;
 &lt;p&gt;We now have all of our partitions and have mounted these partitions on our
@@ -131,7 +161,7 @@ base system.&lt;/p&gt;
 Linux what to try to load (see &lt;code&gt;etc/fstab&lt;/code&gt;). Run &lt;code&gt;genfstab /mnt&lt;/code&gt;. This will
 generate an &lt;code&gt;fstab&lt;/code&gt; file based on how &lt;code&gt;mnt&lt;/code&gt; looks. Running this command will
 just output a bunch of stuff.&lt;/p&gt;
-&lt;p&gt;We need to save these things to a file. Run 
+&lt;p&gt;We need to save these things to a file. Run
 &lt;code&gt;genfstab -U /mnt &amp;gt;&amp;gt; /mnt/etc/fstab&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Now Arch Linux will know what goes where.&lt;/p&gt;
 &lt;h2&gt;Making our installation bootable&lt;/h2&gt;
@@ -169,7 +199,7 @@ exit this file.&lt;/p&gt;
 file.&lt;/p&gt;
 &lt;p&gt;Let's edit one more file to set our (default) language: &lt;code&gt;vim
 /etc/locale.conf&lt;/code&gt;. I changed the contents of this file to:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;LANG&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;en&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;US&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;UTF&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;LANG&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;en_US&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;UTF&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -200,7 +230,7 @@ Luke Smith's &lt;a href="https://larbs.xyz"&gt;LARBS&lt;/a&gt; setup.&lt;/p&gt;
 password.&lt;/p&gt;
 &lt;p&gt;Next, run&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;curl -LO larbs.xyz/larbs.sh  &lt;span class="c1"&gt;# Download the script&lt;/span&gt;
-bash larbs.sh                &lt;span class="c1"&gt;# Run the script you just downloaded! &lt;/span&gt;
+bash larbs.sh                &lt;span class="c1"&gt;# Run the script you just downloaded!&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -210,9 +240,33 @@ you'll probably need to use &lt;code&gt;su&lt;/code&gt; and the password you set
 Arch install.&lt;/p&gt;
 &lt;h3&gt;Troubleshooting&lt;/h3&gt;
 &lt;p&gt;If you aren't connected to the Internet, this step can be a pain in the ass.
-Search the Arch Wiki for wisdom.&lt;/p&gt;</content></entry><entry><title>HEHEHEHEHE</title><link href="https://captainalan.github.io/pelican-test/hehehehehe.html" rel="alternate"></link><published>2019-05-15T10:50:00-07:00</published><updated>2019-05-15T10:50:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-15:/pelican-test/hehehehehe.html</id><summary type="html">&lt;p&gt;It is a pleasure to edit in Markdown!&lt;/p&gt;
-&lt;p&gt;Check out this animated pelican:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="A Pelican" src="https://i.imgur.com/ydhVJLu.gif"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;It is a pleasure to edit in Markdown!&lt;/p&gt;
+Search the Arch Wiki for wisdom.&lt;/p&gt;</content></entry><entry><title>Getting Comfortable with Linux</title><link href="https://captainalan.github.io/pelican-test/getting-comfortable-with-linux.html" rel="alternate"></link><published>2019-06-02T00:00:00-07:00</published><updated>2019-06-02T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-06-02:/pelican-test/getting-comfortable-with-linux.html</id><summary type="html">&lt;p&gt;This tutorial aims to answer this question:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Now that I have a Linux system running, how do I go about learning more?
+(prefarably offline)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;That is, this tutorial is aimed at eager beginners and aspiring computer users
+that have decided to no longer be casuals.&lt;/p&gt;
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;In a previous tutorial …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This tutorial aims to answer this question:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Now that I have a Linux system running, how do I go about learning more?
+(prefarably offline)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;That is, this tutorial is aimed at eager beginners and aspiring computer users
+that have decided to no longer be casuals.&lt;/p&gt;
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;In a previous tutorial, I went over &lt;a href="https://captainalan.github.io/pelican-test/"&gt;installing Arch
+Linux&lt;/a&gt; based on a video tutorial
+by &lt;a href="https://lukesmith.xyz/"&gt;Luke Smith&lt;/a&gt; and information found on the &lt;a href="https://wiki.archlinux.org/"&gt;Arch
+Wiki&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In this tutorial, I assume that you have a Linux system up and running (...and
+here, the term "Linux" is used to mean a UNIX or UNIX-like system that has
+certain core utilities, &lt;em&gt;not&lt;/em&gt; the kernel itself or something highly technical
+like that).&lt;/p&gt;
+&lt;p&gt;Learning the basics of &lt;em&gt;some&lt;/em&gt; editor is probably a good idea. Editors like &lt;code&gt;vi&lt;/code&gt;
+and &lt;code&gt;nano&lt;/code&gt; can be found pretty much anywhere. It probably won't be too difficult
+for you to grab a more sophisticated editor like &lt;code&gt;vim&lt;/code&gt;, &lt;code&gt;emacs&lt;/code&gt; or even &lt;code&gt;VSCode&lt;/code&gt;
+if that is your cup of tea.&lt;/p&gt;
+&lt;h2&gt;Exploring your filesystem&lt;/h2&gt;
+&lt;p&gt;Are there things that you don't understand? How do you find documentation for
+those things?&lt;/p&gt;</content></entry><entry><title>HEHEHEHEHE</title><link href="https://captainalan.github.io/pelican-test/hehehehehe.html" rel="alternate"></link><published>2019-05-15T10:50:00-07:00</published><updated>2019-05-15T10:50:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-15:/pelican-test/hehehehehe.html</id><content type="html">&lt;p&gt;It is a pleasure to edit in Markdown!&lt;/p&gt;
 &lt;p&gt;Check out this animated pelican:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="A Pelican" src="https://i.imgur.com/ydhVJLu.gif"&gt;&lt;/p&gt;</content></entry><entry><title>Why Static Sites?</title><link href="https://captainalan.github.io/pelican-test/why-static-sites.html" rel="alternate"></link><published>2019-05-15T10:13:00-07:00</published><updated>2019-05-15T10:13:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-15:/pelican-test/why-static-sites.html</id><summary type="html">&lt;p&gt;Static sites deploy easily, without special considerations about what
 will compile, what will be allowed, etc. Everything is packaged up
