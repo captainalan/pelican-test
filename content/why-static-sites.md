@@ -1,6 +1,6 @@
 title: Why Static Sites?
 date: 2019-05-15 10:13
-category: Programming
+category: Interwebs
 
 Static sites deploy easily, without special considerations about what
 will compile, what will be allowed, etc. Everything is packaged up
