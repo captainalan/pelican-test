@@ -2,18 +2,26 @@ title: Arch Linux Install for n00bs
 date: 2019-06-02
 category: Linux
 
-In this tutorial, I will go through installing Arch Linux. These instructions
-were tried out on both a virtual machine and an old laptop. We will do a base
-installation of Arch Linux and then run [Luke Smith's](https://lukesmith.xyz)
-[LARBS](https://larbs.xyz/) script to get an awesome i3 tiling window manager
-setup from the outset.
-
-I'm assuming similar steps would apply for installing Arch Linux on
-a real machine, but I haven't tested these instructions out IRL yet.
+In this tutorial, I will go through installing Arch Linux. These
+instructions were tried out on both a virtual machine and an old
+laptop. For further instructions and details, I recommend *resisting
+the urge to reflexively search everything*, and instead taking the
+time to read through high-quality resources, such as the (official)
+Arch Wiki [installation
+guide](https://wiki.archlinux.org/index.php/Installation_guide).  That
+being said, the content in this article should be sufficient to get an
+Arch System up and running&em;I've used it multiple times to help me
+setup new systems.
 
 I am closely following [Full Arch Linux Install (SAVAGE Edition!)
 Linux](https://www.youtube.com/watch?v=4PBqpX0_UOc) by Luke Smith (March 8,
-2018) to get started.
+2018).
+
+We will do a base installation of Arch Linux. Then we'll run [Luke
+Smith's](https://lukesmith.xyz) [LARBS](https://larbs.xyz/) script to
+get an awesome i3 tiling window manager setup from the outset.  (TODO:
+Also -> Add instructions/links to a **NEW** tutorial about getting a
+Desktop Environment, emacs, etc. and choosing a different path).
 
 ## Prerequisites
 
@@ -23,18 +31,22 @@ greater control of their current computing setups. Here, I honor the maxim
 that *knowledge is power* and seek to empower you by getting you started
 using Arch Linux and understanding the tools that you are using.
 
-(Vim stuff)
+You should know how to do basic things with `vi` (or `vim`, or some
+other editor readily available in the
+[TTY](https://en.wikipedia.org/wiki/Computer_terminal#Text_terminals),
+such as `nano`) because doing an Arch install will involve editing
+some text files on the command line.
 
 ## Installation Medium
 
 Download the latest Arch linux ISO. The easiest thing to do is probably to
 download from an HTTP mirror near your (physical) location and then install by CD, DVD, or USB.
 
-From Windows, creating your installation medium is easy. Right click on the
-downloaded `.iso` file and select "Burn disc image" to create CD or DVD to
-create a your installation medium.
-
-(**TODO**: UEFI? Using USB? Add details later...)
+From Windows, creating your installation medium is easy. Right click
+on the downloaded `.iso` file and select "Burn disc image" to create
+CD or DVD to create a your installation medium. Alternatively, you can
+use [Rufus](https://rufus.ie/) on Windows to create install media on
+USB drives, SD cards, and more.
 
 ## Booting with the installation medium
 
@@ -59,23 +71,32 @@ done.
 
 Run `timedatectl set-ntp true`.
 
-(**TODO**: Insert more details on what this means)
+Note the 'prefix' *-ctl* in the command above. Commands with *-ctl*
+have to do with *controlling* system processes. A command we will see
+later is
+[`systemctl`](https://wiki.archlinux.org/index.php/Systemd#Basic_systemctl_usage).
 
 ## Partitioning your drive(s)
 
-Now, let's partition our disks. **Note**: I am assuming you are installing
-Arch Linux on a computer you are OK with deleting all data on.
+Now, let's partition our disks. **Note**: I am assuming you are
+installing Arch Linux on a computer you are OK with deleting all data
+on. Go reboot and back up your files and stuff if you are not ready to
+proceed yet.
 
-Before you do anything else, run `lsblk` to "list all block devices".
+In any case you can, run `lsblk` (or `fdisk -l`) to "list all block
+devices".
 
 ### Creating new partitions
 
 From `lsblk`, you can identify the drive you want to install Arch Linux on.
 This will probably be `/dev/sda` if you are installing onto an old computer.
 
-To begin, type `fdisk /dev/sda`, where '"`sda`" of course is the drive you
-wish to create a new partition table on. You will now be sent to a new prompt
-that looks something like:
+Let's start changing things.  To begin, type `fdisk /dev/sda`, where
+'"`sda`" corresponds to the **drive** you wish to create a new
+partition table on (don't do `fdisk /dev/sda123`; this won't
+work&em;go ahead and try that if you don't believe me!).
+
+You will now be sent to a new prompt that looks something like:
 
     Command (m for help):
 
