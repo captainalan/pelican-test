@@ -42,3 +42,13 @@ a module using a particular version of Python)
 
 To get GitHub Pages to work, you need to install `ghp-import`.
 Then, just run `make github`.
+
+### Troubleshooting
+
+Using MS Windows you may need to download some extra programs, such as
+GNU's `make`. One easy way to do this is to set up a package manager
+such as [chocolatey](https://chocolatey.org/). Another alternative is
+to use something more UNIX-like such as
+[WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) or a
+virtual machine running Linux.
+
