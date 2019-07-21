@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Static Site</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-07-20T00:00:00-07:00</updated><entry><title>Approaches to computing</title><link href="https://captainalan.github.io/pelican-test/approaches-to-computing.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/approaches-to-computing.html</id><content type="html">&lt;p&gt;After hours, I boot up Linux (see my &lt;a href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html"&gt;Arch Linux install
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Static Site</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-07-20T00:00:00-07:00</updated><entry><title>Approaches to computing</title><link href="https://captainalan.github.io/pelican-test/approaches-to-computing.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/approaches-to-computing.html</id><summary type="html">&lt;p&gt;Using mobile devices and tablets, there is often only one way really
+to do things. The same goes for the interfaces of many video
+games. There is a single way to do things like change settings,
+enter/exit the application, etc.&lt;/p&gt;
+&lt;p&gt;The same &lt;em&gt;cannot&lt;/em&gt; be said for many desktop/laptop …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Using mobile devices and tablets, there is often only one way really
+to do things. The same goes for the interfaces of many video
+games. There is a single way to do things like change settings,
+enter/exit the application, etc.&lt;/p&gt;
+&lt;p&gt;The same &lt;em&gt;cannot&lt;/em&gt; be said for many desktop/laptop computers. For
+instance, to install programs on MS Windows or Mac OS, many users just
+(manually) go download some installer file and install things. Other
+users will make use of Microsoft/Apple's official stores to get their
+apps. Finally, some users (usually programmers, developers) make use of 
+&lt;strong&gt;package managers&lt;/strong&gt; to do this job.&lt;/p&gt;
+&lt;p&gt;The different paths a user may take to do something like "install a
+program" represent different approaches to computing, generally. For
+instance, we might use some words to embody the three approaches for
+installing listed above as:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;"Lemme get what I need to do"&lt;/li&gt;
+&lt;li&gt;"Make it easy and make it feel official, please"&lt;/li&gt;
+&lt;li&gt;"Tedious things should be automated"&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A user of official app stores (2) &lt;/p&gt;
+&lt;h2&gt;What I do these days&lt;/h2&gt;
+&lt;p&gt;After hours, I boot up Linux (see my &lt;a href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html"&gt;Arch Linux install
 guide&lt;/a&gt;),
 launch emacs (see my &lt;a href="https://gist.github.com/captainalan/d2d94f8ff88ba0c74e85560246d51fdf"&gt;config
 file&lt;/a&gt;,
@@ -14,7 +39,17 @@ an external keyboard and sleep on the floor.&lt;/p&gt;
 &lt;h2&gt;Clean feet cultures&lt;/h2&gt;
 &lt;p&gt;Chairs are useful if you are wearing shoes, don't plan on taking them
 off, and want to sit down.&lt;/p&gt;
-&lt;p&gt;(Hot weather, cold weather...)&lt;/p&gt;</content></entry><entry><title>I choose HTML</title><link href="https://captainalan.github.io/pelican-test/i-choose-html.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/i-choose-html.html</id><summary type="html">&lt;p&gt;Before, I built &lt;a href="https://captainalan.github.io/me"&gt;my website in
+&lt;h2&gt;Hot weather&lt;/h2&gt;
+&lt;p&gt;Many common clothing items we wear were designed for purposes quite
+unlike modern living. For example, long pants came from horse-riding. Few people these days ride horses.&lt;/p&gt;
+&lt;p&gt;(Hot weather, cold weather...)&lt;/p&gt;
+&lt;h2&gt;TODO&lt;/h2&gt;
+&lt;p&gt;This blog post is a work in progress that can be improved in many
+ways.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[ ] Get citations&lt;/li&gt;
+&lt;li&gt;[ ] Mark where they may be needed&lt;/li&gt;
+&lt;/ul&gt;</content></entry><entry><title>I choose HTML</title><link href="https://captainalan.github.io/pelican-test/i-choose-html.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/i-choose-html.html</id><summary type="html">&lt;p&gt;Before, I built &lt;a href="https://captainalan.github.io/me"&gt;my website in
 React&lt;/a&gt;. Now, it is being rebuilt in
 plain HTML/CSS (with some help from Bootstrap and jQuery to make
 things like mobile responsiveness less tedious). After spending a
@@ -29,34 +64,47 @@ considerable amount of time with fancy frameworks, why take a step
 &lt;p&gt;(Story about using Trisquel and seeing my own site being
 blocked)&lt;/p&gt;
 &lt;p&gt;It is my goal to produce informative, unobtrusive websites
-that are easily indexed, linked, downloaded, etc.&lt;/p&gt;</content></entry><entry><title>Arch Linux Install for n00bs</title><link href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html" rel="alternate"></link><published>2019-06-02T00:00:00-07:00</published><updated>2019-06-02T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-06-02:/pelican-test/arch-linux-install-for-n00bs.html</id><summary type="html">&lt;p&gt;In this tutorial, I will go through installing Arch Linux. These instructions
-were tried out on both a virtual machine and an old laptop. We will do a base
-installation of Arch Linux and then run &lt;a href="https://lukesmith.xyz"&gt;Luke Smith's&lt;/a&gt;
-&lt;a href="https://larbs.xyz/"&gt;LARBS&lt;/a&gt; script to get an awesome i3 tiling window manager
-setup from …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In this tutorial, I will go through installing Arch Linux. These instructions
-were tried out on both a virtual machine and an old laptop. We will do a base
-installation of Arch Linux and then run &lt;a href="https://lukesmith.xyz"&gt;Luke Smith's&lt;/a&gt;
-&lt;a href="https://larbs.xyz/"&gt;LARBS&lt;/a&gt; script to get an awesome i3 tiling window manager
-setup from the outset.&lt;/p&gt;
-&lt;p&gt;I'm assuming similar steps would apply for installing Arch Linux on
-a real machine, but I haven't tested these instructions out IRL yet.&lt;/p&gt;
+that are easily indexed, linked, downloaded, etc.&lt;/p&gt;</content></entry><entry><title>Arch Linux Install for n00bs</title><link href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html" rel="alternate"></link><published>2019-06-02T00:00:00-07:00</published><updated>2019-06-02T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-06-02:/pelican-test/arch-linux-install-for-n00bs.html</id><summary type="html">&lt;p&gt;In this tutorial, I will go through installing Arch Linux. These
+instructions were tried out on both a virtual machine and an old
+laptop. For further instructions and details, I recommend &lt;em&gt;resisting
+the urge to reflexively search everything&lt;/em&gt;, and instead taking the
+time to read through high-quality resources, such as …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In this tutorial, I will go through installing Arch Linux. These
+instructions were tried out on both a virtual machine and an old
+laptop. For further instructions and details, I recommend &lt;em&gt;resisting
+the urge to reflexively search everything&lt;/em&gt;, and instead taking the
+time to read through high-quality resources, such as the (official)
+Arch Wiki &lt;a href="https://wiki.archlinux.org/index.php/Installation_guide"&gt;installation
+guide&lt;/a&gt;.  That
+being said, the content in this article should be sufficient to get an
+Arch System up and running&amp;em;I've used it multiple times to help me
+setup new systems.&lt;/p&gt;
 &lt;p&gt;I am closely following &lt;a href="https://www.youtube.com/watch?v=4PBqpX0_UOc"&gt;Full Arch Linux Install (SAVAGE Edition!)
 Linux&lt;/a&gt; by Luke Smith (March 8,
-2018) to get started.&lt;/p&gt;
+2018).&lt;/p&gt;
+&lt;p&gt;We will do a base installation of Arch Linux. Then we'll run &lt;a href="https://lukesmith.xyz"&gt;Luke
+Smith's&lt;/a&gt; &lt;a href="https://larbs.xyz/"&gt;LARBS&lt;/a&gt; script to
+get an awesome i3 tiling window manager setup from the outset.  (TODO:
+Also -&amp;gt; Add instructions/links to a &lt;strong&gt;NEW&lt;/strong&gt; tutorial about getting a
+Desktop Environment, emacs, etc. and choosing a different path).&lt;/p&gt;
 &lt;h2&gt;Prerequisites&lt;/h2&gt;
 &lt;p&gt;This tutorial is aimed at people with some exposure to Linux and/or command
 line tools (e.g. using &lt;code&gt;brew&lt;/code&gt; under MacOS), but who would like to gain
 greater control of their current computing setups. Here, I honor the maxim
 that &lt;em&gt;knowledge is power&lt;/em&gt; and seek to empower you by getting you started
 using Arch Linux and understanding the tools that you are using.&lt;/p&gt;
-&lt;p&gt;(Vim stuff)&lt;/p&gt;
+&lt;p&gt;You should know how to do basic things with &lt;code&gt;vi&lt;/code&gt; (or &lt;code&gt;vim&lt;/code&gt;, or some
+other editor readily available in the
+&lt;a href="https://en.wikipedia.org/wiki/Computer_terminal#Text_terminals"&gt;TTY&lt;/a&gt;,
+such as &lt;code&gt;nano&lt;/code&gt;) because doing an Arch install will involve editing
+some text files on the command line.&lt;/p&gt;
 &lt;h2&gt;Installation Medium&lt;/h2&gt;
 &lt;p&gt;Download the latest Arch linux ISO. The easiest thing to do is probably to
 download from an HTTP mirror near your (physical) location and then install by CD, DVD, or USB.&lt;/p&gt;
-&lt;p&gt;From Windows, creating your installation medium is easy. Right click on the
-downloaded &lt;code&gt;.iso&lt;/code&gt; file and select "Burn disc image" to create CD or DVD to
-create a your installation medium.&lt;/p&gt;
-&lt;p&gt;(&lt;strong&gt;TODO&lt;/strong&gt;: UEFI? Using USB? Add details later...)&lt;/p&gt;
+&lt;p&gt;From Windows, creating your installation medium is easy. Right click
+on the downloaded &lt;code&gt;.iso&lt;/code&gt; file and select "Burn disc image" to create
+CD or DVD to create a your installation medium. Alternatively, you can
+use &lt;a href="https://rufus.ie/"&gt;Rufus&lt;/a&gt; on Windows to create install media on
+USB drives, SD cards, and more.&lt;/p&gt;
 &lt;h2&gt;Booting with the installation medium&lt;/h2&gt;
 &lt;p&gt;Restart your computer. You may have to go into your system BIOS to make sure you can boot from your installation medium.&lt;/p&gt;
 &lt;h3&gt;Get an internet connection&lt;/h3&gt;
@@ -73,17 +121,25 @@ with something like &lt;code&gt;ping google.com&lt;/code&gt;. Type &lt;code&gt;c
 done.&lt;/p&gt;
 &lt;h3&gt;Time and date stuff&lt;/h3&gt;
 &lt;p&gt;Run &lt;code&gt;timedatectl set-ntp true&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;(&lt;strong&gt;TODO&lt;/strong&gt;: Insert more details on what this means)&lt;/p&gt;
+&lt;p&gt;Note the 'prefix' &lt;em&gt;-ctl&lt;/em&gt; in the command above. Commands with &lt;em&gt;-ctl&lt;/em&gt;
+have to do with &lt;em&gt;controlling&lt;/em&gt; system processes. A command we will see
+later is
+&lt;a href="https://wiki.archlinux.org/index.php/Systemd#Basic_systemctl_usage"&gt;&lt;code&gt;systemctl&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Partitioning your drive(s)&lt;/h2&gt;
-&lt;p&gt;Now, let's partition our disks. &lt;strong&gt;Note&lt;/strong&gt;: I am assuming you are installing
-Arch Linux on a computer you are OK with deleting all data on.&lt;/p&gt;
-&lt;p&gt;Before you do anything else, run &lt;code&gt;lsblk&lt;/code&gt; to "list all block devices".&lt;/p&gt;
+&lt;p&gt;Now, let's partition our disks. &lt;strong&gt;Note&lt;/strong&gt;: I am assuming you are
+installing Arch Linux on a computer you are OK with deleting all data
+on. Go reboot and back up your files and stuff if you are not ready to
+proceed yet.&lt;/p&gt;
+&lt;p&gt;In any case you can, run &lt;code&gt;lsblk&lt;/code&gt; (or &lt;code&gt;fdisk -l&lt;/code&gt;) to "list all block
+devices".&lt;/p&gt;
 &lt;h3&gt;Creating new partitions&lt;/h3&gt;
 &lt;p&gt;From &lt;code&gt;lsblk&lt;/code&gt;, you can identify the drive you want to install Arch Linux on.
 This will probably be &lt;code&gt;/dev/sda&lt;/code&gt; if you are installing onto an old computer.&lt;/p&gt;
-&lt;p&gt;To begin, type &lt;code&gt;fdisk /dev/sda&lt;/code&gt;, where '"&lt;code&gt;sda&lt;/code&gt;" of course is the drive you
-wish to create a new partition table on. You will now be sent to a new prompt
-that looks something like:&lt;/p&gt;
+&lt;p&gt;Let's start changing things.  To begin, type &lt;code&gt;fdisk /dev/sda&lt;/code&gt;, where
+'"&lt;code&gt;sda&lt;/code&gt;" corresponds to the &lt;strong&gt;drive&lt;/strong&gt; you wish to create a new
+partition table on (don't do &lt;code&gt;fdisk /dev/sda123&lt;/code&gt;; this won't
+work&amp;em;go ahead and try that if you don't believe me!).&lt;/p&gt;
+&lt;p&gt;You will now be sent to a new prompt that looks something like:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nv"&gt;Command&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;m&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nv"&gt;help&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;:
 &lt;/pre&gt;&lt;/div&gt;
 

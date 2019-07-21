@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Static Site - Lifestyle</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/lifestyle.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-07-20T00:00:00-07:00</updated><entry><title>Approaches to computing</title><link href="https://captainalan.github.io/pelican-test/approaches-to-computing.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/approaches-to-computing.html</id><content type="html">&lt;p&gt;After hours, I boot up Linux (see my &lt;a href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html"&gt;Arch Linux install
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Static Site - Lifestyle</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/lifestyle.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-07-20T00:00:00-07:00</updated><entry><title>Approaches to computing</title><link href="https://captainalan.github.io/pelican-test/approaches-to-computing.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/approaches-to-computing.html</id><summary type="html">&lt;p&gt;Using mobile devices and tablets, there is often only one way really
+to do things. The same goes for the interfaces of many video
+games. There is a single way to do things like change settings,
+enter/exit the application, etc.&lt;/p&gt;
+&lt;p&gt;The same &lt;em&gt;cannot&lt;/em&gt; be said for many desktop/laptop …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Using mobile devices and tablets, there is often only one way really
+to do things. The same goes for the interfaces of many video
+games. There is a single way to do things like change settings,
+enter/exit the application, etc.&lt;/p&gt;
+&lt;p&gt;The same &lt;em&gt;cannot&lt;/em&gt; be said for many desktop/laptop computers. For
+instance, to install programs on MS Windows or Mac OS, many users just
+(manually) go download some installer file and install things. Other
+users will make use of Microsoft/Apple's official stores to get their
+apps. Finally, some users (usually programmers, developers) make use of 
+&lt;strong&gt;package managers&lt;/strong&gt; to do this job.&lt;/p&gt;
+&lt;p&gt;The different paths a user may take to do something like "install a
+program" represent different approaches to computing, generally. For
+instance, we might use some words to embody the three approaches for
+installing listed above as:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;"Lemme get what I need to do"&lt;/li&gt;
+&lt;li&gt;"Make it easy and make it feel official, please"&lt;/li&gt;
+&lt;li&gt;"Tedious things should be automated"&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A user of official app stores (2) &lt;/p&gt;
+&lt;h2&gt;What I do these days&lt;/h2&gt;
+&lt;p&gt;After hours, I boot up Linux (see my &lt;a href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html"&gt;Arch Linux install
 guide&lt;/a&gt;),
 launch emacs (see my &lt;a href="https://gist.github.com/captainalan/d2d94f8ff88ba0c74e85560246d51fdf"&gt;config
 file&lt;/a&gt;,
@@ -14,4 +39,14 @@ an external keyboard and sleep on the floor.&lt;/p&gt;
 &lt;h2&gt;Clean feet cultures&lt;/h2&gt;
 &lt;p&gt;Chairs are useful if you are wearing shoes, don't plan on taking them
 off, and want to sit down.&lt;/p&gt;
-&lt;p&gt;(Hot weather, cold weather...)&lt;/p&gt;</content></entry></feed>
+&lt;h2&gt;Hot weather&lt;/h2&gt;
+&lt;p&gt;Many common clothing items we wear were designed for purposes quite
+unlike modern living. For example, long pants came from horse-riding. Few people these days ride horses.&lt;/p&gt;
+&lt;p&gt;(Hot weather, cold weather...)&lt;/p&gt;
+&lt;h2&gt;TODO&lt;/h2&gt;
+&lt;p&gt;This blog post is a work in progress that can be improved in many
+ways.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[ ] Get citations&lt;/li&gt;
+&lt;li&gt;[ ] Mark where they may be needed&lt;/li&gt;
+&lt;/ul&gt;</content></entry></feed>

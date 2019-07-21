@@ -32,30 +32,43 @@
         </address>
 <p>In <a href="https://captainalan.github.io/pelican-test/category/linux.html">Linux</a>.</p>
 
-</footer><!-- /.post-info --><p>In this tutorial, I will go through installing Arch Linux. These instructions
-were tried out on both a virtual machine and an old laptop. We will do a base
-installation of Arch Linux and then run <a href="https://lukesmith.xyz">Luke Smith's</a>
-<a href="https://larbs.xyz/">LARBS</a> script to get an awesome i3 tiling window manager
-setup from the outset.</p>
-<p>I'm assuming similar steps would apply for installing Arch Linux on
-a real machine, but I haven't tested these instructions out IRL yet.</p>
+</footer><!-- /.post-info --><p>In this tutorial, I will go through installing Arch Linux. These
+instructions were tried out on both a virtual machine and an old
+laptop. For further instructions and details, I recommend <em>resisting
+the urge to reflexively search everything</em>, and instead taking the
+time to read through high-quality resources, such as the (official)
+Arch Wiki <a href="https://wiki.archlinux.org/index.php/Installation_guide">installation
+guide</a>.  That
+being said, the content in this article should be sufficient to get an
+Arch System up and running&em;I've used it multiple times to help me
+setup new systems.</p>
 <p>I am closely following <a href="https://www.youtube.com/watch?v=4PBqpX0_UOc">Full Arch Linux Install (SAVAGE Edition!)
 Linux</a> by Luke Smith (March 8,
-2018) to get started.</p>
+2018).</p>
+<p>We will do a base installation of Arch Linux. Then we'll run <a href="https://lukesmith.xyz">Luke
+Smith's</a> <a href="https://larbs.xyz/">LARBS</a> script to
+get an awesome i3 tiling window manager setup from the outset.  (TODO:
+Also -&gt; Add instructions/links to a <strong>NEW</strong> tutorial about getting a
+Desktop Environment, emacs, etc. and choosing a different path).</p>
 <h2>Prerequisites</h2>
 <p>This tutorial is aimed at people with some exposure to Linux and/or command
 line tools (e.g. using <code>brew</code> under MacOS), but who would like to gain
 greater control of their current computing setups. Here, I honor the maxim
 that <em>knowledge is power</em> and seek to empower you by getting you started
 using Arch Linux and understanding the tools that you are using.</p>
-<p>(Vim stuff)</p>
+<p>You should know how to do basic things with <code>vi</code> (or <code>vim</code>, or some
+other editor readily available in the
+<a href="https://en.wikipedia.org/wiki/Computer_terminal#Text_terminals">TTY</a>,
+such as <code>nano</code>) because doing an Arch install will involve editing
+some text files on the command line.</p>
 <h2>Installation Medium</h2>
 <p>Download the latest Arch linux ISO. The easiest thing to do is probably to
 download from an HTTP mirror near your (physical) location and then install by CD, DVD, or USB.</p>
-<p>From Windows, creating your installation medium is easy. Right click on the
-downloaded <code>.iso</code> file and select "Burn disc image" to create CD or DVD to
-create a your installation medium.</p>
-<p>(<strong>TODO</strong>: UEFI? Using USB? Add details later...)</p>
+<p>From Windows, creating your installation medium is easy. Right click
+on the downloaded <code>.iso</code> file and select "Burn disc image" to create
+CD or DVD to create a your installation medium. Alternatively, you can
+use <a href="https://rufus.ie/">Rufus</a> on Windows to create install media on
+USB drives, SD cards, and more.</p>
 <h2>Booting with the installation medium</h2>
 <p>Restart your computer. You may have to go into your system BIOS to make sure you can boot from your installation medium.</p>
 <h3>Get an internet connection</h3>
@@ -72,17 +85,25 @@ with something like <code>ping google.com</code>. Type <code>ctrl-c</code> to ex
 done.</p>
 <h3>Time and date stuff</h3>
 <p>Run <code>timedatectl set-ntp true</code>.</p>
-<p>(<strong>TODO</strong>: Insert more details on what this means)</p>
+<p>Note the 'prefix' <em>-ctl</em> in the command above. Commands with <em>-ctl</em>
+have to do with <em>controlling</em> system processes. A command we will see
+later is
+<a href="https://wiki.archlinux.org/index.php/Systemd#Basic_systemctl_usage"><code>systemctl</code></a>.</p>
 <h2>Partitioning your drive(s)</h2>
-<p>Now, let's partition our disks. <strong>Note</strong>: I am assuming you are installing
-Arch Linux on a computer you are OK with deleting all data on.</p>
-<p>Before you do anything else, run <code>lsblk</code> to "list all block devices".</p>
+<p>Now, let's partition our disks. <strong>Note</strong>: I am assuming you are
+installing Arch Linux on a computer you are OK with deleting all data
+on. Go reboot and back up your files and stuff if you are not ready to
+proceed yet.</p>
+<p>In any case you can, run <code>lsblk</code> (or <code>fdisk -l</code>) to "list all block
+devices".</p>
 <h3>Creating new partitions</h3>
 <p>From <code>lsblk</code>, you can identify the drive you want to install Arch Linux on.
 This will probably be <code>/dev/sda</code> if you are installing onto an old computer.</p>
-<p>To begin, type <code>fdisk /dev/sda</code>, where '"<code>sda</code>" of course is the drive you
-wish to create a new partition table on. You will now be sent to a new prompt
-that looks something like:</p>
+<p>Let's start changing things.  To begin, type <code>fdisk /dev/sda</code>, where
+'"<code>sda</code>" corresponds to the <strong>drive</strong> you wish to create a new
+partition table on (don't do <code>fdisk /dev/sda123</code>; this won't
+work&em;go ahead and try that if you don't believe me!).</p>
+<p>You will now be sent to a new prompt that looks something like:</p>
 <div class="highlight"><pre><span></span><span class="nv">Command</span> <span class="ss">(</span><span class="nv">m</span> <span class="k">for</span> <span class="nv">help</span><span class="ss">)</span>:
 </pre></div>
 
