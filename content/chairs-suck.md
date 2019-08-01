@@ -4,7 +4,7 @@ category: Lifestyle
 
 I personally dislike chairs and mattresses (for sitting and sleeping,
 respectively). Most days, I use my chair as a laptop stand while using
-an external keyboard and sleep on the floor.
+an external keyboard and sleep on the floor. Blarrghh!!!
 
 Clean feet cultures
 -------------------
