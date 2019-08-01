@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Static Site</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-07-20T00:00:00-07:00</updated><entry><title>Approaches to computing</title><link href="https://captainalan.github.io/pelican-test/approaches-to-computing.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/approaches-to-computing.html</id><summary type="html">&lt;p&gt;Using mobile devices and tablets, there is often only one way really
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's First Static Site</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-07-20T00:00:00-07:00</updated><entry><title>Approaches to computing</title><link href="https://captainalan.github.io/pelican-test/approaches-to-computing.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/approaches-to-computing.html</id><summary type="html">&lt;p&gt;Using mobile devices and tablets, there is often only one way really
 to do things. The same goes for the interfaces of many video
 games. There is a single way to do things like change settings,
 enter/exit the application, etc.&lt;/p&gt;
@@ -30,12 +30,12 @@ launch emacs (see my &lt;a href="https://gist.github.com/captainalan/d2d94f8ff88
 file&lt;/a&gt;,
 and proceed to write code, prose, and everything in between.&lt;/p&gt;</content></entry><entry><title>Chairs suck.</title><link href="https://captainalan.github.io/pelican-test/chairs-suck.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/chairs-suck.html</id><summary type="html">&lt;p&gt;I personally dislike chairs and mattresses (for sitting and sleeping,
 respectively). Most days, I use my chair as a laptop stand while using
-an external keyboard and sleep on the floor.&lt;/p&gt;
+an external keyboard and sleep on the floor. Blarrghh!!!&lt;/p&gt;
 &lt;h2&gt;Clean feet cultures&lt;/h2&gt;
 &lt;p&gt;Chairs are useful if you are wearing shoes, don't plan on taking them
-off, and want …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I personally dislike chairs and mattresses (for sitting and sleeping,
+off, and …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I personally dislike chairs and mattresses (for sitting and sleeping,
 respectively). Most days, I use my chair as a laptop stand while using
-an external keyboard and sleep on the floor.&lt;/p&gt;
+an external keyboard and sleep on the floor. Blarrghh!!!&lt;/p&gt;
 &lt;h2&gt;Clean feet cultures&lt;/h2&gt;
 &lt;p&gt;Chairs are useful if you are wearing shoes, don't plan on taking them
 off, and want to sit down.&lt;/p&gt;
@@ -55,16 +55,29 @@ plain HTML/CSS (with some help from Bootstrap and jQuery to make
 things like mobile responsiveness less tedious). After spending a
 considerable amount of time with fancy frameworks, why take a step
 "backwards"?&lt;/p&gt;
-&lt;p&gt;(Story about using Trisquel …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Before, I built &lt;a href="https://captainalan.github.io/me"&gt;my website in
+&lt;h2&gt;I got blocked?!&lt;/h2&gt;
+&lt;p&gt;I …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Before, I built &lt;a href="https://captainalan.github.io/me"&gt;my website in
 React&lt;/a&gt;. Now, it is being rebuilt in
 plain HTML/CSS (with some help from Bootstrap and jQuery to make
 things like mobile responsiveness less tedious). After spending a
 considerable amount of time with fancy frameworks, why take a step
 "backwards"?&lt;/p&gt;
-&lt;p&gt;(Story about using Trisquel and seeing my own site being
-blocked)&lt;/p&gt;
+&lt;h2&gt;I got blocked?!&lt;/h2&gt;
+&lt;p&gt;I was trying out some different Linux distributions, and decided to
+give the fully-free distro &lt;a href="https://trisquel.info"&gt;Trisquel&lt;/a&gt; a spin.
+To my dismay, I found that &lt;a href="http://captainalan.github.io/me"&gt;&lt;em&gt;my own
+site&lt;/em&gt;&lt;/a&gt; was blocked blocked for some
+JavaScript-y reasons. It turns out that all sites that make use of
+React (or at least &lt;code&gt;create-react-app&lt;/code&gt;, the tool I used to bootstrap my
+site) are &lt;em&gt;blocked&lt;/em&gt; when &lt;a href="https://www.gnu.org/software/librejs/"&gt;certain sorts of
+JavaScript&lt;/a&gt; are blocked.&lt;/p&gt;
+&lt;h2&gt;Next steps&lt;/h2&gt;
 &lt;p&gt;It is my goal to produce informative, unobtrusive websites
-that are easily indexed, linked, downloaded, etc.&lt;/p&gt;</content></entry><entry><title>Arch Linux Install for n00bs</title><link href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html" rel="alternate"></link><published>2019-06-02T00:00:00-07:00</published><updated>2019-06-02T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-06-02:/pelican-test/arch-linux-install-for-n00bs.html</id><summary type="html">&lt;p&gt;In this tutorial, I will go through installing Arch Linux. These
+that are easily indexed, linked, downloaded, etc.&lt;/p&gt;
+&lt;p&gt;I am becoming more interested in &lt;strong&gt;static site generators&lt;/strong&gt; (such as
+&lt;a href="https://blog.getpelican.com"&gt;Pelican&lt;/a&gt;, which was used to make this
+site) because the HTML/CSS they spit out is compatible in most places
+and they also make things like RSS feeds easy to do.&lt;/p&gt;</content></entry><entry><title>Arch Linux Install for n00bs</title><link href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html" rel="alternate"></link><published>2019-06-02T00:00:00-07:00</published><updated>2019-06-02T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-06-02:/pelican-test/arch-linux-install-for-n00bs.html</id><summary type="html">&lt;p&gt;In this tutorial, I will go through installing Arch Linux. These
 instructions were tried out on both a virtual machine and an old
 laptop. For further instructions and details, I recommend &lt;em&gt;resisting
 the urge to reflexively search everything&lt;/em&gt;, and instead taking the
@@ -334,7 +347,11 @@ nicely and good to go. Its like grabbing an an acoustic guitar and
 just beginning to play versus doing a complex setup with an electric
 guitar. Sure, you can make more different sounds in the latter setup,
 but there are also bigger hurdles to overcome if you just want to get
-started practicing.&lt;/p&gt;</content></entry><entry><title>Pelican Supports Syntax Highlighting</title><link href="https://captainalan.github.io/pelican-test/pelican-supports-syntax-highlighting.html" rel="alternate"></link><published>2019-05-14T00:00:00-07:00</published><updated>2019-05-14T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-14:/pelican-test/pelican-supports-syntax-highlighting.html</id><summary type="html">&lt;h2&gt;JavaScript&lt;/h2&gt;
+started practicing.&lt;/p&gt;
+&lt;p&gt;Simplifying web development means having more time available to focus
+on producing quality content, rather than wrestling with abstractions
+and engineering-ish problems. You should write a math blog or a maker
+blog if you wanna do either of those activities, respectively 😡&lt;/p&gt;</content></entry><entry><title>Pelican Supports Syntax Highlighting</title><link href="https://captainalan.github.io/pelican-test/pelican-supports-syntax-highlighting.html" rel="alternate"></link><published>2019-05-14T00:00:00-07:00</published><updated>2019-05-14T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-14:/pelican-test/pelican-supports-syntax-highlighting.html</id><summary type="html">&lt;h2&gt;JavaScript&lt;/h2&gt;
 &lt;p&gt;Does code highlighting work here?&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;// ES5&lt;/span&gt;
 &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;foo&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;

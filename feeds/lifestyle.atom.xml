@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Static Site - Lifestyle</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/lifestyle.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-07-20T00:00:00-07:00</updated><entry><title>Approaches to computing</title><link href="https://captainalan.github.io/pelican-test/approaches-to-computing.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/approaches-to-computing.html</id><summary type="html">&lt;p&gt;Using mobile devices and tablets, there is often only one way really
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's First Static Site - Lifestyle</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/lifestyle.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-07-20T00:00:00-07:00</updated><entry><title>Approaches to computing</title><link href="https://captainalan.github.io/pelican-test/approaches-to-computing.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/approaches-to-computing.html</id><summary type="html">&lt;p&gt;Using mobile devices and tablets, there is often only one way really
 to do things. The same goes for the interfaces of many video
 games. There is a single way to do things like change settings,
 enter/exit the application, etc.&lt;/p&gt;
@@ -30,12 +30,12 @@ launch emacs (see my &lt;a href="https://gist.github.com/captainalan/d2d94f8ff88
 file&lt;/a&gt;,
 and proceed to write code, prose, and everything in between.&lt;/p&gt;</content></entry><entry><title>Chairs suck.</title><link href="https://captainalan.github.io/pelican-test/chairs-suck.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/chairs-suck.html</id><summary type="html">&lt;p&gt;I personally dislike chairs and mattresses (for sitting and sleeping,
 respectively). Most days, I use my chair as a laptop stand while using
-an external keyboard and sleep on the floor.&lt;/p&gt;
+an external keyboard and sleep on the floor. Blarrghh!!!&lt;/p&gt;
 &lt;h2&gt;Clean feet cultures&lt;/h2&gt;
 &lt;p&gt;Chairs are useful if you are wearing shoes, don't plan on taking them
-off, and want …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I personally dislike chairs and mattresses (for sitting and sleeping,
+off, and …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I personally dislike chairs and mattresses (for sitting and sleeping,
 respectively). Most days, I use my chair as a laptop stand while using
-an external keyboard and sleep on the floor.&lt;/p&gt;
+an external keyboard and sleep on the floor. Blarrghh!!!&lt;/p&gt;
 &lt;h2&gt;Clean feet cultures&lt;/h2&gt;
 &lt;p&gt;Chairs are useful if you are wearing shoes, don't plan on taking them
 off, and want to sit down.&lt;/p&gt;

@@ -4,12 +4,12 @@
         <meta charset="utf-8" />
         <title>I choose HTML</title>
         <link rel="stylesheet" href="https://captainalan.github.io/pelican-test/theme/css/main.css" />
-        <link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Alan's Static Site Atom Feed" />
+        <link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Alan's First Static Site Atom Feed" />
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="https://captainalan.github.io/pelican-test/">Alan's Static Site </a></h1>
+                <h1><a href="https://captainalan.github.io/pelican-test/">Alan's First Static Site </a></h1>
                 <nav><ul>
                     <li><a href="https://captainalan.github.io/pelican-test/category/fun.html">Fun</a></li>
                     <li class="active"><a href="https://captainalan.github.io/pelican-test/category/interwebs.html">Interwebs</a></li>
@@ -43,10 +43,22 @@ plain HTML/CSS (with some help from Bootstrap and jQuery to make
 things like mobile responsiveness less tedious). After spending a
 considerable amount of time with fancy frameworks, why take a step
 "backwards"?</p>
-<p>(Story about using Trisquel and seeing my own site being
-blocked)</p>
+<h2>I got blocked?!</h2>
+<p>I was trying out some different Linux distributions, and decided to
+give the fully-free distro <a href="https://trisquel.info">Trisquel</a> a spin.
+To my dismay, I found that <a href="http://captainalan.github.io/me"><em>my own
+site</em></a> was blocked blocked for some
+JavaScript-y reasons. It turns out that all sites that make use of
+React (or at least <code>create-react-app</code>, the tool I used to bootstrap my
+site) are <em>blocked</em> when <a href="https://www.gnu.org/software/librejs/">certain sorts of
+JavaScript</a> are blocked.</p>
+<h2>Next steps</h2>
 <p>It is my goal to produce informative, unobtrusive websites
 that are easily indexed, linked, downloaded, etc.</p>
+<p>I am becoming more interested in <strong>static site generators</strong> (such as
+<a href="https://blog.getpelican.com">Pelican</a>, which was used to make this
+site) because the HTML/CSS they spit out is compatible in most places
+and they also make things like RSS feeds easy to do.</p>
     </div><!-- /.entry-content -->
 
   </article>
@@ -56,7 +68,7 @@ that are easily indexed, linked, downloaded, etc.</p>
                         <h2>links</h2>
                         <ul>
                             <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="https://captainalan.github.io/me/">Homepage (SPA)</a></li>
+                            <li><a href="https://captainalan.github.io/">Homepage (SPA)</a></li>
                         </ul>
                 </div><!-- /.blogroll -->
                 <div class="social">
