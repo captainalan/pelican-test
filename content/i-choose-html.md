@@ -3,11 +3,11 @@ date: 2019-07-20
 category: Interwebs
 
 Before, I built [my website in
-React](https://captainalan.github.io/me). Now, it is being rebuilt in
-plain HTML/CSS (with some help from Bootstrap and jQuery to make
-things like mobile responsiveness less tedious). After spending a
-considerable amount of time with fancy frameworks, why take a step
-"backwards"?
+React](https://captainalan.github.io/me). Now, it is being
+[rebuilt](https://captainalan.github.io) in plain HTML/CSS (with some
+help from Bootstrap and jQuery to make things like mobile
+responsiveness less tedious). After spending a considerable amount of
+time with fancy frameworks, why take a step "backwards"?
 
 ## I got blocked?!
 
@@ -20,12 +20,16 @@ React (or at least `create-react-app`, the tool I used to bootstrap my
 site) are *blocked* when [certain sorts of
 JavaScript](https://www.gnu.org/software/librejs/) are blocked.
 
-## Next steps
+It is my goal to produce informative, unobtrusive websites that are
+easily indexed, linked, downloaded, etc. If I can accomplish this goal
+without freedom/privacy threatening software, why not choose simpler
+tools?
 
-It is my goal to produce informative, unobtrusive websites
-that are easily indexed, linked, downloaded, etc.
+## Next steps
 
 I am becoming more interested in **static site generators** (such as
 [Pelican](https://blog.getpelican.com), which was used to make this
 site) because the HTML/CSS they spit out is compatible in most places
-and they also make things like RSS feeds easy to do.
+and they also make things like RSS feeds easy to do. I'll be trying
+out various static generators in addition to writing plain HTML/CSS
+and maybe some JavaScript.

@@ -4,7 +4,10 @@ category: Lifestyle
 
 I personally dislike using chairs most of the time. I'd rather sit on
 the floor, stand, or walk around to work, reading, thinking,
-socializing, etc. Strange?
+socializing, etc. Strange? Seething in my dislike for chairs, I
+decided to do a little "armchair" research on chairs to find out where
+they came from and why they are everywhere in WEIRD ("Western Educated
+Industrial Rich Democratic") cultures.
 
 Did you know:
 
@@ -16,6 +19,9 @@ Did you know:
     have a longer history than chairs in China!
 - Chairs became mainstream in the West and spread especially fast
   during the time of the "Industrial Revolution" (Chair Institute)
+- Nowadays, there are a lot of people [hating on
+  "sitting"](https://www.startstanding.org/sitting-new-smoking/)
+  (i.e. chairs)
 
 
 Dirty floors vs clean feet 
@@ -29,7 +35,8 @@ Chairs are not so good if you want to sit on a rug or reach things
 that are close to the floor. Removing sandals or slippers requires to
 chairs.
 
-![The Beatles observe George learning Sitar. July 1966.](https://i.imgur.com/Ci5mHRE.jpg) (Source imgur)
+![The Beatles observe George learning Sitar. July 1966.](https://i.imgur.com/Ci5mHRE.jpg)  
+(Source imgur)
 
 Hot idea
 -----------
@@ -53,7 +60,8 @@ useful. To play the piano, for instance, it makes sense to sit on a
 comfortably adjusted piano bench so you can reach the pedals under the
 piano.
 
-![Doge cannot reach pedals](https://i.imgur.com/S6vXiNl.png) (Source imgur)
+![Doge cannot reach pedals](https://i.imgur.com/S6vXiNl.png)  
+(Source imgur)
 
 
 
