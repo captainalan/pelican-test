@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's First Static Site - Interwebs</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/interwebs.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-07-20T00:00:00-07:00</updated><entry><title>I choose HTML</title><link href="https://captainalan.github.io/pelican-test/i-choose-html.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/i-choose-html.html</id><summary type="html">&lt;p&gt;Before, I built &lt;a href="https://captainalan.github.io/me"&gt;my website in
-React&lt;/a&gt;. Now, it is being rebuilt in
-plain HTML/CSS (with some help from Bootstrap and jQuery to make
-things like mobile responsiveness less tedious). After spending a
-considerable amount of time with fancy frameworks, why take a step
-"backwards"?&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Interwebs</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/interwebs.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-07-20T00:00:00-07:00</updated><entry><title>I choose HTML</title><link href="https://captainalan.github.io/pelican-test/i-choose-html.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/i-choose-html.html</id><summary type="html">&lt;p&gt;Before, I built &lt;a href="https://captainalan.github.io/me"&gt;my website in
+React&lt;/a&gt;. Now, it is being
+&lt;a href="https://captainalan.github.io"&gt;rebuilt&lt;/a&gt; in plain HTML/CSS (with some
+help from Bootstrap and jQuery to make things like mobile
+responsiveness less tedious). After spending a considerable amount of
+time with fancy frameworks, why take a step "backwards"?&lt;/p&gt;
 &lt;h2&gt;I got blocked?!&lt;/h2&gt;
 &lt;p&gt;I …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Before, I built &lt;a href="https://captainalan.github.io/me"&gt;my website in
-React&lt;/a&gt;. Now, it is being rebuilt in
-plain HTML/CSS (with some help from Bootstrap and jQuery to make
-things like mobile responsiveness less tedious). After spending a
-considerable amount of time with fancy frameworks, why take a step
-"backwards"?&lt;/p&gt;
+React&lt;/a&gt;. Now, it is being
+&lt;a href="https://captainalan.github.io"&gt;rebuilt&lt;/a&gt; in plain HTML/CSS (with some
+help from Bootstrap and jQuery to make things like mobile
+responsiveness less tedious). After spending a considerable amount of
+time with fancy frameworks, why take a step "backwards"?&lt;/p&gt;
 &lt;h2&gt;I got blocked?!&lt;/h2&gt;
 &lt;p&gt;I was trying out some different Linux distributions, and decided to
 give the fully-free distro &lt;a href="https://trisquel.info"&gt;Trisquel&lt;/a&gt; a spin.
@@ -21,13 +21,17 @@ JavaScript-y reasons. It turns out that all sites that make use of
 React (or at least &lt;code&gt;create-react-app&lt;/code&gt;, the tool I used to bootstrap my
 site) are &lt;em&gt;blocked&lt;/em&gt; when &lt;a href="https://www.gnu.org/software/librejs/"&gt;certain sorts of
 JavaScript&lt;/a&gt; are blocked.&lt;/p&gt;
+&lt;p&gt;It is my goal to produce informative, unobtrusive websites that are
+easily indexed, linked, downloaded, etc. If I can accomplish this goal
+without freedom/privacy threatening software, why not choose simpler
+tools?&lt;/p&gt;
 &lt;h2&gt;Next steps&lt;/h2&gt;
-&lt;p&gt;It is my goal to produce informative, unobtrusive websites
-that are easily indexed, linked, downloaded, etc.&lt;/p&gt;
 &lt;p&gt;I am becoming more interested in &lt;strong&gt;static site generators&lt;/strong&gt; (such as
 &lt;a href="https://blog.getpelican.com"&gt;Pelican&lt;/a&gt;, which was used to make this
 site) because the HTML/CSS they spit out is compatible in most places
-and they also make things like RSS feeds easy to do.&lt;/p&gt;</content></entry><entry><title>Why Static Sites?</title><link href="https://captainalan.github.io/pelican-test/why-static-sites.html" rel="alternate"></link><published>2019-05-15T10:13:00-07:00</published><updated>2019-05-15T10:13:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-15:/pelican-test/why-static-sites.html</id><summary type="html">&lt;p&gt;Static sites deploy easily, without special considerations about what
+and they also make things like RSS feeds easy to do. I'll be trying
+out various static generators in addition to writing plain HTML/CSS
+and maybe some JavaScript.&lt;/p&gt;</content></entry><entry><title>Why Static Sites?</title><link href="https://captainalan.github.io/pelican-test/why-static-sites.html" rel="alternate"></link><published>2019-05-15T10:13:00-07:00</published><updated>2019-05-15T10:13:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-15:/pelican-test/why-static-sites.html</id><summary type="html">&lt;p&gt;Static sites deploy easily, without special considerations about what
 will compile, what will be allowed, etc. Everything is packaged up
 nicely and good to go. Its like grabbing an an acoustic guitar and
 just beginning to play versus doing a complex setup with an electric

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's First Static Site</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-07-20T00:00:00-07:00</updated><entry><title>Approaches to computing</title><link href="https://captainalan.github.io/pelican-test/approaches-to-computing.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/approaches-to-computing.html</id><summary type="html">&lt;p&gt;Using mobile devices and tablets, there is often only one way really
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-07-20T00:00:00-07:00</updated><entry><title>Approaches to computing</title><link href="https://captainalan.github.io/pelican-test/approaches-to-computing.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/approaches-to-computing.html</id><summary type="html">&lt;p&gt;Using mobile devices and tablets, there is often only one way really
 to do things. The same goes for the interfaces of many video
 games. There is a single way to do things like change settings,
 enter/exit the application, etc.&lt;/p&gt;
@@ -30,14 +30,14 @@ launch emacs (see my &lt;a href="https://gist.github.com/captainalan/d2d94f8ff88
 file&lt;/a&gt;,
 and proceed to write code, prose, and everything in between.&lt;/p&gt;</content></entry><entry><title>Chairs suck.</title><link href="https://captainalan.github.io/pelican-test/chairs-suck.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/chairs-suck.html</id><summary type="html">&lt;p&gt;I personally dislike using chairs most of the time. I'd rather sit on
 the floor, stand, or walk around to work, reading, thinking,
-socializing, etc. Strange?&lt;/p&gt;
-&lt;p&gt;Did you know:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;For many centuries, chairs were "a symbolic article of state and
-  dignity rather than an article for ordinary use" (Wikipedia)&lt;/li&gt;
-&lt;li&gt;The …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;I personally dislike using chairs most of the time. I'd rather sit on
+socializing, etc. Strange? Seething in my dislike for chairs, I
+decided to do a little "armchair" research on chairs to find out where
+they came from and …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I personally dislike using chairs most of the time. I'd rather sit on
 the floor, stand, or walk around to work, reading, thinking,
-socializing, etc. Strange?&lt;/p&gt;
+socializing, etc. Strange? Seething in my dislike for chairs, I
+decided to do a little "armchair" research on chairs to find out where
+they came from and why they are everywhere in WEIRD ("Western Educated
+Industrial Rich Democratic") cultures.&lt;/p&gt;
 &lt;p&gt;Did you know:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;For many centuries, chairs were "a symbolic article of state and
@@ -48,6 +48,9 @@ socializing, etc. Strange?&lt;/p&gt;
     have a longer history than chairs in China!&lt;/li&gt;
 &lt;li&gt;Chairs became mainstream in the West and spread especially fast
   during the time of the "Industrial Revolution" (Chair Institute)&lt;/li&gt;
+&lt;li&gt;Nowadays, there are a lot of people &lt;a href="https://www.startstanding.org/sitting-new-smoking/"&gt;hating on
+  "sitting"&lt;/a&gt;
+  (i.e. chairs)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Dirty floors vs clean feet&lt;/h2&gt;
 &lt;p&gt;Chairs are useful if you are wearing shoes, don't plan on taking them
@@ -56,7 +59,8 @@ or chair to remove your footwear.&lt;/p&gt;
 &lt;p&gt;Chairs are not so good if you want to sit on a rug or reach things
 that are close to the floor. Removing sandals or slippers requires to
 chairs.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="The Beatles observe George learning Sitar. July 1966." src="https://i.imgur.com/Ci5mHRE.jpg"&gt; (Source imgur)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="The Beatles observe George learning Sitar. July 1966." src="https://i.imgur.com/Ci5mHRE.jpg"&gt;&lt;br&gt;
+(Source imgur)&lt;/p&gt;
 &lt;h2&gt;Hot idea&lt;/h2&gt;
 &lt;p&gt;Many common clothing items we wear were designed for purposes quite
 unlike modern living. For example, long pants came from
@@ -72,7 +76,8 @@ places, there are a number of situations in which having a chair is
 useful. To play the piano, for instance, it makes sense to sit on a
 comfortably adjusted piano bench so you can reach the pedals under the
 piano.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Doge cannot reach pedals" src="https://i.imgur.com/S6vXiNl.png"&gt; (Source imgur)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Doge cannot reach pedals" src="https://i.imgur.com/S6vXiNl.png"&gt;&lt;br&gt;
+(Source imgur)&lt;/p&gt;
 &lt;h2&gt;References&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Wikipedia on &lt;a href="https://en.wikipedia.org/wiki/Chair"&gt;Chairs&lt;/a&gt;&lt;/li&gt;
@@ -81,18 +86,18 @@ piano.&lt;/p&gt;
   Chair"&lt;/a&gt; from the
   Chair Institute&lt;/li&gt;
 &lt;/ul&gt;</content></entry><entry><title>I choose HTML</title><link href="https://captainalan.github.io/pelican-test/i-choose-html.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/i-choose-html.html</id><summary type="html">&lt;p&gt;Before, I built &lt;a href="https://captainalan.github.io/me"&gt;my website in
-React&lt;/a&gt;. Now, it is being rebuilt in
-plain HTML/CSS (with some help from Bootstrap and jQuery to make
-things like mobile responsiveness less tedious). After spending a
-considerable amount of time with fancy frameworks, why take a step
-"backwards"?&lt;/p&gt;
+React&lt;/a&gt;. Now, it is being
+&lt;a href="https://captainalan.github.io"&gt;rebuilt&lt;/a&gt; in plain HTML/CSS (with some
+help from Bootstrap and jQuery to make things like mobile
+responsiveness less tedious). After spending a considerable amount of
+time with fancy frameworks, why take a step "backwards"?&lt;/p&gt;
 &lt;h2&gt;I got blocked?!&lt;/h2&gt;
 &lt;p&gt;I …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Before, I built &lt;a href="https://captainalan.github.io/me"&gt;my website in
-React&lt;/a&gt;. Now, it is being rebuilt in
-plain HTML/CSS (with some help from Bootstrap and jQuery to make
-things like mobile responsiveness less tedious). After spending a
-considerable amount of time with fancy frameworks, why take a step
-"backwards"?&lt;/p&gt;
+React&lt;/a&gt;. Now, it is being
+&lt;a href="https://captainalan.github.io"&gt;rebuilt&lt;/a&gt; in plain HTML/CSS (with some
+help from Bootstrap and jQuery to make things like mobile
+responsiveness less tedious). After spending a considerable amount of
+time with fancy frameworks, why take a step "backwards"?&lt;/p&gt;
 &lt;h2&gt;I got blocked?!&lt;/h2&gt;
 &lt;p&gt;I was trying out some different Linux distributions, and decided to
 give the fully-free distro &lt;a href="https://trisquel.info"&gt;Trisquel&lt;/a&gt; a spin.
@@ -102,13 +107,17 @@ JavaScript-y reasons. It turns out that all sites that make use of
 React (or at least &lt;code&gt;create-react-app&lt;/code&gt;, the tool I used to bootstrap my
 site) are &lt;em&gt;blocked&lt;/em&gt; when &lt;a href="https://www.gnu.org/software/librejs/"&gt;certain sorts of
 JavaScript&lt;/a&gt; are blocked.&lt;/p&gt;
+&lt;p&gt;It is my goal to produce informative, unobtrusive websites that are
+easily indexed, linked, downloaded, etc. If I can accomplish this goal
+without freedom/privacy threatening software, why not choose simpler
+tools?&lt;/p&gt;
 &lt;h2&gt;Next steps&lt;/h2&gt;
-&lt;p&gt;It is my goal to produce informative, unobtrusive websites
-that are easily indexed, linked, downloaded, etc.&lt;/p&gt;
 &lt;p&gt;I am becoming more interested in &lt;strong&gt;static site generators&lt;/strong&gt; (such as
 &lt;a href="https://blog.getpelican.com"&gt;Pelican&lt;/a&gt;, which was used to make this
 site) because the HTML/CSS they spit out is compatible in most places
-and they also make things like RSS feeds easy to do.&lt;/p&gt;</content></entry><entry><title>Arch Linux Install for n00bs</title><link href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html" rel="alternate"></link><published>2019-06-02T00:00:00-07:00</published><updated>2019-06-02T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-06-02:/pelican-test/arch-linux-install-for-n00bs.html</id><summary type="html">&lt;p&gt;In this tutorial, I will go through installing Arch Linux. These
+and they also make things like RSS feeds easy to do. I'll be trying
+out various static generators in addition to writing plain HTML/CSS
+and maybe some JavaScript.&lt;/p&gt;</content></entry><entry><title>Arch Linux Install for n00bs</title><link href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html" rel="alternate"></link><published>2019-06-02T00:00:00-07:00</published><updated>2019-06-02T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-06-02:/pelican-test/arch-linux-install-for-n00bs.html</id><summary type="html">&lt;p&gt;In this tutorial, I will go through installing Arch Linux. These
 instructions were tried out on both a virtual machine and an old
 laptop. For further instructions and details, I recommend &lt;em&gt;resisting
 the urge to reflexively search everything&lt;/em&gt;, and instead taking the
