@@ -1,34 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Lifestyle</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/lifestyle.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-07-20T00:00:00-07:00</updated><entry><title>Approaches to computing</title><link href="https://captainalan.github.io/pelican-test/approaches-to-computing.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/approaches-to-computing.html</id><summary type="html">&lt;p&gt;Using mobile devices and tablets, there is often only one way really
-to do things. The same goes for the interfaces of many video
-games. There is a single way to do things like change settings,
-enter/exit the application, etc.&lt;/p&gt;
-&lt;p&gt;The same &lt;em&gt;cannot&lt;/em&gt; be said for many desktop/laptop …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Using mobile devices and tablets, there is often only one way really
-to do things. The same goes for the interfaces of many video
-games. There is a single way to do things like change settings,
-enter/exit the application, etc.&lt;/p&gt;
-&lt;p&gt;The same &lt;em&gt;cannot&lt;/em&gt; be said for many desktop/laptop computers. For
-instance, to install programs on MS Windows or Mac OS, many users just
-(manually) go download some installer file and install things. Other
-users will make use of Microsoft/Apple's official stores to get their
-apps. Finally, some users (usually programmers, developers) make use of 
-&lt;strong&gt;package managers&lt;/strong&gt; to do this job.&lt;/p&gt;
-&lt;p&gt;The different paths a user may take to do something like "install a
-program" represent different approaches to computing, generally. For
-instance, we might use some words to embody the three approaches for
-installing listed above as:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;"Lemme get what I need to do"&lt;/li&gt;
-&lt;li&gt;"Make it easy and make it feel official, please"&lt;/li&gt;
-&lt;li&gt;"Tedious things should be automated"&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;A user of official app stores (2) &lt;/p&gt;
-&lt;h2&gt;What I do these days&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Lifestyle</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/lifestyle.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-07-20T00:00:00-07:00</updated><entry><title>Approaches to computing</title><link href="https://captainalan.github.io/pelican-test/approaches-to-computing.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/approaches-to-computing.html</id><summary type="html">&lt;p&gt;Updated 8/12/2019&lt;/p&gt;
+&lt;h2&gt;An autobiographical account of using computers&lt;/h2&gt;
+&lt;p&gt;Here's how I was introduced to computers&amp;mdash;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We use specific programs to do specific things. MS word is for
+writing papers. MS paint is for having fun making digital
+drawings. Photoshop is for more serious digital paintings (and
+editing photos …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;Updated 8/12/2019&lt;/p&gt;
+&lt;h2&gt;An autobiographical account of using computers&lt;/h2&gt;
+&lt;p&gt;Here's how I was introduced to computers&amp;mdash;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We use specific programs to do specific things. MS word is for
+writing papers. MS paint is for having fun making digital
+drawings. Photoshop is for more serious digital paintings (and
+editing photos). Games r fun.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;More or less, I continued to think this way even after I took my first
+introduction to programming class (Java in High School). I was
+introduced to programming using Integrated Development Environments
+(IDEs); large applications that aim to bring all tools necessary for
+writing programs together.&lt;/p&gt;
+&lt;p&gt;At a certain point, however, I began to take note of the fact that I
+could &lt;em&gt;use different programs to edit the same sorts of files&lt;/em&gt;. I
+think I started to have these thoughts about graphics software. I
+realized I could use various editing softwares to do some task like
+&lt;em&gt;resizing an image&lt;/em&gt;. Wow, cool!&lt;/p&gt;
+&lt;p&gt;As I thought of new things I wanted to do with computers, I became
+more interested in software generally (specifically &lt;em&gt;free&lt;/em&gt; software,
+as in &lt;em&gt;free beer&lt;/em&gt; because I didn't have a way to pay for stuff
+online). I gradually learned more about programming generally, Linux,
+and other related things.&lt;/p&gt;
+&lt;p&gt;All of this has been a lot of fun. It has also caused some trouble for
+me, working with other people and their computers. Could I help
+someone do XYZ in Microsoft Word? No, because I was too busy fiddling
+with LaTeX or Markdown. I guess I could help them Google it? More
+recently, by investing lots of time into learning &lt;a href="https://www.gnu.org/software/emacs/emacs.html"&gt;GNU
+emacs&lt;/a&gt;, I've neglected
+to learn many useful things in &lt;a href="https://code.visualstudio.com"&gt;Microsoft's Visual Studio
+Code&lt;/a&gt;, the de facto standard for web
+development (my day job) these days.&lt;/p&gt;
+&lt;p&gt;All of this rambling leads us to our main topic of
+discussion&amp;mdash;&lt;em&gt;different approaches to computing&lt;/em&gt; and their
+relative pros and cons.&lt;/p&gt;
+&lt;h2&gt;Approaches to Computing&lt;/h2&gt;
+&lt;p&gt;There are a lot of people like me who have messed around with a lot of
+programs to do a lot of things and are not so super-good at using any
+of them. We have fun with computers, get our work done, and are
+excited to play around with new technologies (or rediscover) old ones.
+Our abilities scale with effort, enthusiasm, and time. We "waste" a
+lot of time on the computer in the sense that if we just stuck with a
+few things, we could have gotten by with a lot less scattered know-how
+and hours spent fiddling with configuration files.&lt;/p&gt;
+&lt;p&gt;This leads us to another type of computer user...&lt;/p&gt;
+&lt;h3&gt;The One Program Wonder&lt;/h3&gt;
+&lt;p&gt;Certain pieces of software out there are very powerful.  If you can
+use certain programs well, you can easily turn your visions in reality
+(and find high paying work).&lt;/p&gt;
+&lt;p&gt;Some people learn a small number of programs extremely well and don't
+care about the rest. Consider a digital artist/designer that makes use
+of Adobe Photoshop and Adobe Illustrator. This person has awesome
+visual powers. With a Macbook pro and a big idea, they can move
+mountains.&lt;/p&gt;
+&lt;p&gt;This person might not know how to write a bash script, set up a
+printer, or install an operating system. They may call tech support
+for help. Are they n00b? Or, consider the hardcore gamer that
+concentrates on one game and plays it very well. They may not know how
+to do anything else on a computer, but in their domain they are an
+unstoppable force.&lt;/p&gt;
+&lt;h3&gt;Just make it werk&lt;/h3&gt;
+&lt;p&gt;Then, there are people that believe that &lt;em&gt;by playing (video) games you
+already lose&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Some people spend as little time with computers as possible. Often,
+this works out just fine. These are users who can get away with
+replacing a laptop or a desktop computer with a tablet. For these
+users, the tablet does everything they would want a computer to do,
+plus it is generally cheaper, it is more portable, and perhaps more
+durable.&lt;/p&gt;
+&lt;p&gt;Using mobile devices and tablets, there is often only one way really
+to do things. There is a single way to do things like change settings,
+enter/exit the application, etc. Often this involves clicking,
+touching buttons, etc. For nerds, this may be terrible. They may
+literally lose sleep over trying to do something in a way UI/UX
+designers don't care about.&lt;/p&gt;
+&lt;p&gt;"Just make it werk" users may just give up with their technology and
+go socialize, work out, paint pictures, or do something else with
+their time while nerds try to pretend Macbooks are Linux machines. &lt;/p&gt;
+&lt;h2&gt;Self-reflection on my after-hours computing habits&lt;/h2&gt;
 &lt;p&gt;After hours, I boot up Linux (see my &lt;a href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html"&gt;Arch Linux install
 guide&lt;/a&gt;),
 launch emacs (see my &lt;a href="https://gist.github.com/captainalan/d2d94f8ff88ba0c74e85560246d51fdf"&gt;config
 file&lt;/a&gt;,
-and proceed to write code, prose, and everything in between.&lt;/p&gt;</content></entry><entry><title>Chairs suck.</title><link href="https://captainalan.github.io/pelican-test/chairs-suck.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/chairs-suck.html</id><summary type="html">&lt;p&gt;I personally dislike using chairs most of the time. I'd rather sit on
+and proceed to write code, prose, and everything in between.  Would it
+be better to (1) stay in Windows, (2) use a word processor to write
+prose, and (3) use an IDE to write code?&lt;/p&gt;
+&lt;p&gt;For quickly getting stuff done, I think that choosing these
+conventional solutions would typically be better.&lt;/p&gt;
+&lt;p&gt;When I consider an activity like &lt;em&gt;writing a letter&lt;/em&gt;, I get excited
+about booting up Linux, formatting things nicely in LaTeX and playing
+around with emacs commands. But TBH, it would be easier to just start
+typing in MS Word or Libre office. I can adjust fonts and stuff to
+make things look pretty good.&lt;/p&gt;
+&lt;p&gt;I think about the "One Program Wonder". I think about the "Just make
+it werk" user. These people are doing just fine. And I'm taking three
+times as along as I need to to finish some task. But you just wait!
+The &lt;em&gt;next&lt;/em&gt; time I have to do something similar, I'll be faster!&lt;/p&gt;
+&lt;p&gt;...unless I'm messing around with some new software/configuration
+again.&lt;/p&gt;</content></entry><entry><title>Chairs suck.</title><link href="https://captainalan.github.io/pelican-test/chairs-suck.html" rel="alternate"></link><published>2019-07-20T00:00:00-07:00</published><updated>2019-07-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-07-20:/pelican-test/chairs-suck.html</id><summary type="html">&lt;p&gt;I personally dislike using chairs most of the time. I'd rather sit on
 the floor, stand, or walk around to work, reading, thinking,
 socializing, etc. Strange? Seething in my dislike for chairs, I
 decided to do a little "armchair" research on chairs to find out where
