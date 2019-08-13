@@ -377,21 +377,55 @@ if that is your cup of tea.&lt;/p&gt;
 &lt;p&gt;Are there things that you don't understand? How do you find documentation for
 those things?&lt;/p&gt;</content></entry><entry><title>HEHEHEHEHE</title><link href="https://captainalan.github.io/pelican-test/hehehehehe.html" rel="alternate"></link><published>2019-05-15T10:50:00-07:00</published><updated>2019-05-15T10:50:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-15:/pelican-test/hehehehehe.html</id><content type="html">&lt;p&gt;It is a pleasure to edit in Markdown!&lt;/p&gt;
 &lt;p&gt;Check out this animated pelican:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="A Pelican" src="https://i.imgur.com/ydhVJLu.gif"&gt;&lt;/p&gt;</content></entry><entry><title>Why Static Sites?</title><link href="https://captainalan.github.io/pelican-test/why-static-sites.html" rel="alternate"></link><published>2019-05-15T10:13:00-07:00</published><updated>2019-05-15T10:13:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-15:/pelican-test/why-static-sites.html</id><summary type="html">&lt;p&gt;Static sites deploy easily, without special considerations about what
-will compile, what will be allowed, etc. Everything is packaged up
-nicely and good to go. Its like grabbing an an acoustic guitar and
-just beginning to play versus doing a complex setup with an electric
-guitar. Sure, you can make …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Static sites deploy easily, without special considerations about what
-will compile, what will be allowed, etc. Everything is packaged up
-nicely and good to go. Its like grabbing an an acoustic guitar and
-just beginning to play versus doing a complex setup with an electric
-guitar. Sure, you can make more different sounds in the latter setup,
-but there are also bigger hurdles to overcome if you just want to get
-started practicing.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="A Pelican" src="https://i.imgur.com/ydhVJLu.gif"&gt;&lt;/p&gt;</content></entry><entry><title>Why Static Sites?</title><link href="https://captainalan.github.io/pelican-test/why-static-sites.html" rel="alternate"></link><published>2019-05-15T10:13:00-07:00</published><updated>2019-05-15T10:13:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-15:/pelican-test/why-static-sites.html</id><summary type="html">&lt;p&gt;Updated 8/12/2019&lt;/p&gt;
+&lt;p&gt;After half a year or so of learning all about dynamic websites (using
+fancy new technology like Node.js), I've found myself returning to
+good old-fashioned static sites for my personal projects. Here I'll go
+through some reasons why.&lt;/p&gt;
+&lt;h2&gt;Two approaches&lt;/h2&gt;
+&lt;p&gt;Consider two scenarios:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;You write …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;Updated 8/12/2019&lt;/p&gt;
+&lt;p&gt;After half a year or so of learning all about dynamic websites (using
+fancy new technology like Node.js), I've found myself returning to
+good old-fashioned static sites for my personal projects. Here I'll go
+through some reasons why.&lt;/p&gt;
+&lt;h2&gt;Two approaches&lt;/h2&gt;
+&lt;p&gt;Consider two scenarios:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;You write a program that produces content for that user when a
+   user runs it&lt;/li&gt;
+&lt;li&gt;You write a program that produces content; you then distribute that
+   content to people that want it&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The first approach here is how a lot of &lt;em&gt;dynamic&lt;/em&gt; websites work. You
+write &lt;strong&gt;server side code&lt;/strong&gt; in something like JavaScript (Node), PHP,
+Python, etc. to produce webpages on the fly for users. To do this,
+you may have to go through lots of trials and tribulations to get your
+program ('website') up and running.&lt;/p&gt;
+&lt;p&gt;The second approach is how &lt;em&gt;static sites&lt;/em&gt; work. The "programming"
+involved (if any) is to generate content once. Compare this to
+&lt;em&gt;compiling&lt;/em&gt; a high(er) level programming language into machine
+code. Once you produce useful output, it is easy to distribute it
+(there are many places, including GitHub pages, that can serve
+&lt;strong&gt;static assets&lt;/strong&gt; for free).&lt;/p&gt;
+&lt;p&gt;With dynamic websites, you might worry about hackers sending malicious
+inputs into your website and blowing stuff up. With static websites,
+this is not an issue. If you were really worried about one server
+where your content is hosted, you could easily create &lt;strong&gt;mirror(s)&lt;/strong&gt; of
+your content. Static sites deploy easily, without special
+considerations about what will compile, what will be allowed,
+etc. Everything is packaged up nicely and good to go.&lt;/p&gt;
+&lt;h2&gt;Know your needs&lt;/h2&gt;
+&lt;p&gt;For most people, static sites will do. Don't be pulled in by the buzz
+words and hype of fancy platforms if all you need is some hosting for
+HTML/CSS files and some images.&lt;/p&gt;
+&lt;h3&gt;Priorities&lt;/h3&gt;
 &lt;p&gt;Simplifying web development means having more time available to focus
 on producing quality content, rather than wrestling with abstractions
-and engineering-ish problems. You should write a math blog or a maker
-blog if you wanna do either of those activities, respectively 😡&lt;/p&gt;</content></entry><entry><title>Pelican Supports Syntax Highlighting</title><link href="https://captainalan.github.io/pelican-test/pelican-supports-syntax-highlighting.html" rel="alternate"></link><published>2019-05-14T00:00:00-07:00</published><updated>2019-05-14T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-14:/pelican-test/pelican-supports-syntax-highlighting.html</id><summary type="html">&lt;h2&gt;JavaScript&lt;/h2&gt;
+and engineering-ish problems. &lt;/p&gt;
+&lt;p&gt;Maybe you should write a math or engineering blog if you wanna do
+either of those activities, respectively 😡&lt;/p&gt;</content></entry><entry><title>Pelican Supports Syntax Highlighting</title><link href="https://captainalan.github.io/pelican-test/pelican-supports-syntax-highlighting.html" rel="alternate"></link><published>2019-05-14T00:00:00-07:00</published><updated>2019-05-14T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-14:/pelican-test/pelican-supports-syntax-highlighting.html</id><summary type="html">&lt;h2&gt;JavaScript&lt;/h2&gt;
 &lt;p&gt;Does code highlighting work here?&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;// ES5&lt;/span&gt;
 &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;foo&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
