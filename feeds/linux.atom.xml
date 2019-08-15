@@ -231,12 +231,14 @@ you'll probably need to use &lt;code&gt;su&lt;/code&gt; and the password you set
 Arch install.&lt;/p&gt;
 &lt;h3&gt;Troubleshooting&lt;/h3&gt;
 &lt;p&gt;If you aren't connected to the Internet, this step can be a pain in the ass.
-Search the Arch Wiki for wisdom.&lt;/p&gt;</content></entry><entry><title>Getting Comfortable with Linux</title><link href="https://captainalan.github.io/pelican-test/getting-comfortable-with-linux.html" rel="alternate"></link><published>2019-06-02T00:00:00-07:00</published><updated>2019-06-02T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-06-02:/pelican-test/getting-comfortable-with-linux.html</id><summary type="html">&lt;p&gt;This tutorial aims to answer this question:&lt;/p&gt;
+Search the Arch Wiki for wisdom.&lt;/p&gt;</content></entry><entry><title>Getting Comfortable with Linux</title><link href="https://captainalan.github.io/pelican-test/getting-comfortable-with-linux.html" rel="alternate"></link><published>2019-06-02T00:00:00-07:00</published><updated>2019-06-02T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-06-02:/pelican-test/getting-comfortable-with-linux.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;This tutorial aims to answer this question:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Now that I have a Linux system running, how do I go about learning
 more?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This tutorial is aimed at eager beginners and aspiring computer users
 that have decided to take control of their computing. It largely
-follows my journey to learn more …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This tutorial aims to answer this question:&lt;/p&gt;
+follows my journey to learn more …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;This tutorial aims to answer this question:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Now that I have a Linux system running, how do I go about learning
 more?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This tutorial is aimed at eager beginners and aspiring computer users
