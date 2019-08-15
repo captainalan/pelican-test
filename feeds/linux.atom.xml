@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Linux</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/linux.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-08-14T00:00:00-07:00</updated><entry><title>Getting Comfortable with Linux</title><link href="https://captainalan.github.io/pelican-test/getting-comfortable-with-linux.html" rel="alternate"></link><published>2019-08-14T00:00:00-07:00</published><updated>2019-08-14T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-08-14:/pelican-test/getting-comfortable-with-linux.html</id><summary type="html">&lt;p&gt;This tutorial aims to answer this question:&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Linux</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/linux.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-08-14T00:00:00-07:00</updated><entry><title>Getting Comfortable with Linux</title><link href="https://captainalan.github.io/pelican-test/getting-comfortable-with-linux.html" rel="alternate"></link><published>2019-08-14T00:00:00-07:00</published><updated>2019-08-14T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-08-14:/pelican-test/getting-comfortable-with-linux.html</id><summary type="html">&lt;p&gt;Updated 8/14/2019&lt;/p&gt;
+&lt;h2&gt;This tutorial&lt;/h2&gt;
+&lt;p&gt;This tutorial aims to answer this question:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Now that I have a Linux system running, how do I go about learning
 more?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This tutorial is aimed at eager beginners and aspiring computer users
-that have decided to take control of their computing. It largely
-follows my journey to learn more …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This tutorial aims to answer this question:&lt;/p&gt;
+that have decided to take control of their computing. It largely …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Updated 8/14/2019&lt;/p&gt;
+&lt;h2&gt;This tutorial&lt;/h2&gt;
+&lt;p&gt;This tutorial aims to answer this question:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Now that I have a Linux system running, how do I go about learning
 more?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This tutorial is aimed at eager beginners and aspiring computer users
