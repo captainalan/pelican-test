@@ -1,6 +1,11 @@
 title: Getting Comfortable with Linux
-date: 2019-06-02
+date: 2019-08-14
 category: Linux
+
+Updated 8/14/2019
+
+This tutorial
+-------------
 
 This tutorial aims to answer this question:
 
