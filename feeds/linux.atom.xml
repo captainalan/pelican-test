@@ -232,29 +232,129 @@ Arch install.&lt;/p&gt;
 &lt;h3&gt;Troubleshooting&lt;/h3&gt;
 &lt;p&gt;If you aren't connected to the Internet, this step can be a pain in the ass.
 Search the Arch Wiki for wisdom.&lt;/p&gt;</content></entry><entry><title>Getting Comfortable with Linux</title><link href="https://captainalan.github.io/pelican-test/getting-comfortable-with-linux.html" rel="alternate"></link><published>2019-06-02T00:00:00-07:00</published><updated>2019-06-02T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-06-02:/pelican-test/getting-comfortable-with-linux.html</id><summary type="html">&lt;p&gt;This tutorial aims to answer this question:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Now that I have a Linux system running, how do I go about learning more?
-(prefarably offline)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;That is, this tutorial is aimed at eager beginners and aspiring computer users
-that have decided to no longer be casuals.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Now that I have a Linux system running, how do I go about learning
+more?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This tutorial is aimed at eager beginners and aspiring computer users
+that have decided to take control of their computing. It largely
+follows my journey to learn more …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This tutorial aims to answer this question:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Now that I have a Linux system running, how do I go about learning
+more?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This tutorial is aimed at eager beginners and aspiring computer users
+that have decided to take control of their computing. It largely
+follows my journey to learn more about Linux specifically and
+computing more generally. My goal is that with this tutorial and a
+handful of things downloaded, you can sit with your
+computer&amp;mdash;even without an Internet connection and learn more
+about computing.&lt;/p&gt;
+&lt;p&gt;My approach here is thematic; I go over some class of actions you
+might want to do, and then mention some options you may choose to
+succeed at doing these things.&lt;/p&gt;
 &lt;h2&gt;Requirements&lt;/h2&gt;
-&lt;p&gt;In a previous tutorial …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This tutorial aims to answer this question:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Now that I have a Linux system running, how do I go about learning more?
-(prefarably offline)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;That is, this tutorial is aimed at eager beginners and aspiring computer users
-that have decided to no longer be casuals.&lt;/p&gt;
-&lt;h2&gt;Requirements&lt;/h2&gt;
-&lt;p&gt;In a previous tutorial, I went over &lt;a href="https://captainalan.github.io/pelican-test/"&gt;installing Arch
-Linux&lt;/a&gt; based on a video tutorial
-by &lt;a href="https://lukesmith.xyz/"&gt;Luke Smith&lt;/a&gt; and information found on the &lt;a href="https://wiki.archlinux.org/"&gt;Arch
-Wiki&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In this tutorial, I assume that you have a Linux system up and running (...and
-here, the term "Linux" is used to mean a UNIX or UNIX-like system that has
-certain core utilities, &lt;em&gt;not&lt;/em&gt; the kernel itself or something highly technical
-like that).&lt;/p&gt;
-&lt;p&gt;Learning the basics of &lt;em&gt;some&lt;/em&gt; editor is probably a good idea. Editors like &lt;code&gt;vi&lt;/code&gt;
-and &lt;code&gt;nano&lt;/code&gt; can be found pretty much anywhere. It probably won't be too difficult
-for you to grab a more sophisticated editor like &lt;code&gt;vim&lt;/code&gt;, &lt;code&gt;emacs&lt;/code&gt; or even &lt;code&gt;VSCode&lt;/code&gt;
-if that is your cup of tea.&lt;/p&gt;
-&lt;h2&gt;Exploring your filesystem&lt;/h2&gt;
-&lt;p&gt;Are there things that you don't understand? How do you find documentation for
-those things?&lt;/p&gt;</content></entry></feed>
+&lt;p&gt;In this tutorial, I assume that you have a Linux system up and running
+(...and here, the term "Linux" is used to mean a UNIX or UNIX-like
+system that has certain core utilities, &lt;em&gt;not&lt;/em&gt; the kernel itself or
+something highly technical like that). For something that just works,
+&lt;a href="https://manjaro.org/"&gt;Manjaro&lt;/a&gt; and &lt;a href="https://xubuntu.org/"&gt;Xubuntu&lt;/a&gt;
+are some solid options. If you want to spend some more time
+configuring things, you may want to try &lt;a href="https://captainalan.github.io/pelican-test/"&gt;installing Arch
+Linux&lt;/a&gt;. Really, it
+doesn't matter that much where you start because you are entering
+Linux land where customizability is king.&lt;/p&gt;
+&lt;h3&gt;Editors&lt;/h3&gt;
+&lt;p&gt;What is a samurai without a sword? You need an editor! Most things on
+Linux are configurable via a &lt;strong&gt;"dot file"&lt;/strong&gt;, so called because they
+have a name that starts with a &lt;em&gt;dot&lt;/em&gt; (e.g. &lt;code&gt;.bashrc&lt;/code&gt;,
+&lt;code&gt;.eslint&lt;/code&gt;...). You will need an editor to change these files. If you
+are enthusiastic about learning Linux, you probably have some interest
+in writing scripts or programs or some sort. You'll need an editor for
+that too.&lt;/p&gt;
+&lt;p&gt;Learning the basics of some editor is a skill you will not
+regret. Editors like &lt;code&gt;vi&lt;/code&gt; and &lt;code&gt;nano&lt;/code&gt; can be found pretty much
+anywhere. It probably won't be too difficult for you to grab a more
+sophisticated editor like &lt;code&gt;vim&lt;/code&gt;, &lt;code&gt;emacs&lt;/code&gt;, or Visual Studio Code.&lt;/p&gt;
+&lt;h2&gt;The GUI way&lt;/h2&gt;
+&lt;p&gt;There is a big movement to make Linux systems intuitive and
+"user-friendly", particularly for users coming from Windows and
+Mac. No explanations needed here&amp;mdash;you can explore the menus and
+built in softwares with any Linux distribution that comes built in
+with a graphical desktop environment. &lt;/p&gt;
+&lt;p&gt;There is no shame in using and enjoying a GUI. For many things, this
+is the easiest way to get things done, particularly if you don't care
+to do any special configuration. Examples of things I've recently used
+GUI menus to configure:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Themes/fonts&lt;/li&gt;
+&lt;li&gt;Wallpaper&lt;/li&gt;
+&lt;li&gt;Keyboard shortcuts&lt;/li&gt;
+&lt;li&gt;Joining wifi networks&lt;/li&gt;
+&lt;li&gt;Sound/volume stuff&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Other tasks, such as managing software, is perhaps better done through
+the Command Line Interface (CLI).&lt;/p&gt;
+&lt;h2&gt;Whispering into the soul of your system&lt;/h2&gt;
+&lt;p&gt;Lots of things on modern computers are "artifacts of engineering",
+leftover remnants from designs of the past. One interesting example is
+the "command line interface" typically accessed through a &lt;strong&gt;terminal&lt;/strong&gt;
+(emulator).&lt;/p&gt;
+&lt;p&gt;Computers used to look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Computer Terminal" src="https://live.staticflickr.com/3708/10526021063_a47c368729_b.jpg"&gt;
+&lt;p style="font-size: 0.9rem;font-style: italic;"&gt;&lt;a href="https://www.flickr.com/photos/15528623@N00/10526021063"&gt;"IMG_20131027_152921"&lt;/a&gt;&lt;span&gt;by &lt;a href="https://www.flickr.com/photos/15528623@N00"&gt;S. F.&lt;/a&gt;&lt;/span&gt; is licensed under &lt;a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&amp;atype=html" style="margin-right: 5px;"&gt;CC BY-NC-SA 2.0&lt;/a&gt;&lt;a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&amp;atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;opacity: .7;margin-top: 2px;margin-left: 3px;height: 22px !important;"&gt;&lt;img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg" /&gt;&lt;img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /&gt;&lt;img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nc_icon.svg" /&gt;&lt;img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-sa_icon.svg" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;In more current times, the old way of interacting with computers is
+emulated using what is usually called something like "terminal" or
+"shell" on modern systems.&lt;/p&gt;
+&lt;h3&gt;Need moar software&lt;/h3&gt;
+&lt;p&gt;Most Linux distributions ship with a &lt;strong&gt;package manager&lt;/strong&gt;. &lt;/p&gt;
+&lt;h3&gt;Exploring your filesystem&lt;/h3&gt;
+&lt;p&gt;Typing stuff like &lt;code&gt;ls -la&lt;/code&gt; all the time can get very tiring. One way
+to get around this problem is to define &lt;strong&gt;aliases&lt;/strong&gt; for commands you
+commonly use.&lt;/p&gt;
+&lt;p&gt;Another way to get around your file sytem is to use a &lt;strong&gt;file manager&lt;/strong&gt;
+that runs on the command line (or within your favorite editor). For
+example, there is &lt;a href="https://vifm.info/"&gt;&lt;code&gt;vifm&lt;/code&gt;&lt;/a&gt; for doing common
+operations like moving, copying, and renaming files in a vim editor
+like way. Emacs has the built in
+&lt;a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html"&gt;&lt;code&gt;dired&lt;/code&gt;&lt;/a&gt;
+mode to do these things.&lt;/p&gt;
+&lt;h3&gt;Getting system info&lt;/h3&gt;
+&lt;p&gt;To find out some quick information about your system and display it in
+a pretty way, use your package manager to download and install
+&lt;code&gt;screenfetch&lt;/code&gt;. There are of course other places to find all of this
+information, but this is the easiest way to getting system info (that
+also looks cool) akin to doing the "about my computer" stuff on
+Windows or MacOS.&lt;/p&gt;
+&lt;h2&gt;Finding more information&lt;/h2&gt;
+&lt;p&gt;Are there things that you don't understand? How do you find
+documentation for those things?&lt;/p&gt;
+&lt;h3&gt;Clicking through menus&lt;/h3&gt;
+&lt;p&gt;This is often how I learn more about the features of some program. You
+may discover useful commands you never thought you needed if you take
+the time to click through some menus.&lt;/p&gt;
+&lt;p&gt;I've found this especially helpful in using widely used, large,
+complex programs like GIMP (image manipulation) and Blender (3D
+graphics).&lt;/p&gt;
+&lt;h3&gt;Built-in help systems&lt;/h3&gt;
+&lt;p&gt;Many pieces of software come with their own built in help
+systems. Many (most?) users jump to searching the Internet for
+answers, but becoming familiar with the built-in help system for some
+software may be able to provide quicker, more specific answers if you
+invest a little bit of time to learn how to use it.&lt;/p&gt;
+&lt;p&gt;Documentation is often available for download for offline viewing. If
+you have a 12 hour flight coming up, why not read a user manual until
+you fall asleep? (either way, you win&amp;mdash;you learn something or you
+get a good rest).&lt;/p&gt;
+&lt;h3&gt;High quality online resources&lt;/h3&gt;
+&lt;p&gt;Not all websites are created equal; finding the best websites can save
+you a lot of time you'd otherwise spend sifting through crap.&lt;/p&gt;
+&lt;p&gt;Rather than naïvely Googling how to do something on Linux, for
+instance, it may be helpful to first consult the &lt;a href="https://wiki.archlinux.org/"&gt;Arch
+Wiki&lt;/a&gt; for Linux related topics. This
+resource can be useful even for non-Arch users that want to learn
+about some topic and Linux. For instance, recently I wanted to see
+what options were available for &lt;a href="https://wiki.archlinux.org/index.php/Optical_disc_drive#Ripping"&gt;ripping
+CDs&lt;/a&gt;. The
+Arch Wiki had lots of helpful information for doing that on my
+(non-Arch) Debian-based system.&lt;/p&gt;
+&lt;h2&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://xahlee.info/linux/linux_index.html"&gt;Practical Linux Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content></entry></feed>
