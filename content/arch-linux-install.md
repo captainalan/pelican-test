@@ -318,11 +318,21 @@ Make sure your `/etc/fstab` came out correctly.
 
 Running `htop` I found out that my SWAP partition wasn't being used
 after following the above steps. Easy way to get SWAP working was to
-install gparted (`sudo pacman -Syu gparted`) and launc that (`sudo
+install gparted (`sudo pacman -Syu gparted`) and launch that (`sudo
 gparted`), then make sure the swap partiton I created had `SWAPON`
 (find option in menus). You can then `sudo swapon --show` to see that
 things are working correctly.
 
 ### Messed up partitons?
 
-- How to [move your home directory to a new partiton](https://www.tecmint.com/move-home-directory-to-new-partition-disk-in-linux/)
+I used the article "[move your home directory to a new partiton](https://www.tecmint.com/move-home-directory-to-new-partition-disk-in-linux/)" as a guide. The same approach here can be used for all sorts of directory and partition shuffling.
+
+The basic procedure to move your `/home/` to a new partition is to
+
+1. create a new partition,
+2. copy your existing `/home` directory there and verify this operation succeeded,
+3. remove the old files you just copied,
+4. mount the copied files on the correct (new) partition to `/home`
+5. save your configuration in `/etc/fstab`
+
+These operations will require `su` permissions (e.g. through using `sudo`).
