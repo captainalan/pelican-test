@@ -128,7 +128,7 @@ Arch Wiki had lots of helpful information for doing that on my
 &lt;h2&gt;Resources&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://xahlee.info/linux/linux_index.html"&gt;Practical Linux Tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content></entry><entry><title>Arch Linux Install for n00bs</title><link href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html" rel="alternate"></link><published>2019-06-02T00:00:00-07:00</published><updated>2019-06-02T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-06-02:/pelican-test/arch-linux-install-for-n00bs.html</id><summary type="html">&lt;p&gt;In this tutorial, I will go through installing Arch Linux. These
+&lt;/ul&gt;</content><category term="Linux"></category></entry><entry><title>Arch Linux Install for n00bs</title><link href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html" rel="alternate"></link><published>2019-06-02T00:00:00-07:00</published><updated>2019-06-02T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-06-02:/pelican-test/arch-linux-install-for-n00bs.html</id><summary type="html">&lt;p&gt;In this tutorial, I will go through installing Arch Linux. These
 instructions were tried out on both a virtual machine and an old
 laptop. For further instructions and details, I recommend &lt;em&gt;resisting
 the urge to reflexively search everything&lt;/em&gt;, and instead taking the
@@ -204,7 +204,7 @@ This will probably be &lt;code&gt;/dev/sda&lt;/code&gt; if you are installing on
 partition table on (don't do &lt;code&gt;fdisk /dev/sda123&lt;/code&gt;; this won't
 work&amp;em;go ahead and try that if you don't believe me!).&lt;/p&gt;
 &lt;p&gt;You will now be sent to a new prompt that looks something like:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nv"&gt;Command&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;m&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nv"&gt;help&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;:
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;Command (m for help):&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -302,14 +302,14 @@ file. (This might be done automatically.)&lt;/p&gt;
 &lt;h3&gt;Setting a locale&lt;/h3&gt;
 &lt;p&gt;Use your text editor (here I use &lt;code&gt;vim&lt;/code&gt;) to edit &lt;code&gt;/etc/locale.gen&lt;/code&gt;. I do this
 with &lt;code&gt;vim /etc/locale.gen&lt;/code&gt;. In this huge list of locales I uncommented&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;#&lt;/span&gt;&lt;span class="n"&gt;en_US&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;UTF&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt; &lt;span class="n"&gt;UTF&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;
-&lt;span class="o"&gt;#&lt;/span&gt;&lt;span class="n"&gt;en_US&lt;/span&gt; &lt;span class="n"&gt;ISO&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;8859&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;#en_US.UTF-8 UTF-8&lt;/span&gt;
+&lt;span class="err"&gt;#en_US ISO-8859-1&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;to...&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;en_US&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;UTF&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt; &lt;span class="n"&gt;UTF&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;
-&lt;span class="n"&gt;en_US&lt;/span&gt; &lt;span class="n"&gt;ISO&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;8859&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;en_US.UTF-8 UTF-8&lt;/span&gt;
+&lt;span class="err"&gt;en_US ISO-8859-1&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -319,14 +319,14 @@ exit this file.&lt;/p&gt;
 file.&lt;/p&gt;
 &lt;p&gt;Let's edit one more file to set our (default) language: &lt;code&gt;vim
 /etc/locale.conf&lt;/code&gt;. I changed the contents of this file to:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;LANG&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;en_US&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;UTF&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;LANG=en_US.UTF-8&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h3&gt;Setting a timezone&lt;/h3&gt;
 &lt;p&gt;By default, in &lt;code&gt;/etc/localtime&lt;/code&gt;, there are a bunch of time zones. We want to
 link &lt;code&gt;/usr/share/zoneinfo/&lt;/code&gt; with our timezone.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;ln&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;sf&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;usr&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;share&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;zoneinfo&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;America&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;Los_Angeles&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;etc&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;localtime&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -358,6 +358,18 @@ bash larbs.sh                &lt;span class="c1"&gt;# Run the script you just do
 &lt;p&gt;Login with the username and password you set in LARBS. To modify your system,
 you'll probably need to use &lt;code&gt;su&lt;/code&gt; and the password you set for root in the
 Arch install.&lt;/p&gt;
-&lt;h3&gt;Troubleshooting&lt;/h3&gt;
+&lt;h3&gt;Troubleshooting LARBS install&lt;/h3&gt;
 &lt;p&gt;If you aren't connected to the Internet, this step can be a pain in the ass.
-Search the Arch Wiki for wisdom.&lt;/p&gt;</content></entry></feed>
+Search the Arch Wiki for wisdom.&lt;/p&gt;
+&lt;h2&gt;Checking your new system out&lt;/h2&gt;
+&lt;p&gt;Make sure your &lt;code&gt;/etc/fstab&lt;/code&gt; came out correctly.&lt;/p&gt;
+&lt;p&gt;Running &lt;code&gt;htop&lt;/code&gt; I found out that my SWAP partition wasn't being used
+after following the above steps. Easy way to get SWAP working was to
+install gparted (&lt;code&gt;sudo pacman -Syu gparted&lt;/code&gt;) and launc that (&lt;code&gt;sudo
+gparted&lt;/code&gt;), then make sure the swap partiton I created had &lt;code&gt;SWAPON&lt;/code&gt;
+(find option in menus). You can then &lt;code&gt;sudo swapon --show&lt;/code&gt; to see that
+things are working correctly.&lt;/p&gt;
+&lt;h3&gt;Messed up partitons?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;How to &lt;a href="https://www.tecmint.com/move-home-directory-to-new-partition-disk-in-linux/"&gt;move your home directory to a new partiton&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Linux"></category></entry></feed>

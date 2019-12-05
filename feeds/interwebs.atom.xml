@@ -31,7 +31,7 @@ tools?&lt;/p&gt;
 site) because the HTML/CSS they spit out is compatible in most places
 and they also make things like RSS feeds easy to do. I'll be trying
 out various static generators in addition to writing plain HTML/CSS
-and maybe some JavaScript.&lt;/p&gt;</content></entry><entry><title>Why Static Sites?</title><link href="https://captainalan.github.io/pelican-test/why-static-sites.html" rel="alternate"></link><published>2019-05-15T10:13:00-07:00</published><updated>2019-05-15T10:13:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-15:/pelican-test/why-static-sites.html</id><summary type="html">&lt;p&gt;Updated 8/12/2019&lt;/p&gt;
+and maybe some JavaScript.&lt;/p&gt;</content><category term="Interwebs"></category></entry><entry><title>Why Static Sites?</title><link href="https://captainalan.github.io/pelican-test/why-static-sites.html" rel="alternate"></link><published>2019-05-15T10:13:00-07:00</published><updated>2019-05-15T10:13:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-15:/pelican-test/why-static-sites.html</id><summary type="html">&lt;p&gt;Updated 8/12/2019&lt;/p&gt;
 &lt;p&gt;After half a year or so of learning all about dynamic websites (using
 fancy new technology like Node.js), I've found myself returning to
 good old-fashioned static sites for my personal projects. Here I'll go
@@ -79,4 +79,4 @@ HTML/CSS files and some images.&lt;/p&gt;
 on producing quality content, rather than wrestling with abstractions
 and engineering-ish problems. &lt;/p&gt;
 &lt;p&gt;Maybe you should write a math or engineering blog if you wanna do
-either of those activities, respectively 😡&lt;/p&gt;</content></entry></feed>
+either of those activities, respectively 😡&lt;/p&gt;</content><category term="Interwebs"></category></entry></feed>
