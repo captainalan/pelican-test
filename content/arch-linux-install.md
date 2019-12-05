@@ -307,7 +307,22 @@ Login with the username and password you set in LARBS. To modify your system,
 you'll probably need to use `su` and the password you set for root in the
 Arch install.
 
-### Troubleshooting
+### Troubleshooting LARBS install
 
 If you aren't connected to the Internet, this step can be a pain in the ass.
 Search the Arch Wiki for wisdom.
+
+## Checking your new system out
+
+Make sure your `/etc/fstab` came out correctly.
+
+Running `htop` I found out that my SWAP partition wasn't being used
+after following the above steps. Easy way to get SWAP working was to
+install gparted (`sudo pacman -Syu gparted`) and launc that (`sudo
+gparted`), then make sure the swap partiton I created had `SWAPON`
+(find option in menus). You can then `sudo swapon --show` to see that
+things are working correctly.
+
+### Messed up partitons?
+
+- How to [move your home directory to a new partiton](https://www.tecmint.com/move-home-directory-to-new-partition-disk-in-linux/)
