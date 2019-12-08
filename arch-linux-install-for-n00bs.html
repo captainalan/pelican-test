@@ -175,6 +175,10 @@ which means we can install softare (like Arch Linux!).</p>
 <h3>The fun starts with <code>pacstrap</code></h3>
 <p>Run <code>pacstrap /mnt base base-devel</code> to install the base package and basic
 development tools. If you want more things, add them like so to this command.</p>
+<p><strong>Update December 8, 2019</strong>: You may want to also install <code>linux</code> and
+<code>linux-firmware</code> to make sure the latest Linux kernel and appropriate drivers
+respectively are installed. Do this before you install <code>grub</code> (directions
+below) or else you may not be able to boot your new installation.</p>
 <div class="highlight"><pre><span></span>pacstrap /mnt base base-devel vim emacs
 </pre></div>
 
@@ -266,18 +270,28 @@ Arch install.</p>
 <h3>Troubleshooting LARBS install</h3>
 <p>If you aren't connected to the Internet, this step can be a pain in the ass.
 Search the Arch Wiki for wisdom.</p>
+<p>If you run into issues with <code>xorg</code>, search for answers related to your graphics
+card. Using an older (around 2010) laptop with an NVIDIA graphics card, I had
+to install the Nouveau drivers.</p>
 <h2>Checking your new system out</h2>
 <p>Make sure your <code>/etc/fstab</code> came out correctly.</p>
 <p>Running <code>htop</code> I found out that my SWAP partition wasn't being used
 after following the above steps. Easy way to get SWAP working was to
-install gparted (<code>sudo pacman -Syu gparted</code>) and launc that (<code>sudo
+install gparted (<code>sudo pacman -Syu gparted</code>) and launch that (<code>sudo
 gparted</code>), then make sure the swap partiton I created had <code>SWAPON</code>
 (find option in menus). You can then <code>sudo swapon --show</code> to see that
 things are working correctly.</p>
 <h3>Messed up partitons?</h3>
-<ul>
-<li>How to <a href="https://www.tecmint.com/move-home-directory-to-new-partition-disk-in-linux/">move your home directory to a new partiton</a></li>
-</ul>
+<p>I used the article "<a href="https://www.tecmint.com/move-home-directory-to-new-partition-disk-in-linux/">move your home directory to a new partiton</a>" as a guide. The same approach here can be used for all sorts of directory and partition shuffling.</p>
+<p>The basic procedure to move your <code>/home/</code> to a new partition is to</p>
+<ol>
+<li>create a new partition,</li>
+<li>copy your existing <code>/home</code> directory there and verify this operation succeeded,</li>
+<li>remove the old files you just copied,</li>
+<li>mount the copied files on the correct (new) partition to <code>/home</code></li>
+<li>save your configuration in <code>/etc/fstab</code></li>
+</ol>
+<p>These operations will require <code>su</code> permissions (e.g. through using <code>sudo</code>).</p>
     </div><!-- /.entry-content -->
 
   </article>

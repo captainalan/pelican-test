@@ -465,6 +465,10 @@ which means we can install softare (like Arch Linux!).&lt;/p&gt;
 &lt;h3&gt;The fun starts with &lt;code&gt;pacstrap&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;Run &lt;code&gt;pacstrap /mnt base base-devel&lt;/code&gt; to install the base package and basic
 development tools. If you want more things, add them like so to this command.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update December 8, 2019&lt;/strong&gt;: You may want to also install &lt;code&gt;linux&lt;/code&gt; and
+&lt;code&gt;linux-firmware&lt;/code&gt; to make sure the latest Linux kernel and appropriate drivers
+respectively are installed. Do this before you install &lt;code&gt;grub&lt;/code&gt; (directions
+below) or else you may not be able to boot your new installation.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pacstrap /mnt base base-devel vim emacs
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -556,18 +560,28 @@ Arch install.&lt;/p&gt;
 &lt;h3&gt;Troubleshooting LARBS install&lt;/h3&gt;
 &lt;p&gt;If you aren't connected to the Internet, this step can be a pain in the ass.
 Search the Arch Wiki for wisdom.&lt;/p&gt;
+&lt;p&gt;If you run into issues with &lt;code&gt;xorg&lt;/code&gt;, search for answers related to your graphics
+card. Using an older (around 2010) laptop with an NVIDIA graphics card, I had
+to install the Nouveau drivers.&lt;/p&gt;
 &lt;h2&gt;Checking your new system out&lt;/h2&gt;
 &lt;p&gt;Make sure your &lt;code&gt;/etc/fstab&lt;/code&gt; came out correctly.&lt;/p&gt;
 &lt;p&gt;Running &lt;code&gt;htop&lt;/code&gt; I found out that my SWAP partition wasn't being used
 after following the above steps. Easy way to get SWAP working was to
-install gparted (&lt;code&gt;sudo pacman -Syu gparted&lt;/code&gt;) and launc that (&lt;code&gt;sudo
+install gparted (&lt;code&gt;sudo pacman -Syu gparted&lt;/code&gt;) and launch that (&lt;code&gt;sudo
 gparted&lt;/code&gt;), then make sure the swap partiton I created had &lt;code&gt;SWAPON&lt;/code&gt;
 (find option in menus). You can then &lt;code&gt;sudo swapon --show&lt;/code&gt; to see that
 things are working correctly.&lt;/p&gt;
 &lt;h3&gt;Messed up partitons?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;How to &lt;a href="https://www.tecmint.com/move-home-directory-to-new-partition-disk-in-linux/"&gt;move your home directory to a new partiton&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="Linux"></category></entry><entry><title>HEHEHEHEHE</title><link href="https://captainalan.github.io/pelican-test/hehehehehe.html" rel="alternate"></link><published>2019-05-15T10:50:00-07:00</published><updated>2019-05-15T10:50:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-15:/pelican-test/hehehehehe.html</id><content type="html">&lt;p&gt;It is a pleasure to edit in Markdown!&lt;/p&gt;
+&lt;p&gt;I used the article "&lt;a href="https://www.tecmint.com/move-home-directory-to-new-partition-disk-in-linux/"&gt;move your home directory to a new partiton&lt;/a&gt;" as a guide. The same approach here can be used for all sorts of directory and partition shuffling.&lt;/p&gt;
+&lt;p&gt;The basic procedure to move your &lt;code&gt;/home/&lt;/code&gt; to a new partition is to&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;create a new partition,&lt;/li&gt;
+&lt;li&gt;copy your existing &lt;code&gt;/home&lt;/code&gt; directory there and verify this operation succeeded,&lt;/li&gt;
+&lt;li&gt;remove the old files you just copied,&lt;/li&gt;
+&lt;li&gt;mount the copied files on the correct (new) partition to &lt;code&gt;/home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;save your configuration in &lt;code&gt;/etc/fstab&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;These operations will require &lt;code&gt;su&lt;/code&gt; permissions (e.g. through using &lt;code&gt;sudo&lt;/code&gt;).&lt;/p&gt;</content><category term="Linux"></category></entry><entry><title>HEHEHEHEHE</title><link href="https://captainalan.github.io/pelican-test/hehehehehe.html" rel="alternate"></link><published>2019-05-15T10:50:00-07:00</published><updated>2019-05-15T10:50:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-15:/pelican-test/hehehehehe.html</id><content type="html">&lt;p&gt;It is a pleasure to edit in Markdown!&lt;/p&gt;
 &lt;p&gt;Check out this animated pelican:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="A Pelican" src="https://i.imgur.com/ydhVJLu.gif"&gt;&lt;/p&gt;</content><category term="Fun"></category></entry><entry><title>Why Static Sites?</title><link href="https://captainalan.github.io/pelican-test/why-static-sites.html" rel="alternate"></link><published>2019-05-15T10:13:00-07:00</published><updated>2019-05-15T10:13:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-15:/pelican-test/why-static-sites.html</id><summary type="html">&lt;p&gt;Updated 8/12/2019&lt;/p&gt;
 &lt;p&gt;After half a year or so of learning all about dynamic websites (using
