@@ -187,6 +187,11 @@ Run `lsblk` to see that all is as it should be.
 Run `pacstrap /mnt base base-devel` to install the base package and basic
 development tools. If you want more things, add them like so to this command.
 
+**Update December 8, 2019**: You may want to also install `linux` and
+`linux-firmware` to make sure the latest Linux kernel and appropriate drivers
+respectively are installed. Do this before you install `grub` (directions
+below) or else you may not be able to boot your new installation.
+
 ```bash
 pacstrap /mnt base base-devel vim emacs
 ```
@@ -311,6 +316,10 @@ Arch install.
 
 If you aren't connected to the Internet, this step can be a pain in the ass.
 Search the Arch Wiki for wisdom.
+
+If you run into issues with `xorg`, search for answers related to your graphics
+card. Using an older (around 2010) laptop with an NVIDIA graphics card, I had
+to install the Nouveau drivers.
 
 ## Checking your new system out
 
