@@ -189,7 +189,7 @@ development tools. If you want more things, add them like so to this command.
 
 **Update December 8, 2019**: You may want to also install `linux` and
 `linux-firmware` to make sure the latest Linux kernel and appropriate drivers
-respectively are installed. Do this before you install `grub` (directions
+respectively are installed. Do this *before* you install `grub` (directions
 below) or else you may not be able to boot your new installation.
 
 ```bash
@@ -332,7 +332,20 @@ gparted`), then make sure the swap partiton I created had `SWAPON`
 (find option in menus). You can then `sudo swapon --show` to see that
 things are working correctly.
 
-### Messed up partitons?
+### Hard Drive Related Troubleshooting
+
+### Boot issues
+
+In this article, I used an "old-school" style of partitioning drives, mounting
+partitions, etc.  If you are having trouble booting, you may need to go into
+your BIOS to make sure you are booting devices in the correct order. You may
+also want to check that your `/boot` directory (mounted to its own partition,
+hopefully) is bootable. Look up how to add a boot **flag** to do this. Two ways
+are to use the `fdisk` util introduced at the beginning of this tutorial, or do
+get an install for another distro (e.g. Ubuntu) and use the graphical tools
+(e.g. gparted) to assist you in doing that.
+
+#### Messed up partitons?
 
 I used the article "[move your home directory to a new partiton](https://www.tecmint.com/move-home-directory-to-new-partition-disk-in-linux/)" as a guide. The same approach here can be used for all sorts of directory and partition shuffling.
 
