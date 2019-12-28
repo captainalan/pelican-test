@@ -177,7 +177,7 @@ which means we can install softare (like Arch Linux!).</p>
 development tools. If you want more things, add them like so to this command.</p>
 <p><strong>Update December 8, 2019</strong>: You may want to also install <code>linux</code> and
 <code>linux-firmware</code> to make sure the latest Linux kernel and appropriate drivers
-respectively are installed. Do this before you install <code>grub</code> (directions
+respectively are installed. Do this <em>before</em> you install <code>grub</code> (directions
 below) or else you may not be able to boot your new installation.</p>
 <div class="highlight"><pre><span></span>pacstrap /mnt base base-devel vim emacs
 </pre></div>
@@ -281,7 +281,17 @@ install gparted (<code>sudo pacman -Syu gparted</code>) and launch that (<code>s
 gparted</code>), then make sure the swap partiton I created had <code>SWAPON</code>
 (find option in menus). You can then <code>sudo swapon --show</code> to see that
 things are working correctly.</p>
-<h3>Messed up partitons?</h3>
+<h3>Hard Drive Related Troubleshooting</h3>
+<h3>Boot issues</h3>
+<p>In this article, I used an "old-school" style of partitioning drives, mounting
+partitions, etc.  If you are having trouble booting, you may need to go into
+your BIOS to make sure you are booting devices in the correct order. You may
+also want to check that your <code>/boot</code> directory (mounted to its own partition,
+hopefully) is bootable. Look up how to add a boot <strong>flag</strong> to do this. Two ways
+are to use the <code>fdisk</code> util introduced at the beginning of this tutorial, or do
+get an install for another distro (e.g. Ubuntu) and use the graphical tools
+(e.g. gparted) to assist you in doing that.</p>
+<h4>Messed up partitons?</h4>
 <p>I used the article "<a href="https://www.tecmint.com/move-home-directory-to-new-partition-disk-in-linux/">move your home directory to a new partiton</a>" as a guide. The same approach here can be used for all sorts of directory and partition shuffling.</p>
 <p>The basic procedure to move your <code>/home/</code> to a new partition is to</p>
 <ol>

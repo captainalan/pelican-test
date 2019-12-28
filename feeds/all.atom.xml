@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-08-14T00:00:00-07:00</updated><entry><title>Getting Comfortable with Linux</title><link href="https://captainalan.github.io/pelican-test/getting-comfortable-with-linux.html" rel="alternate"></link><published>2019-08-14T00:00:00-07:00</published><updated>2019-08-14T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-08-14:/pelican-test/getting-comfortable-with-linux.html</id><summary type="html">&lt;p&gt;Updated 8/14/2019&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-12-27T00:00:00-08:00</updated><entry><title>Why LARBS?</title><link href="https://captainalan.github.io/pelican-test/why-larbs.html" rel="alternate"></link><published>2019-12-27T00:00:00-08:00</published><updated>2019-12-27T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-12-27:/pelican-test/why-larbs.html</id><summary type="html">&lt;p&gt;In my &lt;a href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html"&gt;Arch Linux Install for n00bs&lt;/a&gt; I gave details on how to install Arch linux and then suggested &lt;a href="https://larbs.xyz"&gt;LARBS&lt;/a&gt; as a way to get up and running with your new installation. In this article I detail &lt;em&gt;why&lt;/em&gt; I find LARBS particularly useful and address some points brought up by …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In my &lt;a href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html"&gt;Arch Linux Install for n00bs&lt;/a&gt; I gave details on how to install Arch linux and then suggested &lt;a href="https://larbs.xyz"&gt;LARBS&lt;/a&gt; as a way to get up and running with your new installation. In this article I detail &lt;em&gt;why&lt;/em&gt; I find LARBS particularly useful and address some points brought up by haters.&lt;/p&gt;
+&lt;p&gt;(TODO: Describe what LARBS is; offer screenshot)&lt;/p&gt;
+&lt;h1&gt;Sensible Defaults&lt;/h1&gt;
+&lt;p&gt;The number one reason to use LARBS is to experience with &lt;strong&gt;sensible defaults
+for a keyboard centered workflow&lt;/strong&gt;. LARBS offers an out-of-the-box setup of
+many nice things that can take a long time to set up manually: a &lt;strong&gt;tiling
+window manager&lt;/strong&gt;, vi-like &lt;strong&gt;line editing&lt;/strong&gt; (via zsh), a PDF reader (Zathura).&lt;/p&gt;
+&lt;p&gt;Furthermore, LARBS comes bundled with software you probably want: e.g. a
+privacy-respecting browser (Brave), git, some programming languages and
+compilers. The &lt;code&gt;yay&lt;/code&gt; tool is already setup to help you grab even more software
+from Arch Linux's AUR repositories.&lt;/p&gt;
+&lt;h3&gt;But &lt;em&gt;real&lt;/em&gt; Linux users set these things up themselves&lt;/h3&gt;
+&lt;p&gt;Practical people want good tools readily available to them. If you begin
+learning guitar on a really poorly made instrument you are more likely to
+become discouraged and give up. On the other hand, if you have a more
+experienced friend (or shop) set up your instrument when you are getting
+started, you may make a lot more progress, more quickly in &lt;em&gt;actually learning
+how to play&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Furthermore, many aspects of installing things randomly often are annoying and
+don't involve much learning. The arcane details of how to run some program you
+are probably going to run only very rarely are perhaps better offloaded to
+automation (e.g. the shell scripts LARBS uses).&lt;/p&gt;
+&lt;h3&gt;But using someone else's setup is lame!&lt;/h3&gt;
+&lt;p&gt;LARBS does not constrain how you set things up later---it's just a shell script
+to get you started.&lt;/p&gt;
+&lt;p&gt;For instance, I use emacs a lot, and Luke Smith (who made LARBS) doesn't. Many
+tools in LARBS I don't care about or use (e.g. &lt;code&gt;vifm&lt;/code&gt;, vim-like file manager)
+because I just use &lt;code&gt;dired&lt;/code&gt; in emacs.&lt;/p&gt;
+&lt;h1&gt;Pros and Cons&lt;/h1&gt;
+&lt;h2&gt;What LARBS is &lt;em&gt;not&lt;/em&gt; good for&lt;/h2&gt;
+&lt;p&gt;Obviously, if you require applications that require Windows or some other OS, you are out of luck.&lt;/p&gt;
+&lt;p&gt;If you are doing complicated things with sound, hardware, etc. LARBS only gives a basic desktop setup. It may be much harder to adjust these settings in LARBS compared with a well-established Linux distribution, such as Lubuntu or Manjaro (two others I have tried with older hardware).&lt;/p&gt;
+&lt;p&gt;It is hard to set up typing in CJK; I'm still figuring out how to get this well
+integrated and will upload a guide when I am able to do so nicely.&lt;/p&gt;
+&lt;h2&gt;What LARBS &lt;em&gt;is&lt;/em&gt; good for&lt;/h2&gt;
+&lt;p&gt;LARBS is good for getting a decent general computing and programming
+environment set up quickly.&lt;/p&gt;
+&lt;p&gt;For a user coming from a more traditional desktop setup, LARBS allows you to
+explore ideas like...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tiling windows for more efficient screen space usage&lt;/li&gt;
+&lt;li&gt;Remapping CAPS LOCK for happier keyboarding&lt;/li&gt;
+&lt;li&gt;Editing config files to change settings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;...without the trouble that might come from tweaking another installation (e.g.
+modifying default Ubuntu) or doing everything from scratch.&lt;/p&gt;
+&lt;p&gt;While on the one hand, there is definitely learning to be done in &lt;em&gt;doing&lt;/em&gt;
+things yourself from the start, why shouldn't we reuse good defaults and stable
+software set up by more knowledgable people? Studying the LARBS config files is
+a good way to start writing your own configs.&lt;/p&gt;
+&lt;h1&gt;Summary&lt;/h1&gt;
+&lt;p&gt;If you wanna try out a tilling window manager, just install Arch and LARBS. It
+is not even that bad and you can customize it more later as you find out more
+about what you want.&lt;/p&gt;</content><category term="Linux"></category></entry><entry><title>Getting Comfortable with Linux</title><link href="https://captainalan.github.io/pelican-test/getting-comfortable-with-linux.html" rel="alternate"></link><published>2019-08-14T00:00:00-07:00</published><updated>2019-08-14T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-08-14:/pelican-test/getting-comfortable-with-linux.html</id><summary type="html">&lt;p&gt;Updated 8/14/2019&lt;/p&gt;
 &lt;h2&gt;This tutorial&lt;/h2&gt;
 &lt;p&gt;This tutorial aims to answer this question:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Now that I have a Linux system running, how do I go about learning
@@ -467,7 +520,7 @@ which means we can install softare (like Arch Linux!).&lt;/p&gt;
 development tools. If you want more things, add them like so to this command.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update December 8, 2019&lt;/strong&gt;: You may want to also install &lt;code&gt;linux&lt;/code&gt; and
 &lt;code&gt;linux-firmware&lt;/code&gt; to make sure the latest Linux kernel and appropriate drivers
-respectively are installed. Do this before you install &lt;code&gt;grub&lt;/code&gt; (directions
+respectively are installed. Do this &lt;em&gt;before&lt;/em&gt; you install &lt;code&gt;grub&lt;/code&gt; (directions
 below) or else you may not be able to boot your new installation.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pacstrap /mnt base base-devel vim emacs
 &lt;/pre&gt;&lt;/div&gt;
@@ -571,7 +624,17 @@ install gparted (&lt;code&gt;sudo pacman -Syu gparted&lt;/code&gt;) and launch t
 gparted&lt;/code&gt;), then make sure the swap partiton I created had &lt;code&gt;SWAPON&lt;/code&gt;
 (find option in menus). You can then &lt;code&gt;sudo swapon --show&lt;/code&gt; to see that
 things are working correctly.&lt;/p&gt;
-&lt;h3&gt;Messed up partitons?&lt;/h3&gt;
+&lt;h3&gt;Hard Drive Related Troubleshooting&lt;/h3&gt;
+&lt;h3&gt;Boot issues&lt;/h3&gt;
+&lt;p&gt;In this article, I used an "old-school" style of partitioning drives, mounting
+partitions, etc.  If you are having trouble booting, you may need to go into
+your BIOS to make sure you are booting devices in the correct order. You may
+also want to check that your &lt;code&gt;/boot&lt;/code&gt; directory (mounted to its own partition,
+hopefully) is bootable. Look up how to add a boot &lt;strong&gt;flag&lt;/strong&gt; to do this. Two ways
+are to use the &lt;code&gt;fdisk&lt;/code&gt; util introduced at the beginning of this tutorial, or do
+get an install for another distro (e.g. Ubuntu) and use the graphical tools
+(e.g. gparted) to assist you in doing that.&lt;/p&gt;
+&lt;h4&gt;Messed up partitons?&lt;/h4&gt;
 &lt;p&gt;I used the article "&lt;a href="https://www.tecmint.com/move-home-directory-to-new-partition-disk-in-linux/"&gt;move your home directory to a new partiton&lt;/a&gt;" as a guide. The same approach here can be used for all sorts of directory and partition shuffling.&lt;/p&gt;
 &lt;p&gt;The basic procedure to move your &lt;code&gt;/home/&lt;/code&gt; to a new partition is to&lt;/p&gt;
 &lt;ol&gt;
