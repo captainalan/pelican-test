@@ -9,7 +9,7 @@
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="https://captainalan.github.io/pelican-test/">Alan's Miscellaneous Stuff Blog </a></h1>
+                <h1><a href="https://captainalan.github.io/pelican-test/">Alan's Miscellaneous Stuff Blog</a></h1>
                 <nav><ul>
                     <li><a href="https://captainalan.github.io/pelican-test/category/fun.html">Fun</a></li>
                     <li><a href="https://captainalan.github.io/pelican-test/category/interwebs.html">Interwebs</a></li>
@@ -39,7 +39,7 @@
 
 </footer><!-- /.post-info -->      <h2>JavaScript</h2>
 <p>Does code highlighting work here?</p>
-<div class="highlight"><pre><span></span><span class="c1">// ES5</span>
+<div class="highlight"><pre><span></span><code><span class="c1">// ES5</span>
 <span class="kd">function</span> <span class="nx">foo</span><span class="p">()</span> <span class="p">{</span>
   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;bar baz&quot;</span><span class="p">);</span>
 <span class="p">}</span>
@@ -49,27 +49,27 @@
   <span class="kd">let</span> <span class="nx">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">];</span>
   <span class="k">return</span> <span class="o">=</span> <span class="nx">a</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">x</span> <span class="p">=&gt;</span> <span class="nx">x</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
 <span class="p">}</span>
-</pre></div>
+</code></pre></div>
 
 
 <h2>Haskell</h2>
 <p>Function application with the <code>&lt;*&gt;</code> operator and a <code>Maybe</code> context:</p>
-<div class="highlight"><pre><span></span><span class="kt">Just</span> <span class="p">(</span><span class="o">*</span><span class="mi">2</span><span class="p">)</span> <span class="o">&lt;*&gt;</span> <span class="kt">Just</span> <span class="mi">10</span>
+<div class="highlight"><pre><span></span><code><span class="kt">Just</span> <span class="p">(</span><span class="o">*</span><span class="mi">2</span><span class="p">)</span> <span class="o">&lt;*&gt;</span> <span class="kt">Just</span> <span class="mi">10</span>
 <span class="kt">Just</span> <span class="mi">20</span>
-</pre></div>
+</code></pre></div>
 
 
 <p>Why might you want to do that?</p>
-<div class="highlight"><pre><span></span><span class="kt">Just</span> <span class="p">(</span><span class="o">*</span><span class="mi">2</span><span class="p">)</span> <span class="o">&lt;*&gt;</span> <span class="kt">Just</span> <span class="s">&quot;asdf&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="kt">Just</span> <span class="p">(</span><span class="o">*</span><span class="mi">2</span><span class="p">)</span> <span class="o">&lt;*&gt;</span> <span class="kt">Just</span> <span class="s">&quot;asdf&quot;</span>
 <span class="c1">-- ERROR....!!!</span>
-</pre></div>
+</code></pre></div>
 
 
 <p>Things blow up if incompatible types are used. Whoa!</p>
 <p>Here's some more functional fun.</p>
-<div class="highlight"><pre><span></span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="o">&lt;$&gt;</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span> <span class="o">&lt;*&gt;</span> <span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+<div class="highlight"><pre><span></span><code><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="o">&lt;$&gt;</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span> <span class="o">&lt;*&gt;</span> <span class="p">[</span><span class="mi">3</span><span class="p">]</span>
 <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">6</span><span class="p">]</span>
-</pre></div>
+</code></pre></div>
 
 
 <p>The code above maps the multiplication operator to the first list [1,2] to produce 
@@ -77,29 +77,29 @@ the functions something like this <code>[(\x -&gt; x * 1), (\x -&gt; x * 2)]</co
 are in turn each applied to to <code>[3]</code> giving <code>[3,6]</code>.</p>
 <h2>Python</h2>
 <p>Input</p>
-<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">9</span><span class="p">),</span><span class="n">reshape</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
 <span class="n">a</span>
-</pre></div>
+</code></pre></div>
 
 
 <p>Output:</p>
-<div class="highlight"><pre><span></span><span class="n">array</span><span class="p">([[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+<div class="highlight"><pre><span></span><code><span class="n">array</span><span class="p">([[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
        <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span>
        <span class="p">[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">]])</span>
-</pre></div>
+</code></pre></div>
 
 
 <p>Multiplying <code>a</code> by a scalar quantity</p>
-<div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">*</span> <span class="mi">2</span>
-</pre></div>
+<div class="highlight"><pre><span></span><code><span class="n">a</span> <span class="o">*</span> <span class="mi">2</span>
+</code></pre></div>
 
 
 <p>Gives:</p>
-<div class="highlight"><pre><span></span><span class="n">array</span><span class="p">([[</span> <span class="mi">0</span><span class="p">,</span>  <span class="mi">2</span><span class="p">,</span>  <span class="mi">4</span><span class="p">],</span>
+<div class="highlight"><pre><span></span><code><span class="n">array</span><span class="p">([[</span> <span class="mi">0</span><span class="p">,</span>  <span class="mi">2</span><span class="p">,</span>  <span class="mi">4</span><span class="p">],</span>
        <span class="p">[</span> <span class="mi">6</span><span class="p">,</span>  <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">],</span>
        <span class="p">[</span><span class="mi">12</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">16</span><span class="p">]])</span>
-</pre></div>
+</code></pre></div>
     </div><!-- /.entry-content -->
 
   </article>

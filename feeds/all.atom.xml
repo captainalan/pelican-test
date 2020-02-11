@@ -1,6 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-12-27T00:00:00-08:00</updated><entry><title>Why LARBS?</title><link href="https://captainalan.github.io/pelican-test/why-larbs.html" rel="alternate"></link><published>2019-12-27T00:00:00-08:00</published><updated>2019-12-27T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-12-27:/pelican-test/why-larbs.html</id><summary type="html">&lt;p&gt;In my &lt;a href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html"&gt;Arch Linux Install for n00bs&lt;/a&gt; I gave details on how to install Arch linux and then suggested &lt;a href="https://larbs.xyz"&gt;LARBS&lt;/a&gt; as a way to get up and running with your new installation. In this article I detail &lt;em&gt;why&lt;/em&gt; I find LARBS particularly useful and address some points brought up by …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In my &lt;a href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html"&gt;Arch Linux Install for n00bs&lt;/a&gt; I gave details on how to install Arch linux and then suggested &lt;a href="https://larbs.xyz"&gt;LARBS&lt;/a&gt; as a way to get up and running with your new installation. In this article I detail &lt;em&gt;why&lt;/em&gt; I find LARBS particularly useful and address some points brought up by haters.&lt;/p&gt;
-&lt;p&gt;(TODO: Describe what LARBS is; offer screenshot)&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-02-10T00:00:00-08:00</updated><entry><title>Facebook is Fine</title><link href="https://captainalan.github.io/pelican-test/facebook-is-fine.html" rel="alternate"></link><published>2020-02-10T00:00:00-08:00</published><updated>2020-02-10T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-02-10:/pelican-test/facebook-is-fine.html</id><summary type="html">&lt;p&gt;A quick Internet search (c.f. &lt;em&gt;Google&lt;/em&gt; search) will reveal troves of
+anti-Facebook articles. Should you get off Facebook?&lt;/p&gt;
+&lt;p&gt;I have not quit Facebook. Here's some reasons why:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Using an online platform transparently linked to your real-world
+   offers many advantages over anonymous platforms for &lt;strong&gt;connecting
+   with real-life friends and family …&lt;/strong&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;A quick Internet search (c.f. &lt;em&gt;Google&lt;/em&gt; search) will reveal troves of
+anti-Facebook articles. Should you get off Facebook?&lt;/p&gt;
+&lt;p&gt;I have not quit Facebook. Here's some reasons why:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Using an online platform transparently linked to your real-world
+   offers many advantages over anonymous platforms for &lt;strong&gt;connecting
+   with real-life friends and family, commerce, and finding new
+   communities&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Facebook will harvest data on you (you "node" in its graph) whether
+   you like it or not; might as well &lt;strong&gt;take as much control&lt;/strong&gt; of your
+   user profile as you can&lt;/li&gt;
+&lt;li&gt;You can &lt;strong&gt;train Facebook&lt;/strong&gt; to be more useful to you: e.g. use
+   Facebook to study a foreign language&lt;/li&gt;
+&lt;li&gt;Understanding Facebook is a &lt;strong&gt;marketable skill&lt;/strong&gt;: particularly,
+   managing ad campaigns, administering pages, etc.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For those that can manage not being totally addicted to Facebook, I
+think it is a decently good idea to reclaim Facebook as &lt;em&gt;your public
+facing platform&lt;/em&gt;. Facebook is now a rather established platform that
+offers many useful services. Approaching Facebook purposefully, you
+can leverage it to be an overall good thing in your life.&lt;/p&gt;
+&lt;h2&gt;Don't be a coward, show your face!&lt;/h2&gt;
+&lt;p&gt;There are many places on the Internet where users communicate with
+(relative) anonymity, hiding behind an anime profile picture, an image
+of a cute dog/cat, some meme character, etc.  Certainly, there are
+cases where anonymity is useful, notably for &lt;strong&gt;whistleblowers&lt;/strong&gt; or
+other individuals who &lt;em&gt;must&lt;/em&gt; be anonymous for their own safety.  I
+support the creation and maintenance of places for people to
+communicate anonymously (and oppose "deplatforming" in the USA where I
+live, generally), but I don't think they are good for most people most
+of the time.&lt;/p&gt;
+&lt;p&gt;Here are some general points about how anonymity can lead to bad
+behavior:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Little to no "&lt;strong&gt;skin in the game&lt;/strong&gt;" causes people to speak
+  recklessly or to take actions that can hurt others&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Escapism&lt;/strong&gt; is encouraged; &lt;strong&gt;accountability&lt;/strong&gt; is avoided&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trends&lt;/strong&gt; are more difficult to assess; prolific shit-posters may
+  inflate the relevance of certain themes, bringing the fringe to the
+  mainstream; different information ecosystems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;On the other hand, having a real-world identity linked up with online
+interactions encourages people to treat each other more politely and
+avoid being overtly nasty as the Internet functions as something of a
+public record.&lt;/p&gt;
+&lt;p&gt;Using a real-world identity online encoruages people to use online
+platforms as &lt;em&gt;a gateway to offline interactions&lt;/em&gt;. Logistics can be
+handled much more easily if everyone involved is familiar with social
+media.&lt;/p&gt;
+&lt;p&gt;The question of ads and influence (what I like to call "the dark
+arts") is a big topic, especially following all the 2016 presidential
+election stuff. That being said, a platform like Facebook allows
+astute users to observe who is pushing what agenda more
+transparently. Ads have to be pushed by someone for something, after
+all. &lt;/p&gt;
+&lt;h2&gt;Control your node&lt;/h2&gt;
+&lt;p&gt;I have spoken to friends who at some point or another decided to
+"close" their Facebook accounts. To the best of my knowledge, Facebook
+makes no promises at ever completely deleting your stuff, so closing
+your account is essentially forfeiting control of your node (data representing you on Facebook's &lt;a href="https://developers.facebook.com/docs/graph-api/overview"&gt;Graph API&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Choosing to keep a Facebook account (even if you don't use it much) is
+akin to holding onto property you'd rather have &lt;em&gt;not abused&lt;/em&gt; event if
+you aren't actively using it. Particularly for public-facing
+individuals, keeping control of Facebook content about you might be a
+good idea,&lt;/p&gt;
+&lt;h2&gt;Train Facebook to do what you want&lt;/h2&gt;
+&lt;p&gt;Facebook's &lt;strong&gt;Feed&lt;/strong&gt; has been the subject of lots of controversy.  Many
+things about it are opaque to end users. However, in general, a "what
+you put into the surveillance state browser is what you get out of it"
+principle seems to hold true for most people I have discussed these
+issues with.&lt;/p&gt;
+&lt;p&gt;If you log into Google chrome and search for digital camera things on
+Amazon, what sort of ads do you expect to see in Facebook?&lt;/p&gt;
+&lt;p&gt;You can train Facebook to give you more of what you think you &lt;em&gt;should
+be seeing&lt;/em&gt;. For example, if you are trying to do more home cooking,
+just go search some cooking stuff. Facebook will probably feed you
+lots of interesting inspiration.&lt;/p&gt;
+&lt;h2&gt;Purposefully use Facebook&lt;/h2&gt;
+&lt;p&gt;Nowadays, I only pick up phone calls if I am expecting a call or if
+the number calling is one I recognize. This has saved lots of time.&lt;/p&gt;
+&lt;p&gt;Approaching Facebook with a &lt;strong&gt;policy&lt;/strong&gt; like how many people approach
+phone calls can allow you to leverage this powerful platform to
+enhance your life. &lt;/p&gt;</content><category term="Interwebs"></category></entry><entry><title>Why LARBS?</title><link href="https://captainalan.github.io/pelican-test/why-larbs.html" rel="alternate"></link><published>2019-12-27T00:00:00-08:00</published><updated>2019-12-27T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-12-27:/pelican-test/why-larbs.html</id><summary type="html">&lt;p&gt;In my &lt;a href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html"&gt;Arch Linux Install for n00bs&lt;/a&gt; I gave details on how to install Arch linux and then suggested &lt;a href="https://larbs.xyz"&gt;LARBS&lt;/a&gt; as a way to get up and running with your new installation. In this article I detail &lt;em&gt;why&lt;/em&gt; I find LARBS particularly useful and address some points brought up by …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In my &lt;a href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html"&gt;Arch Linux Install for n00bs&lt;/a&gt; I gave details on how to install Arch linux and then suggested &lt;a href="https://larbs.xyz"&gt;LARBS&lt;/a&gt; as a way to get up and running with your new installation. In this article I detail &lt;em&gt;why&lt;/em&gt; I find LARBS particularly useful and address some points brought up by haters.&lt;/p&gt;
 &lt;h1&gt;Sensible Defaults&lt;/h1&gt;
 &lt;p&gt;The number one reason to use LARBS is to experience with &lt;strong&gt;sensible defaults
 for a keyboard centered workflow&lt;/strong&gt;. LARBS offers an out-of-the-box setup of
@@ -422,8 +509,8 @@ USB drives, SD cards, and more.&lt;/p&gt;
 &lt;h3&gt;Get an internet connection&lt;/h3&gt;
 &lt;p&gt;If you are already connected to the Internet via an ethernet cable, there is
 nothing to think about. If you are connecting via Wi-Fi, run:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;wifi-menu
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;wifi-menu
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;I can't help you anymore if you are connecting from McDonald's wifi... But on
@@ -452,8 +539,8 @@ This will probably be &lt;code&gt;/dev/sda&lt;/code&gt; if you are installing on
 partition table on (don't do &lt;code&gt;fdisk /dev/sda123&lt;/code&gt;; this won't
 work&amp;em;go ahead and try that if you don't believe me!).&lt;/p&gt;
 &lt;p&gt;You will now be sent to a new prompt that looks something like:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;Command (m for help):&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;Command (m for help):&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;If there are existing partitions you may need to type &lt;code&gt;d&lt;/code&gt; to delete them.
@@ -522,8 +609,8 @@ development tools. If you want more things, add them like so to this command.&lt
 &lt;code&gt;linux-firmware&lt;/code&gt; to make sure the latest Linux kernel and appropriate drivers
 respectively are installed. Do this &lt;em&gt;before&lt;/em&gt; you install &lt;code&gt;grub&lt;/code&gt; (directions
 below) or else you may not be able to boot your new installation.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pacstrap /mnt base base-devel vim emacs
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pacstrap /mnt base base-devel vim emacs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Running this command might take a while because it is installing an entire
@@ -554,15 +641,15 @@ file. (This might be done automatically.)&lt;/p&gt;
 &lt;h3&gt;Setting a locale&lt;/h3&gt;
 &lt;p&gt;Use your text editor (here I use &lt;code&gt;vim&lt;/code&gt;) to edit &lt;code&gt;/etc/locale.gen&lt;/code&gt;. I do this
 with &lt;code&gt;vim /etc/locale.gen&lt;/code&gt;. In this huge list of locales I uncommented&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;#en_US.UTF-8 UTF-8&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;#en_US.UTF-8 UTF-8&lt;/span&gt;
 &lt;span class="err"&gt;#en_US ISO-8859-1&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;to...&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;en_US.UTF-8 UTF-8&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;en_US.UTF-8 UTF-8&lt;/span&gt;
 &lt;span class="err"&gt;en_US ISO-8859-1&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;...in order to set my locale. Note, you can set multiple languages. Save and
@@ -571,15 +658,15 @@ exit this file.&lt;/p&gt;
 file.&lt;/p&gt;
 &lt;p&gt;Let's edit one more file to set our (default) language: &lt;code&gt;vim
 /etc/locale.conf&lt;/code&gt;. I changed the contents of this file to:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;LANG=en_US.UTF-8&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;LANG=en_US.UTF-8&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h3&gt;Setting a timezone&lt;/h3&gt;
 &lt;p&gt;By default, in &lt;code&gt;/etc/localtime&lt;/code&gt;, there are a bunch of time zones. We want to
 link &lt;code&gt;/usr/share/zoneinfo/&lt;/code&gt; with our timezone.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;...where of course you replace &lt;code&gt;.../America/Los_Angles...&lt;/code&gt; with where you are.&lt;/p&gt;
@@ -601,9 +688,9 @@ Luke Smith's &lt;a href="https://larbs.xyz"&gt;LARBS&lt;/a&gt; setup.&lt;/p&gt;
 &lt;p&gt;Booting your new Arch setup, login as &lt;code&gt;root&lt;/code&gt;. You'll be prompted for your
 password.&lt;/p&gt;
 &lt;p&gt;Next, run&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;curl -LO larbs.xyz/larbs.sh  &lt;span class="c1"&gt;# Download the script&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;curl -LO larbs.xyz/larbs.sh  &lt;span class="c1"&gt;# Download the script&lt;/span&gt;
 bash larbs.sh                &lt;span class="c1"&gt;# Run the script you just downloaded!&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h3&gt;Logging in&lt;/h3&gt;
@@ -696,7 +783,7 @@ and engineering-ish problems. &lt;/p&gt;
 &lt;p&gt;Maybe you should write a math or engineering blog if you wanna do
 either of those activities, respectively 😡&lt;/p&gt;</content><category term="Interwebs"></category></entry><entry><title>Pelican Supports Syntax Highlighting</title><link href="https://captainalan.github.io/pelican-test/pelican-supports-syntax-highlighting.html" rel="alternate"></link><published>2019-05-14T00:00:00-07:00</published><updated>2019-05-14T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-14:/pelican-test/pelican-supports-syntax-highlighting.html</id><summary type="html">&lt;h2&gt;JavaScript&lt;/h2&gt;
 &lt;p&gt;Does code highlighting work here?&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;// ES5&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;// ES5&lt;/span&gt;
 &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;foo&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
   &lt;span class="nx"&gt;console&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;log&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;bar baz&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
@@ -706,19 +793,19 @@ either of those activities, respectively 😡&lt;/p&gt;</content><category term=
   &lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nx"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;
   &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;a&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;map&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;x&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="nx"&gt;x&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;Haskell&lt;/h2&gt;
 &lt;p&gt;Function application with the &lt;code&gt;&amp;lt;*&amp;gt;&lt;/code&gt; operator and a &lt;code&gt;Maybe&lt;/code&gt; context:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kt"&gt;Just&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;*&amp;gt;&lt;/span&gt; &lt;span class="kt"&gt;Just&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kt"&gt;Just&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;*&amp;gt;&lt;/span&gt; &lt;span class="kt"&gt;Just&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;
 &lt;span class="kt"&gt;Just&lt;/span&gt; &lt;span class="mi"&gt;20&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Why might you want to do that …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;JavaScript&lt;/h2&gt;
 &lt;p&gt;Does code highlighting work here?&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;// ES5&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;// ES5&lt;/span&gt;
 &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;foo&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
   &lt;span class="nx"&gt;console&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;log&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;bar baz&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
@@ -728,27 +815,27 @@ either of those activities, respectively 😡&lt;/p&gt;</content><category term=
   &lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nx"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;
   &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;a&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;map&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;x&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="nx"&gt;x&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;Haskell&lt;/h2&gt;
 &lt;p&gt;Function application with the &lt;code&gt;&amp;lt;*&amp;gt;&lt;/code&gt; operator and a &lt;code&gt;Maybe&lt;/code&gt; context:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kt"&gt;Just&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;*&amp;gt;&lt;/span&gt; &lt;span class="kt"&gt;Just&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kt"&gt;Just&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;*&amp;gt;&lt;/span&gt; &lt;span class="kt"&gt;Just&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;
 &lt;span class="kt"&gt;Just&lt;/span&gt; &lt;span class="mi"&gt;20&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Why might you want to do that?&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kt"&gt;Just&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;*&amp;gt;&lt;/span&gt; &lt;span class="kt"&gt;Just&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;asdf&amp;quot;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kt"&gt;Just&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;*&amp;gt;&lt;/span&gt; &lt;span class="kt"&gt;Just&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;asdf&amp;quot;&lt;/span&gt;
 &lt;span class="c1"&gt;-- ERROR....!!!&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Things blow up if incompatible types are used. Whoa!&lt;/p&gt;
 &lt;p&gt;Here's some more functional fun.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;$&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;*&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;$&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;*&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;The code above maps the multiplication operator to the first list [1,2] to produce 
@@ -756,26 +843,26 @@ the functions something like this &lt;code&gt;[(\x -&amp;gt; x * 1), (\x -&amp;g
 are in turn each applied to to &lt;code&gt;[3]&lt;/code&gt; giving &lt;code&gt;[3,6]&lt;/code&gt;.&lt;/p&gt;
 &lt;h2&gt;Python&lt;/h2&gt;
 &lt;p&gt;Input&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
 &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;arange&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;&lt;span class="n"&gt;reshape&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;a&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Output:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;([[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;([[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
        &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
        &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;]])&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Multiplying &lt;code&gt;a&lt;/code&gt; by a scalar quantity&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Gives:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;([[&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;([[&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
        &lt;span class="p"&gt;[&lt;/span&gt; &lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
        &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;16&lt;/span&gt;&lt;span class="p"&gt;]])&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="Programming"></category></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Programming"></category></entry></feed>

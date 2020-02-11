@@ -9,7 +9,7 @@
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="https://captainalan.github.io/pelican-test/">Alan's Miscellaneous Stuff Blog </a></h1>
+                <h1><a href="https://captainalan.github.io/pelican-test/">Alan's Miscellaneous Stuff Blog</a></h1>
                 <nav><ul>
                     <li><a href="https://captainalan.github.io/pelican-test/category/fun.html">Fun</a></li>
                     <li><a href="https://captainalan.github.io/pelican-test/category/interwebs.html">Interwebs</a></li>
@@ -79,8 +79,8 @@ USB drives, SD cards, and more.</p>
 <h3>Get an internet connection</h3>
 <p>If you are already connected to the Internet via an ethernet cable, there is
 nothing to think about. If you are connecting via Wi-Fi, run:</p>
-<div class="highlight"><pre><span></span>wifi-menu
-</pre></div>
+<div class="highlight"><pre><span></span><code>wifi-menu
+</code></pre></div>
 
 
 <p>I can't help you anymore if you are connecting from McDonald's wifi... But on
@@ -109,8 +109,8 @@ This will probably be <code>/dev/sda</code> if you are installing onto an old co
 partition table on (don't do <code>fdisk /dev/sda123</code>; this won't
 work&em;go ahead and try that if you don't believe me!).</p>
 <p>You will now be sent to a new prompt that looks something like:</p>
-<div class="highlight"><pre><span></span><span class="err">Command (m for help):</span>
-</pre></div>
+<div class="highlight"><pre><span></span><code><span class="err">Command (m for help):</span>
+</code></pre></div>
 
 
 <p>If there are existing partitions you may need to type <code>d</code> to delete them.
@@ -179,8 +179,8 @@ development tools. If you want more things, add them like so to this command.</p
 <code>linux-firmware</code> to make sure the latest Linux kernel and appropriate drivers
 respectively are installed. Do this <em>before</em> you install <code>grub</code> (directions
 below) or else you may not be able to boot your new installation.</p>
-<div class="highlight"><pre><span></span>pacstrap /mnt base base-devel vim emacs
-</pre></div>
+<div class="highlight"><pre><span></span><code>pacstrap /mnt base base-devel vim emacs
+</code></pre></div>
 
 
 <p>Running this command might take a while because it is installing an entire
@@ -211,15 +211,15 @@ file. (This might be done automatically.)</p>
 <h3>Setting a locale</h3>
 <p>Use your text editor (here I use <code>vim</code>) to edit <code>/etc/locale.gen</code>. I do this
 with <code>vim /etc/locale.gen</code>. In this huge list of locales I uncommented</p>
-<div class="highlight"><pre><span></span><span class="err">#en_US.UTF-8 UTF-8</span>
+<div class="highlight"><pre><span></span><code><span class="err">#en_US.UTF-8 UTF-8</span>
 <span class="err">#en_US ISO-8859-1</span>
-</pre></div>
+</code></pre></div>
 
 
 <p>to...</p>
-<div class="highlight"><pre><span></span><span class="err">en_US.UTF-8 UTF-8</span>
+<div class="highlight"><pre><span></span><code><span class="err">en_US.UTF-8 UTF-8</span>
 <span class="err">en_US ISO-8859-1</span>
-</pre></div>
+</code></pre></div>
 
 
 <p>...in order to set my locale. Note, you can set multiple languages. Save and
@@ -228,15 +228,15 @@ exit this file.</p>
 file.</p>
 <p>Let's edit one more file to set our (default) language: <code>vim
 /etc/locale.conf</code>. I changed the contents of this file to:</p>
-<div class="highlight"><pre><span></span><span class="err">LANG=en_US.UTF-8</span>
-</pre></div>
+<div class="highlight"><pre><span></span><code><span class="err">LANG=en_US.UTF-8</span>
+</code></pre></div>
 
 
 <h3>Setting a timezone</h3>
 <p>By default, in <code>/etc/localtime</code>, there are a bunch of time zones. We want to
 link <code>/usr/share/zoneinfo/</code> with our timezone.</p>
-<div class="highlight"><pre><span></span><span class="err">ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime</span>
-</pre></div>
+<div class="highlight"><pre><span></span><code><span class="err">ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime</span>
+</code></pre></div>
 
 
 <p>...where of course you replace <code>.../America/Los_Angles...</code> with where you are.</p>
@@ -258,9 +258,9 @@ Luke Smith's <a href="https://larbs.xyz">LARBS</a> setup.</p>
 <p>Booting your new Arch setup, login as <code>root</code>. You'll be prompted for your
 password.</p>
 <p>Next, run</p>
-<div class="highlight"><pre><span></span>curl -LO larbs.xyz/larbs.sh  <span class="c1"># Download the script</span>
+<div class="highlight"><pre><span></span><code>curl -LO larbs.xyz/larbs.sh  <span class="c1"># Download the script</span>
 bash larbs.sh                <span class="c1"># Run the script you just downloaded!</span>
-</pre></div>
+</code></pre></div>
 
 
 <h3>Logging in</h3>

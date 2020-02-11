@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Linux</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/linux.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-12-27T00:00:00-08:00</updated><entry><title>Why LARBS?</title><link href="https://captainalan.github.io/pelican-test/why-larbs.html" rel="alternate"></link><published>2019-12-27T00:00:00-08:00</published><updated>2019-12-27T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-12-27:/pelican-test/why-larbs.html</id><summary type="html">&lt;p&gt;In my &lt;a href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html"&gt;Arch Linux Install for n00bs&lt;/a&gt; I gave details on how to install Arch linux and then suggested &lt;a href="https://larbs.xyz"&gt;LARBS&lt;/a&gt; as a way to get up and running with your new installation. In this article I detail &lt;em&gt;why&lt;/em&gt; I find LARBS particularly useful and address some points brought up by …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In my &lt;a href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html"&gt;Arch Linux Install for n00bs&lt;/a&gt; I gave details on how to install Arch linux and then suggested &lt;a href="https://larbs.xyz"&gt;LARBS&lt;/a&gt; as a way to get up and running with your new installation. In this article I detail &lt;em&gt;why&lt;/em&gt; I find LARBS particularly useful and address some points brought up by haters.&lt;/p&gt;
-&lt;p&gt;(TODO: Describe what LARBS is; offer screenshot)&lt;/p&gt;
 &lt;h1&gt;Sensible Defaults&lt;/h1&gt;
 &lt;p&gt;The number one reason to use LARBS is to experience with &lt;strong&gt;sensible defaults
 for a keyboard centered workflow&lt;/strong&gt;. LARBS offers an out-of-the-box setup of
@@ -227,8 +226,8 @@ USB drives, SD cards, and more.&lt;/p&gt;
 &lt;h3&gt;Get an internet connection&lt;/h3&gt;
 &lt;p&gt;If you are already connected to the Internet via an ethernet cable, there is
 nothing to think about. If you are connecting via Wi-Fi, run:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;wifi-menu
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;wifi-menu
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;I can't help you anymore if you are connecting from McDonald's wifi... But on
@@ -257,8 +256,8 @@ This will probably be &lt;code&gt;/dev/sda&lt;/code&gt; if you are installing on
 partition table on (don't do &lt;code&gt;fdisk /dev/sda123&lt;/code&gt;; this won't
 work&amp;em;go ahead and try that if you don't believe me!).&lt;/p&gt;
 &lt;p&gt;You will now be sent to a new prompt that looks something like:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;Command (m for help):&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;Command (m for help):&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;If there are existing partitions you may need to type &lt;code&gt;d&lt;/code&gt; to delete them.
@@ -327,8 +326,8 @@ development tools. If you want more things, add them like so to this command.&lt
 &lt;code&gt;linux-firmware&lt;/code&gt; to make sure the latest Linux kernel and appropriate drivers
 respectively are installed. Do this &lt;em&gt;before&lt;/em&gt; you install &lt;code&gt;grub&lt;/code&gt; (directions
 below) or else you may not be able to boot your new installation.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pacstrap /mnt base base-devel vim emacs
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pacstrap /mnt base base-devel vim emacs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Running this command might take a while because it is installing an entire
@@ -359,15 +358,15 @@ file. (This might be done automatically.)&lt;/p&gt;
 &lt;h3&gt;Setting a locale&lt;/h3&gt;
 &lt;p&gt;Use your text editor (here I use &lt;code&gt;vim&lt;/code&gt;) to edit &lt;code&gt;/etc/locale.gen&lt;/code&gt;. I do this
 with &lt;code&gt;vim /etc/locale.gen&lt;/code&gt;. In this huge list of locales I uncommented&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;#en_US.UTF-8 UTF-8&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;#en_US.UTF-8 UTF-8&lt;/span&gt;
 &lt;span class="err"&gt;#en_US ISO-8859-1&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;to...&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;en_US.UTF-8 UTF-8&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;en_US.UTF-8 UTF-8&lt;/span&gt;
 &lt;span class="err"&gt;en_US ISO-8859-1&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;...in order to set my locale. Note, you can set multiple languages. Save and
@@ -376,15 +375,15 @@ exit this file.&lt;/p&gt;
 file.&lt;/p&gt;
 &lt;p&gt;Let's edit one more file to set our (default) language: &lt;code&gt;vim
 /etc/locale.conf&lt;/code&gt;. I changed the contents of this file to:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;LANG=en_US.UTF-8&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;LANG=en_US.UTF-8&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h3&gt;Setting a timezone&lt;/h3&gt;
 &lt;p&gt;By default, in &lt;code&gt;/etc/localtime&lt;/code&gt;, there are a bunch of time zones. We want to
 link &lt;code&gt;/usr/share/zoneinfo/&lt;/code&gt; with our timezone.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;...where of course you replace &lt;code&gt;.../America/Los_Angles...&lt;/code&gt; with where you are.&lt;/p&gt;
@@ -406,9 +405,9 @@ Luke Smith's &lt;a href="https://larbs.xyz"&gt;LARBS&lt;/a&gt; setup.&lt;/p&gt;
 &lt;p&gt;Booting your new Arch setup, login as &lt;code&gt;root&lt;/code&gt;. You'll be prompted for your
 password.&lt;/p&gt;
 &lt;p&gt;Next, run&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;curl -LO larbs.xyz/larbs.sh  &lt;span class="c1"&gt;# Download the script&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;curl -LO larbs.xyz/larbs.sh  &lt;span class="c1"&gt;# Download the script&lt;/span&gt;
 bash larbs.sh                &lt;span class="c1"&gt;# Run the script you just downloaded!&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h3&gt;Logging in&lt;/h3&gt;
