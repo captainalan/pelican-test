@@ -1,22 +1,22 @@
-# Getting Started with Pelican (Static Site Generator)
+# My Blog Using Pelican (Static Site Generator)
 
-See this site deployed on [GitHub
+I started this blog to try out
+[Pelican](https://github.com/getpelican/pelican).  As I've made somme
+hard links to this blog, I'm decided to keep deploying stuff to the
+published site on [GitHub
 Pages](https://captainalan.github.io/pelican-test/).
+
+## Pre-requisites
+
+I will assume basic working knowledge of Python, Markdown, HTML/CSS and client
+side JavaScript.
 
 ## Setting up
 
 시작이 빈이다  
 "Starting is half the battle"
 
-### Pre-requisites
-
-All instructions below assume you are working with WSL under Windows.
-Similar steps probably work on all UNIX based systems, including MacOS.
-
-I will assume basic working knowledge of Python, Markdown, HTML/CSS and client
-side JavaScript.
-
-### Installing things
+### Installing Pelican
 
 You need a working installation of Python (3) and `pip` to use Pelican. In the
 [official Pelican docs](http://docs.getpelican.com/en/3.6.3/install.html) there
@@ -26,9 +26,22 @@ are some instructions for setting up a virtual environment:
     cd ~/virtualenvs/pelican
     source bin/activate
 
-This way of going about things is good because you can just activate this same
-virtual environment when working with any of your Pelican projects.
-Next, do
+On Ubuntu, which has Python 2 (under the `python` command) by default
+the last time I tried it, I had to first install the `python3-pip`
+package (via `sudo apt install python3-pip`) and then do `pip3 install
+virtualenv`. Only then could I do...
+
+```bash
+python3 -m virtualenv ~/virtualenvs/pelican
+# etc etc
+```
+
+...following the same steps as above. Ughh! Versioning!
+
+### Using your `virtualenv`
+
+When working on any of your Pelican projects, you can use the virtual
+enviornment you just made.  Install some packages:
 
     pip install pelican
     pip install Markdown
@@ -36,12 +49,16 @@ Next, do
 
 You can now run `make github` to build the site.
 
-(Depending on your installation(s) of Python, you may have to do something like
-`python3 -m virtualenv ~/virtualenvs/pelican` to explicitly call `virtualenv` as
-a module using a particular version of Python)
+### Returning to work
 
-To get GitHub Pages to work, you need to install `ghp-import`.
-Then, just run `make github`.
+There's probably some indicator in your terminal that you are in a
+virtual enviornment (e.g. Ubuntu default theme shows me `(pelican)`)
+at the prompt. If you clsoe your window, you're going to have to use
+`source bin/activate` from your pelican virtual environment directory
+again.
+
+From your project's directory, run `make help` to display some helpful
+information for working with pelican.
 
 ### Troubleshooting
 

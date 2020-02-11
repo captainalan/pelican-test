@@ -4,8 +4,6 @@ category: Linux
 
 In my [Arch Linux Install for n00bs](https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html) I gave details on how to install Arch linux and then suggested [LARBS](https://larbs.xyz) as a way to get up and running with your new installation. In this article I detail *why* I find LARBS particularly useful and address some points brought up by haters.
 
-(TODO: Describe what LARBS is; offer screenshot)
-
 
 Sensible Defaults
 =================
