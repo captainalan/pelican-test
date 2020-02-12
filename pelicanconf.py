@@ -20,8 +20,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Homepage (SPA)', 'https://captainalan.github.io/'),)
+LINKS = (
+    ('Pelican', 'http://getpelican.com/'),
+    ('Homepage', 'https://captainalan.github.io/'),
+)
 
 # Social widget
 SOCIAL = (('GitHub', 'https://github.com/captainalan'),
