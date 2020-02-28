@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Interwebs</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/interwebs.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-02-10T00:00:00-08:00</updated><entry><title>Facebook is Fine</title><link href="https://captainalan.github.io/pelican-test/facebook-is-fine.html" rel="alternate"></link><published>2020-02-10T00:00:00-08:00</published><updated>2020-02-10T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-02-10:/pelican-test/facebook-is-fine.html</id><summary type="html">&lt;p&gt;A quick Internet search (c.f. &lt;em&gt;Google&lt;/em&gt; search) will reveal troves of
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Interwebs</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/interwebs.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-02-26T00:00:00-08:00</updated><entry><title>Use Browser Navigation</title><link href="https://captainalan.github.io/pelican-test/use-browser-navigation.html" rel="alternate"></link><published>2020-02-26T00:00:00-08:00</published><updated>2020-02-26T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-02-26:/pelican-test/use-browser-navigation.html</id><summary type="html">&lt;p&gt;Built into all browsers these days are buttons like FORWARD, BACK, and
+REFRESH. However, many web developers choose to build navigation
+components into their sites which ignore this built in functionality.
+The result is UI &lt;strong&gt;bloat&lt;/strong&gt;. There are multiple back buttons displayed
+for most users, both those on screen and …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Built into all browsers these days are buttons like FORWARD, BACK, and
+REFRESH. However, many web developers choose to build navigation
+components into their sites which ignore this built in functionality.
+The result is UI &lt;strong&gt;bloat&lt;/strong&gt;. There are multiple back buttons displayed
+for most users, both those on screen and those on the browser
+itself. Rather than having content quickly and cleanly delivered, we
+are faced with all-looking-the-same websites, which are supposedly
+user-friendly.&lt;/p&gt;
+&lt;p&gt;Individual users can do things to get rid of browser clutter. However,
+most people aren't nerds who tweak their browser settings to hide
+things they don't want (or who set up stuff like &lt;code&gt;vim&lt;/code&gt; keybindings for
+their browser).&lt;/p&gt;
+&lt;h2&gt;Content First&lt;/h2&gt;
+&lt;p&gt;Making use of browser buttons instead of cluttering a UI with your own
+buttons puts your &lt;em&gt;content first&lt;/em&gt;. Navigating your web pages should be
+non-annoying, but is not the main reason people (should) visit your
+website. Hopefully you have something useful to offer that pretty
+menus and spinners.&lt;/p&gt;
+&lt;h3&gt;Peripheral friendliness&lt;/h3&gt;
+&lt;p&gt;One other advantage of making use of normal BACK/FORWARD functionality
+is that many keyboards and mice (as well as other things, like game
+controllers) can be set up to access these functions on convenient
+thumb-buttons and other more ergonomic fixtures. Save your ass
+expensive medical bills from &lt;b&gt;RSI&lt;/b&gt; and stuff and build for the
+future.&lt;/p&gt;
+&lt;h3&gt;Action plan&lt;/h3&gt;
+&lt;p&gt;I'm going to write many web pages that you have to use your browser
+navigation to get away from. No need to write another "back" button if
+you can just press back. No layers of abstraction above normal browser
+navigation.&lt;/p&gt;
+&lt;h2&gt;Other technical notes&lt;/h2&gt;
+&lt;p&gt;Modern web tech like &lt;strong&gt;React&lt;/strong&gt; piles on some layers of abstraction
+through things like &lt;strong&gt;dynamic routing&lt;/strong&gt; with tools like &lt;strong&gt;React
+router&lt;/strong&gt; to implement forward-back functionality in &lt;strong&gt;Single Page
+Applications&lt;/strong&gt; (SPA). This is understandable for making snappy web
+pages that feel "modern".&lt;/p&gt;
+&lt;p&gt;However, if you don't load too many images and other media, keep
+things clean and simple, etc., web pages don't even take that long to
+load. This blog, for instance.&lt;/p&gt;</content><category term="Interwebs"></category></entry><entry><title>Facebook is Fine</title><link href="https://captainalan.github.io/pelican-test/facebook-is-fine.html" rel="alternate"></link><published>2020-02-10T00:00:00-08:00</published><updated>2020-02-10T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-02-10:/pelican-test/facebook-is-fine.html</id><summary type="html">&lt;p&gt;A quick Internet search (c.f. &lt;em&gt;Google&lt;/em&gt; search) will reveal troves of
 anti-Facebook articles. Should you get off Facebook?&lt;/p&gt;
 &lt;p&gt;I have not quit Facebook. Here's some reasons why:&lt;/p&gt;
 &lt;ol&gt;
