@@ -120,7 +120,7 @@ cannot give birth to new generations with other neckbeards.
 Facing institutional incomeptence, religion is looking healthier
 overall from what I can see. People want to see other people and
 communities. They would rather pray to God than see what demonic
-bargons the governments of the world have to offer them next. The
+bargains the governments of the world have to offer them next. The
 promise of liberalism and globalism seems less appealing, even if the
 Kingdom of Heaven cannot be known except through faith.
 
