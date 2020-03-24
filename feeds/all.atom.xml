@@ -1,5 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-03-23T00:00:00-07:00</updated><entry><title>The Third-Person Self Improvement Program</title><link href="https://captainalan.github.io/pelican-test/the-third-person-self-improvement-program.html" rel="alternate"></link><published>2020-03-23T00:00:00-07:00</published><updated>2020-03-23T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-03-23:/pelican-test/the-third-person-self-improvement-program.html</id><summary type="html">&lt;p&gt;Imagine yourself from a &lt;em&gt;third person perspective&lt;/em&gt;&amp;mdash;watch
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-03-24T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 4</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-4.html" rel="alternate"></link><published>2020-03-24T00:00:00-07:00</published><updated>2020-03-24T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-03-24:/pelican-test/corona-virus-diary-part-4.html</id><summary type="html">&lt;p&gt;What do I do under quarantine lock-down?&lt;/p&gt;
+&lt;h2&gt;Oscillating between different activities&lt;/h2&gt;
+&lt;p&gt;I try something for a while, for instance solving some problem or
+reading a chapter of a book. Sooner or later, it will become too
+boring/difficult to continue. So, I'll switch to another activity that
+I think I …&lt;/p&gt;</summary><content type="html">&lt;p&gt;What do I do under quarantine lock-down?&lt;/p&gt;
+&lt;h2&gt;Oscillating between different activities&lt;/h2&gt;
+&lt;p&gt;I try something for a while, for instance solving some problem or
+reading a chapter of a book. Sooner or later, it will become too
+boring/difficult to continue. So, I'll switch to another activity that
+I think I should be doing. Repeatedly cycling through different
+activities I should be doing, I end up "clocking in" lots of time
+doing productive stuff.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Workout (e.g. pushup sets, crunches)&lt;/li&gt;
+&lt;li&gt;Foreign language study (e.g. read some news in Chinese, review some
+  Spanish grammar)&lt;/li&gt;
+&lt;li&gt;Fuss with some Linux config&lt;/li&gt;
+&lt;li&gt;Browse over the documentation for some programing language (mostly
+  Node, Golang, bash these days)&lt;/li&gt;
+&lt;li&gt;Try to solve some fussy CSS problem &lt;/li&gt;
+&lt;li&gt;Writing blog posts (like this one)&lt;/li&gt;
+&lt;li&gt;Playing some &lt;em&gt;Étude&lt;/em&gt; on some musical instrument&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each of the individual activities above often is not the most fun
+thing in the world to do. But the variety of being able to cycle
+through them means lots of little sessions of intense focus. I lower
+my expectations for myself by only expecting to concentrate for like
+20 minutes at a time. Workout bursts are even shorter.&lt;/p&gt;
+&lt;p&gt;By sundown I'm usually adequately tired (or interested in something)
+that I don't need to ask myself about what to do next. If I feel like
+sleeping at 9 PM, sure, I'll go to sleep. If I wanna stay up reading
+about how Arab Nationalism didn't work, sure I'll go do that.&lt;/p&gt;
+&lt;h2&gt;Welcomed Interruptions&lt;/h2&gt;
+&lt;p&gt;Punctuating the above routine with sending/receiving a message or two,
+looking at the whatever noise I heard outside, flipping through some
+book, etc. keeps me feeling "in the loop".&lt;/p&gt;
+&lt;p&gt;Something something &lt;em&gt;flow like water&lt;/em&gt; uhh... zen... yeah!&lt;/p&gt;
+&lt;h2&gt;Further Reading&lt;/h2&gt;
+&lt;p&gt;For more on productivity stuff, see the &lt;a href="https://en.wikipedia.org/wiki/Pomodoro_Technique"&gt;Pomodoro
+Technique&lt;/a&gt; for
+something easy to get started with. Or, my personal favorite system,
+&lt;a href="https://en.wikipedia.org/wiki/Getting_Things_Done"&gt;"Getthing Things
+Done"&lt;/a&gt;, the choice
+of many business people and programer types alike.&lt;/p&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 3</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-3.html" rel="alternate"></link><published>2020-03-23T00:00:00-07:00</published><updated>2020-03-23T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-03-23:/pelican-test/corona-virus-diary-part-3.html</id><summary type="html">&lt;p&gt;Lunch for today was "survival stew". Similar to Korean 부대 찌개 "Army
+Stew", it consisted of whatever ingredients were available, served
+with some rice. Ah! The taste of &lt;em&gt;austerity&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;This time, it didn't taste excellent, but that's how stuff goes. Every
+meal every time doesn't need to be excellent; sometimes …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Lunch for today was "survival stew". Similar to Korean 부대 찌개 "Army
+Stew", it consisted of whatever ingredients were available, served
+with some rice. Ah! The taste of &lt;em&gt;austerity&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;This time, it didn't taste excellent, but that's how stuff goes. Every
+meal every time doesn't need to be excellent; sometimes we just have
+better/worse ingredients available.&lt;/p&gt;
+&lt;p&gt;This cooking experience reminds me of something I am trying to do in
+other domains of life. That is...&lt;/p&gt;
+&lt;h3&gt;tl;dr&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;"Don't be a hipster"&lt;/li&gt;
+&lt;li&gt;똑바로 해&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Getting comfortable with standard tools&lt;/h2&gt;
+&lt;p&gt;Historically, there have been different &lt;em&gt;schools&lt;/em&gt; or &lt;em&gt;styles&lt;/em&gt; of
+cooking. Different regions of planet earth had different ingredients
+available, different cultural taboos, etc. And so cuisines developed
+around core ingredients and time-tested methods to make those
+ingredients taste good, kill disease, etc.&lt;/p&gt;
+&lt;p&gt;Cooking is very daunting if you are always jumping around trying to
+make this-and-that culture's ingredients. You may even find yourself
+buying specialized tools for all sorts of specific tasks (e.g. a torch
+thing for &lt;em&gt;Crème brûlée&lt;/em&gt;, a fancy wok for some South Chinese style
+stir-fry).&lt;/p&gt;
+&lt;p&gt;In a similar way, it pays to learn some standard tools well in other
+domains. Jumping around and chasing diversity ("spreading yourself too
+thin") is &lt;em&gt;no bueno&lt;/em&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Computer&lt;/strong&gt;: lots of unix things; computer science fundamentals&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Music&lt;/strong&gt;: Look at common, well-regarded music. Don't get lost in
+  equipment. Focus on core skills...&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Languages&lt;/strong&gt;: standard usage; common colloquial stuff (don't go down
+  rabbit hole of dialects and stuff unless you have a specific social
+  reason to do so)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Knowing the "vanilla" defaults well gives you more freedom because you
+can only make variations of the "default" when you &lt;em&gt;first know the
+default&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;Literary Aside&lt;/h2&gt;
+&lt;p&gt;What good are novels/movies/etc. flipping over narratives left and
+right when the main audience no longer knows the default narrative?
+The overly flipped narratives become the default narrative. And
+suddenly the old dusty book has the edgy take.&lt;/p&gt;</content><category term="News"></category></entry><entry><title>The Third-Person Self Improvement Program</title><link href="https://captainalan.github.io/pelican-test/the-third-person-self-improvement-program.html" rel="alternate"></link><published>2020-03-23T00:00:00-07:00</published><updated>2020-03-23T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-03-23:/pelican-test/the-third-person-self-improvement-program.html</id><summary type="html">&lt;p&gt;Imagine yourself from a &lt;em&gt;third person perspective&lt;/em&gt;&amp;mdash;watch
 yourself from someone else's viewpoint. What is this person like? Are
 they acting in a self-destructive way? Are they good to others? Are
 they idealistic but utterly incompetent? How would you describe
