@@ -1,9 +1,9 @@
-title: Channeling *Chuunibyou* 中二病
+title: Channeling *Chuunibyou*
 date: 2020-03-25
 category: Lifestyle
 
 With great immaturity comes great power. This is the way (道)
-of the *Chuu-ni-byou* warrior.
+of the *Chuu-ni-byou* 中二病 warrior.
 
 *Chuu-ni-byou*
 --------------
@@ -67,6 +67,7 @@ Overcome by a sense of [*ennui*](https://en.wiktionary.org/wiki/ennui)?
 
 While you might not be literally slaying dragons out there,
 channeling a little bit of immaturity, you can view your own
+live as an epic adventure.
 
 The details of what it means to manifest *chuunibyou* are left as an
 exercise to the reader.
