@@ -1,5 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-05-04T00:00:00-07:00</updated><entry><title>Smartphones suck.</title><link href="https://captainalan.github.io/pelican-test/smartphones-suck.html" rel="alternate"></link><published>2020-05-04T00:00:00-07:00</published><updated>2020-05-04T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-04:/pelican-test/smartphones-suck.html</id><summary type="html">&lt;p&gt;Now in the second deade of the twentieth century, rather than getting
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-05-04T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 6</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-6.html" rel="alternate"></link><published>2020-05-04T00:00:00-07:00</published><updated>2020-05-04T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-04:/pelican-test/corona-virus-diary-part-6.html</id><summary type="html">&lt;p&gt;Prediction time! In this post I will analyze the current &lt;strong&gt;Old World
+Bat Pestilence&lt;/strong&gt; (COVID-19) situation (mainly California, where I
+live). The idea here is that I make some
+&lt;a href="https://en.wikipedia.org/wiki/Falsifiability"&gt;falsifiable&lt;/a&gt; claims
+that I can either,&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;smirk to myself about predicting correctly (and maybe make some
+   bucks of stock trades and …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;Prediction time! In this post I will analyze the current &lt;strong&gt;Old World
+Bat Pestilence&lt;/strong&gt; (COVID-19) situation (mainly California, where I
+live). The idea here is that I make some
+&lt;a href="https://en.wikipedia.org/wiki/Falsifiability"&gt;falsifiable&lt;/a&gt; claims
+that I can either,&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;smirk to myself about predicting correctly (and maybe make some
+   bucks of stock trades and stuff)&lt;/li&gt;
+&lt;li&gt;analyze stuff to see why I was wrong and hopefully learn something&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In either case, I do a write-up here because it is more interesting
+than being wish-washy and saying "it's complicated" without making any
+concrete predictions.&lt;/p&gt;
+&lt;h2&gt;No "Universal Vaccination"&lt;/h2&gt;
+&lt;p&gt;I don't think that we'll see a widely accepted vaccine being developed
+in the next month or two. By the time something is developed, I think
+that the main "scare" of COVID-19 will be past.  Already, we see many
+places starting to open up &lt;em&gt;despite there being no vaccine&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Some sub-claims:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Things will continue opening up, regardless if there is a vaccine or not.&lt;/li&gt;
+&lt;li&gt;If a vaccine is developed, stuff will likely already be sufficiently
+  opened up that people will opt out of taking it unless forced to
+  (e.g. by their employer, government mandate)&lt;/li&gt;
+&lt;li&gt;Overall, I think more people will start getting flu shots and stuff
+  after COVID-19, but institutional skepticism on a whole will
+  likewise grow&lt;/li&gt;
+&lt;li&gt;Forced vaccination will be met with resistance from vocal
+  minorities; in practice I think you can't force everyone to have a
+  vaccine.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Remote Work Will Grow, But Not Dramatically&lt;/h2&gt;
+&lt;p&gt;Many people got to "experiment" with remote work. Most people I have
+talked with that have kept their jobs &lt;em&gt;don't like remote work&lt;/em&gt;. With
+certain exceptions (e.g. computer programers), I think that
+by-in-large, people will want to continue working in offices.&lt;/p&gt;
+&lt;p&gt;Nerds often think that other people have "rational" motivation
+structures like them. They fail to see that,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Many (most?) people are strongly driven by external motivation,
+  which can be negative (fear of punishment) or positive (praise,
+  raises, etc.); traditional workplaces make it easier to deliver
+  these incentives than remote work which puts a lot of
+  technology-fiddling overhead on most involved&lt;/li&gt;
+&lt;li&gt;Most people at some point declare "technological bankruptcy"; they
+  simply decide they don't/can't use XYZ technology and stop learning
+  more; learning new tech all the time is something nerds gravitate
+  towards, but most people hate doing this and will resist change&lt;/li&gt;
+&lt;li&gt;Remote work &lt;em&gt;is costly&lt;/em&gt;; while paying rent for an office is
+  expensive, wasting time dealing with people's failing microphones,
+  noisy backgrounds, accidental screenshares, etc. wastes a lot of
+  time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Many jobs filled with people already well-prepared for remote work
+will likely continue exploring/expanding remote operations.&lt;/p&gt;
+&lt;p&gt;However, I think there will be a general trend for non-nerd work to
+&lt;em&gt;not&lt;/em&gt; become more remote; many people have tried remote work and
+decided &lt;em&gt;they don't like it&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;The Establishment Will Survive (and Thrive)&lt;/h2&gt;
+&lt;p&gt;Many small businesses might get hit very hard, but the big players are
+likely to sale through all of this stuff OK. Many tech stocks are
+likely to do quite well, e.g. Amazon. I think that banks and oil will
+also end up OK because of how tied up in government things they are;
+the establishment is continuing the "too big to fail" thing.&lt;/p&gt;
+&lt;p&gt;I think that banks, companies, etc. will have rather lenient policies
+for repaying loans and stuff &lt;em&gt;for the time being&lt;/em&gt;&amp;mdash;meaning, we're not
+going to see thugs from credit card companiesknocking on people's
+doors demanding money any time soon.&lt;/p&gt;
+&lt;p&gt;However, like college debt, I think that repayment stuff &lt;em&gt;will be
+remembered&lt;/em&gt; by the establishment and there will be nothing like &lt;a href="https://en.wikipedia.org/wiki/Jubilee_(biblical)"&gt;The
+Jubilee&lt;/a&gt; given
+to those hard hit by COVID-19, just temporary "good enough" relief to
+prevent angry mobs with pitchforks and fire.&lt;/p&gt;
+&lt;h2&gt;Aftermath&lt;/h2&gt;
+&lt;p&gt;As the COVID-19 stuff slowly wraps up, I think that people will emerge
+with dramatically different conclusions. Many prepper/right-wing types
+will emerge feeling vindicated for taking things into their own hands
+and preparing supplies and stuff before all this virus business.
+They&amp;mdash;along with many religious people&amp;mdash;will (correctly) see
+that,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Times of chaos can and will be used by governments to extend usual
+  authority and implement new "temporary" policies&lt;/li&gt;
+&lt;li&gt;"Temporary" measures put in place during times of emergency may be
+  used for all sorts of tricky stuff later (see 9-11, PATRIOT Act, and
+  the expansion of the surveillance state)&lt;/li&gt;
+&lt;li&gt;Many on the political left would like a more "maternal" state caring
+  for (and controlling) the population in various ways, e.g. pushing
+  solutions for how the nation &lt;em&gt;as a whole&lt;/em&gt; should evaluate and
+  respond to risk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;On the other hand, more left-leaning types will emerge feeling
+vindicated by (correctly) seeing,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Their nations are ununified; struggles between different groups and
+  partisan media that focuses on &lt;em&gt;differences&lt;/em&gt; rather than on how
+  people are similar&lt;/li&gt;
+&lt;li&gt;Many rejecting mainstream science (acting like "idiots" in their
+  view); we will see many examples of more right-wing type people
+  dying and stuff because they didn't listen to the establishment&lt;/li&gt;
+&lt;li&gt;A more urgent demand/need for healthcare reform (or &lt;em&gt;¡revolución!&lt;/em&gt;)
+  in the United States&lt;/li&gt;
+&lt;li&gt;How capitalism as a sole operating principle doesn't solve
+  everything (think: critique of &lt;a href="https://www.goodreads.com/review/show/3164890827?book_show_action=false&amp;amp;from_review_page=1"&gt;&lt;em&gt;Atlas
+  Shrugged&lt;/em&gt;&lt;/a&gt;
+  by Ayn Rand)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I don't expect to see much jumping from one side or the other of the
+political spectrum. Left-leaning people will dig deeper into the need
+for institutional solutions while more libertarian x right-leaning
+people will want the establishment to
+&lt;a href="https://www.urbandictionary.com/define.php?term=BTFO"&gt;BTFO&lt;/a&gt;.  Both
+the left and right broadly (no, you &lt;em&gt;NUANCE BROS&lt;/em&gt;, I'm not going to
+"resist the dichotomy") will be able to find validation for their
+worldviews.&lt;/p&gt;
+&lt;p&gt;Though, all in all, I think the right-wingers will come out feeling a
+lot better than the left-wingers overall. This is because the
+left-wingers want institutional solutions to what they perceive as
+problems, and COVID-19 (metaphorically) kicked the establishment in
+the balls. The establishment is rolling around in pain a little bit
+now &lt;em&gt;and&lt;/em&gt; Bernie Sanders is not the Dem party blessed
+choice. Meanwhile, right wingers with their values in self-sufficiency
+and building up families and communities (rather than exploring the
+arts) rather than state power (okay, now I'm talking more about
+&lt;strong&gt;libertarian&lt;/strong&gt; leaning right-wing types, not war-hawk hegemonic
+theocratic types) will emerge from all of this feeling like had been
+on the right track before all of this with their trucks, guns, and
+gallons of water.&lt;/p&gt;</content><category term="News"></category></entry><entry><title>Smartphones suck.</title><link href="https://captainalan.github.io/pelican-test/smartphones-suck.html" rel="alternate"></link><published>2020-05-04T00:00:00-07:00</published><updated>2020-05-04T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-04:/pelican-test/smartphones-suck.html</id><summary type="html">&lt;p&gt;Now in the second deade of the twentieth century, rather than getting
 flying cars, the elimination of poverty, and anonymous global
 crypto-currencies, we got &lt;strong&gt;smartphones&lt;/strong&gt; &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;Smartphones suck. They suck your time and attention. They suck your
