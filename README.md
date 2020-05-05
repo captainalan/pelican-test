@@ -69,3 +69,9 @@ to use something more UNIX-like such as
 [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) or a
 virtual machine running Linux.
 
+Customizing Things
+------------------
+
+For themes, check out the
+[pelican-themes](https://github.com/getpelican/pelican-themes) Github
+repository.

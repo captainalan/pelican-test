@@ -80,7 +80,7 @@ the establishment is continuing the "too big to fail" thing.
 
 I think that banks, companies, etc. will have rather lenient policies
 for repaying loans and stuff *for the time being*&mdash;meaning, we're not
-going to see thugs from credit card companiesknocking on people's
+going to see thugs from credit card companies knocking on people's
 doors demanding money any time soon.
 
 However, like college debt, I think that repayment stuff *will be
@@ -142,7 +142,7 @@ the balls. The establishment is rolling around in pain a little bit
 now *and* Bernie Sanders is not the Dem party blessed
 choice. Meanwhile, right wingers with their values in self-sufficiency
 and building up families and communities (rather than exploring the
-arts) rather than state power (okay, now I'm talking more about
+arts) instead of state power (okay, now I'm talking more about
 **libertarian** leaning right-wing types, not war-hawk hegemonic
 theocratic types) will emerge from all of this feeling like had been
 on the right track before all of this with their trucks, guns, and
