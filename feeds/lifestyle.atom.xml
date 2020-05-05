@@ -1,5 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Lifestyle</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/lifestyle.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-05-04T00:00:00-07:00</updated><entry><title>Smartphones suck.</title><link href="https://captainalan.github.io/pelican-test/smartphones-suck.html" rel="alternate"></link><published>2020-05-04T00:00:00-07:00</published><updated>2020-05-04T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-04:/pelican-test/smartphones-suck.html</id><summary type="html">&lt;p&gt;Now in the second deade of the twentieth century, rather than getting
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Lifestyle</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/lifestyle.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-05-05T00:00:00-07:00</updated><entry><title>QWERTY Theory</title><link href="https://captainalan.github.io/pelican-test/qwerty-theory.html" rel="alternate"></link><published>2020-05-05T00:00:00-07:00</published><updated>2020-05-05T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-05:/pelican-test/qwerty-theory.html</id><summary type="html">&lt;p&gt;In various places on the Internet, I have shared the story of how I
+switched from typing using the standard QWERTY layout to using the
+alternative, more efficient Dvorak layout. However, after using Dvorak
+for some time, working my typing speed to over 100 WPM, I ultimately
+chose to &lt;em&gt;switch …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;In various places on the Internet, I have shared the story of how I
+switched from typing using the standard QWERTY layout to using the
+alternative, more efficient Dvorak layout. However, after using Dvorak
+for some time, working my typing speed to over 100 WPM, I ultimately
+chose to &lt;em&gt;switch back to QWERTY&lt;/em&gt; (more on my experience
+&lt;a href="https://haksayng.com/blog/2017/08/14/relearning-totype/"&gt;here&lt;/a&gt;).
+Why would anyone re-learn how to type twice&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;?&lt;/p&gt;
+&lt;p&gt;The main reasons I had for doing this were,&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;compatibility with the world at large (I had to help other people
+   use their computers), and&lt;/li&gt;
+&lt;li&gt;the gains/advantages I got from switching to an alternative
+   keyboard layout came mainly from improved typing technique rather
+   than a "better layout".&lt;/li&gt;
+&lt;li&gt;issues interfacing with software designed for a QWERTY-based
+   windows, such as shortcuts keys in games/graphics applications/etc.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Great Internet Historian &lt;a href="http://xahlee.info/"&gt;Xah Lee&lt;/a&gt; has called my
+default-embracing ways &lt;strong&gt;QWERTY Theory&lt;/strong&gt;. I like this label because
+"theory" implies it is &lt;em&gt;not just about keyboards&lt;/em&gt;. It is an approach
+to technology generally which advocates &lt;em&gt;making the best use of
+commonly available default options, focusing on improving technique
+rather than exploiting customization&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;This article will detail what QWERTY Theory is and isn't and how it
+can help you make a million bucks. Let's get started!&lt;/p&gt;
+&lt;h2&gt;Thou Shalt Not Covet&lt;/h2&gt;
+&lt;p&gt;QWERTY Theory inherits from a Judeo-Christian moral framework.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You shall not covet your neighbor's house. You shall not covet your
+neighbor's wife, or his male or female servant, his ox or donkey, or
+anything that belongs to your neighbor.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;mdash;Exodus 20:17&lt;/p&gt;
+&lt;p&gt;We begin with the axiom: the basic tools you have in front of you are
+good enough. Avert your eyes from the fancy-things others possess and
+meditate upon how you can do better with what you already have to face
+whatever issues are in front of you.&lt;/p&gt;
+&lt;p&gt;Some applications,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developing more sustainable typing habits by training new muscle
+  memory to hit default key bindings (e.g. pressing the CTRL key with
+  your &lt;em&gt;thumbs&lt;/em&gt; rather than pinkies&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;)&lt;/li&gt;
+&lt;li&gt;Doing physical training using simple or no equipment (e.g. dumbells
+  you already have) rather than signing up for a fancy gym, buying an
+  expensive new machine, etc.&lt;/li&gt;
+&lt;li&gt;Practicing more on your $200 guitar instead of looking at adds for a
+  $2000 guitar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The time may come to upgrade your tools, but for now think about what
+you &lt;em&gt;can&lt;/em&gt; do, envisioning how you can use the tools you have better.
+QWERTY Theory is about pursuing mastery of the mundane, focusing on
+building upon rather than inverting tradition.&lt;/p&gt;
+&lt;h2&gt;Know Thyself&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When pride comes, then comes disgrace, but with humility comes
+wisdom.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;mdash;Proverbs 11:2 (NIV)&lt;/p&gt;
+&lt;p&gt;QWERTY theory is suitable for non-geniuses who want to be productive
+with existing infrastructure. Chances are, you are &lt;em&gt;not&lt;/em&gt; going to be
+&lt;em&gt;the chosen one&lt;/em&gt; who is going to revolutionize computer input devices
+&lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;. Therefore, it is important to be able to work effectively with
+standard setups.&lt;/p&gt;
+&lt;p&gt;It may at first seem "efficient" to optimize things like keyboard
+entry speed, but there are many "hidden costs" that come with every
+deviation from the
+"&lt;a href="https://en.wikipedia.org/wiki/Vanilla_software"&gt;vanilla&lt;/a&gt;".&lt;/p&gt;
+&lt;p&gt;Custom configurations of software often amounts to demanding special
+attention that should be reserved for disabled people who have no
+other choice but to use speialized setups. QWERTY theory says to not
+&lt;a href="https://www.urbandictionary.com/define.php?term=LARP"&gt;LARP&lt;/a&gt; as being
+an oppressed class because being a nerd is a not a disability &lt;sup id="fnref:4"&gt;&lt;a class="footnote-ref" href="#fn:4"&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2&gt;Case Study: Fahrenheit vs Celsius&lt;/h2&gt;
+&lt;p&gt;Advocates of alternative ways of doing things (e.g. typing in Dvorak
+versus QWERTY) often clame some "scientific" basis for why their way
+of doing things is superior. Oftentimes, further inspection reveals
+nonsense.&lt;/p&gt;
+&lt;p&gt;For instance, consider the claim that "using Celsius is more
+&lt;em&gt;scientific&lt;/em&gt; than using Fahrenheit". Someone
+&lt;a href="https://en.wikipedia.org/wiki/Hipster_(contemporary_subculture)"&gt;hipster&lt;/a&gt;
+living in the United States may go around using Celsius and causing
+trouble for everyone around them. Is Celsius really &lt;em&gt;better&lt;/em&gt; than
+Fahrenheit?&lt;/p&gt;
+&lt;p&gt;When looking at &lt;em&gt;whole integer&lt;/em&gt; values (e.g. 85 degrees F), Fahrenheit
+has better resolution than Celsius. This is relevant because sometimes
+displays will only allow two or three digits, or only show integer
+temperatures rather than crowd the UI with a decimal. If some
+numb-skull tells you that Celsius is more "scientific" than
+Fahrenheit, just tell them that Celsius and Fahrenheit are both linear
+transformations off Kelvin and that you aren't living at sea level and
+boiling water there (situation used to determine Celsius' offset from
+Kelvin).&lt;/p&gt;
+&lt;p&gt;A better reason to use Celsius over Fahrenheit is because Celsius is a
+more widely adopted int he world at large; QWERTY Theory! It is not
+because Celsius "is more scientific" or some bullshit like that.
+It is to fall into line with convention.&lt;/p&gt;
+&lt;h2&gt;Conclusions&lt;/h2&gt;
+&lt;p&gt;Many nerds eventually repent and turn away from their alt-keyboard
+fetishizing, returning to their QWERTYc roots. In "&lt;a href="http://karolis.koncevicius.lt/posts/porn_zen_and_vimrc/"&gt;Porn, Zen, and
+.vimrc&lt;/a&gt;"
+(Koncevičius ) we see a heartfelt confession of an over-config'er (in
+this case, someone who dived deeply into customizing the &lt;a href="https://www.vim.org/"&gt;Vim text
+editor&lt;/a&gt;):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...The simple truth was that, no matter how much energy I invested
+in my custom configuration, the people who built and designed Vim
+knew it a lot better than me. And it hit me like a cold shower:
+implemented defaults and design was there for a reason. Some of my
+perceived inconsistencies were products of my limited
+understanding. I made assumptions about what a particular command
+should do, when it should be used, and how. But those assumptions
+were not always warranted.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;QWERTY Theory is about embracing the fact that the shapes technologies
+around us have taken have survived and thrived for reasons we may not
+immediately understand. Properties may arise that were no individuals'
+"original design" but are rather products of processes of
+collaboration.&lt;/p&gt;
+&lt;p&gt;QWERTY Theory is seeing that the "illogical" nature of English
+spelling is necessarily "stupid"; there is no need to rush to
+&lt;em&gt;optimize English spelling to be more phonetic&lt;/em&gt;. Who assumed a more
+phonetic writing system is &lt;em&gt;better?&lt;/em&gt; Perhaps, we should speak more
+like how we write instead of writing more like we speak?&lt;/p&gt;
+&lt;p&gt;QWERTY Theory is leveraging existing systems, improving technique, and
+preparing for full-scale change rather than pre-maturely optimizing
+unwieldy channels.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;&lt;a href="https://knowyourmeme.com/memes/ackchyually"&gt;Ackkkshulllly&lt;/a&gt; more
+than twice; I've relearned how to type in different languages as
+well.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;Pinkies are smaller, weaker fingers than thumbs. Pressing too
+many keys too often with pinkies can lead to injury!&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;If some Apple executive who gets to decide the next Macbook
+keyboard happens to be reading this, I implore you consult the
+ergonomic keyboard community about how to improve keyboarding! A
+decision by Apple&amp;mdash;a company involved in both hardware and
+software&amp;mdash;can revolutionize things for decades to come!&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:4"&gt;
+&lt;p&gt;Live Action Role Play. A LARPer is someone pretending to be
+something they're really not.&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Lifestyle"></category></entry><entry><title>Smartphones suck.</title><link href="https://captainalan.github.io/pelican-test/smartphones-suck.html" rel="alternate"></link><published>2020-05-04T00:00:00-07:00</published><updated>2020-05-04T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-04:/pelican-test/smartphones-suck.html</id><summary type="html">&lt;p&gt;Now in the second deade of the twentieth century, rather than getting
 flying cars, the elimination of poverty, and anonymous global
 crypto-currencies, we got &lt;strong&gt;smartphones&lt;/strong&gt; &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;Smartphones suck. They suck your time and attention. They suck your
