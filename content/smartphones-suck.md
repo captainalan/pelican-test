@@ -114,7 +114,7 @@ preferable:
 - **Maps**: A sense of direction, paper maps
 - **Finding foods**: just walk into a restaurant and try it
 - **Weather**: Use this as an opportunity to talk with someone (like
-  the British do)
+  the British do) [^4]
 
 The goal is to give your smartphone *as little viewing time as
 possible*. When it is time to smartphone, then dive in and smartphone
@@ -169,3 +169,5 @@ Additional Notes
 [^2]: Facebook's [Graph API](https://developers.facebook.com/docs/graph-api/) is a model exemplifying this graph metaphor
 
 [^3]: Just memorize the damn routine and use a stop watch or something; you don't have to summon the [panopticon](https://en.wikipedia.org/wiki/Panopticon) while you are doing a "prison workout"
+
+[^4]: YouTuber TechLead in [a video](https://www.youtube.com/watch?v=jmONbYqYaRk) remarks how talking about the weather is a good neutral topic to use with difficult in-laws. Indeed talking about the weather can serve an important social function of bringing together not-so-friendly parties. 

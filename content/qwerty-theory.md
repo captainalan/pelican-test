@@ -54,7 +54,7 @@ Some applications,
 - Doing physical training using simple or no equipment (e.g. dumbells
   you already have) rather than signing up for a fancy gym, buying an
   expensive new machine, etc.
-- Practicing more on your $200 guitar instead of looking at adds for a
+- Practicing more on your $200 guitar instead of looking at ads for a
   $2000 guitar.
 
 The time may come to upgrade your tools, but for now think about what
@@ -91,7 +91,7 @@ Case Study: Fahrenheit vs Celsius
 ---------------------------------
 
 Advocates of alternative ways of doing things (e.g. typing in Dvorak
-versus QWERTY) often clame some "scientific" basis for why their way
+versus QWERTY) often claim some "scientific" basis for why their way
 of doing things is superior. Oftentimes, further inspection reveals
 nonsense.
 
@@ -139,7 +139,12 @@ QWERTY Theory is about embracing the fact that the shapes technologies
 around us have taken have survived and thrived for reasons we may not
 immediately understand. Properties may arise that were no individuals'
 "original design" but are rather products of processes of
-collaboration.
+collaboration. 
+
+QWERTY theory protects against the "efficient inefficiency" of
+assuming you are more clever than all sorts of people in the past
+because you discovered some quick "hack" to optimize something in your
+life [^5].
 
 QWERTY Theory is seeing that the "illogical" nature of English
 spelling is necessarily "stupid"; there is no need to rush to
@@ -150,6 +155,16 @@ like how we write instead of writing more like we speak?
 QWERTY Theory is leveraging existing systems, improving technique, and
 preparing for full-scale change rather than pre-maturely optimizing
 unwieldy channels.
+
+## Additional notes
+
+From friends on the [Xah Lee Discord Server](https://discord.gg/QYFcqNT)
+
+- Thanks `@Emily` for showing me the `vim` config article quoted in the conclusion.
+- Thanks `@Frenzie` for introducing me to the term "efficient inefficiency"
+- Thanks `@myrkraverk` for editorial helps
+- Thanks `@Arirang` and `@R34P3R` for sharing examples of
+  "life-hacker" optimizer types
 
 
 [^1]: [Ackkkshulllly](https://knowyourmeme.com/memes/ackchyually) more
@@ -164,3 +179,5 @@ unwieldy channels.
     software&mdash;can revolutionize things for decades to come!
 [^4]: Live Action Role Play. A LARPer is someone pretending to be
     something they're really not.
+[^5]: Stay tuned for upcoming article on "Bugpeople", rejection of
+    tradition, and technophilia.
