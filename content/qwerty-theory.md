@@ -18,7 +18,7 @@ The main reasons I had for doing this were,
    keyboard layout came mainly from improved typing technique rather
    than a "better layout".
 3. issues interfacing with software designed for a QWERTY-based
-   windows, such as shortcuts keys in games/graphics applications/etc.
+   windows, such as shortcuts keys in games/graphics applications/etc[^2].
 
 Great Internet Historian [Xah Lee](http://xahlee.info/) has called my
 default-embracing ways **QWERTY Theory**. I like this label because
@@ -50,7 +50,7 @@ Some applications,
 
 - Developing more sustainable typing habits by training new muscle
   memory to hit default key bindings (e.g. pressing the CTRL key with
-  your *thumbs* rather than pinkies[^2])
+  your *thumbs* rather than pinkies[^3])
 - Doing physical training using simple or no equipment (e.g. dumbells
   you already have) rather than signing up for a fancy gym, buying an
   expensive new machine, etc.
@@ -73,7 +73,7 @@ Know Thyself
 QWERTY theory is suitable for non-geniuses who want to be productive
 with existing infrastructure. Chances are, you are *not* going to be
 *the chosen one* who is going to revolutionize computer input devices
-[^3]. Therefore, it is important to be able to work effectively with
+[^4]. Therefore, it is important to be able to work effectively with
 standard setups.
 
 It may at first seem "efficient" to optimize things like keyboard
@@ -85,7 +85,7 @@ Custom configurations of software often amounts to demanding special
 attention that should be reserved for disabled people who have no
 other choice but to use speialized setups. QWERTY theory says to not
 [LARP](https://www.urbandictionary.com/define.php?term=LARP) as being
-an oppressed class because being a nerd is a not a disability [^4].
+an oppressed class because being a nerd is a not a disability [^5].
 
 Case Study: Fahrenheit vs Celsius
 ---------------------------------
@@ -113,11 +113,39 @@ boiling water there (situation used to determine Celsius' offset from
 Kelvin).
 
 A better reason to use Celsius over Fahrenheit is because Celsius is a
-more widely adopted int he world at large; QWERTY Theory! It is not
+more widely adopted in the world at large; QWERTY Theory! It is not
 because Celsius "is more scientific" or some bullshit like that.
 It is to fall into line with convention.
 
-## Conclusions
+Scope Resolution
+----------------
+
+Depending on who/what we want to engage with in the world, the
+**scope** in which we evaluate what the QWERTY Theory approved choice
+is changes. For instance, if you intend to spend your whole life in
+the United States doing business almost exclusively with fellow
+Americans, then it makes sense to use Fahrenheit all the
+time. However, if you are a global traveler, then you must use a more
+global **scope resolution** strategy to choose what a good "default"
+is. It may be more practical to you to mainly use Celsius, converting
+to Fahrenheit only when necessary, even for someone living in the
+United States. In this sense, the *globalist* may want the US to adopt
+the metric system, celsius, etc. to conform with global standards.
+
+Analogous reasoning can be applied to setting up computing
+environments.  If you just stay on only one or two of your own
+computers and do your own thing all day (e.g. living in a cabin in the
+woods), then your *scope* may be just you and what you do. QWERTY
+Theory doesn't mean much to you.
+
+However, if you work in tech support or have friends/family members
+around you who also use computers, then suddenly it matters more that
+you understand the general computing environments that most people
+find themselves in. That is to say, it might be a good idea to have a
+Windows machine even if you prefer to do most stuff on Linux yourself.
+
+Conclusions
+-----------
 
 Many nerds eventually repent and turn away from their alt-keyboard
 fetishizing, returning to their QWERTYc roots. In "[Porn, Zen, and
@@ -126,11 +154,8 @@ fetishizing, returning to their QWERTYc roots. In "[Porn, Zen, and
 this case, someone who dived deeply into customizing the [Vim text
 editor](https://www.vim.org/)):
 
-> ...The simple truth was that, no matter how much energy I invested
-> in my custom configuration, the people who built and designed Vim
-> knew it a lot better than me. And it hit me like a cold shower:
-> implemented defaults and design was there for a reason. Some of my
-> perceived inconsistencies were products of my limited
+> ...implemented defaults and design was there for a reason. Some of
+> my perceived inconsistencies were products of my limited
 > understanding. I made assumptions about what a particular command
 > should do, when it should be used, and how. But those assumptions
 > were not always warranted.
@@ -144,7 +169,7 @@ collaboration.
 QWERTY theory protects against the "efficient inefficiency" of
 assuming you are more clever than all sorts of people in the past
 because you discovered some quick "hack" to optimize something in your
-life [^5].
+life [^6].
 
 QWERTY Theory is seeing that the "illogical" nature of English
 spelling is necessarily "stupid"; there is no need to rush to
@@ -160,6 +185,7 @@ unwieldy channels.
 
 From friends on the [Xah Lee Discord Server](https://discord.gg/QYFcqNT)
 
+- Thanks `@XahLee` for your grading this article with a 'C' and your critical feedback
 - Thanks `@Emily` for showing me the `vim` config article quoted in the conclusion.
 - Thanks `@Frenzie` for introducing me to the term "efficient inefficiency"
 - Thanks `@myrkraverk` for editorial helps
@@ -170,14 +196,20 @@ From friends on the [Xah Lee Discord Server](https://discord.gg/QYFcqNT)
 [^1]: [Ackkkshulllly](https://knowyourmeme.com/memes/ackchyually) more
     than twice; I've relearned how to type in different languages as
     well.
-[^2]: Pinkies are smaller, weaker fingers than thumbs. Pressing too
+[^2]: Text input in many other languages builds off QWERTY by default
+    as well. For instance, I type Japanese and Chinese, which rely on
+    Romanization for input. The 'underlying keyboard' is QWERTY. For
+    Korean keyboards too, if you want to be able to quickly switch to
+    English with one keypress (Windows), this second "layer" will be
+    QWERTY.
+[^3]: Pinkies are smaller, weaker fingers than thumbs. Pressing too
     many keys too often with pinkies can lead to injury!
-[^3]: If some Apple executive who gets to decide the next Macbook
+[^4]: If some Apple executive who gets to decide the next Macbook
     keyboard happens to be reading this, I implore you consult the
     ergonomic keyboard community about how to improve keyboarding! A
     decision by Apple&mdash;a company involved in both hardware and
     software&mdash;can revolutionize things for decades to come!
-[^4]: Live Action Role Play. A LARPer is someone pretending to be
+[^5]: Live Action Role Play. A LARPer is someone pretending to be
     something they're really not.
-[^5]: Stay tuned for upcoming article on "Bugpeople", rejection of
+[^6]: Stay tuned for upcoming article on "Bugpeople", rejection of
     tradition, and technophilia.
