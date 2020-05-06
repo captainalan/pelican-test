@@ -1,5 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Fun</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/fun.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-02-28T00:00:00-08:00</updated><entry><title>Shadowrun Games Review</title><link href="https://captainalan.github.io/pelican-test/shadowrun-games-review.html" rel="alternate"></link><published>2020-02-28T00:00:00-08:00</published><updated>2020-02-28T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-02-28:/pelican-test/shadowrun-games-review.html</id><summary type="html">&lt;p&gt;Here is my game review for &lt;a href="https://store.steampowered.com/app/346940/Shadowrun_Hong_Kong__Extended_Edition/"&gt;Shadowrun: Hong
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Fun</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/fun.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-05-06T00:00:00-07:00</updated><entry><title>Don't let tech get in the way of fun</title><link href="https://captainalan.github.io/pelican-test/dont-let-tech-get-in-the-way-of-fun.html" rel="alternate"></link><published>2020-05-06T00:00:00-07:00</published><updated>2020-05-06T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-06:/pelican-test/dont-let-tech-get-in-the-way-of-fun.html</id><summary type="html">&lt;p&gt;A prerequisite for fun is that &lt;em&gt;whatever tooling/technology you are
+using doesn't get in the way of what you want to be doing&lt;/em&gt;. Fun must
+&lt;a href="https://en.wikipedia.org/wiki/Flow_(psychology)"&gt;flow&lt;/a&gt;&amp;mdash;un-fun
+blockers are a no go.&lt;/p&gt;
+&lt;p&gt;For instance, I enjoy riding bicycles. But when I get flat tires, this
+is &lt;em&gt;annoying&lt;/em&gt;. I often …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A prerequisite for fun is that &lt;em&gt;whatever tooling/technology you are
+using doesn't get in the way of what you want to be doing&lt;/em&gt;. Fun must
+&lt;a href="https://en.wikipedia.org/wiki/Flow_(psychology)"&gt;flow&lt;/a&gt;&amp;mdash;un-fun
+blockers are a no go.&lt;/p&gt;
+&lt;p&gt;For instance, I enjoy riding bicycles. But when I get flat tires, this
+is &lt;em&gt;annoying&lt;/em&gt;. I often go run instead of bicycling so I don't have to
+deal with problem that comes up every now and then and ruins my fun.
+It is possible to restore fun by enjoying walking one's bike miles to
+get back home, but then this to is because presuming that your &lt;em&gt;feet
+work&lt;/em&gt;. If you got a flat tire &lt;em&gt;and then&lt;/em&gt; a sprained ankle, chances are
+you wouldn't be having much fun.&lt;/p&gt;
+&lt;h2&gt;Technology and Fun&lt;/h2&gt;
+&lt;p&gt;One of the reasons I think playing video games is more fun than office
+work for lots of people is that a game a nice self-contained
+environment (we'll assume it isn't buggy) with clearly defined goals.&lt;/p&gt;
+&lt;p&gt;Simple, easy to use things are more accessible fun. This is one reason
+I think many "gamification" approaches are successful.  By simplifying
+the complex nature of some situation into a space with well-defined
+WIN/LOSE conditions, people are more likely to quickly achieve fun
+than if they had to meticulously design these sytems themselves (the
+managers/engineers who make these systems may have a lot of fun
+designing these systems too).&lt;/p&gt;
+&lt;h3&gt;Some Examples from Programing/Coding&lt;/h3&gt;
+&lt;p&gt;Coding websites are a popular way for people to practice
+writing computer code. Despite having fancy gaming PCs, high-end
+macbooks, etc., people everywhere are parking themselves in little
+browser tabs to sort items in arrays and run their programs on
+external/remote servers.&lt;/p&gt;
+&lt;p&gt;Some examples of these self-contained web-based environments, &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;https://leetcode.com/&lt;/li&gt;
+&lt;li&gt;https://codepen.io/&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://tour.golang.org/welcome/1"&gt;A Tour of Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I think that popularity of sites like these is due to easy
+accessibility and gamification systems that give people positive
+feedback. The "modern UIs" of these sites allow users to focus on one
+task (e.g. writing code) ignoring the many layers and layers of
+abstraction piled on top of each other to get there.&lt;/p&gt;
+&lt;p&gt;Personally, I haven't used these sites much at all, but I do enjoy
+setting up a minimalistic text editing environment using dinosaur
+software (e.g. emacs, bash). Doing data structure/algorithm problems
+is fun to me because I can stay in my little contained stripped down
+editor environment and not worry about importing this-and-that
+library.&lt;/p&gt;
+&lt;h3&gt;Some Examples from Writing&lt;/h3&gt;
+&lt;p&gt;Many bloggers choose to use some flavor of
+&lt;a href="https://en.wikipedia.org/wiki/Markdown"&gt;Markdown&lt;/a&gt; to do their
+work. It turns out that writing everything in plain text is often
+faster/easier to do than using a more "full-featured" word processor
+such as Microsoft Word. This is because you can focus on the
+words/content of what you are doing rather than get distracted/blocked
+by the many features of a word processor you will not use.&lt;/p&gt;
+&lt;p&gt;For people that write computer code of any sort, familiar editing
+tools may allow you to use your own keybindings and stuff to work much
+more seemlessly with text than using a word processor. It can almost
+feel like "telepathy", magically making words appear when you are a
+skilled typist in a comfy editor!&lt;/p&gt;
+&lt;h3&gt;Tools to be mastered&lt;/h3&gt;
+&lt;p&gt;Some programs are more useful than others. Having hundreds of
+different hard-to-use, unmemorable programs scattered throughout a
+computer will probably mean... using a computer isn't fun. Or, you
+might just ignore all those programs and just play a game. A
+full-screen game effectively allows you to ignore you messy desktop,
+dozens of unread browser tabs, etc., and focus on fun.&lt;/p&gt;
+&lt;p&gt;Realizing just which programs are useful to you and keeping those
+applications "well-maintained" is a good way to have fun using
+computers.  It is more fun to go out on a bike ride if you know your
+bicycle has properly inflated tires, an oiled chain, working lights
+for the night, etc.&lt;/p&gt;
+&lt;p&gt;Similarly, when I sit down at the computer, I am happy knowing I am
+able to do a handful of things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Browsers for communications, reading, documentation, etc.&lt;/li&gt;
+&lt;li&gt;Image editing software to produce content&lt;ul&gt;
+&lt;li&gt;Krita for digital painting&lt;/li&gt;
+&lt;li&gt;MS Paint for maximum fun&lt;/li&gt;
+&lt;li&gt;GIMP for generic image editing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Environment to write computer code (mostly JavaScript) set up&lt;/li&gt;
+&lt;li&gt;Blogging tools (emacs + bash, command line interaction to update to
+  GitHub pages)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;...and then many tools I intend to learn to use better eventually,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Blender (3D modeling)&lt;/li&gt;
+&lt;li&gt;Various programing languages&lt;/li&gt;
+&lt;li&gt;Games, if I do get around to playing them&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What is crucial is that all of these things are ready to be launched
+and used and that I know the steps to "get back into the flow of
+things".&lt;/p&gt;
+&lt;h2&gt;Setting up for success&lt;/h2&gt;
+&lt;p&gt;If there is some activity you &lt;em&gt;should&lt;/em&gt; be doing, then it makes sense
+to set up your environment so that your technology will not get in the
+way when you are trying to that activity. Then, you can start having
+fun.&lt;/p&gt;
+&lt;p&gt;Sometimes, technology ruins fun by being too complicated. For these
+reasons, to get into a habit such as "doing some artwork everyday", it
+might be wise to ditch photoshop and instead use Paint (or an
+&lt;a href="https://jspaint.app/"&gt;in-browser equivalent&lt;/a&gt;. You can revisit the
+fancier software when you know clearly &lt;em&gt;why you need it&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Similarly, to begin doing something like &lt;em&gt;exercising more&lt;/em&gt; it may be
+best to just start doing some easy to access exercise daily,
+e.g. walking while listening to some podcast. Soon enough, this will
+seem to easy (and perhaps not so "fun" as it is too relaxing) and you
+can scale up the intensity of whatever you are doing.&lt;/p&gt;
+&lt;p&gt;In any case, it pays to have fun:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;to enjoy life&lt;/li&gt;
+&lt;li&gt;to have a sustainable lifestyle&lt;/li&gt;
+&lt;li&gt;to spread joy to others&lt;/li&gt;
+&lt;li&gt;[...]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Really, &lt;em&gt;fun&lt;/em&gt; shouldn't need a justification. So more fun and
+equal/more productivity is better, all things considered. kk have fun.&lt;/p&gt;</content><category term="Fun"></category></entry><entry><title>Shadowrun Games Review</title><link href="https://captainalan.github.io/pelican-test/shadowrun-games-review.html" rel="alternate"></link><published>2020-02-28T00:00:00-08:00</published><updated>2020-02-28T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-02-28:/pelican-test/shadowrun-games-review.html</id><summary type="html">&lt;p&gt;Here is my game review for &lt;a href="https://store.steampowered.com/app/346940/Shadowrun_Hong_Kong__Extended_Edition/"&gt;Shadowrun: Hong
 Kong&lt;/a&gt;
 (2015) and &lt;a href="https://store.steampowered.com/app/234650/Shadowrun_Returns/"&gt;Shadowrun
 Returns&lt;/a&gt;
