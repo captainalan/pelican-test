@@ -1,10 +1,12 @@
 title: Corona Virus Diary, Part 8
-date: 2020-05-10
+date: 2020-05-11
 category: News
 
-Many parts of "daily life" can seem tedious and annoying.  Take a
-morning commute, for instance. Sitting in traffic on the way to sit in
-a cubicle?!
+Many parts of "daily life" can seem tedious and annoying at
+times. Take a morning commute, for instance. Sitting in traffic on the
+way to sit in a cubicle?! Now I repent; I find myself missing lots of
+these things now that I'm staying in most every day, most all the
+time.
 
 All this COVID-19 business has made me appreciate how having certain
 discrete "events" in my day&mdash;which at times may have seemed
