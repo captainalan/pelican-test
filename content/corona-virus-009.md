@@ -4,10 +4,11 @@ category: News
 
 Today's topic is *accountability as motivation*. Specifically, I'll be
 looking at how the tough-times of COVID-19 lock-in have weakened many
-(usually present) accountability mechanisms that keep most of us
-going. Then, I'll go into some strategies I've successfully used to
-keep myself going. My goal is to share some info I have found useful
-and also to remind myself of things that have worked for me.
+accountability mechanisms that keep many of us going day-to-day. Then,
+I'll go into some strategies I've successfully used to keep myself
+motivated and working hard. My goal here is to share some info I have
+found useful and also to remind myself of things that have worked for
+me.
 
 *Let the psychologizing and rationalization begin!*
 
@@ -33,35 +34,60 @@ inspirational/informative videos etc.
 
 ### Lock-in Challenges
 
-As explored in [Part 8](./corona-virus-008.html) of this series, many
-structured aspects of our "daily routines" are disturbed by this
-lock-down business. Activities taken for granted like *commuting to
-work/school* are disturbed. Also interrupted are things like
-*physical accountability of seeing familiar faces in classrooms and
-workplaces*.
+As explored in [Part 8](./corona-virus-diary-part-8.html) of this
+series, many structured aspects of our "daily routines" are disturbed
+by this lock-down business. Activities taken for granted like
+*commuting to work/school* are disturbed. Also interrupted are things
+like *physical accountability of seeing familiar faces in classrooms
+and workplaces*.
 
-Many interrupted activities were important for
-accountability&mdash;rather than "raw data transfer". For instance,
-you don't really "learn anything" about Calculus from the first five
-or ten minutes or so of settling in class. However, this time is
-important for many students to figure out "was I the only one confused
-about question XYZ?" or "who here knows what is going on".
+Many businesses and institutions have done a good job continuing to do
+their "main service" (e.g. a school delivering cirriculum material, a
+restaurant serving food). However, lock-in measures have meant that
+many "secondary services" are interrupted. Many of these activities
+are important mainly for accountability.  For instance, you don't
+really "learn anything" about Calculus from the first five or ten
+minutes or so of settling in class. However, this time is important
+for many students to figure out "was I the only one confused about
+question XYZ?" or "who here knows what is going on".
 
+As activity gets reduced overall, we observe governments/corporations
+making distinctions between "essential" and "non-essential"; what is
+"essential" often coincide with the "main services" and what is
+non-essential is the "extra-stuff", i.e. everything you miss out on
+when you go to online class vs in person class.
+
+Here I see two related problems. First, there is (1) **nerd-think**
+that school is about data-transfer of knowledge, restaurants are about
+food/nutrition, etc., and (2) **technological obstruction of accountability**.
+
+Non-nerd think here is to say that restaurants aren't just about food,
+they are about atmosphere, people gathering together, and so on and so
+forth. School is not mainly about content-delivery, it is about
+learning how other people work and how society functions.
 Technologies like Zoom (video conferencing) impose different, often
 more limited
 [channels](https://captainalan.github.io/language-and-linguistics/essays/channels.html)
 of communication on people in workplaces, students, etc. While these
 channels are often adequate to convey the "primary" material of
 lecture content, meeting agendas, and so forth, they are often much
-poorer at encouraging accountability.  Furthermore, in these
-channels, inequalities of access are magnified by students'
-differences in computer hardware, technical know-how, and connection
-speeds [^1].
+poorer at encouraging accountability.  Furthermore, in these channels,
+inequalities of access are magnified by students' differences in
+computer hardware, technical know-how, and connection speeds [^1].
+
+What we are witnessing is *a qualitatively different experience* being
+delivered to students, workers, etc., even if nominally "the products
+are being delivered". As such, we must adapt our strategies to stay
+motivated. Studying for online class is different from studying for
+offline class.
 
 ### Accountability as a Service
 
 One strategy I've found helpful to stay motivated is to appreciate and
-use *accountability as a service*.
+use *accountability as a service*. By realizing how we are involved in
+delivering accountability to others and asking others to give us
+accountability, we can all work together to make the world a better
+place.
 
 Locked-down times have reminded me that much of the value of
 institutions of things like schools and offices is the *structure of
@@ -92,6 +118,10 @@ to move forward so you don't have to do everything yourself. Of
 course, there are many steps you must take to gain the trust of those
 working with you, but ultimately, success is in having independent
 actors working at solving problems you haven't even thought of yet.
+
+During these COVID-19 times it is more important than ever to engage
+in accountability *networks*, both giving and receiving social
+incentives to keep stuff moving.
 
 Competition and Care
 --------------------
@@ -134,7 +164,7 @@ For instance:
   weeks)
 - Climb your workplace power ladder; volunteer to take up some
   responsibility you have not had before, and take charge
-- Make a fixed plan for something you are trying to improve on:bucks
+- Make a fixed plan for something you are trying to improve on:
   e.g. fitness goals, writing more, etc.; make it fun by agreeing to
   give someone 100 dollars or something if you mess up on some
   pre-defined terms
