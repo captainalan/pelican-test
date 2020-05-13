@@ -15,7 +15,8 @@ coffee" is broken because some blogger will park their butt in your
 café and drink three cups of coffee over the course of two hours for
 the price of one cup of coffee. In terms of how much coffee you must
 order, this means for *some* customers, one cup of coffee sold means
-*more than one cup of coffee's supply of coffee beans are required*.
+*more than one cup of coffee's supply of coffee beans are required*
+[^0].
 
 In the above example, I use a seemingly simple measure (number of
 coffees sold) to illustrate that *counting stuff and interpreting
@@ -225,6 +226,13 @@ option...
 
 
 
+[^0]: A "nuance bro" informed me that there is *even more* nuance to
+    be introduced to this scenario. Many coffee shops throw away extra
+    brewed coffee at regular intervals (2 hrs, 30 min...). Some of
+    this extra coffee may go into other products such as "iced
+    coffee", but in general, it goes down the drain. So refills may be
+    inconsequential... until you drink the whole coffee pot?
+    Hmm. Nuance. Bro.
 [^1]: On Prof. Bromage's [homepage](https://www.erinbromage.com/)
     accessed 5/13/2020
 [^2]: It is difficult enough to assess the data in any one
@@ -233,7 +241,9 @@ option...
     Arabia, Russia, etc.
 [^3]: ["YouTube Ramps Up Action to Remove COVID-19
     Misinformation"](https://www.socialmediatoday.com/news/youtube-ramps-up-action-to-remove-covid-19-misinformation/576577/)
-    (Andrew Hutchinson; April 23, 2020)
+    (Andrew Hutchinson; April 23, 2020). I haven't looked further into
+    the details here, but reportedly, YouTube has censored actual US
+    doctors making statements regarding COVID-19.
 [^4]: "I suppose it is tempting, if the only tool you have is a
     hammer, to treat everything as if it were a nail." &mdash;[Law of
     the
