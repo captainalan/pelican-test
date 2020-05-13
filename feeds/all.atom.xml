@@ -1,5 +1,230 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-05-12T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 9</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-9.html" rel="alternate"></link><published>2020-05-12T00:00:00-07:00</published><updated>2020-05-12T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-12:/pelican-test/corona-virus-diary-part-9.html</id><summary type="html">&lt;p&gt;Today's topic is &lt;em&gt;accountability as motivation&lt;/em&gt;. Specifically, I'll be
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-05-13T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 10</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-10.html" rel="alternate"></link><published>2020-05-13T00:00:00-07:00</published><updated>2020-05-13T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-13:/pelican-test/corona-virus-diary-part-10.html</id><summary type="html">&lt;p&gt;When discussing any data, we must make assumptions about the &lt;em&gt;validity
+of the data&lt;/em&gt;. Sometimes, this is pretty concrete. For example, if you
+manage a café, you might have counts of how many coffees you sell each
+day. This can help you answer questions such as &lt;em&gt;how many pounds of …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;When discussing any data, we must make assumptions about the &lt;em&gt;validity
+of the data&lt;/em&gt;. Sometimes, this is pretty concrete. For example, if you
+manage a café, you might have counts of how many coffees you sell each
+day. This can help you answer questions such as &lt;em&gt;how many pounds of
+coffee beans should be purchased each month?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Stuff gets complicated, however, when people do stuff that people
+do. For instance, getting free coffee refills. Suddenly, the
+assumption of "one sold cup of coffee means one cup of (physical)
+coffee" is broken because some blogger will park their butt in your
+café and drink three cups of coffee over the course of two hours for
+the price of one cup of coffee. In terms of how much coffee you must
+order, this means for &lt;em&gt;some&lt;/em&gt; customers, one cup of coffee sold means
+&lt;em&gt;more than one cup of coffee's supply of coffee beans are required&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;In the above example, I use a seemingly simple measure (number of
+coffees sold) to illustrate that &lt;em&gt;counting stuff and interpreting
+counts&lt;/em&gt; is seriously difficult business, especially if you are not
+very familiar with the data involved. To be "data-driven" or
+"fact-based" often means to wholeheartedly assume certain data sets
+are as people report them to be.&lt;/p&gt;
+&lt;p&gt;Note that being skeptical of how good some data is &lt;em&gt;does not entail
+"conspiratorial thinking"&lt;/em&gt;&amp;mdash;assuming some group of evil-scheming
+people plotting a power grab or something to that effect. Data
+collection can be bad because multiple well-intentioned actors follow
+different procedures. Here we are looking at &lt;em&gt;the opposite of
+conspiracy&lt;/em&gt; in the sense of jointly-coordinated efforts towards some
+aim&amp;mdash;we are looking instead at messy data from different parties
+failing to coordinate and the aggregation of data from different
+(relatively independent) sources.&lt;/p&gt;
+&lt;h2&gt;Viral Matters&lt;/h2&gt;
+&lt;p&gt;I think we do have some pretty good info on how viruses operate and
+spread generally. For instance, an (Internet) friend shared this
+excellent, accessible article describing how a virus can spread and
+what sorts of situations are high-risk: &lt;a href="https://www.erinbromage.com/post/the-risks-know-them-avoid-them"&gt;"The Risks - Know Them -
+Avoid
+Them"&lt;/a&gt;
+by Prof. Erin Bromage.&lt;/p&gt;
+&lt;p&gt;As far as I can tell, the info in this article is solid. The author of
+the piece above is an expert in these things. Articles like the one
+above are helpful as "field guides" to understand how to best protect
+our friends and family from viral threats.&lt;/p&gt;
+&lt;p&gt;Let's assume we have a decent &lt;strong&gt;model&lt;/strong&gt; of how viruses generally do
+some stuff.&lt;/p&gt;
+&lt;h3&gt;Authority and Uncertainty&lt;/h3&gt;
+&lt;p&gt;Prof. Bromage (from the above linked article) asserts &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Always defer to the guidance from your local Health Department or
+the CDC!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;My uncertainty about the counts of COVID-19 matters leads me in no way
+to contradict Prof. Bromage on questions of how viruses spread and
+what we can do to protect one another. However, as an independent
+individual (in the sense that I'm not a government official making
+policy on COVID-19, a university professor who is obliged to honor
+certain institutions), I have reasons to doubt how much the WHO or the
+CDC or whoever knows about the (biological) reality of COVID-19
+situation as it evolves. No need to open the geopolitics can of worms
+here to make this point... &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;One big class of unknowns, as introduced in this article, is &lt;em&gt;what
+exactly is being counted and how is it being counted&lt;/em&gt;. To me, it seems
+&lt;em&gt;heterogeneous&lt;/em&gt;; we are seeing different ways of counting different
+things from different places. This is no one individual's
+fault&amp;mdash;but I think it is helpful to appreciate this fact rather
+than reactively making policies that &lt;em&gt;certainly&lt;/em&gt; affect many people's
+lives drastically.&lt;/p&gt;
+&lt;p&gt;In my own life, I have chosen to act (very) conservatively, pretty
+much not going out at all over the past couple months. Should this be
+ordered as a top down policy? I dunno, should we ban french fries and
+tell people not to drive motorcycles?! This is a political issue!&lt;/p&gt;
+&lt;h2&gt;Feelings and Politics&lt;/h2&gt;
+&lt;p&gt;Smart people, such as Prof. Broman, seem to assume we have decent
+enough data on what is going on to make &lt;em&gt;mandates&lt;/em&gt; on huge scale. We
+are seeing a pretty big "civil disturbance" here; it is not "just the
+flu bro" in terms of institutional/governmental responses.&lt;/p&gt;
+&lt;p&gt;We are collectively making decisions in using rather opaque
+data. Policies like YouTube's anti-disinformation campaign against
+content opposing the World Health Organization's &lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt; statements on
+COVID-19 make sense from a Chinese-style "social harmony"
+perspective&amp;mdash;we want everybody to be "on the same page" working
+together. Big organizations everywhere are making similar "get on the
+(establishment-approved) bandwagon" type policies governing what
+people are allowed to say, less they be thrown into the "conspiracy
+theory" loony bin.&lt;/p&gt;
+&lt;p&gt;Let us not confuse confident/assertive language for understanding!
+We are living in times with more data readily available than ever, but
+we have not collectively improved on how to filter or deal with all
+that data. Statistics is a specialist's art (science? engineering
+exercise?) and often those most knolwedgable about some model in the
+world are most blind to see things in other terms &lt;sup id="fnref:4"&gt;&lt;a class="footnote-ref" href="#fn:4"&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h3&gt;Fear&lt;/h3&gt;
+&lt;p&gt;Fear is one way to get people to hop on board with a decision. This is
+the "if we don't do anything that's the worst" type thinking. Will
+this lead to the best outcome? Unfortunately, this is often the tool
+used to steer collective decisions (e.g. voting in democracies).&lt;/p&gt;
+&lt;p&gt;We can expect exploitation of fear to fuel political agendas (which
+may be ones we agree with) to continue as long as humans continue to
+make societies.&lt;/p&gt;
+&lt;p&gt;In this COVID-19 situation, I think that widespread fear is a
+particularly big problem because we are seeing lots of
+expansion/exercise of government power over all sorts of things: where
+people can('t) go, who gets money, who is "essential", etc.&lt;/p&gt;
+&lt;p&gt;There is nothing wrong with fear itself; indeed it is a very useful
+thing to make quick decisions (often without thinking) about stuff
+like... &lt;em&gt;don't walk over some narrow crumbling bridge to take a selfie
+or you might die&lt;/em&gt; or &lt;em&gt;don't try to pick a fight with some dude who has
+eight scary-looking friends around him&lt;/em&gt;.&lt;/p&gt;
+&lt;h3&gt;Trying to understand the situation&lt;/h3&gt;
+&lt;p&gt;Fear, however, can be counter-productive to understanding. In the
+above examples, fear may save my life but it also prevents me from
+understanding &lt;em&gt;what I can do&lt;/em&gt;. I could stop and take a picture of that
+scenic crumbling bridge, using a selfie-stick as a monopod thing to
+get a better angle. I could observe the scary people from the shadows
+and learn a bit more about the culture of the area I am in. When faced
+with unknown situations, &lt;em&gt;fear&lt;/em&gt; is a useful thing to feel. As
+situations evolve/change, however, fear may wear away and we can begin
+trying to understand things better...&lt;/p&gt;
+&lt;p&gt;Below are some strategies I have for trying to understand what's going
+on around me, broadly:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Respect &lt;strong&gt;(primary) data&lt;/strong&gt; including &lt;strong&gt;first-hand accounts&lt;/strong&gt; of what
+  is going on; aggregate measures are good for some things, but can be
+  very misleading when readily accepted in some pre-packaged narrative&lt;/li&gt;
+&lt;li&gt;Seek out and &lt;strong&gt;compare alternative choices/decisions&lt;/strong&gt;; somebody else
+  may have a different take on something&amp;mdash;investigate what
+  assumptions they are making to lead them to believe this; don't
+  assume someone is &lt;em&gt;irrational/idiotic&lt;/em&gt; because they arrive at
+  different conclusions than you; instead follow their chain of
+  rationalization to find their beliefs (which you may find yourself
+  agreeing with)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recognize we are making decisions under uncertainty&lt;/strong&gt; and realize
+  that more certainty doesn't mean more understanding (think of your
+  favorite "stupid zealot")&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The tools I use to do this are many. For example,
+&lt;strong&gt;gossip/smalltalk/banter&lt;/strong&gt;
+is a great way to find out about how people are thinking/feeling about
+stuff generally. You could be a nerd and look at some aggregated poll
+result (worse). Or, you could just listen to some different people
+tell you stories and/or complain about stuff (better). This is primary
+feelings data.&lt;/p&gt;
+&lt;p&gt;I intentionally &lt;strong&gt;stay subscribed to/read media from people very
+unlike me&lt;/strong&gt; because I think they may bring up good ideas that I am not
+intended to find myself. For instance, I lean towards less top-down
+control and more "muh freedoms" (libertarian) in how I prefer the US
+to be run. However, I can see in anime how glorious &lt;em&gt;nippon&lt;/em&gt; can be a
+beautiful place with top-down directed castle building and government
+sponsored giant robots. I personally wouldn't want to go through all
+those Japanese formalities of bowing and saying this-and-that
+phrase. But I recognize the aesthetic appeal of this and why Japanese
+tourism is way more popular than me (at least pre-COVID-19, lol). I am
+personally a cis-gendered straight male (type o blood, black hair,
+brown eyes; very common). But I learned myself some basic gender
+theory and SJW &lt;sup id="fnref:5"&gt;&lt;a class="footnote-ref" href="#fn:5"&gt;5&lt;/a&gt;&lt;/sup&gt; talking points because they point out some big
+social issues of our time. There is no point denying the hurt/pain of
+people unlike me, even if I don't agree with their political aims for
+the most part.&lt;/p&gt;
+&lt;p&gt;Finally, we can remind ourselves of how we can get involved with some
+idea/cause or another. This is one reason I write stuff here. I can
+look at what I've said and see a record of how I've said smart/dumb
+stuff. By writing about how I think about things, I can get insight
+into stuff I do(n't) see and guard against where I might be led
+astray. For instance, I know that in the past, I've been a relatively
+conflict-averse ("agreeable") person, often to my disadvantage.&lt;/p&gt;
+&lt;h2&gt;Declarations of Faith&lt;/h2&gt;
+&lt;p&gt;Returning back to COVID-19 matters...&lt;/p&gt;
+&lt;p&gt;We are witnessing an interplay of &lt;strong&gt;fear&lt;/strong&gt; and &lt;strong&gt;faith&lt;/strong&gt; with regards
+to how people are responding to COVID-19. My word salad above
+explains some ways in which I try to better undersand what's going on,
+and consequently, how I determine who/what to put my trust in.&lt;/p&gt;
+&lt;p&gt;As I see it, we are all "people of faith", just different folks put
+faith in different stuff. In these trying times, we are seeing many
+sorts of "prophets" rising up, each belonging to different "churches",
+and some using social media more than others, ha! As this COVID-19
+business unfolds, we'll see how the "prophecies" of these different
+groups unfold. Until it is over, we'll see fear continuing to drive a
+"witch hunt" against those without unwavering faith in "the
+establishment", broadly.&lt;/p&gt;
+&lt;p&gt;Generally, I think that &lt;em&gt;less escalation/application of state power&lt;/em&gt;
+is best because individuals can choose to protect themselves and their
+families in many ways, to the extent they perceive COVID-19 as a risk.
+I don't think the evidence/analyses of what is going on are good
+enough to warrant total, prolonged, widespread mandatory shutdowns of
+lots of stuff, as we're seeing. Though, I do hope
+businesses/governments/etc. give people options to stay
+quarantined/locked-down if they wish to choose this more conservative
+option...&lt;/p&gt;
+&lt;p&gt;...in any case, until locked down times end... more blog posts 🙃&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;On Prof. Bromage's &lt;a href="https://www.erinbromage.com/"&gt;homepage&lt;/a&gt;
+accessed 5/13/2020&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;It is difficult enough to assess the data in any one
+familiar-ish location (e.g. New York City for New Yorkers); I
+dunno wtf is going across the globe in places like Cambodia, Saudi
+Arabia, Russia, etc.&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;&lt;a href="https://www.socialmediatoday.com/news/youtube-ramps-up-action-to-remove-covid-19-misinformation/576577/"&gt;"YouTube Ramps Up Action to Remove COVID-19
+Misinformation"&lt;/a&gt;
+(Andrew Hutchinson; April 23, 2020)&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:4"&gt;
+&lt;p&gt;"I suppose it is tempting, if the only tool you have is a
+hammer, to treat everything as if it were a nail." &amp;mdash;&lt;a href="" title="https://en.wikipedia.org/wiki/Law_of_the_instrument"&gt;Law of
+the
+Instrument&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:5"&gt;
+&lt;p&gt;"Social Justice Warrior"; meant here as a descriptive term for
+people that so self-describe themselves as fighting for social
+justice, not in any sort of snarky/condescending way&amp;#160;&lt;a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:6"&gt;
+&lt;p&gt;"something lame, dead-end, a dud, insignificant; especially
+something with high expectations that turns out to be average,
+pathetic, or overhyped."  &lt;a href="https://www.urbandictionary.com/define.php?term=nothingburger"&gt;Urban
+Dictionary&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 9</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-9.html" rel="alternate"></link><published>2020-05-12T00:00:00-07:00</published><updated>2020-05-12T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-12:/pelican-test/corona-virus-diary-part-9.html</id><summary type="html">&lt;p&gt;Today's topic is &lt;em&gt;accountability as motivation&lt;/em&gt;. Specifically, I'll be
 looking at how the tough-times of COVID-19 lock-in have weakened many
 accountability mechanisms that keep many of us going day-to-day. Then,
 I'll go into some strategies I've successfully used to keep myself
