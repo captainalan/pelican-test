@@ -1,5 +1,5 @@
 title: Corona Virus Diary, Part 11
-date: 2020-05-13
+date: 2020-05-14
 category: News
 
 Today I'm going to return to a psychological/philosophical topic:
@@ -8,7 +8,7 @@ all relates to COVID-19 is that *the primary way most of us understand
 what's going on is through words*.
 
 Words are great for lots of things, but they have their
-limitations. There are many "non-verbal" ways to think about stuff,
+limitations. There are many **non-verbal** ways to think about stuff,
 e.g. spatially, in terms of math, through working with programing
 languages,
 [kinaesthetically](https://en.wikipedia.org/wiki/Kinaesthetics), etc.
@@ -87,6 +87,22 @@ helpful to protect yourself from emotional manipulation and to also
 see new things that the words you conceptualize the world with may
 have previously concealed from you.
 
+Moar Media and Notes
+--------------------
+
+Below are some readings/videos that have influenced my thinking on
+these topics
+
+- ["Were the Ancients Morons? (Translation and
+  Mindset)"](https://www.youtube.com/watch?v=P3s47-p9rE0) (Luke Smith;
+  January 29, 2019)
+- [*Drawing on the Right Side of the Brain](https://www.amazon.com/Drawing-Right-Side-Brain-Definitive/dp/1585429201) (Betty Edwards; 1979)
+- ["On 'primitive' languages in linguistic theory"](http://royharrisonline.com/INP27.html) (Roy Harris; 2010)
+- Linguist Roy Harris on monolingual dictionaries; don't have specific references now
+- N.T. Taleb has treated the topics discussed here; don't have specific references now
+
+There was some Luke Smith video that talked specifically about people
+who only "think in words", but I can't find it at this time.
 
 [^1]: Aside from President Trump using this term fairly recently; I'm
     not sure what connotations this term carries
