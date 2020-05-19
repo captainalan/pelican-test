@@ -1,5 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Interwebs</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/interwebs.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-02-26T00:00:00-08:00</updated><entry><title>Use Browser Navigation</title><link href="https://captainalan.github.io/pelican-test/use-browser-navigation.html" rel="alternate"></link><published>2020-02-26T00:00:00-08:00</published><updated>2020-02-26T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-02-26:/pelican-test/use-browser-navigation.html</id><summary type="html">&lt;p&gt;Built into all browsers these days are buttons like FORWARD, BACK, and
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Interwebs</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/interwebs.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-05-18T00:00:00-07:00</updated><entry><title>Create React App: An Entry Point into "Modern" Web Development</title><link href="https://captainalan.github.io/pelican-test/create-react-app-an-entry-point-into-modern-web-development.html" rel="alternate"></link><published>2020-05-18T00:00:00-07:00</published><updated>2020-05-18T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-18:/pelican-test/create-react-app-an-entry-point-into-modern-web-development.html</id><summary type="html">&lt;h2&gt;Introducing React&lt;/h2&gt;
+&lt;p&gt;A popular way to build websites these days is to use
+&lt;a href="https://reactjs.org/"&gt;React&lt;/a&gt;, which is officially described as "A
+JavaScript library for building user interfaces".  With React, you
+write JavaScript which does stuff in a "virtual DOM" rather than the
+(browser's) DOM directly. In this way, you can work …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Introducing React&lt;/h2&gt;
+&lt;p&gt;A popular way to build websites these days is to use
+&lt;a href="https://reactjs.org/"&gt;React&lt;/a&gt;, which is officially described as "A
+JavaScript library for building user interfaces".  With React, you
+write JavaScript which does stuff in a "virtual DOM" rather than the
+(browser's) DOM directly. In this way, you can work with some nice
+abstractions that get "compiled" down to stuff a browser understands
+natively.&lt;/p&gt;
+&lt;p&gt;To use React, you only need one web page&amp;mdash;we'll call this
+&lt;code&gt;index.html&lt;/code&gt;. You use JavaScript to "inject" everything into some
+root. Using React, you will assume your users have JavaScript enabled
+in their browser.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;noscript&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;u need javascript&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;noscript&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt; &lt;span class="na"&gt;id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;root&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Using JavaScript to simulate different pages (by rendering different
+"components"), you can provide users with a very fast-feeling
+experience. This is because instead of requesting new pages form a
+server when you click around your web app, you are just shuffling
+around stuff in the aforementioned "Virtual DOM" using React's
+(JavaScript) library. The result is near-zero "loading time" switching
+between complex views which need not be organized in static "pages".&lt;/p&gt;
+&lt;h2&gt;Using Create React App to skip the setup&lt;/h2&gt;
+&lt;p&gt;Beginners with React typically start building apps using a tool called
+&lt;a href="https://github.com/facebook/create-react-app"&gt;&lt;code&gt;create-react-app&lt;/code&gt;&lt;/a&gt;.
+This tool gives a basic working app ("website") with a bunch of fancy
+features ready to be used. For example,
+&lt;a href="https://webpack.js.org/"&gt;webpack&lt;/a&gt;&amp;mdash;a "modular
+bundler"&amp;mdash;already comes set up and ready to use. You can write
+your JavaScript app in a bunch of files, use &lt;code&gt;imports&lt;/code&gt; and stuff and
+rely on the default setup to package up everything together to be
+deployed to the web. You can get a flying start trying out things like
+JSX (HTML-looking JavaScript syntax used with React). Since
+&lt;code&gt;create-react-app&lt;/code&gt; is a pretty popular tool, it is convenient to
+search stuff like how to deploy an app created with this tool to
+places like &lt;a href="https://pages.github.com/"&gt;GitHub pages&lt;/a&gt; or
+&lt;a href="https://www.netlify.com/"&gt;Netlify&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Using &lt;code&gt;create-react-app&lt;/code&gt; is how I personally got started with my
+programing career &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;. I heard React was the hottest, latest and
+greatest technology so I went and learned the basics using
+&lt;code&gt;create-react-app&lt;/code&gt; so I could go find work.&lt;/p&gt;
+&lt;p&gt;Assuming you have &lt;code&gt;npm&lt;/code&gt; installed, you can start using
+&lt;code&gt;create-react-app&lt;/code&gt; by calling &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;,&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;npx create-react-app name-of-my-new-app
+&lt;span class="nb"&gt;cd&lt;/span&gt; name-of-my-new-app &lt;span class="c1"&gt;# Navigate into the directory of your new app&lt;/span&gt;
+npm start &lt;span class="c1"&gt;# Start the development server&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The newly created app will contain a &lt;code&gt;README.md&lt;/code&gt; file that includes
+instructions on how to do some basic stuff.&lt;/p&gt;
+&lt;p&gt;Typically where people go from here is to open up their new app
+directory in VS Code, which has big bucks (Microsoft) behind it as
+well as armies of people making extensions and stuff.&lt;/p&gt;
+&lt;h2&gt;What is nice&lt;/h2&gt;
+&lt;p&gt;The set-up described above is not so difficult to do. You can start
+using fancy features like cutting-edge new JavaScript syntax right
+away.  You can create a production build with &lt;code&gt;npm run build&lt;/code&gt;. You can
+expand what &lt;code&gt;create-react-app&lt;/code&gt; gives you by installing new packages.
+The already-bundled script allow you to think less about setup and
+config and focus your energies on doing things like making stuff
+pretty with CSS and following the official docs on &lt;a href="https://reactjs.org/docs/thinking-in-react.html"&gt;"Thinking in
+React"&lt;/a&gt;.
+You are well-equipped to enter the "React cult".&lt;/p&gt;
+&lt;h2&gt;Where trouble begins&lt;/h2&gt;
+&lt;p&gt;Overally, as a tool for getting started and trying out some new
+technology, &lt;code&gt;create-react-app&lt;/code&gt; is very nice. It can be dangerous to
+use, however.&lt;/p&gt;
+&lt;p&gt;The more complex of a job you are trying to do, you will find that you
+will butt heads with &lt;code&gt;create-react-app&lt;/code&gt;. You are given many
+pre-configured &lt;em&gt;layers of abstraction&lt;/em&gt;, set up for getting to work
+quickly. When something goes wrong or when you need a new specific
+functionality, it may be necessary to "look under the hood" and find
+out "how the sausage is made".&lt;/p&gt;
+&lt;p&gt;In this way, the "flying start" granted by &lt;code&gt;create-react-app&lt;/code&gt; may
+cause more trouble for you than it helps because it encourages you to
+use all sorts of things you are not familiar with.&lt;/p&gt;
+&lt;p&gt;More experienced developers than me tell me that they more often than
+not &lt;em&gt;do not&lt;/em&gt; use &lt;code&gt;create-react-app&lt;/code&gt; because if they are trying to do
+something specific, it is easier to start from smaller building blocks
+and build up a nice configuration. This is not too unlike the attitude
+of many Linux "power users" that that prefer to start with something
+like Debian or Arch Linux (relatively few default packages to start
+with) rather than installing a more "user-friendly" distribution like
+Ubuntu.&lt;/p&gt;
+&lt;p&gt;For smaller, more isolated problems or reproducing examples of
+specific issues, there are tools like
+&lt;a href="https://codepen.io/"&gt;codepen.io&lt;/a&gt; which require no installation on
+your part. Other setups, such as
+&lt;a href="https://www.gatsbyjs.org/"&gt;GatsbyJS&lt;/a&gt;&amp;mdash;a static site
+generator&amp;mdash;will use React with a different configuration than
+&lt;code&gt;create-react-app&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;More general issues&lt;/h2&gt;
+&lt;p&gt;Oftentimes, reaching for a popular "modern" solution like React is the
+gut reaction for developers. Personally, I began learning React
+because there were lots of job listings that mentioned it.&lt;/p&gt;
+&lt;p&gt;The conveniences given by tools like &lt;code&gt;create-react-app&lt;/code&gt; encourage
+(new) developers to jump into complicated technology "stacks" because
+it is easy to introduce a huge lump of technology with minimal effort
+at the beginning.&lt;/p&gt;
+&lt;p&gt;There are many costs, however, to pay after enjoying this initial
+convenience. A big one for beginning developers is having a big pile
+of technology of which you understand little to nothing of many of its
+parts.&lt;/p&gt;
+&lt;p&gt;The pain of working through setting up a new project with a complex
+tech stack is instructive in that it encourages you to think about why
+it is(n't) worth it to introduce XYZ new and fancy
+feature.&lt;/p&gt;
+&lt;p&gt;It is for this reason that many more experienced developers than me
+recommend focusing on fundamentals such as (vanilla) JavaScript, HTML,
+and CSS on the front end plus some knowledge of how HTTP works, what
+good structures in databases look like, and common practices for doing
+things like authentication and handling file uploads in backend code.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;I was in graduate school in the social sciences; I decided to
+start looking for work in web development. &lt;em&gt;Note:&lt;/em&gt; "programing" is
+not a typo; this is the preferred spelling of Great Web Historian
+&lt;a href="http://xahlee.info/"&gt;Xah Lee&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;Consult the &lt;a href="https://reactjs.org/docs/create-a-new-react-app.html#create-react-app"&gt;official
+documentation&lt;/a&gt;
+for the latest instructions.&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Interwebs"></category></entry><entry><title>Use Browser Navigation</title><link href="https://captainalan.github.io/pelican-test/use-browser-navigation.html" rel="alternate"></link><published>2020-02-26T00:00:00-08:00</published><updated>2020-02-26T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-02-26:/pelican-test/use-browser-navigation.html</id><summary type="html">&lt;p&gt;Built into all browsers these days are buttons like FORWARD, BACK, and
 REFRESH. However, many web developers choose to build navigation
 components into their sites which ignore this built in functionality.
 The result is UI &lt;strong&gt;bloat&lt;/strong&gt;. There are multiple back buttons displayed
