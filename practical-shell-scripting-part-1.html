@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Practical Shell Scripting, Part 1</title>
+        <link rel="stylesheet" href="https://captainalan.github.io/pelican-test/theme/css/main.css" />
+        <link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Alan's Miscellaneous Stuff Blog Atom Feed" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://captainalan.github.io/pelican-test/">Alan's Miscellaneous Stuff Blog </a></h1>
+                <nav><ul>
+                    <li><a href="https://captainalan.github.io/pelican-test/category/fun.html">Fun</a></li>
+                    <li><a href="https://captainalan.github.io/pelican-test/category/interwebs.html">Interwebs</a></li>
+                    <li><a href="https://captainalan.github.io/pelican-test/category/lifestyle.html">Lifestyle</a></li>
+                    <li class="active"><a href="https://captainalan.github.io/pelican-test/category/linux.html">Linux</a></li>
+                    <li><a href="https://captainalan.github.io/pelican-test/category/news.html">News</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://captainalan.github.io/pelican-test/practical-shell-scripting-part-1.html" rel="bookmark"
+           title="Permalink to Practical Shell Scripting, Part 1">Practical Shell Scripting, Part 1</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-05-19T00:00:00-07:00">
+                Published: Sun 19 May 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://captainalan.github.io/pelican-test/author/alan-wong.html">Alan Wong</a>
+        </address>
+<p>In <a href="https://captainalan.github.io/pelican-test/category/linux.html">Linux</a>.</p>
+
+</footer><!-- /.post-info -->      <p>In this series of articles, I will document how I do various things
+using shell scripts<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.  My basic approach is to use <code>bash</code> to
+automate stuff by documenting and replicating steps that I take on the
+<strong>Command Line Interface</strong> (CLI) <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>.</p>
+<h2>Preliminary things</h2>
+<p>It is assumed the reader has basic working knowledge of doing things
+like navigating around directories, deleting files, using some editor,
+etc. No knowledge is assumed of using specific tools like <code>find</code>,
+<code>xargs</code>, <code>curl</code>, etc. Much of the content here will be treating how to
+do useful things using those tools.</p>
+<h3>Additional Setup</h3>
+<p>There is a utility called <a href="https://www.shellcheck.net/">ShellCheck</a>
+which may be helpful to set up with your favorite editor/development
+environment. This tool can help you find common mistakes in your shell
+script code <em>before</em> you even try to run it.</p>
+<h3>Methodology</h3>
+<p>When there is something that I want to do (on Linux), I'll try to do
+it all via the command line. Anything non-trivial that I might have to
+do again I'll want to document somewhere so I don't have to bother
+figuring out the annoying aspects again. Comments can be written to
+explain non-obvious choices.</p>
+<h2>Shell Scripts as Duct Tape</h2>
+<p>First, my "User Philosophy"!</p>
+<p>On your computer, you have many programs that can individually do
+useful things. Shell scripting is the <em>de facto</em> way to smash a bunch
+of programs together to do more complex tasks for you.</p>
+<p>Shell scripting is different from "programing" in the sense that you
+are often dealing with relatively high-level structures, understanding
+<em>what</em> programs do without needing to concern yourself with <em>how</em> they
+do it. In this way, you leave it up to the "real programers" to take
+care of things like optimizing their programs to be efficient. Your
+job is to just make sure that things hold together "good enough" with
+duct tape.</p>
+<p>Over time you can refine your programs to be better. What is most
+important is to get the job done and not get to hung up on what is
+best. It is better to write more shell scripts, gradually learning
+what is "best" among the many options to do things than to get hung up
+on some esoteric problem too long.</p>
+<p>Careful engineering is the realm of using more full-featured,
+complexity-friendly programing languages. You can write programs in
+other languages and call them from shell-scripts if you have to do
+something particularly complicated that your default tools cannot
+handle so well (e.g. write a parser for a new custom file format you
+created).</p>
+<h2>Where's my Search Bar?</h2>
+<p>MacOS has a fancy search feature you can use by pressing COMMAND+SPACE
+by default. When you do this, you can type words, and MacOS will scan
+your computer in who-knows-what-way for the text you are entering and
+stuff the OS guesses might be related. Windows Explorer has similar
+search features too, I think. How do you do something similar on
+Linux? <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></p>
+<p>Suppose, we want to list all the Markdown files in a directory (<code>.md</code>
+extension). Using <code>find</code> this can be done in
+one line.</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Find all markdown files in my blog directory</span>
+find my-blog-directory -type f -name <span class="s2">&quot;*.md&quot;</span>
+</code></pre></div>
+
+
+<p>We can extend this command to do something else, for example, find all
+instances in these files of the word "foo". Below, we build off our
+previous command which found all markdown files in a directory by
+adding the <code>-exec</code> flag and specifying a command to run on each of the
+files that <code>find</code> finds.</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Search markdown files for text &quot;foo&quot;</span>
+find my-blog-directory -type f -name <span class="s2">&quot;*.md&quot;</span> -exec grep <span class="s2">&quot;foo&quot;</span> <span class="o">{}</span> +
+</code></pre></div>
+
+
+<p>One kinda annoying thing about working with (UNIX) shell scripts is
+that each (utility) program will have its own idiosyncratic syntax.
+In the case of <code>find</code>, you're going to specify options using <code>-thing</code>
+(in this example we specified the <em>type</em> of thing we wanted to find
+and a pattern for the <em>name</em> to match).</p>
+<p>There is some additional special syntax here. When we run the <code>-exec
+grep "foo" {} +</code>, the <code>-exec {} +</code> syntax tells <code>find</code> to run the
+given command (in this case <code>grep ...</code> for each file found, where <code>{}</code>
+will be where the filename is inserted.</p>
+<p>As with natural language, fluent speakers don't spend all day thinking
+about how grammar works while they are talking <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>. Instead, they
+remember common patterns that they use frequently. Stuff like the
+<code>find</code> syntax above is confusing at first, but is something you will
+get used to pretty quickly if you use it frequently.</p>
+<h2>Smashing Together More Things</h2>
+<p>The previous command we built up can be used to do all sorts of stuff
+since <code>-exec +</code> allows us to call <em>any program</em>.</p>
+<p>For example, let's suppose we wanted to get a whole bunch of YouTube
+links to download and watch later. How do I get all the YouTube links
+from my the markdown files in my blog directory?</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Search markdown files for links to YouTube</span>
+find my-blog-directory -type f -name <span class="s2">&quot;*.md&quot;</span> -exec <span class="se">\</span>
+grep -h -o <span class="s2">&quot;youtube\.com\/watch?v=[[:alnum:]]*&quot;</span> <span class="o">{}</span> +
+</code></pre></div>
+
+
+<p>With <code>grep</code> I used the <code>-h</code> option to <em>hide</em> the file name of the file
+I'm currently searching and used the <code>-o</code> option to <em>only</em> show the
+matched text, not the whole line of the regular expression I used.</p>
+<p>The output of this command can be saved into some file for further
+processing.  For example, you can use <code>youtube-dl</code> to help you
+automatically download all the links you just collected while
+you go do something else.</p>
+<h2>General Lessons from <code>find</code></h2>
+<p>You may find that after using shell scripts to do stuff for some time
+you begin to think about how you can do things like naming files
+consistently to make things like pattern matching via globbing easy.</p>
+<p>In the examples I gave above, I relied on file extensions (<code>.md</code>) to
+do my file finding. However I might want to process a bunch of files
+starting with <code>my-diary-</code>, for instance.</p>
+<p>Naming files and organizing directories in a way that makes sense for
+easy processing is akin to setting up an SQL database with
+well-planned tables; it may take more effort to start doing this
+initially, but your efforts may be rewarded later down the road.</p>
+<h2>More links and resources</h2>
+<p>Relating to content discussed in this article:</p>
+<ul>
+<li><a href="https://www.tecmint.com/35-practical-examples-of-linux-find-command/">35 Practical Examples of Linux Find
+  Command</a> (Ravi Saive 2012)</li>
+<li><a href="https://linuxhint.com/bash_globbing_tutorial/">Bash Globbing Tutorial</a> (Fahmida Yesmin 2018)</li>
+</ul>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>For the most part, I'll be using <code>zsh</code> and doing <code>bash</code>
+compatible things. The stuff I'm doing should all work on a pretty
+default set-up with a major distribution (e.g. Debian, Arch) where
+you can easily install common programs.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>See Luke Smith's video <a href="https://www.youtube.com/watch?v=hMSByvFHOro">"Terminal vs. Bash vs. Command Line
+vs. Prompt"</a> (Dec. 2, 
+2019) for clarification on terminology.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>I'm just going to use the word "Linux" here to describe a UNIX
+computing environment where you can easily install certain common
+programs. There is no time for me to quibble over GNU/Linux vs BSD
+vs whatever!! Life is too short!!&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>After-hours linguistics discussions are OK.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="https://captainalan.github.io/">Homepage</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="https://github.com/captainalan">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/alan-wong-bb342569/">Linked In</a></li>
+                            <li><a href="https://www.facebook.com/captainalan">Facebook</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
