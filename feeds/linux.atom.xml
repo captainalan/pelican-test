@@ -1,5 +1,286 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Linux</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/linux.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2019-12-27T00:00:00-08:00</updated><entry><title>Why LARBS?</title><link href="https://captainalan.github.io/pelican-test/why-larbs.html" rel="alternate"></link><published>2019-12-27T00:00:00-08:00</published><updated>2019-12-27T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-12-27:/pelican-test/why-larbs.html</id><summary type="html">&lt;p&gt;In my &lt;a href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html"&gt;Arch Linux Install for n00bs&lt;/a&gt; I gave details on how to install Arch linux and then suggested &lt;a href="https://larbs.xyz"&gt;LARBS&lt;/a&gt; as a way to get up and running with your new installation. In this article I detail &lt;em&gt;why&lt;/em&gt; I find LARBS particularly useful and address some points brought up by …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In my &lt;a href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html"&gt;Arch Linux Install for n00bs&lt;/a&gt; I gave details on how to install Arch linux and then suggested &lt;a href="https://larbs.xyz"&gt;LARBS&lt;/a&gt; as a way to get up and running with your new installation. In this article I detail &lt;em&gt;why&lt;/em&gt; I find LARBS particularly useful and address some points brought up by haters.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Linux</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/linux.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-05-20T00:00:00-07:00</updated><entry><title>Practical Shell Scripting, Part 2</title><link href="https://captainalan.github.io/pelican-test/practical-shell-scripting-part-2.html" rel="alternate"></link><published>2020-05-20T00:00:00-07:00</published><updated>2020-05-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-20:/pelican-test/practical-shell-scripting-part-2.html</id><summary type="html">&lt;p&gt;In this post I will discuss a relatively straightforward command:
+&lt;code&gt;cat&lt;/code&gt;.  The &lt;code&gt;cat&lt;/code&gt; command is used to &lt;em&gt;concatenate&lt;/em&gt; files. So if I had
+three files, I could do something like&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat file1.txt file2.txt file3.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;...and this would display the concatenated content of all these files
+to standard …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In this post I will discuss a relatively straightforward command:
+&lt;code&gt;cat&lt;/code&gt;.  The &lt;code&gt;cat&lt;/code&gt; command is used to &lt;em&gt;concatenate&lt;/em&gt; files. So if I had
+three files, I could do something like&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat file1.txt file2.txt file3.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;...and this would display the concatenated content of all these files
+to standard output.&lt;/p&gt;
+&lt;h2&gt;A Common Beginner's Mistake&lt;/h2&gt;
+&lt;p&gt;Do not use &lt;code&gt;cat&lt;/code&gt; with just a single file, piping to another program.
+You should instead just use that single file as input to the program
+you were piping to.&lt;/p&gt;
+&lt;p&gt;For example, rather than doing&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Looking for where I talk about feelings in my_file.txt&lt;/span&gt;
+cat my_file.txt &lt;span class="p"&gt;|&lt;/span&gt; grep &lt;span class="s2"&gt;&amp;quot;feelings&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;...you should just do,&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Looking for where I talk about feelings in my_file.txt&lt;/span&gt;
+grep &lt;span class="s2"&gt;&amp;quot;feelings&amp;quot;&lt;/span&gt; my_file.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;There are efficiency reasons for doing things this way, but most
+importantly you don't want to look silly in front of scoffing
+neckbeards.&lt;/p&gt;
+&lt;h2&gt;Some better uses of &lt;code&gt;cat&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;There are lots of places where it is good to have &lt;code&gt;cat&lt;/code&gt; around,
+particularly where plain text files are being used&amp;mdash;&lt;code&gt;cat&lt;/code&gt;
+probably won't be too useful manipulating images, dealing with audio
+files, etc.&lt;/p&gt;
+&lt;p&gt;However, dealing with little chunks of human readable text (such as in
+log files, short scripts, etc.) &lt;code&gt;cat&lt;/code&gt; often comes in handy.&lt;/p&gt;
+&lt;h3&gt;Entering short amounts of text really quickly&lt;/h3&gt;
+&lt;p&gt;If you don't wanna open an editor, you can do&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat &amp;gt;&amp;gt; foo.txt &lt;span class="c1"&gt;# Append text fo foo.txt&lt;/span&gt;
+cat &amp;gt; bar.txt  &lt;span class="c1"&gt;# Redirect (and replace) text fo bar.txt&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Reading a bunch of stuff in &lt;code&gt;less&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;To view/read mixed files on one screen, you can do something like,&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat file1.txt file2.txt file3.py &lt;span class="p"&gt;|&lt;/span&gt; less
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This could be useful for looking at a bunch of mixed/scattered
+information in a directory at once, creating an on-the-fly "custom
+view".&lt;/p&gt;
+&lt;h2&gt;Organizing with &lt;code&gt;cat&lt;/code&gt; in mind&lt;/h2&gt;
+&lt;p&gt;In this post, we looked at &lt;code&gt;cat&lt;/code&gt; which is not a terribly complicated
+command.&lt;/p&gt;
+&lt;p&gt;If you can remember what &lt;code&gt;cat&lt;/code&gt; does and also know when it is not so
+useful, this is great! One less thing to look up!&lt;/p&gt;
+&lt;p&gt;Knowing that you have &lt;code&gt;cat&lt;/code&gt; beside you and that you can likewise
+expect it to available in nearly any UNIX environment you may find
+yourself working in, you can create files knowing you might use &lt;code&gt;cat&lt;/code&gt;
+with them.&lt;/p&gt;
+&lt;p&gt;Suppose, for instance, you keep track of groceries to buy on in a
+directory on your computer: &lt;code&gt;shopping/&lt;/code&gt;. You might have a series of files:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;vegetables.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;meat.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;grains.txt&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When you run out of lettuce, you might do &lt;code&gt;echo "lettuce" &amp;gt;&amp;gt;
+vegetables.txt&lt;/code&gt; to quickly add an item to your TODO list.&lt;/p&gt;
+&lt;p&gt;You can view various combinations of these lists using,&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat vegetables.txt meat.txt &lt;span class="p"&gt;|&lt;/span&gt; less
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You can also use your shell's globbing functions with commands like
+&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat *.txt &lt;span class="c1"&gt;# hitting tab will autocomplete filenames&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;What you have with cat is a kind of duct tape to smash files together
+in many ways; this allows you to create "dynamic views" of textual
+content. Combined with tools like &lt;code&gt;less&lt;/code&gt; (used for viewing text files
+quickly)&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;This worked in &lt;code&gt;zsh&lt;/code&gt;; didn't try elsewhere yet&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Linux"></category></entry><entry><title>Practical Shell Scripting, Part 1</title><link href="https://captainalan.github.io/pelican-test/practical-shell-scripting-part-1.html" rel="alternate"></link><published>2020-05-19T00:00:00-07:00</published><updated>2020-05-19T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-19:/pelican-test/practical-shell-scripting-part-1.html</id><summary type="html">&lt;p&gt;In this series of articles, I will document how I do various things
+using shell scripts&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;.  My basic approach is to use &lt;code&gt;bash&lt;/code&gt; to
+automate stuff by documenting and replicating steps that I take on the
+&lt;strong&gt;Command Line Interface&lt;/strong&gt; (CLI) &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2&gt;Preliminary things&lt;/h2&gt;
+&lt;p&gt;It is assumed the reader has …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In this series of articles, I will document how I do various things
+using shell scripts&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;.  My basic approach is to use &lt;code&gt;bash&lt;/code&gt; to
+automate stuff by documenting and replicating steps that I take on the
+&lt;strong&gt;Command Line Interface&lt;/strong&gt; (CLI) &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2&gt;Preliminary things&lt;/h2&gt;
+&lt;p&gt;It is assumed the reader has basic working knowledge of doing things
+like navigating around directories, deleting files, using some editor,
+etc. No knowledge is assumed of using specific tools like &lt;code&gt;find&lt;/code&gt;,
+&lt;code&gt;xargs&lt;/code&gt;, &lt;code&gt;curl&lt;/code&gt;, etc. Much of the content here will be treating how to
+do useful things using those tools.&lt;/p&gt;
+&lt;h3&gt;Additional Setup&lt;/h3&gt;
+&lt;p&gt;There is a utility called &lt;a href="https://www.shellcheck.net/"&gt;ShellCheck&lt;/a&gt;
+which may be helpful to set up with your favorite editor/development
+environment. This tool can help you find common mistakes in your shell
+script code &lt;em&gt;before&lt;/em&gt; you even try to run it.&lt;/p&gt;
+&lt;h3&gt;Methodology&lt;/h3&gt;
+&lt;p&gt;When there is something that I want to do (on Linux), I'll try to do
+it all via the command line. Anything non-trivial that I might have to
+do again I'll want to document somewhere so I don't have to bother
+figuring out the annoying aspects again. Comments can be written to
+explain non-obvious choices.&lt;/p&gt;
+&lt;h2&gt;Shell Scripts as Duct Tape&lt;/h2&gt;
+&lt;p&gt;First, my "User Philosophy"!&lt;/p&gt;
+&lt;p&gt;On your computer, you have many programs that can individually do
+useful things. Shell scripting is the &lt;em&gt;de facto&lt;/em&gt; way to smash a bunch
+of programs together to do more complex tasks for you.&lt;/p&gt;
+&lt;p&gt;Shell scripting is different from "programing" in the sense that you
+are often dealing with relatively high-level structures, understanding
+&lt;em&gt;what&lt;/em&gt; programs do without needing to concern yourself with &lt;em&gt;how&lt;/em&gt; they
+do it. In this way, you leave it up to the "real programers" to take
+care of things like optimizing their programs to be efficient. Your
+job is to just make sure that things hold together "good enough" with
+duct tape.&lt;/p&gt;
+&lt;p&gt;Over time you can refine your programs to be better. What is most
+important is to get the job done and not get to hung up on what is
+best. It is better to write more shell scripts, gradually learning
+what is "best" among the many options to do things than to get hung up
+on some esoteric problem too long.&lt;/p&gt;
+&lt;p&gt;Careful engineering is the realm of using more full-featured,
+complexity-friendly programing languages. You can write programs in
+other languages and call them from shell-scripts if you have to do
+something particularly complicated that your default tools cannot
+handle so well (e.g. write a parser for a new custom file format you
+created).&lt;/p&gt;
+&lt;h2&gt;Where's my Search Bar?&lt;/h2&gt;
+&lt;p&gt;MacOS has a fancy search feature you can use by pressing COMMAND+SPACE
+by default. When you do this, you can type words, and MacOS will scan
+your computer in who-knows-what-way for the text you are entering and
+stuff the OS guesses might be related. Windows Explorer has similar
+search features too, I think. How do you do something similar on
+Linux? &lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Suppose, we want to list all the Markdown files in a directory (&lt;code&gt;.md&lt;/code&gt;
+extension). Using &lt;code&gt;find&lt;/code&gt; this can be done in
+one line.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Find all markdown files in my blog directory&lt;/span&gt;
+find my-blog-directory -type f -name &lt;span class="s2"&gt;&amp;quot;*.md&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;We can extend this command to do something else, for example, find all
+instances in these files of the word "foo". Below, we build off our
+previous command which found all markdown files in a directory by
+adding the &lt;code&gt;-exec&lt;/code&gt; flag and specifying a command to run on each of the
+files that &lt;code&gt;find&lt;/code&gt; finds.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Search markdown files for text &amp;quot;foo&amp;quot;&lt;/span&gt;
+find my-blog-directory -type f -name &lt;span class="s2"&gt;&amp;quot;*.md&amp;quot;&lt;/span&gt; -exec grep &lt;span class="s2"&gt;&amp;quot;foo&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;{}&lt;/span&gt; +
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;One kinda annoying thing about working with (UNIX) shell scripts is
+that each (utility) program will have its own idiosyncratic syntax.
+In the case of &lt;code&gt;find&lt;/code&gt;, you're going to specify options using &lt;code&gt;-thing&lt;/code&gt;
+(in this example we specified the &lt;em&gt;type&lt;/em&gt; of thing we wanted to find
+and a pattern for the &lt;em&gt;name&lt;/em&gt; to match).&lt;/p&gt;
+&lt;p&gt;There is some additional special syntax here. When we run the &lt;code&gt;-exec
+grep "foo" {} +&lt;/code&gt;, the &lt;code&gt;-exec {} +&lt;/code&gt; syntax tells &lt;code&gt;find&lt;/code&gt; to run the
+given command (in this case &lt;code&gt;grep ...&lt;/code&gt; for each file found, where &lt;code&gt;{}&lt;/code&gt;
+will be where the filename is inserted.&lt;/p&gt;
+&lt;p&gt;As with natural language, fluent speakers don't spend all day thinking
+about how grammar works while they are talking &lt;sup id="fnref:4"&gt;&lt;a class="footnote-ref" href="#fn:4"&gt;4&lt;/a&gt;&lt;/sup&gt;. Instead, they
+remember common patterns that they use frequently. Stuff like the
+&lt;code&gt;find&lt;/code&gt; syntax above is confusing at first, but is something you will
+get used to pretty quickly if you use it frequently.&lt;/p&gt;
+&lt;h3&gt;Search a directory for text only using &lt;code&gt;grep&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;Oftentimes, there is more than one way to do some task with common
+shell utilities. The command below will find any occurence of "foo" in
+any files recursively from the present directory (&lt;code&gt;.&lt;/code&gt;), informing you
+which file the result was found in, the line number (&lt;code&gt;-n&lt;/code&gt; option), and
+a preview of the line.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;grep . -rne &lt;span class="s2"&gt;&amp;quot;foo&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;"Idioms" like this are very nice for quickly doing stuff on the
+command line. To compose such statements, you have to be careful about
+the ordering of arguments, however.&lt;/p&gt;
+&lt;p&gt;The above command can be broken up like so &lt;sup id="fnref:5"&gt;&lt;a class="footnote-ref" href="#fn:5"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;grep . -r -n -e &lt;span class="s2"&gt;&amp;quot;foo&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;With the flags broken up like this, you can re-order stuff, e.g. like&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;grep -e &lt;span class="s2"&gt;&amp;quot;foo&amp;quot;&lt;/span&gt; -rn .
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Crucially, the "foo" (string you are searching) must follow the &lt;code&gt;-e&lt;/code&gt;
+where it appears because the &lt;code&gt;-e&lt;/code&gt; tells &lt;code&gt;grep&lt;/code&gt; you are specifying an
+expression to search.&lt;/p&gt;
+&lt;h2&gt;Smashing Together More Things&lt;/h2&gt;
+&lt;p&gt;The previous command we built up can be used to do all sorts of stuff
+since &lt;code&gt;-exec +&lt;/code&gt; allows us to call &lt;em&gt;any program&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;For example, let's suppose we wanted to get a whole bunch of YouTube
+links to download and watch later. How do I get all the YouTube links
+from my the markdown files in my blog directory?&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Search markdown files for links to YouTube&lt;/span&gt;
+find my-blog-directory -type f -name &lt;span class="s2"&gt;&amp;quot;*.md&amp;quot;&lt;/span&gt; -exec &lt;span class="se"&gt;\&lt;/span&gt;
+grep -h -o &lt;span class="s2"&gt;&amp;quot;youtube\.com\/watch?v=[[:alnum:]]*&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;{}&lt;/span&gt; +
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;With &lt;code&gt;grep&lt;/code&gt; I used the &lt;code&gt;-h&lt;/code&gt; option to &lt;em&gt;hide&lt;/em&gt; the file name of the file
+I'm currently searching and used the &lt;code&gt;-o&lt;/code&gt; option to &lt;em&gt;only&lt;/em&gt; show the
+matched text, not the whole line of the regular expression I used.&lt;/p&gt;
+&lt;p&gt;The output of this command can be saved into some file for further
+processing.  For example, you can use &lt;code&gt;youtube-dl&lt;/code&gt; to help you
+automatically download all the links you just collected while
+you go do something else.&lt;/p&gt;
+&lt;h2&gt;General Lessons from &lt;code&gt;find&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;You may find that after using shell scripts to do stuff for some time
+you begin to think about how you can do things like naming files
+consistently to make things like pattern matching via globbing easy.&lt;/p&gt;
+&lt;p&gt;In the examples I gave above, I relied on file extensions (&lt;code&gt;.md&lt;/code&gt;) to
+do my file finding. However I might want to process a bunch of files
+starting with &lt;code&gt;my-diary-&lt;/code&gt;, for instance.&lt;/p&gt;
+&lt;p&gt;Naming files and organizing directories in a way that makes sense for
+easy processing is akin to setting up an SQL database with
+well-planned tables; it may take more effort to start doing this
+initially, but your efforts may be rewarded later down the road.&lt;/p&gt;
+&lt;h2&gt;More links and resources&lt;/h2&gt;
+&lt;p&gt;Relating to content discussed in this article:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.tecmint.com/35-practical-examples-of-linux-find-command/"&gt;35 Practical Examples of Linux Find
+  Command&lt;/a&gt; (Ravi Saive 2012)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://linuxhint.com/bash_globbing_tutorial/"&gt;Bash Globbing Tutorial&lt;/a&gt; (Fahmida Yesmin 2018)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;For the most part, I'll be using &lt;code&gt;zsh&lt;/code&gt; and doing &lt;code&gt;bash&lt;/code&gt;
+compatible things. The stuff I'm doing should all work on a pretty
+default set-up with a major distribution (e.g. Debian, Arch) where
+you can easily install common programs.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;See Luke Smith's video &lt;a href="https://www.youtube.com/watch?v=hMSByvFHOro"&gt;"Terminal vs. Bash vs. Command Line
+vs. Prompt"&lt;/a&gt; (Dec. 2, 
+2019) for clarification on terminology.&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;I'm just going to use the word "Linux" here to describe a UNIX
+computing environment where you can easily install certain common
+programs. There is no time for me to quibble over GNU/Linux vs BSD
+vs whatever!! Life is too short!!&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:4"&gt;
+&lt;p&gt;After-hours linguistics discussions are OK.&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:5"&gt;
+&lt;p&gt;You could even expand the command argument names to the full
+(unabbreviated) names if you wanted to be very verbose! Consult
+your &lt;code&gt;man grep&lt;/code&gt; to see what those would be... Thanks &lt;code&gt;@Emily&lt;/code&gt; for
+showing me this example of using &lt;code&gt;grep&lt;/code&gt; without &lt;code&gt;find&lt;/code&gt; to search
+stuff!&amp;#160;&lt;a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Linux"></category></entry><entry><title>Why LARBS?</title><link href="https://captainalan.github.io/pelican-test/why-larbs.html" rel="alternate"></link><published>2019-12-27T00:00:00-08:00</published><updated>2019-12-27T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-12-27:/pelican-test/why-larbs.html</id><summary type="html">&lt;p&gt;In my &lt;a href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html"&gt;Arch Linux Install for n00bs&lt;/a&gt; I gave details on how to install Arch linux and then suggested &lt;a href="https://larbs.xyz"&gt;LARBS&lt;/a&gt; as a way to get up and running with your new installation. In this article I detail &lt;em&gt;why&lt;/em&gt; I find LARBS particularly useful and address some points brought up by …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In my &lt;a href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html"&gt;Arch Linux Install for n00bs&lt;/a&gt; I gave details on how to install Arch linux and then suggested &lt;a href="https://larbs.xyz"&gt;LARBS&lt;/a&gt; as a way to get up and running with your new installation. In this article I detail &lt;em&gt;why&lt;/em&gt; I find LARBS particularly useful and address some points brought up by haters.&lt;/p&gt;
 &lt;h1&gt;Sensible Defaults&lt;/h1&gt;
 &lt;p&gt;The number one reason to use LARBS is to experience with &lt;strong&gt;sensible defaults
 for a keyboard centered workflow&lt;/strong&gt;. LARBS offers an out-of-the-box setup of
@@ -448,285 +729,4 @@ get an install for another distro (e.g. Ubuntu) and use the graphical tools
 &lt;li&gt;mount the copied files on the correct (new) partition to &lt;code&gt;/home&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;save your configuration in &lt;code&gt;/etc/fstab&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;These operations will require &lt;code&gt;su&lt;/code&gt; permissions (e.g. through using &lt;code&gt;sudo&lt;/code&gt;).&lt;/p&gt;</content><category term="Linux"></category></entry><entry><title>Practical Shell Scripting, Part 2</title><link href="https://captainalan.github.io/pelican-test/practical-shell-scripting-part-2.html" rel="alternate"></link><published>2019-05-21T00:00:00-07:00</published><updated>2019-05-21T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-21:/pelican-test/practical-shell-scripting-part-2.html</id><summary type="html">&lt;p&gt;In this post I will discuss a relatively straightforward command:
-&lt;code&gt;cat&lt;/code&gt;.  The &lt;code&gt;cat&lt;/code&gt; command is used to &lt;em&gt;concatenate&lt;/em&gt; files. So if I had
-three files, I could do something like&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat file1.txt file2.txt file3.txt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;...and this would display the concatenated content of all these files
-to standard …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In this post I will discuss a relatively straightforward command:
-&lt;code&gt;cat&lt;/code&gt;.  The &lt;code&gt;cat&lt;/code&gt; command is used to &lt;em&gt;concatenate&lt;/em&gt; files. So if I had
-three files, I could do something like&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat file1.txt file2.txt file3.txt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;...and this would display the concatenated content of all these files
-to standard output.&lt;/p&gt;
-&lt;h2&gt;A Common Beginner's Mistake&lt;/h2&gt;
-&lt;p&gt;Do not use &lt;code&gt;cat&lt;/code&gt; with just a single file, piping to another program.
-You should instead just use that single file as input to the program
-you were piping to.&lt;/p&gt;
-&lt;p&gt;For example, rather than doing&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Looking for where I talk about feelings in my_file.txt&lt;/span&gt;
-cat my_file.txt &lt;span class="p"&gt;|&lt;/span&gt; grep &lt;span class="s2"&gt;&amp;quot;feelings&amp;quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;...you should just do,&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Looking for where I talk about feelings in my_file.txt&lt;/span&gt;
-grep &lt;span class="s2"&gt;&amp;quot;feelings&amp;quot;&lt;/span&gt; my_file.txt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;There are efficiency reasons for doing things this way, but most
-importantly you don't want to look silly in front of scoffing
-neckbeards.&lt;/p&gt;
-&lt;h2&gt;Some better uses of &lt;code&gt;cat&lt;/code&gt;&lt;/h2&gt;
-&lt;p&gt;There are lots of places where it is good to have &lt;code&gt;cat&lt;/code&gt; around,
-particularly where plain text files are being used&amp;mdash;&lt;code&gt;cat&lt;/code&gt;
-probably won't be too useful manipulating images, dealing with audio
-files, etc.&lt;/p&gt;
-&lt;p&gt;However, dealing with little chunks of human readable text (such as in
-log files, short scripts, etc.) &lt;code&gt;cat&lt;/code&gt; often comes in handy.&lt;/p&gt;
-&lt;h3&gt;Entering short amounts of text really quickly&lt;/h3&gt;
-&lt;p&gt;If you don't wanna open an editor, you can do&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat &amp;gt;&amp;gt; foo.txt &lt;span class="c1"&gt;# Append text fo foo.txt&lt;/span&gt;
-cat &amp;gt; bar.txt  &lt;span class="c1"&gt;# Redirect (and replace) text fo bar.txt&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h3&gt;Reading a bunch of stuff in &lt;code&gt;less&lt;/code&gt;&lt;/h3&gt;
-&lt;p&gt;To view/read mixed files on one screen, you can do something like,&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat file1.txt file2.txt file3.py &lt;span class="p"&gt;|&lt;/span&gt; less
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;This could be useful for looking at a bunch of mixed/scattered
-information in a directory at once, creating an on-the-fly "custom
-view".&lt;/p&gt;
-&lt;h2&gt;Organizing with &lt;code&gt;cat&lt;/code&gt; in mind&lt;/h2&gt;
-&lt;p&gt;In this post, we looked at &lt;code&gt;cat&lt;/code&gt; which is not a terribly complicated
-command.&lt;/p&gt;
-&lt;p&gt;If you can remember what &lt;code&gt;cat&lt;/code&gt; does and also know when it is not so
-useful, this is great! One less thing to look up!&lt;/p&gt;
-&lt;p&gt;Knowing that you have &lt;code&gt;cat&lt;/code&gt; beside you and that you can likewise
-expect it to available in nearly any UNIX environment you may find
-yourself working in, you can create files knowing you might use &lt;code&gt;cat&lt;/code&gt;
-with them.&lt;/p&gt;
-&lt;p&gt;Suppose, for instance, you keep track of groceries to buy on in a
-directory on your computer: &lt;code&gt;shopping/&lt;/code&gt;. You might have a series of files:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;vegetables.txt&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;meat.txt&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;grains.txt&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;When you run out of lettuce, you might do &lt;code&gt;echo "lettuce" &amp;gt;&amp;gt;
-vegetables.txt&lt;/code&gt; to quickly add an item to your TODO list.&lt;/p&gt;
-&lt;p&gt;You can view various combinations of these lists using,&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat vegetables.txt meat.txt &lt;span class="p"&gt;|&lt;/span&gt; less
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;You can also use your shell's globbing functions with commands like
-&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat *.txt &lt;span class="c1"&gt;# hitting tab will autocomplete filenames&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;What you have with cat is a kind of duct tape to smash files together
-in many ways; this allows you to create "dynamic views" of textual
-content. Combined with tools like &lt;code&gt;less&lt;/code&gt; (used for viewing text files
-quickly)&lt;/p&gt;
-&lt;div class="footnote"&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id="fn:1"&gt;
-&lt;p&gt;This worked in &lt;code&gt;zsh&lt;/code&gt;; didn't try elsewhere yet&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</content><category term="Linux"></category></entry><entry><title>Practical Shell Scripting, Part 1</title><link href="https://captainalan.github.io/pelican-test/practical-shell-scripting-part-1.html" rel="alternate"></link><published>2019-05-20T00:00:00-07:00</published><updated>2019-05-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-20:/pelican-test/practical-shell-scripting-part-1.html</id><summary type="html">&lt;p&gt;In this series of articles, I will document how I do various things
-using shell scripts&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;.  My basic approach is to use &lt;code&gt;bash&lt;/code&gt; to
-automate stuff by documenting and replicating steps that I take on the
-&lt;strong&gt;Command Line Interface&lt;/strong&gt; (CLI) &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;h2&gt;Preliminary things&lt;/h2&gt;
-&lt;p&gt;It is assumed the reader has …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In this series of articles, I will document how I do various things
-using shell scripts&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;.  My basic approach is to use &lt;code&gt;bash&lt;/code&gt; to
-automate stuff by documenting and replicating steps that I take on the
-&lt;strong&gt;Command Line Interface&lt;/strong&gt; (CLI) &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;h2&gt;Preliminary things&lt;/h2&gt;
-&lt;p&gt;It is assumed the reader has basic working knowledge of doing things
-like navigating around directories, deleting files, using some editor,
-etc. No knowledge is assumed of using specific tools like &lt;code&gt;find&lt;/code&gt;,
-&lt;code&gt;xargs&lt;/code&gt;, &lt;code&gt;curl&lt;/code&gt;, etc. Much of the content here will be treating how to
-do useful things using those tools.&lt;/p&gt;
-&lt;h3&gt;Additional Setup&lt;/h3&gt;
-&lt;p&gt;There is a utility called &lt;a href="https://www.shellcheck.net/"&gt;ShellCheck&lt;/a&gt;
-which may be helpful to set up with your favorite editor/development
-environment. This tool can help you find common mistakes in your shell
-script code &lt;em&gt;before&lt;/em&gt; you even try to run it.&lt;/p&gt;
-&lt;h3&gt;Methodology&lt;/h3&gt;
-&lt;p&gt;When there is something that I want to do (on Linux), I'll try to do
-it all via the command line. Anything non-trivial that I might have to
-do again I'll want to document somewhere so I don't have to bother
-figuring out the annoying aspects again. Comments can be written to
-explain non-obvious choices.&lt;/p&gt;
-&lt;h2&gt;Shell Scripts as Duct Tape&lt;/h2&gt;
-&lt;p&gt;First, my "User Philosophy"!&lt;/p&gt;
-&lt;p&gt;On your computer, you have many programs that can individually do
-useful things. Shell scripting is the &lt;em&gt;de facto&lt;/em&gt; way to smash a bunch
-of programs together to do more complex tasks for you.&lt;/p&gt;
-&lt;p&gt;Shell scripting is different from "programing" in the sense that you
-are often dealing with relatively high-level structures, understanding
-&lt;em&gt;what&lt;/em&gt; programs do without needing to concern yourself with &lt;em&gt;how&lt;/em&gt; they
-do it. In this way, you leave it up to the "real programers" to take
-care of things like optimizing their programs to be efficient. Your
-job is to just make sure that things hold together "good enough" with
-duct tape.&lt;/p&gt;
-&lt;p&gt;Over time you can refine your programs to be better. What is most
-important is to get the job done and not get to hung up on what is
-best. It is better to write more shell scripts, gradually learning
-what is "best" among the many options to do things than to get hung up
-on some esoteric problem too long.&lt;/p&gt;
-&lt;p&gt;Careful engineering is the realm of using more full-featured,
-complexity-friendly programing languages. You can write programs in
-other languages and call them from shell-scripts if you have to do
-something particularly complicated that your default tools cannot
-handle so well (e.g. write a parser for a new custom file format you
-created).&lt;/p&gt;
-&lt;h2&gt;Where's my Search Bar?&lt;/h2&gt;
-&lt;p&gt;MacOS has a fancy search feature you can use by pressing COMMAND+SPACE
-by default. When you do this, you can type words, and MacOS will scan
-your computer in who-knows-what-way for the text you are entering and
-stuff the OS guesses might be related. Windows Explorer has similar
-search features too, I think. How do you do something similar on
-Linux? &lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Suppose, we want to list all the Markdown files in a directory (&lt;code&gt;.md&lt;/code&gt;
-extension). Using &lt;code&gt;find&lt;/code&gt; this can be done in
-one line.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Find all markdown files in my blog directory&lt;/span&gt;
-find my-blog-directory -type f -name &lt;span class="s2"&gt;&amp;quot;*.md&amp;quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;We can extend this command to do something else, for example, find all
-instances in these files of the word "foo". Below, we build off our
-previous command which found all markdown files in a directory by
-adding the &lt;code&gt;-exec&lt;/code&gt; flag and specifying a command to run on each of the
-files that &lt;code&gt;find&lt;/code&gt; finds.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Search markdown files for text &amp;quot;foo&amp;quot;&lt;/span&gt;
-find my-blog-directory -type f -name &lt;span class="s2"&gt;&amp;quot;*.md&amp;quot;&lt;/span&gt; -exec grep &lt;span class="s2"&gt;&amp;quot;foo&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;{}&lt;/span&gt; +
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;One kinda annoying thing about working with (UNIX) shell scripts is
-that each (utility) program will have its own idiosyncratic syntax.
-In the case of &lt;code&gt;find&lt;/code&gt;, you're going to specify options using &lt;code&gt;-thing&lt;/code&gt;
-(in this example we specified the &lt;em&gt;type&lt;/em&gt; of thing we wanted to find
-and a pattern for the &lt;em&gt;name&lt;/em&gt; to match).&lt;/p&gt;
-&lt;p&gt;There is some additional special syntax here. When we run the &lt;code&gt;-exec
-grep "foo" {} +&lt;/code&gt;, the &lt;code&gt;-exec {} +&lt;/code&gt; syntax tells &lt;code&gt;find&lt;/code&gt; to run the
-given command (in this case &lt;code&gt;grep ...&lt;/code&gt; for each file found, where &lt;code&gt;{}&lt;/code&gt;
-will be where the filename is inserted.&lt;/p&gt;
-&lt;p&gt;As with natural language, fluent speakers don't spend all day thinking
-about how grammar works while they are talking &lt;sup id="fnref:4"&gt;&lt;a class="footnote-ref" href="#fn:4"&gt;4&lt;/a&gt;&lt;/sup&gt;. Instead, they
-remember common patterns that they use frequently. Stuff like the
-&lt;code&gt;find&lt;/code&gt; syntax above is confusing at first, but is something you will
-get used to pretty quickly if you use it frequently.&lt;/p&gt;
-&lt;h3&gt;Search a directory for text only using &lt;code&gt;grep&lt;/code&gt;&lt;/h3&gt;
-&lt;p&gt;Oftentimes, there is more than one way to do some task with common
-shell utilities. The command below will find any occurence of "foo" in
-any files recursively from the present directory (&lt;code&gt;.&lt;/code&gt;), informing you
-which file the result was found in, the line number (&lt;code&gt;-n&lt;/code&gt; option), and
-a preview of the line.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;grep . -rne &lt;span class="s2"&gt;&amp;quot;foo&amp;quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;"Idioms" like this are very nice for quickly doing stuff on the
-command line. To compose such statements, you have to be careful about
-the ordering of arguments, however.&lt;/p&gt;
-&lt;p&gt;The above command can be broken up like so &lt;sup id="fnref:5"&gt;&lt;a class="footnote-ref" href="#fn:5"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;grep . -r -n -e &lt;span class="s2"&gt;&amp;quot;foo&amp;quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;With the flags broken up like this, you can re-order stuff, e.g. like&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;grep -e &lt;span class="s2"&gt;&amp;quot;foo&amp;quot;&lt;/span&gt; -rn .
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Crucially, the "foo" (string you are searching) must follow the &lt;code&gt;-e&lt;/code&gt;
-where it appears because the &lt;code&gt;-e&lt;/code&gt; tells &lt;code&gt;grep&lt;/code&gt; you are specifying an
-expression to search.&lt;/p&gt;
-&lt;h2&gt;Smashing Together More Things&lt;/h2&gt;
-&lt;p&gt;The previous command we built up can be used to do all sorts of stuff
-since &lt;code&gt;-exec +&lt;/code&gt; allows us to call &lt;em&gt;any program&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;For example, let's suppose we wanted to get a whole bunch of YouTube
-links to download and watch later. How do I get all the YouTube links
-from my the markdown files in my blog directory?&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Search markdown files for links to YouTube&lt;/span&gt;
-find my-blog-directory -type f -name &lt;span class="s2"&gt;&amp;quot;*.md&amp;quot;&lt;/span&gt; -exec &lt;span class="se"&gt;\&lt;/span&gt;
-grep -h -o &lt;span class="s2"&gt;&amp;quot;youtube\.com\/watch?v=[[:alnum:]]*&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;{}&lt;/span&gt; +
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;With &lt;code&gt;grep&lt;/code&gt; I used the &lt;code&gt;-h&lt;/code&gt; option to &lt;em&gt;hide&lt;/em&gt; the file name of the file
-I'm currently searching and used the &lt;code&gt;-o&lt;/code&gt; option to &lt;em&gt;only&lt;/em&gt; show the
-matched text, not the whole line of the regular expression I used.&lt;/p&gt;
-&lt;p&gt;The output of this command can be saved into some file for further
-processing.  For example, you can use &lt;code&gt;youtube-dl&lt;/code&gt; to help you
-automatically download all the links you just collected while
-you go do something else.&lt;/p&gt;
-&lt;h2&gt;General Lessons from &lt;code&gt;find&lt;/code&gt;&lt;/h2&gt;
-&lt;p&gt;You may find that after using shell scripts to do stuff for some time
-you begin to think about how you can do things like naming files
-consistently to make things like pattern matching via globbing easy.&lt;/p&gt;
-&lt;p&gt;In the examples I gave above, I relied on file extensions (&lt;code&gt;.md&lt;/code&gt;) to
-do my file finding. However I might want to process a bunch of files
-starting with &lt;code&gt;my-diary-&lt;/code&gt;, for instance.&lt;/p&gt;
-&lt;p&gt;Naming files and organizing directories in a way that makes sense for
-easy processing is akin to setting up an SQL database with
-well-planned tables; it may take more effort to start doing this
-initially, but your efforts may be rewarded later down the road.&lt;/p&gt;
-&lt;h2&gt;More links and resources&lt;/h2&gt;
-&lt;p&gt;Relating to content discussed in this article:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.tecmint.com/35-practical-examples-of-linux-find-command/"&gt;35 Practical Examples of Linux Find
-  Command&lt;/a&gt; (Ravi Saive 2012)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://linuxhint.com/bash_globbing_tutorial/"&gt;Bash Globbing Tutorial&lt;/a&gt; (Fahmida Yesmin 2018)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="footnote"&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id="fn:1"&gt;
-&lt;p&gt;For the most part, I'll be using &lt;code&gt;zsh&lt;/code&gt; and doing &lt;code&gt;bash&lt;/code&gt;
-compatible things. The stuff I'm doing should all work on a pretty
-default set-up with a major distribution (e.g. Debian, Arch) where
-you can easily install common programs.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn:2"&gt;
-&lt;p&gt;See Luke Smith's video &lt;a href="https://www.youtube.com/watch?v=hMSByvFHOro"&gt;"Terminal vs. Bash vs. Command Line
-vs. Prompt"&lt;/a&gt; (Dec. 2, 
-2019) for clarification on terminology.&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn:3"&gt;
-&lt;p&gt;I'm just going to use the word "Linux" here to describe a UNIX
-computing environment where you can easily install certain common
-programs. There is no time for me to quibble over GNU/Linux vs BSD
-vs whatever!! Life is too short!!&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn:4"&gt;
-&lt;p&gt;After-hours linguistics discussions are OK.&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn:5"&gt;
-&lt;p&gt;You could even expand the command argument names to the full
-(unabbreviated) names if you wanted to be very verbose! Consult
-your &lt;code&gt;man grep&lt;/code&gt; to see what those would be... Thanks &lt;code&gt;@Emily&lt;/code&gt; for
-showing me this example of using &lt;code&gt;grep&lt;/code&gt; without &lt;code&gt;find&lt;/code&gt; to search
-stuff!&amp;#160;&lt;a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</content><category term="Linux"></category></entry></feed>
+&lt;p&gt;These operations will require &lt;code&gt;su&lt;/code&gt; permissions (e.g. through using &lt;code&gt;sudo&lt;/code&gt;).&lt;/p&gt;</content><category term="Linux"></category></entry></feed>
