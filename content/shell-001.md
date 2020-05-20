@@ -1,5 +1,5 @@
 title: Practical Shell Scripting, Part 1
-date: 2019-05-20
+date: 2020-05-19
 category: Linux
 
 In this series of articles, I will document how I do various things

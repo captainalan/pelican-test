@@ -1,5 +1,5 @@
 title: Practical Shell Scripting, Part 2
-date: 2019-05-21
+date: 2020-05-20
 category: Linux
 
 In this post I will discuss a relatively straightforward command:
