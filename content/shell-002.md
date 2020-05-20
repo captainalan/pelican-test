@@ -110,6 +110,6 @@ cat *.txt # hitting tab will autocomplete filenames
 What you have with cat is a kind of duct tape to smash files together
 in many ways; this allows you to create "dynamic views" of textual
 content. Combined with tools like `less` (used for viewing text files
-quickly)
+quickly) the possibilities are endless.
 
 [^1]: This worked in `zsh`; didn't try elsewhere yet
