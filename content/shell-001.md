@@ -1,5 +1,5 @@
 title: Practical Shell Scripting, Part 1
-date: 2019-05-19
+date: 2019-05-20
 category: Linux
 
 In this series of articles, I will document how I do various things
@@ -108,6 +108,38 @@ remember common patterns that they use frequently. Stuff like the
 `find` syntax above is confusing at first, but is something you will
 get used to pretty quickly if you use it frequently.
 
+### Search a directory for text only using `grep`
+
+Oftentimes, there is more than one way to do some task with common
+shell utilities. The command below will find any occurence of "foo" in
+any files recursively from the present directory (`.`), informing you
+which file the result was found in, the line number (`-n` option), and
+a preview of the line.
+
+```bash
+grep . -rne "foo"
+```
+
+"Idioms" like this are very nice for quickly doing stuff on the
+command line. To compose such statements, you have to be careful about
+the ordering of arguments, however.
+
+The above command can be broken up like so [^5]
+
+```bash
+grep . -r -n -e "foo"
+```
+
+With the flags broken up like this, you can re-order stuff, e.g. like
+
+```bash
+grep -e "foo" -rn .
+```
+
+Crucially, the "foo" (string you are searching) must follow the `-e`
+where it appears because the `-e` tells `grep` you are specifying an
+expression to search.
+
 Smashing Together More Things
 -----------------------------
 
@@ -172,3 +204,8 @@ Relating to content discussed in this article:
     programs. There is no time for me to quibble over GNU/Linux vs BSD
     vs whatever!! Life is too short!!
 [^4]: After-hours linguistics discussions are OK.
+[^5]: You could even expand the command argument names to the full
+    (unabbreviated) names if you wanted to be very verbose! Consult
+    your `man grep` to see what those would be... Thanks `@Emily` for
+    showing me this example of using `grep` without `find` to search
+    stuff!
