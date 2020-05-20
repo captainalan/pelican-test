@@ -448,7 +448,106 @@ get an install for another distro (e.g. Ubuntu) and use the graphical tools
 &lt;li&gt;mount the copied files on the correct (new) partition to &lt;code&gt;/home&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;save your configuration in &lt;code&gt;/etc/fstab&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;These operations will require &lt;code&gt;su&lt;/code&gt; permissions (e.g. through using &lt;code&gt;sudo&lt;/code&gt;).&lt;/p&gt;</content><category term="Linux"></category></entry><entry><title>Practical Shell Scripting, Part 1</title><link href="https://captainalan.github.io/pelican-test/practical-shell-scripting-part-1.html" rel="alternate"></link><published>2019-05-19T00:00:00-07:00</published><updated>2019-05-19T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-19:/pelican-test/practical-shell-scripting-part-1.html</id><summary type="html">&lt;p&gt;In this series of articles, I will document how I do various things
+&lt;p&gt;These operations will require &lt;code&gt;su&lt;/code&gt; permissions (e.g. through using &lt;code&gt;sudo&lt;/code&gt;).&lt;/p&gt;</content><category term="Linux"></category></entry><entry><title>Practical Shell Scripting, Part 2</title><link href="https://captainalan.github.io/pelican-test/practical-shell-scripting-part-2.html" rel="alternate"></link><published>2019-05-21T00:00:00-07:00</published><updated>2019-05-21T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-21:/pelican-test/practical-shell-scripting-part-2.html</id><summary type="html">&lt;p&gt;In this post I will discuss a relatively straightforward command:
+&lt;code&gt;cat&lt;/code&gt;.  The &lt;code&gt;cat&lt;/code&gt; command is used to &lt;em&gt;concatenate&lt;/em&gt; files. So if I had
+three files, I could do something like&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat file1.txt file2.txt file3.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;...and this would display the concatenated content of all these files
+to standard …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In this post I will discuss a relatively straightforward command:
+&lt;code&gt;cat&lt;/code&gt;.  The &lt;code&gt;cat&lt;/code&gt; command is used to &lt;em&gt;concatenate&lt;/em&gt; files. So if I had
+three files, I could do something like&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat file1.txt file2.txt file3.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;...and this would display the concatenated content of all these files
+to standard output.&lt;/p&gt;
+&lt;h2&gt;A Common Beginner's Mistake&lt;/h2&gt;
+&lt;p&gt;Do not use &lt;code&gt;cat&lt;/code&gt; with just a single file, piping to another program.
+You should instead just use that single file as input to the program
+you were piping to.&lt;/p&gt;
+&lt;p&gt;For example, rather than doing&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Looking for where I talk about feelings in my_file.txt&lt;/span&gt;
+cat my_file.txt &lt;span class="p"&gt;|&lt;/span&gt; grep &lt;span class="s2"&gt;&amp;quot;feelings&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;...you should just do,&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Looking for where I talk about feelings in my_file.txt&lt;/span&gt;
+grep &lt;span class="s2"&gt;&amp;quot;feelings&amp;quot;&lt;/span&gt; my_file.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;There are efficiency reasons for doing things this way, but most
+importantly you don't want to look silly in front of scoffing
+neckbeards.&lt;/p&gt;
+&lt;h2&gt;Some better uses of &lt;code&gt;cat&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;There are lots of places where it is good to have &lt;code&gt;cat&lt;/code&gt; around,
+particularly where plain text files are being used&amp;mdash;&lt;code&gt;cat&lt;/code&gt;
+probably won't be too useful manipulating images, dealing with audio
+files, etc.&lt;/p&gt;
+&lt;p&gt;However, dealing with little chunks of human readable text (such as in
+log files, short scripts, etc.) &lt;code&gt;cat&lt;/code&gt; often comes in handy.&lt;/p&gt;
+&lt;h3&gt;Entering short amounts of text really quickly&lt;/h3&gt;
+&lt;p&gt;If you don't wanna open an editor, you can do&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat &amp;gt;&amp;gt; foo.txt &lt;span class="c1"&gt;# Append text fo foo.txt&lt;/span&gt;
+cat &amp;gt; bar.txt  &lt;span class="c1"&gt;# Redirect (and replace) text fo bar.txt&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Reading a bunch of stuff in &lt;code&gt;less&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;To view/read mixed files on one screen, you can do something like,&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat file1.txt file2.txt file3.py &lt;span class="p"&gt;|&lt;/span&gt; less
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This could be useful for looking at a bunch of mixed/scattered
+information in a directory at once, creating an on-the-fly "custom
+view".&lt;/p&gt;
+&lt;h2&gt;Organizing with &lt;code&gt;cat&lt;/code&gt; in mind&lt;/h2&gt;
+&lt;p&gt;In this post, we looked at &lt;code&gt;cat&lt;/code&gt; which is not a terribly complicated
+command.&lt;/p&gt;
+&lt;p&gt;If you can remember what &lt;code&gt;cat&lt;/code&gt; does and also know when it is not so
+useful, this is great! One less thing to look up!&lt;/p&gt;
+&lt;p&gt;Knowing that you have &lt;code&gt;cat&lt;/code&gt; beside you and that you can likewise
+expect it to available in nearly any UNIX environment you may find
+yourself working in, you can create files knowing you might use &lt;code&gt;cat&lt;/code&gt;
+with them.&lt;/p&gt;
+&lt;p&gt;Suppose, for instance, you keep track of groceries to buy on in a
+directory on your computer: &lt;code&gt;shopping/&lt;/code&gt;. You might have a series of files:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;vegetables.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;meat.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;grains.txt&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When you run out of lettuce, you might do &lt;code&gt;echo "lettuce" &amp;gt;&amp;gt;
+vegetables.txt&lt;/code&gt; to quickly add an item to your TODO list.&lt;/p&gt;
+&lt;p&gt;You can view various combinations of these lists using,&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat vegetables.txt meat.txt &lt;span class="p"&gt;|&lt;/span&gt; less
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You can also use your shell's globbing functions with commands like
+&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat *.txt &lt;span class="c1"&gt;# hitting tab will autocomplete filenames&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;What you have with cat is a kind of duct tape to smash files together
+in many ways; this allows you to create "dynamic views" of textual
+content. Combined with tools like &lt;code&gt;less&lt;/code&gt; (used for viewing text files
+quickly)&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;This worked in &lt;code&gt;zsh&lt;/code&gt;; didn't try elsewhere yet&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Linux"></category></entry><entry><title>Practical Shell Scripting, Part 1</title><link href="https://captainalan.github.io/pelican-test/practical-shell-scripting-part-1.html" rel="alternate"></link><published>2019-05-20T00:00:00-07:00</published><updated>2019-05-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-20:/pelican-test/practical-shell-scripting-part-1.html</id><summary type="html">&lt;p&gt;In this series of articles, I will document how I do various things
 using shell scripts&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;.  My basic approach is to use &lt;code&gt;bash&lt;/code&gt; to
 automate stuff by documenting and replicating steps that I take on the
 &lt;strong&gt;Command Line Interface&lt;/strong&gt; (CLI) &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
@@ -536,6 +635,32 @@ about how grammar works while they are talking &lt;sup id="fnref:4"&gt;&lt;a cla
 remember common patterns that they use frequently. Stuff like the
 &lt;code&gt;find&lt;/code&gt; syntax above is confusing at first, but is something you will
 get used to pretty quickly if you use it frequently.&lt;/p&gt;
+&lt;h3&gt;Search a directory for text only using &lt;code&gt;grep&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;Oftentimes, there is more than one way to do some task with common
+shell utilities. The command below will find any occurence of "foo" in
+any files recursively from the present directory (&lt;code&gt;.&lt;/code&gt;), informing you
+which file the result was found in, the line number (&lt;code&gt;-n&lt;/code&gt; option), and
+a preview of the line.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;grep . -rne &lt;span class="s2"&gt;&amp;quot;foo&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;"Idioms" like this are very nice for quickly doing stuff on the
+command line. To compose such statements, you have to be careful about
+the ordering of arguments, however.&lt;/p&gt;
+&lt;p&gt;The above command can be broken up like so &lt;sup id="fnref:5"&gt;&lt;a class="footnote-ref" href="#fn:5"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;grep . -r -n -e &lt;span class="s2"&gt;&amp;quot;foo&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;With the flags broken up like this, you can re-order stuff, e.g. like&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;grep -e &lt;span class="s2"&gt;&amp;quot;foo&amp;quot;&lt;/span&gt; -rn .
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Crucially, the "foo" (string you are searching) must follow the &lt;code&gt;-e&lt;/code&gt;
+where it appears because the &lt;code&gt;-e&lt;/code&gt; tells &lt;code&gt;grep&lt;/code&gt; you are specifying an
+expression to search.&lt;/p&gt;
 &lt;h2&gt;Smashing Together More Things&lt;/h2&gt;
 &lt;p&gt;The previous command we built up can be used to do all sorts of stuff
 since &lt;code&gt;-exec +&lt;/code&gt; allows us to call &lt;em&gt;any program&lt;/em&gt;.&lt;/p&gt;
@@ -595,6 +720,13 @@ vs whatever!! Life is too short!!&amp;#160;&lt;a class="footnote-backref" href="
 &lt;/li&gt;
 &lt;li id="fn:4"&gt;
 &lt;p&gt;After-hours linguistics discussions are OK.&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:5"&gt;
+&lt;p&gt;You could even expand the command argument names to the full
+(unabbreviated) names if you wanted to be very verbose! Consult
+your &lt;code&gt;man grep&lt;/code&gt; to see what those would be... Thanks &lt;code&gt;@Emily&lt;/code&gt; for
+showing me this example of using &lt;code&gt;grep&lt;/code&gt; without &lt;code&gt;find&lt;/code&gt; to search
+stuff!&amp;#160;&lt;a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</content><category term="Linux"></category></entry></feed>
