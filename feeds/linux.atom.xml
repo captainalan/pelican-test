@@ -1,5 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Linux</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/linux.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-05-20T00:00:00-07:00</updated><entry><title>Practical Shell Scripting, Part 2</title><link href="https://captainalan.github.io/pelican-test/practical-shell-scripting-part-2.html" rel="alternate"></link><published>2020-05-20T00:00:00-07:00</published><updated>2020-05-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-20:/pelican-test/practical-shell-scripting-part-2.html</id><summary type="html">&lt;p&gt;In this post I will discuss a relatively straightforward command:
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Linux</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/linux.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-05-21T00:00:00-07:00</updated><entry><title>Practical Shell Scripting, Part 3</title><link href="https://captainalan.github.io/pelican-test/practical-shell-scripting-part-3.html" rel="alternate"></link><published>2020-05-21T00:00:00-07:00</published><updated>2020-05-21T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-21:/pelican-test/practical-shell-scripting-part-3.html</id><summary type="html">&lt;p&gt;In this post, we will introduce &lt;code&gt;xargs&lt;/code&gt;, which allows you to pass in
+arguments to a command via standard input.&lt;/p&gt;
+&lt;p&gt;For example, to do&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$HOME&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; xargs ls -la
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;is like doing&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;ls &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$HOME&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; -la
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;We can think of &lt;code&gt;xargs&lt;/code&gt; as a kind of "keyword" or "syntactic feature"
+of shell …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In this post, we will introduce &lt;code&gt;xargs&lt;/code&gt;, which allows you to pass in
+arguments to a command via standard input.&lt;/p&gt;
+&lt;p&gt;For example, to do&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$HOME&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; xargs ls -la
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;is like doing&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;ls &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$HOME&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; -la
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;We can think of &lt;code&gt;xargs&lt;/code&gt; as a kind of "keyword" or "syntactic feature"
+of shell scripting since it gives us a general mechanism for combining
+the inputs and outputs of various commands.&lt;/p&gt;
+&lt;h2&gt;Use with &lt;code&gt;find&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;code&gt;-exec&lt;/code&gt; option of &lt;code&gt;find&lt;/code&gt; can be cumbersome to work with as your
+commands get more complex. In this example, &lt;code&gt;find&lt;/code&gt; is used to get text
+files in the current directory, and then these files are passed to
+&lt;code&gt;cat&lt;/code&gt; (and then printed to standard output) using &lt;code&gt;xargs&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;find . -maxdepth &lt;span class="m"&gt;1&lt;/span&gt; -type f -name &lt;span class="s2"&gt;&amp;quot;*.txt&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; xargs cat
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Using various options of &lt;code&gt;find&lt;/code&gt; we can pass different stuff to
+&lt;code&gt;xargs&lt;/code&gt;. Below, we find directories with names beginning with "Foo"
+and use the &lt;code&gt;tree&lt;/code&gt; command to print textual tree representations of
+these. This might be useful for copy/pasting a directory
+representation to quickly show a collaborator how some project is laid
+out.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;find . -maxdepth &lt;span class="m"&gt;1&lt;/span&gt; -type d -name &lt;span class="s2"&gt;&amp;quot;Foo*&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; xargs tree 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Using &lt;code&gt;find&lt;/code&gt; together with &lt;code&gt;xargs&lt;/code&gt; can be a useful pattern when you
+have to repeat some action against on some files/directories that can
+be found using parameters &lt;code&gt;find&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Storing Arguments in Text Files&lt;/h2&gt;
+&lt;p&gt;Using &lt;code&gt;xargs&lt;/code&gt; we can run commands based on data stored in text
+files. This can be very convenient for separating data from the logic
+of some script.&lt;/p&gt;
+&lt;p&gt;Let's suppose you have some directory &lt;code&gt;media_to_consoom_later/&lt;/code&gt;. Here,
+you queue up YouTube links like,&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;youtube.com/video1&lt;/span&gt;
+&lt;span class="err"&gt;youtube.com/video2&lt;/span&gt;
+&lt;span class="err"&gt;youtube.com/video3&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;...in a file called &lt;code&gt;youtube-videos.txt&lt;/code&gt;. You have another video
+called &lt;code&gt;youtube-music.txt&lt;/code&gt; that follows the same format:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;youtube.com/track1&lt;/span&gt;
+&lt;span class="err"&gt;youtube.com/track2&lt;/span&gt;
+&lt;span class="err"&gt;youtube.com/track3&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Using &lt;code&gt;xargs&lt;/code&gt; you can quickly execute two commands to download all the
+videos with one set of options and then all the music files with
+another. Here is an example usage with the program &lt;code&gt;youtube-dl&lt;/code&gt;, used
+for downloading media off YouTube:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# No special options needed for video&lt;/span&gt;
+cat youtube-videos-day1.txt youtube-videos-day2.txt &lt;span class="p"&gt;|&lt;/span&gt; xargs youtube-dl
+
+&lt;span class="c1"&gt;# Use -x for &amp;#39;extract audio&amp;#39;&lt;/span&gt;
+cat youtube-music.txt &lt;span class="p"&gt;|&lt;/span&gt; xargs youtube-dl -x
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Storing lines like the ones above in a shell script file, you don't
+have to remember all the flags/ettings for &lt;code&gt;youtube-dl&lt;/code&gt;, and you can
+just drop in text links in an intuitive way into the appropriate text
+files.&lt;/p&gt;
+&lt;p&gt;This example too could be done with &lt;code&gt;find&lt;/code&gt;, matching &lt;code&gt;-name&lt;/code&gt; or some
+other option as in,&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# No special options needed for video&lt;/span&gt;
+find . -name &lt;span class="s2"&gt;&amp;quot;youtube-videos*&amp;quot;&lt;/span&gt; -type f &lt;span class="p"&gt;|&lt;/span&gt; xargs youtube-dl
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;What is cool here is that you can separate the more complicated part
+of what you're doing (e.g. setting up some options with &lt;code&gt;find&lt;/code&gt;;
+reading some stuff from a file that may be created through a
+complicated procedure) from a relatively simple command you want to
+run (e.g. &lt;code&gt;youtube-dl&lt;/code&gt;). Editing the &lt;code&gt;...| xargs &amp;lt;COMMAND&amp;gt;&lt;/code&gt; is not so
+bad even if the stuff that comes before it is difficult to figure out
+the first time.&lt;/p&gt;</content><category term="Linux"></category></entry><entry><title>Practical Shell Scripting, Part 2</title><link href="https://captainalan.github.io/pelican-test/practical-shell-scripting-part-2.html" rel="alternate"></link><published>2020-05-20T00:00:00-07:00</published><updated>2020-05-20T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-20:/pelican-test/practical-shell-scripting-part-2.html</id><summary type="html">&lt;p&gt;In this post I will discuss a relatively straightforward command:
 &lt;code&gt;cat&lt;/code&gt;.  The &lt;code&gt;cat&lt;/code&gt; command is used to &lt;em&gt;concatenate&lt;/em&gt; files. So if I had
 three files, I could do something like&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat file1.txt file2.txt file3.txt
