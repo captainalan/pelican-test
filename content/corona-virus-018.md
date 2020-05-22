@@ -115,4 +115,4 @@ yours truly) is good fun for the "modern" stuff 😛
 [^3]: As [portrayed](https://www.overpass.co.uk/wall-e-chairs/) in the
     pixar Wall-E movie
 [^4]: The [complete text](http://xahlee.org/p/um/um.html) of this is
-    available on xahlee.info with some commentary. Over the past decade or so, "Uncle Ted" has maintained
+    available on xahlee.info with commentary.
