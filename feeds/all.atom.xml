@@ -50,7 +50,31 @@ changing seasons.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title=
 of seasons. Future blog posts on this maybe...&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 19</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-19.html" rel="alternate"></link><published>2020-05-23T00:00:00-07:00</published><updated>2020-05-23T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-23:/pelican-test/corona-virus-diary-part-19.html</id><summary type="html">&lt;p&gt;This is a "long weekend" for many Americans as &lt;a href="https://en.wikipedia.org/wiki/Memorial_Day"&gt;Memorial
+&lt;/div&gt;</content><category term="News"></category></entry><entry><title>Creating a swap file</title><link href="https://captainalan.github.io/pelican-test/creating-a-swap-file.html" rel="alternate"></link><published>2020-05-25T00:00:00-07:00</published><updated>2020-05-25T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-25:/pelican-test/creating-a-swap-file.html</id><summary type="html">&lt;p&gt;Using old hardware, having &lt;strong&gt;swap&lt;/strong&gt; space in addition to RAM can make your
+computer operate more smoothly.&lt;/p&gt;
+&lt;h2&gt;From a fresh 'buntu Install&lt;/h2&gt;
+&lt;p&gt;After a fresh Lubuntu on an old machine (with only 2 GB of RAM), I followed the
+directions on &lt;a href="https://support.rackspace.com/how-to/create-a-linux-swap-file/"&gt;"Create a Linux swap
+file"&lt;/a&gt;
+(Rackspace 2018) to create …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Using old hardware, having &lt;strong&gt;swap&lt;/strong&gt; space in addition to RAM can make your
+computer operate more smoothly.&lt;/p&gt;
+&lt;h2&gt;From a fresh 'buntu Install&lt;/h2&gt;
+&lt;p&gt;After a fresh Lubuntu on an old machine (with only 2 GB of RAM), I followed the
+directions on &lt;a href="https://support.rackspace.com/how-to/create-a-linux-swap-file/"&gt;"Create a Linux swap
+file"&lt;/a&gt;
+(Rackspace 2018) to create a swap file &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;You can use the &lt;code&gt;htop&lt;/code&gt; command to see a summary of the processes running on
+your computer in addition to CPU and memory usage.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Remember that Linux distributions are for the most part just bundled
+  software and default configurations. Choosing Ubuntu (or some 'buntu
+  "flavor") is an easy way to get a widely documented default setup going.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Linux"></category></entry><entry><title>Corona Virus Diary, Part 19</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-19.html" rel="alternate"></link><published>2020-05-23T00:00:00-07:00</published><updated>2020-05-23T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-23:/pelican-test/corona-virus-diary-part-19.html</id><summary type="html">&lt;p&gt;This is a "long weekend" for many Americans as &lt;a href="https://en.wikipedia.org/wiki/Memorial_Day"&gt;Memorial
 Day&lt;/a&gt;, which is observed on
 the last Monday of the month of May. There will be fewer picnics and
 barbecues this year as policies in response to COVID-19 are still in

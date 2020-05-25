@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Linux</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/linux.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-05-21T00:00:00-07:00</updated><entry><title>Practical Shell Scripting, Part 3</title><link href="https://captainalan.github.io/pelican-test/practical-shell-scripting-part-3.html" rel="alternate"></link><published>2020-05-21T00:00:00-07:00</published><updated>2020-05-21T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-21:/pelican-test/practical-shell-scripting-part-3.html</id><summary type="html">&lt;p&gt;In this post, we will introduce &lt;code&gt;xargs&lt;/code&gt;, which allows you to pass in
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Linux</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/linux.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-05-25T00:00:00-07:00</updated><entry><title>Creating a swap file</title><link href="https://captainalan.github.io/pelican-test/creating-a-swap-file.html" rel="alternate"></link><published>2020-05-25T00:00:00-07:00</published><updated>2020-05-25T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-25:/pelican-test/creating-a-swap-file.html</id><summary type="html">&lt;p&gt;Using old hardware, having &lt;strong&gt;swap&lt;/strong&gt; space in addition to RAM can make your
+computer operate more smoothly.&lt;/p&gt;
+&lt;h2&gt;From a fresh 'buntu Install&lt;/h2&gt;
+&lt;p&gt;After a fresh Lubuntu on an old machine (with only 2 GB of RAM), I followed the
+directions on &lt;a href="https://support.rackspace.com/how-to/create-a-linux-swap-file/"&gt;"Create a Linux swap
+file"&lt;/a&gt;
+(Rackspace 2018) to create …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Using old hardware, having &lt;strong&gt;swap&lt;/strong&gt; space in addition to RAM can make your
+computer operate more smoothly.&lt;/p&gt;
+&lt;h2&gt;From a fresh 'buntu Install&lt;/h2&gt;
+&lt;p&gt;After a fresh Lubuntu on an old machine (with only 2 GB of RAM), I followed the
+directions on &lt;a href="https://support.rackspace.com/how-to/create-a-linux-swap-file/"&gt;"Create a Linux swap
+file"&lt;/a&gt;
+(Rackspace 2018) to create a swap file &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;You can use the &lt;code&gt;htop&lt;/code&gt; command to see a summary of the processes running on
+your computer in addition to CPU and memory usage.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Remember that Linux distributions are for the most part just bundled
+  software and default configurations. Choosing Ubuntu (or some 'buntu
+  "flavor") is an easy way to get a widely documented default setup going.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Linux"></category></entry><entry><title>Practical Shell Scripting, Part 3</title><link href="https://captainalan.github.io/pelican-test/practical-shell-scripting-part-3.html" rel="alternate"></link><published>2020-05-21T00:00:00-07:00</published><updated>2020-05-21T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-05-21:/pelican-test/practical-shell-scripting-part-3.html</id><summary type="html">&lt;p&gt;In this post, we will introduce &lt;code&gt;xargs&lt;/code&gt;, which allows you to pass in
 arguments to a command via standard input.&lt;/p&gt;
 &lt;p&gt;For example, to do&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$HOME&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; xargs ls -la
