@@ -3,15 +3,15 @@ date: 2020-05-28
 category: News
 
 Civil unrest escalates in the United States. In many quiet corners of
-the country, no change is visible. But in many
+the country, no change is visible. But in other
 areas&mdash;particularly those with large numbers of urban poor
 people&mdash;things are looking increasingly bad.
 
-COVID-19 is still in the news, but it is more often *backgrounded* to
-other happenings. People of all sorts are waiting for the "green
-light" from policy makers&mdash;patients in need of treatment,
-businesses in need of customers, programers in need of Vitamin
-D... [^1]
+COVID-19 is still in the news, but it is more and more often
+*backgrounded* to other happenings. People of all sorts are waiting
+for the "green light" from policy makers&mdash;patients in need of
+treatment, businesses in need of customers, programers in need of
+Vitamin D... [^1]
 
 I pop open a can of Campbell's Chicken noodle soup and heat it over
 the stove. I toss in some frozen peas for a nutritional boost, and
@@ -45,7 +45,7 @@ path that some have the luxury of choosing; perhaps more often than
 not, it is a place where people just *end up*.
 
 Whereas *the jungle* is a place filled with disease, things to kill
-you, life forms all over... the desert is a relatively stale place.
+you, life forms all over... the desert is a relatively sterile place.
 The desert feels *solitary*&mdash;rather than having too much life all
 around and being fearful of what might eat you, the desert presents
 many mechanical, inorganic challenges.
