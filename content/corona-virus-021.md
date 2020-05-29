@@ -172,7 +172,10 @@ brother. Amazing!
 	workflow&mdash;but this cannot be expected of most people...
 [^3]: One could get picky about how to translate each of the
     characters of the "four arts"; for the purposes of this essay it
-    is not so important
+    is not so important; also, thank you Amanda C for pointing out
+    that there also [Six Arts](https://en.wikipedia.org/wiki/Six_Arts)
+    as the basis of (Confucian) education from the Zhou dynasty
+    onward.
 [^4]: c.f. the term **NEET**, which stands for *not* employed, in
     education, or in training
 [^5]: Until we become cyborgs, get neurolink or whatevers
