@@ -1,14 +1,14 @@
-title: Corona Virus Diary, Part 24
+title: Corona Virus Diary, Part 25
 date: 2020-05-30
 category: News
 
 There is escalating civil unrest across many cities in America today.
-Cities&mdash;as has been mentioned on this blog&mdash;are sites where
+Cities&mdash;as have been mentioned on this blog&mdash;are sites where
 the intoxication of words and the influence of mass media are
 strongest. Cities are where people are free to live in abstractions,
 not answering to the challenges (and truth) of the natural world.
-Cities are often where people go to get money, but oftentimes that
-money comes at the price of losing touch with reality.
+Cities are often where people go to get money&mdash;but oftentimes
+that money comes at the price of losing touch with reality.
 
 Greeks and Romans
 -----------------
