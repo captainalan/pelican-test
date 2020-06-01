@@ -2,7 +2,7 @@ title: Corona Virus Diary, Part 26
 date: 2020-06-01
 category: News
 
-Today is ~~Sunday~~; respite from news? Of course not&mdash;the news cycle
+Today is Monday; a respite from news? Of course not&mdash;the news cycle
 always continues! [^1] *However* each of us as individuals can choose to
 focus our attention elsewhere. Today I will be discussing **gossip**
 and how oftentimes I think it is a good thing because it reminds
