@@ -70,7 +70,7 @@ More later
 
 More to come as I study more; these are some quick initial thoughts.
 
-[1]: [Amazon link](https://www.amazon.com/Buddhas-Words-Anthology-Discourses-Teachings/dp/0861714911/ref=sr_1_1?dchild=1&keywords=the+pali+canon&qid=1591767305&s=books&sr=1-1); I believe I first learned of this work from the YouTube channel of [Yuttadhammo Bhikku](https://www.youtube.com/channel/UCQJ6ESCWQotBwtJm0Ff_gyQ)
+[^1]: [Amazon link](https://www.amazon.com/Buddhas-Words-Anthology-Discourses-Teachings/dp/0861714911/ref=sr_1_1?dchild=1&keywords=the+pali+canon&qid=1591767305&s=books&sr=1-1); I believe I first learned of this work from the YouTube channel of [Yuttadhammo Bhikku](https://www.youtube.com/channel/UCQJ6ESCWQotBwtJm0Ff_gyQ)
 [^2]: I never had any contact with relatives *in China* to the best of
     my knowledge; seems I am many generations back Chinese-American
     (3+). Before widespread literacy and such it is harder to trace
