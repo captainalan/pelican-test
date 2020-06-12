@@ -1,5 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-06-09T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 34</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-34.html" rel="alternate"></link><published>2020-06-09T00:00:00-07:00</published><updated>2020-06-09T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-06-09:/pelican-test/corona-virus-diary-part-34.html</id><summary type="html">&lt;p&gt;Aside from work, I spent some time today investigating (Theravada)
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-06-11T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 36</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-36.html" rel="alternate"></link><published>2020-06-11T00:00:00-07:00</published><updated>2020-06-11T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-06-11:/pelican-test/corona-virus-diary-part-36.html</id><summary type="html">&lt;p&gt;Today I will extol the virtues of &lt;em&gt;paper books&lt;/em&gt; (aka "dead tree" book)
+in one particular domain: &lt;em&gt;language learning&lt;/em&gt;. Specifically, I'll be
+looking at language learning materials for the purposes of reading.&lt;/p&gt;
+&lt;h2&gt;Wanting nice stuff&lt;/h2&gt;
+&lt;p&gt;Briefly I was wanting an e-ink display; it seems that some cool new
+things are …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Today I will extol the virtues of &lt;em&gt;paper books&lt;/em&gt; (aka "dead tree" book)
+in one particular domain: &lt;em&gt;language learning&lt;/em&gt;. Specifically, I'll be
+looking at language learning materials for the purposes of reading.&lt;/p&gt;
+&lt;h2&gt;Wanting nice stuff&lt;/h2&gt;
+&lt;p&gt;Briefly I was wanting an e-ink display; it seems that some cool new
+things are being developed such as,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.boox.com/product-2/"&gt;BOOX Ebook Reader/Notetaker Products&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.amazon.com/Dasung-Paperlike-Front-Light-Touch-Monitor/dp/B07SKS6CS7/ref=sr_1_5?dchild=1&amp;amp;keywords=e-ink+display&amp;amp;qid=1591973925&amp;amp;sr=8-5"&gt;Dasung E-Ink Display 13.3"&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Rather than being a hero for the economy and immediately buying stuff,
+I decided to turn my attention to many of the things I already have
+and see how I could make better of these things rather than seeking
+new things.&lt;/p&gt;
+&lt;p&gt;This was done while shuffling some displays/peripherals/etc.; a
+similar spirit to fussing with (physical) config to make things nicer.&lt;/p&gt;
+&lt;h2&gt;Advantages of paper for language learning&lt;/h2&gt;
+&lt;p&gt;I got a bunch of reference materials for language learning in paper
+format. Do check out my various pages on
+&lt;a href="https://captainalan.github.io/language-and-linguistics/languages/index.html"&gt;languages&lt;/a&gt; if you haven't done so already!&lt;/p&gt;
+&lt;h3&gt;Typesetting&lt;/h3&gt;
+&lt;p&gt;Often, paper publications will contain fancy typesetting that is
+helpful for learning purposes and not usually present on resources
+like websites. For beginner to intermediate learners especially these
+things are helpful to have.&lt;/p&gt;
+&lt;p&gt;In Japanese, paper publications aimed at learners (e.g. children,
+weebs) will often contain &lt;i&gt;furigana&lt;/i&gt;, pronunciation marks over
+words. Now, you &lt;em&gt;can&lt;/em&gt; automate a similar function pretty well using
+browser extensions or with the aid of a pop-up dictionary (like
+&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/rikaichamp/"&gt;Rikaichamp&lt;/a&gt;
+for Firefox). However, sometimes these tools can give ambiguous or
+incorrect results&amp;mdash;nothing beats manual annotation (it is like
+having an authoritative native speaker by your side).&lt;/p&gt;
+&lt;p&gt;Similar things exist in other languages. For instance in Russian,
+texts for learners often label &lt;strong&gt;accent&lt;/strong&gt; (e.g. accented &lt;em&gt;Ру́сский
+язы́к&lt;/em&gt; "Russian language" vs the normal orthography &lt;em&gt;Русский язык&lt;/em&gt;).
+Arabic only marks long vowels usually; short vowel markings will
+annotate texts for learners.&lt;/p&gt;
+&lt;p&gt;Having these annotations readily available in learning means you can
+spend more time language learning and less time fussing with tooling.
+By having resources available to conveniently learning things
+correctly &lt;em&gt;the first time&lt;/em&gt; as you are exposed, you can save time in
+the long run.&lt;/p&gt;
+&lt;h3&gt;Multi-booking&lt;/h3&gt;
+&lt;p&gt;Some of the aforementioned advantages can also be found in PDF books.&lt;/p&gt;
+&lt;p&gt;However, nothing beats having a bunch of paper books open &lt;em&gt;and&lt;/em&gt; your
+computer and other stuff.&lt;/p&gt;
+&lt;p&gt;Books are like... little high quality ink displays. You can have a
+bunch of "displays" set up&amp;mdash;a dictionary, a grammar reference,
+and some text you are trying to work through.&lt;/p&gt;
+&lt;p&gt;"Well", someone might say, "one advantage of using a computer/PDFs is
+having &lt;em&gt;your entire library on demand&lt;/em&gt;". Sometimes, this is good. But
+often for intense study I find I don't really need or make use of this
+advantage. At any given time, how many hours are you going to spend over &lt;em&gt;N&lt;/em&gt;
+books? &lt;/p&gt;
+&lt;p&gt;Paper books mean setting things up to see all the info you need right
+at once.&lt;/p&gt;
+&lt;h3&gt;Portability/Robustness&lt;/h3&gt;
+&lt;p&gt;This heading is relatively self-explanatory. Books don't need
+batteries. You can ad-hoc upgrade them with annotations, book covers,
+and more. Books are often not so expensive to replace if stuff goes
+bad.&lt;/p&gt;
+&lt;h2&gt;Final thoughts&lt;/h2&gt;
+&lt;p&gt;The advantages of digital materials are readily understandable for
+people that make daily use of them. Particularly nice are things like
+search functionality, indexing, and other features that require manual
+lookup in paper books.&lt;/p&gt;
+&lt;p&gt;One question to ask is &lt;em&gt;where is the bottleneck of my learning?&lt;/em&gt; I've
+found that just contemplating some key term &lt;em&gt;while fumbling through an
+index&lt;/em&gt; has in fact been helpful for helping me remember concepts.
+Thumbing through a dictionary has helped me discover things about
+languages I would not have otherwise seen if I had enjoyed near
+instantaneous results.&lt;/p&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 34</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-34.html" rel="alternate"></link><published>2020-06-09T00:00:00-07:00</published><updated>2020-06-09T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-06-09:/pelican-test/corona-virus-diary-part-34.html</id><summary type="html">&lt;p&gt;Aside from work, I spent some time today investigating (Theravada)
 Buddhism by reading &lt;em&gt;In the Buddha's Words: An Anthology of Discourses
 from the Pali Canon&lt;/em&gt;, which I bought used a while back. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;
 I had this book on the shelf for a while and was interested in reading
