@@ -1,5 +1,5 @@
 title: Corona Virus Diary, Part 35
-date: 2020-06-09
+date: 2020-06-10
 category: News
 
 Today I continue off yesterday's notes on *In the Buddha's Words: An

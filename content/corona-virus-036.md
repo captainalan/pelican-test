@@ -1,5 +1,5 @@
 title: Corona Virus Diary, Part 36
-date: 2020-06-11
+date: 2020-06-12
 category: News
 
 Today I will extol the virtues of *paper books* (aka "dead tree" book)
