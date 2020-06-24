@@ -1,5 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-06-22T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 39</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-39.html" rel="alternate"></link><published>2020-06-22T00:00:00-07:00</published><updated>2020-06-22T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-06-22:/pelican-test/corona-virus-diary-part-39.html</id><summary type="html">&lt;p&gt;This weekend I went camping with some friends, which was very nice.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-06-24T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 40</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-40.html" rel="alternate"></link><published>2020-06-24T00:00:00-07:00</published><updated>2020-06-24T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-06-24:/pelican-test/corona-virus-diary-part-40.html</id><summary type="html">&lt;p&gt;Today I am going to ramble about "science" versus business books, pop
+psychology, etc.&lt;/p&gt;
+&lt;p&gt;Many people treat "science" as a collection of facts. The next level
+is to consider "science" as a collection of facts &lt;em&gt;derived through a
+particular methodology&lt;/em&gt;. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; Both of these levels of "scientific"
+understanding presume a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Today I am going to ramble about "science" versus business books, pop
+psychology, etc.&lt;/p&gt;
+&lt;p&gt;Many people treat "science" as a collection of facts. The next level
+is to consider "science" as a collection of facts &lt;em&gt;derived through a
+particular methodology&lt;/em&gt;. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; Both of these levels of "scientific"
+understanding presume a process/establishment that is good enough at
+filtering good from no-good to consider humans collectively to be
+"moving forward".&lt;/p&gt;
+&lt;p&gt;The next level of thinking about "science" is to consider how
+authorities canonize what is(n't) "science" and how knowledge
+accumulation is more about finding useful models for different things
+and trying to fit them to phenomena. "Science" is a far less unified
+thing than people make it out to be. Reporting "facts" is a very
+difficult thing to do because "scientific facts" are always with
+respect to a model.&lt;/p&gt;
+&lt;p&gt;Two places to learn more about these things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For an introduction, see Luke's Smith &lt;a href="https://traffic.libsyn.com/secure/notrelated/S02E01_-_Against_Method_and_For_Pseudoscience.ogg"&gt;Against Method and For
+  'Pseudoscience'&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;For a more long-form thing, see the works of &lt;a href="https://fooledbyrandomness.com/"&gt;Nassim Nicholas
+  Taleb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Case Study&lt;/h2&gt;
+&lt;p&gt;Some neckbeard might say something like "&lt;em&gt;Qi&lt;/em&gt; energy is not real".
+What do they mean by this? That some traditional Chinese school of
+thought is completely incoherent?&lt;/p&gt;
+&lt;p&gt;This neckbeard might reply that &lt;em&gt;Qi&lt;/em&gt; cannot be &lt;em&gt;measured&lt;/em&gt; with any
+instrument we have. We can't observe &lt;em&gt;Qi&lt;/em&gt; like we measure the
+temperature with a thermometer.&lt;/p&gt;
+&lt;p&gt;To be a difficult person, you create a dataset rating video clips on
+the amounts of &lt;em&gt;Qi&lt;/em&gt; energy being displayed. Professional fighters
+display lots of &lt;em&gt;Qi&lt;/em&gt; concentration; you mark some high number. Someone
+just sitting and not doing much has resting &lt;em&gt;Qi&lt;/em&gt; not doing much. You
+tag a few thousand video clips and then run your classification
+algorithm on some new data.&lt;/p&gt;
+&lt;p&gt;Wow! Machine learning shows &lt;em&gt;Qi&lt;/em&gt; exists?!??!??!?!?&lt;/p&gt;
+&lt;h2&gt;Implications&lt;/h2&gt;
+&lt;p&gt;There's lots of useful information all over. Oftentimes, to understand
+some isolated "fact" however, you need to understand some more
+comprehensive system. Someone who is not trained in biology, 
+chemistry, and other things is probably just driveling nonsense if
+they are talking about how sodium is good/bad for the body. "Sodium"
+is just a magic word to this person.&lt;/p&gt;
+&lt;p&gt;On the other hand, some people talking in terms of martial arts,
+traditional medicine, etc. may be onto something. Do they have a model
+of the world that helps them do whatever activities they are trying to
+do?&lt;/p&gt;
+&lt;p&gt;A programer may be annoyed by many aspects of music notation. Why does
+such-and-such have to be so confusing? We must respect the fact that
+&lt;em&gt;Western music notation works&lt;/em&gt;, as do programing languages. Both have
+lots of room for improvement but they succeed at least somewhat in
+some particular domain and we can state "facts" in terms of them.&lt;/p&gt;
+&lt;p&gt;Likewise, as with the machine learning example above, we can talk
+about the models of psychology/business/etc. as put forth in
+popular/contemporary readings. Insofar as these books are able to help
+people do a better job communicating with others, getting organized,
+etc., these works shouldn't just be considered as "pseudoscience".&lt;/p&gt;
+&lt;h2&gt;"Fact Checking"&lt;/h2&gt;
+&lt;p&gt;"Facts" only make sense with respect to some model of the world. Can
+you say that XYZ &lt;em&gt;discovered the atom&lt;/em&gt;? The notion of "atom" as
+discussed in physics and stuff today is a very specific thing that
+only exists with respect to a particular model of the world. Likewise,
+when religious people speak of "the soul", a Christian might mean a
+very different thing from a Buddhist or some kind of Pagan. Each
+describes this term with respect to some model of the universe.&lt;/p&gt;
+&lt;p&gt;"Fact checking" is prone to be super annoying and misleading because
+it presumes one (establishment-approved) view of the world and calls
+things factual or not relative to that.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;E.g. falsafiable experiments&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 39</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-39.html" rel="alternate"></link><published>2020-06-22T00:00:00-07:00</published><updated>2020-06-22T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-06-22:/pelican-test/corona-virus-diary-part-39.html</id><summary type="html">&lt;p&gt;This weekend I went camping with some friends, which was very nice.
 Taking some time away from work and normal scheduling can be a very
 productive thing, I think. It's good to step back from stuff,
 re-evaluate priorities, etc. from time to time. In the future, I'll
@@ -37,8 +117,8 @@ stuff. However, in another sense, I totally "lost"; if I look at
 people I know who did a better job focusing on people/community rather
 than being a nerd, they are the ones that are happily married with
 families, community, etc.&lt;/p&gt;
-&lt;p&gt;Another way I tried to optimize stuff was using &lt;a href="https://en.wikipedia.org/wiki/Spaced_repetition"&gt;&lt;strong&gt;Spaced Repetition&lt;/strong&gt;
-Systems&lt;/a&gt; (SRS) for
+&lt;p&gt;Another way I tried to optimize stuff was using &lt;a href="https://en.wikipedia.org/wiki/Spaced_repetition"&gt;&lt;strong&gt;Spaced Repetition
+Systems&lt;/strong&gt;&lt;/a&gt; (SRS) for
 language larning for a while. The problem I faced was that I would not
 accompany this SRS learning with enough other (more important)
 learning&amp;mdash;e.g. absorbing media of my target languages. On top of
