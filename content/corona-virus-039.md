@@ -45,8 +45,8 @@ people I know who did a better job focusing on people/community rather
 than being a nerd, they are the ones that are happily married with
 families, community, etc.
 
-Another way I tried to optimize stuff was using [**Spaced Repetition**
-Systems](https://en.wikipedia.org/wiki/Spaced_repetition) (SRS) for
+Another way I tried to optimize stuff was using [**Spaced Repetition
+Systems**](https://en.wikipedia.org/wiki/Spaced_repetition) (SRS) for
 language larning for a while. The problem I faced was that I would not
 accompany this SRS learning with enough other (more important)
 learning&mdash;e.g. absorbing media of my target languages. On top of
