@@ -26,7 +26,7 @@ First, have projects
 "Projects" are some concrete goal you can work toward [^2]. Some projects
 are very-well defined. For example, you may have goals to: 
 
-- Pay of student debt
+- Pay off student debt
 - Produce a painting a week for a year
 - Learn German to a conversational level before visiting Germany
 - Build a website for a friend

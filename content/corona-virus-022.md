@@ -69,9 +69,10 @@ misdemeanors to keep themselves from punching holes in walls.
 Through all of this, I see the "reality" (or *biology*) of the whole
 COVID-19 situation is still far from clear/resolved.
 
-Among other reasons, this is why I have focused by blog here I'm what
-I'm thinking, pscyhologizing, and speculating versus trying to tell
-you all *the facts* about what is going on. I still think we don't
-know much; though, I think that many of the ideas I've been writing
-about here have been useful to me navigating these difficult times.
+Among other reasons, this is why I have focused in this blog on *what
+I'm thinking*, *pscyhologizing*, and *speculating* rather than trying
+to tell you all *the facts* about what is going on. I still think we
+don't know much; though, I think that many of the ideas I've been
+writing about here have been useful to me navigating these difficult
+times.
 
