@@ -193,7 +193,7 @@ respectively are installed. Do this *before* you install `grub` (directions
 below) or else you may not be able to boot your new installation.
 
 ```bash
-pacstrap /mnt base base-devel vim emacs
+pacstrap /mnt base base-devel linux linux-firmware neovim
 ```
 Running this command might take a while because it is installing an entire
 base system.

@@ -16,6 +16,12 @@ file"](https://support.rackspace.com/how-to/create-a-linux-swap-file/)
 You can use the `htop` command to see a summary of the processes running on
 your computer in addition to CPU and memory usage.
 
+On Arch	Linux
+-------------
+
+Just check the Arch Wiki for the latest instrtuctions. I blindly followed the
+directions above for Ubuntu and it didn't quite work.
+
 [^1]: Remember that Linux distributions are for the most part just bundled
   software and default configurations. Choosing Ubuntu (or some 'buntu
   "flavor") is an easy way to get a widely documented default setup going.
