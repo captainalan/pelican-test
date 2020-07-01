@@ -14,6 +14,9 @@ file"&lt;/a&gt;
 (Rackspace 2018) to create a swap file &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;You can use the &lt;code&gt;htop&lt;/code&gt; command to see a summary of the processes running on
 your computer in addition to CPU and memory usage.&lt;/p&gt;
+&lt;h2&gt;On Arch Linux&lt;/h2&gt;
+&lt;p&gt;Just check the Arch Wiki for the latest instrtuctions. I blindly followed the
+directions above for Ubuntu and it didn't quite work.&lt;/p&gt;
 &lt;div class="footnote"&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -730,7 +733,7 @@ development tools. If you want more things, add them like so to this command.&lt
 &lt;code&gt;linux-firmware&lt;/code&gt; to make sure the latest Linux kernel and appropriate drivers
 respectively are installed. Do this &lt;em&gt;before&lt;/em&gt; you install &lt;code&gt;grub&lt;/code&gt; (directions
 below) or else you may not be able to boot your new installation.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pacstrap /mnt base base-devel vim emacs
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pacstrap /mnt base base-devel linux linux-firmware neovim
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 

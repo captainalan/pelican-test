@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-06-29T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 42</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-42.html" rel="alternate"></link><published>2020-06-29T00:00:00-07:00</published><updated>2020-06-29T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-06-29:/pelican-test/corona-virus-diary-part-42.html</id><summary type="html">&lt;p&gt;In this post I'm going to talk about why I usually don't suggest
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-06-30T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 43</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-43.html" rel="alternate"></link><published>2020-06-30T00:00:00-07:00</published><updated>2020-06-30T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-06-30:/pelican-test/corona-virus-diary-part-43.html</id><summary type="html">&lt;p&gt;I shuffled around some peripherals to get a little night stand next to an old
+computer with limited available applications installed.
+This old computer has only 2 GB of RAM, but it is enough for most things that
+might be considered a "good use of time" on a computer, e …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I shuffled around some peripherals to get a little night stand next to an old
+computer with limited available applications installed.
+This old computer has only 2 GB of RAM, but it is enough for most things that
+might be considered a "good use of time" on a computer, e.g.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Writing stuff&lt;/li&gt;
+&lt;li&gt;Creating programs&lt;/li&gt;
+&lt;li&gt;Doing basic email, logistics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here, I have a kind of hardware-enforced zen computing experience. I'm using a
+nice ergonomic keyboard and mouse pairing, I am sitting on the floor, and I
+have an old laptop next to me. While I type, I don't even need to look at the
+laptop; I can close my eyes, glance over every once in a while, and just let
+the text flow.&lt;/p&gt;
+&lt;h2&gt;"Downgrading" equipment to upgrade "experience"&lt;/h2&gt;
+&lt;p&gt;One might ask &lt;em&gt;why in the twentieth century&lt;/em&gt; would people ever do things like
+shoot film photography, ride a single speed bicycle, or use decade plus old
+computer hardware.&lt;/p&gt;
+&lt;p&gt;Part of the fun of this LARPing (live action role-playing) is that more
+"modern" solutions often don't offer much new functionality that will actually
+get used. News features can lead to more complicated/bloated UIs, and an
+overall more &lt;em&gt;unpleasant&lt;/em&gt; experience.&lt;/p&gt;
+&lt;h3&gt;Back to the fundamentals&lt;/h3&gt;
+&lt;p&gt;Another reason people opt for simpler approaches to things is that it offers a
+return to the "fundamentals". In order for a bicycle to &lt;em&gt;go&lt;/em&gt; what is needed?
+You're going to need some mechanism to turn the wheels; something to be able
+to slow down and/or stop... that's about it. If you aren't optimizing to be
+the fastest bicyclist ever (vast majority of people), a single speed bicycle
+will do just fine. Particularly if you are trying to ride a bicycle to get
+more exercise, riding a single speed bicycle might be a &lt;em&gt;better&lt;/em&gt; choice
+because you will not be helped along by gearing optimizations and such...&lt;/p&gt;
+&lt;p&gt;In a similar way, returning to a computer that has "limited" features in many
+ways is a good opportunity to bring thinking back to myself and to quit
+fussing over piles and piles of software abstraction. At the end of the day,
+if I just want to practice writing some code, author some prose, etc., the
+stripped-down system I have now is much more efficient (i.e. "non-bloated").&lt;/p&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 42</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-42.html" rel="alternate"></link><published>2020-06-29T00:00:00-07:00</published><updated>2020-06-29T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-06-29:/pelican-test/corona-virus-diary-part-42.html</id><summary type="html">&lt;p&gt;In this post I'm going to talk about why I usually don't suggest
 &lt;em&gt;studying more than one foreign language at once&lt;/em&gt; to people. Mainly,
 this is because learning a new language will involve you to train
 &lt;em&gt;thinking in a new model&lt;/em&gt; (i.e. language); anyone who is proficient in
