@@ -67,6 +67,11 @@ Once you go through the options `wifi-menu`, try out your network connection
 with something like `ping google.com`. Type `ctrl-c` to exit when you are
 done.
 
+Edit July 1, 2020&mdash;looks like `wifi-menu` might be gone? Consult the Arch
+Wiki; you may need to use `iwctl` to connect to a wireless network during
+install.
+
+
 ### Time and date stuff
 
 Run `timedatectl set-ntp true`.
@@ -116,7 +121,7 @@ the Boot partition, accept the first default option (`p`) to create a new
 primary partition. Accept `1` as the default partition number. Accept the
 default "First sector" location. For the "Last sector", enter `+200M`. This means will be the *boot* partition which we are allocating 200 MB for.
 
-Next, we will craete a **swap partition**. Type `n` again to get started.
+Next, we will create a **swap partition**. Type `n` again to get started.
 Standard practice is to create a swap partition of about 1.5-2 times the
 amount of RAM you have. I'll be using 4 GB for this. Accept the default
 partion number (probably 2), default first sector, and for the last sector do
@@ -205,6 +210,11 @@ Linux what to try to load (see `etc/fstab`). Run `genfstab /mnt`. This will
 generate an `fstab` file based on how `mnt` looks. Running this command will
 just output a bunch of stuff.
 
+If you made a swap partition earlier and you don't see it here, you should do
+`swapon /dev/sdaX` (replace `/dev/sdaX` with your swap partition of course). If
+you're going to use a **swap file** later, don't worry about this now&mdash;
+you can edit things later.
+
 We need to save these things to a file. Run
 `genfstab -U /mnt >> /mnt/etc/fstab`.
 
@@ -291,7 +301,8 @@ your harddrive).
 Type `reboot`. Remove your installation medium. You should boot to your new
 installation.
 
-## LARBS
+(Optional) LARBS
+----------------
 
 Here is the easy part. To get a pretty cool configuration right away, use
 Luke Smith's [LARBS](https://larbs.xyz) setup.
@@ -358,3 +369,11 @@ The basic procedure to move your `/home/` to a new partition is to
 5. save your configuration in `/etc/fstab`
 
 These operations will require `su` permissions (e.g. through using `sudo`).
+
+(Optional) Next Steps
+---------------------
+
+- (Add directions for setting up a user, `sudo` privileges)
+- (Add directions for getting a window manager; getting some starter fonts)
+- (Add basic shell setup)
+- (Add directions for setting up `yay` or another AUR helper)
