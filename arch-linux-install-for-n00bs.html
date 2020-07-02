@@ -88,6 +88,9 @@ a home network, you will be prompted for your Wi-Fi network's password.
 Once you go through the options <code>wifi-menu</code>, try out your network connection
 with something like <code>ping google.com</code>. Type <code>ctrl-c</code> to exit when you are
 done.</p>
+<p>Edit July 1, 2020&mdash;looks like <code>wifi-menu</code> might be gone? Consult the Arch
+Wiki; you may need to use <code>iwctl</code> to connect to a wireless network during
+install.</p>
 <h3>Time and date stuff</h3>
 <p>Run <code>timedatectl set-ntp true</code>.</p>
 <p>Note the 'prefix' <em>-ctl</em> in the command above. Commands with <em>-ctl</em>
@@ -127,7 +130,7 @@ Type <code>p</code> to print partitions. Once you are done deleting existing stu
 the Boot partition, accept the first default option (<code>p</code>) to create a new
 primary partition. Accept <code>1</code> as the default partition number. Accept the
 default "First sector" location. For the "Last sector", enter <code>+200M</code>. This means will be the <em>boot</em> partition which we are allocating 200 MB for.</p>
-<p>Next, we will craete a <strong>swap partition</strong>. Type <code>n</code> again to get started.
+<p>Next, we will create a <strong>swap partition</strong>. Type <code>n</code> again to get started.
 Standard practice is to create a swap partition of about 1.5-2 times the
 amount of RAM you have. I'll be using 4 GB for this. Accept the default
 partion number (probably 2), default first sector, and for the last sector do
@@ -190,6 +193,10 @@ base system.</p>
 Linux what to try to load (see <code>etc/fstab</code>). Run <code>genfstab /mnt</code>. This will
 generate an <code>fstab</code> file based on how <code>mnt</code> looks. Running this command will
 just output a bunch of stuff.</p>
+<p>If you made a swap partition earlier and you don't see it here, you should do
+<code>swapon /dev/sdaX</code> (replace <code>/dev/sdaX</code> with your swap partition of course). If
+you're going to use a <strong>swap file</strong> later, don't worry about this now&mdash;
+you can edit things later.</p>
 <p>We need to save these things to a file. Run
 <code>genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code>.</p>
 <p>Now Arch Linux will know what goes where.</p>
@@ -252,7 +259,7 @@ your harddrive).</p>
 <h3>Reboot!</h3>
 <p>Type <code>reboot</code>. Remove your installation medium. You should boot to your new
 installation.</p>
-<h2>LARBS</h2>
+<h2>(Optional) LARBS</h2>
 <p>Here is the easy part. To get a pretty cool configuration right away, use
 Luke Smith's <a href="https://larbs.xyz">LARBS</a> setup.</p>
 <p>Booting your new Arch setup, login as <code>root</code>. You'll be prompted for your
@@ -302,6 +309,13 @@ get an install for another distro (e.g. Ubuntu) and use the graphical tools
 <li>save your configuration in <code>/etc/fstab</code></li>
 </ol>
 <p>These operations will require <code>su</code> permissions (e.g. through using <code>sudo</code>).</p>
+<h2>(Optional) Next Steps</h2>
+<ul>
+<li>(Add directions for setting up a user, <code>sudo</code> privileges)</li>
+<li>(Add directions for getting a window manager; getting some starter fonts)</li>
+<li>(Add basic shell setup)</li>
+<li>(Add directions for setting up <code>yay</code> or another AUR helper)</li>
+</ul>
     </div><!-- /.entry-content -->
 
   </article>

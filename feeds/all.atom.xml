@@ -5935,6 +5935,9 @@ a home network, you will be prompted for your Wi-Fi network's password.
 Once you go through the options &lt;code&gt;wifi-menu&lt;/code&gt;, try out your network connection
 with something like &lt;code&gt;ping google.com&lt;/code&gt;. Type &lt;code&gt;ctrl-c&lt;/code&gt; to exit when you are
 done.&lt;/p&gt;
+&lt;p&gt;Edit July 1, 2020&amp;mdash;looks like &lt;code&gt;wifi-menu&lt;/code&gt; might be gone? Consult the Arch
+Wiki; you may need to use &lt;code&gt;iwctl&lt;/code&gt; to connect to a wireless network during
+install.&lt;/p&gt;
 &lt;h3&gt;Time and date stuff&lt;/h3&gt;
 &lt;p&gt;Run &lt;code&gt;timedatectl set-ntp true&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Note the 'prefix' &lt;em&gt;-ctl&lt;/em&gt; in the command above. Commands with &lt;em&gt;-ctl&lt;/em&gt;
@@ -5974,7 +5977,7 @@ Type &lt;code&gt;p&lt;/code&gt; to print partitions. Once you are done deleting 
 the Boot partition, accept the first default option (&lt;code&gt;p&lt;/code&gt;) to create a new
 primary partition. Accept &lt;code&gt;1&lt;/code&gt; as the default partition number. Accept the
 default "First sector" location. For the "Last sector", enter &lt;code&gt;+200M&lt;/code&gt;. This means will be the &lt;em&gt;boot&lt;/em&gt; partition which we are allocating 200 MB for.&lt;/p&gt;
-&lt;p&gt;Next, we will craete a &lt;strong&gt;swap partition&lt;/strong&gt;. Type &lt;code&gt;n&lt;/code&gt; again to get started.
+&lt;p&gt;Next, we will create a &lt;strong&gt;swap partition&lt;/strong&gt;. Type &lt;code&gt;n&lt;/code&gt; again to get started.
 Standard practice is to create a swap partition of about 1.5-2 times the
 amount of RAM you have. I'll be using 4 GB for this. Accept the default
 partion number (probably 2), default first sector, and for the last sector do
@@ -6037,6 +6040,10 @@ base system.&lt;/p&gt;
 Linux what to try to load (see &lt;code&gt;etc/fstab&lt;/code&gt;). Run &lt;code&gt;genfstab /mnt&lt;/code&gt;. This will
 generate an &lt;code&gt;fstab&lt;/code&gt; file based on how &lt;code&gt;mnt&lt;/code&gt; looks. Running this command will
 just output a bunch of stuff.&lt;/p&gt;
+&lt;p&gt;If you made a swap partition earlier and you don't see it here, you should do
+&lt;code&gt;swapon /dev/sdaX&lt;/code&gt; (replace &lt;code&gt;/dev/sdaX&lt;/code&gt; with your swap partition of course). If
+you're going to use a &lt;strong&gt;swap file&lt;/strong&gt; later, don't worry about this now&amp;mdash;
+you can edit things later.&lt;/p&gt;
 &lt;p&gt;We need to save these things to a file. Run
 &lt;code&gt;genfstab -U /mnt &amp;gt;&amp;gt; /mnt/etc/fstab&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Now Arch Linux will know what goes where.&lt;/p&gt;
@@ -6099,7 +6106,7 @@ your harddrive).&lt;/p&gt;
 &lt;h3&gt;Reboot!&lt;/h3&gt;
 &lt;p&gt;Type &lt;code&gt;reboot&lt;/code&gt;. Remove your installation medium. You should boot to your new
 installation.&lt;/p&gt;
-&lt;h2&gt;LARBS&lt;/h2&gt;
+&lt;h2&gt;(Optional) LARBS&lt;/h2&gt;
 &lt;p&gt;Here is the easy part. To get a pretty cool configuration right away, use
 Luke Smith's &lt;a href="https://larbs.xyz"&gt;LARBS&lt;/a&gt; setup.&lt;/p&gt;
 &lt;p&gt;Booting your new Arch setup, login as &lt;code&gt;root&lt;/code&gt;. You'll be prompted for your
@@ -6148,7 +6155,14 @@ get an install for another distro (e.g. Ubuntu) and use the graphical tools
 &lt;li&gt;mount the copied files on the correct (new) partition to &lt;code&gt;/home&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;save your configuration in &lt;code&gt;/etc/fstab&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;These operations will require &lt;code&gt;su&lt;/code&gt; permissions (e.g. through using &lt;code&gt;sudo&lt;/code&gt;).&lt;/p&gt;</content><category term="Linux"></category></entry><entry><title>HEHEHEHEHE</title><link href="https://captainalan.github.io/pelican-test/hehehehehe.html" rel="alternate"></link><published>2019-05-15T10:50:00-07:00</published><updated>2019-05-15T10:50:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-15:/pelican-test/hehehehehe.html</id><content type="html">&lt;p&gt;It is a pleasure to edit in Markdown!&lt;/p&gt;
+&lt;p&gt;These operations will require &lt;code&gt;su&lt;/code&gt; permissions (e.g. through using &lt;code&gt;sudo&lt;/code&gt;).&lt;/p&gt;
+&lt;h2&gt;(Optional) Next Steps&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;(Add directions for setting up a user, &lt;code&gt;sudo&lt;/code&gt; privileges)&lt;/li&gt;
+&lt;li&gt;(Add directions for getting a window manager; getting some starter fonts)&lt;/li&gt;
+&lt;li&gt;(Add basic shell setup)&lt;/li&gt;
+&lt;li&gt;(Add directions for setting up &lt;code&gt;yay&lt;/code&gt; or another AUR helper)&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Linux"></category></entry><entry><title>HEHEHEHEHE</title><link href="https://captainalan.github.io/pelican-test/hehehehehe.html" rel="alternate"></link><published>2019-05-15T10:50:00-07:00</published><updated>2019-05-15T10:50:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-15:/pelican-test/hehehehehe.html</id><content type="html">&lt;p&gt;It is a pleasure to edit in Markdown!&lt;/p&gt;
 &lt;p&gt;Check out this animated pelican:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="A Pelican" src="https://i.imgur.com/ydhVJLu.gif"&gt;&lt;/p&gt;</content><category term="Fun"></category></entry><entry><title>Why Static Sites?</title><link href="https://captainalan.github.io/pelican-test/why-static-sites.html" rel="alternate"></link><published>2019-05-15T10:13:00-07:00</published><updated>2019-05-15T10:13:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-05-15:/pelican-test/why-static-sites.html</id><summary type="html">&lt;p&gt;Updated 8/12/2019&lt;/p&gt;
 &lt;p&gt;After half a year or so of learning all about dynamic websites (using
