@@ -1,5 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-07-06T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 45</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-45.html" rel="alternate"></link><published>2020-07-06T00:00:00-07:00</published><updated>2020-07-06T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-07-06:/pelican-test/corona-virus-diary-part-45.html</id><summary type="html">&lt;p&gt;This month, Google told me that &lt;em&gt;I only walked 3 miles!&lt;/em&gt; I purposely
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-07-07T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 46</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-46.html" rel="alternate"></link><published>2020-07-07T00:00:00-07:00</published><updated>2020-07-07T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-07-07:/pelican-test/corona-virus-diary-part-46.html</id><summary type="html">&lt;p&gt;This week, I've been working on learning &lt;strong&gt;DevOps&lt;/strong&gt; things. From
+wikip, a definition:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;DevOps&lt;/strong&gt; is a set of practices that combines software development
+(Dev) and IT operations (Ops). It aims to shorten the systems
+development life cycle and provide continuous delivery with high
+software quality.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In plain English, I call …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This week, I've been working on learning &lt;strong&gt;DevOps&lt;/strong&gt; things. From
+wikip, a definition:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;DevOps&lt;/strong&gt; is a set of practices that combines software development
+(Dev) and IT operations (Ops). It aims to shorten the systems
+development life cycle and provide continuous delivery with high
+software quality.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In plain English, I call DevOps something like "looking into how to
+take software that people write and get it where it needs to be to
+&lt;em&gt;get work done&lt;/em&gt;".&lt;/p&gt;
+&lt;p&gt;Different people do different jobs: e.g. designers design fancy apps,
+web programers write code to implement fancy apps, and analysts crunch
+numbers to figure out how to make money off those fancy apps.&lt;/p&gt;
+&lt;p&gt;DevOps is smashing all this work together into something that does
+work in the real world. It is trying to automate much of the process,
+making it easy to &lt;strong&gt;scale&lt;/strong&gt; operations, do fast fixes, etc.&lt;/p&gt;
+&lt;h1&gt;Applying Knowledge from Hobbies&lt;/h1&gt;
+&lt;p&gt;I decided to look into this field because I already enjoy doing things
+like configuring linux, working with command line tools, etc.&lt;/p&gt;
+&lt;p&gt;I was having trouble finding programing/coding projects that
+interested me because oftentimes, the software I might want to write
+&lt;em&gt;already exists&lt;/em&gt;&amp;mdash;it just needs to be configured and run
+somewhere. For example, this blog that you are reading was made using
+a &lt;strong&gt;static site generator&lt;/strong&gt;. It could be interesting and educational
+to go write my own static site generator, but really this program does
+everything I need it to do. I just write text in an easy to read/use
+language (markdown) and web pages get generated&amp;mdash;amazing! I can
+publish a live journal here, backed up/preserved by our friends at
+Github x Microsoft.&lt;/p&gt;
+&lt;p&gt;Compared with this site, there are more complicated projects (such as
+ones that have &lt;em&gt;interactivity&lt;/em&gt;) one may want to deploy. Dumping a
+bunch of HTML pages and images (examples of &lt;strong&gt;static assets&lt;/strong&gt;) on the
+Internet is often not hard. How about deploying a program that
+interacts with some database? A place to submit a form to?&lt;/p&gt;
+&lt;h3&gt;Setting stuff up automatically&lt;/h3&gt;
+&lt;p&gt;Much of DevOps is writing configuration files (which are &lt;em&gt;declarations
+of how stuff should be&lt;/em&gt;). These files get read by programs that run
+other programs (that run other programs, that run other programs...).&lt;/p&gt;
+&lt;p&gt;On a local level, doing this has been great fun. DevOps sounds like an
+in-demand place to do similar things, at scale.&lt;/p&gt;
+&lt;h3&gt;Future goals&lt;/h3&gt;
+&lt;p&gt;As a direction for &lt;em&gt;what to learn more about&lt;/em&gt;, I think that learning
+more about the &lt;em&gt;operations&lt;/em&gt; part of DevOps and how to coordinate 
+people and teams is a good direction to move into for a future
+involving building useful things to help us all live better lives.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;/end-sales-pitch&lt;/code&gt;&lt;/p&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 45</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-45.html" rel="alternate"></link><published>2020-07-06T00:00:00-07:00</published><updated>2020-07-06T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-07-06:/pelican-test/corona-virus-diary-part-45.html</id><summary type="html">&lt;p&gt;This month, Google told me that &lt;em&gt;I only walked 3 miles!&lt;/em&gt; I purposely
 leave location tracking and stuff on my phone. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; What a sad, low
 number! Maybe it is better if I &lt;strong&gt;virtue signal&lt;/strong&gt; to Google.&lt;/p&gt;
 &lt;p&gt;So, this month, I'm doing an experiment. As much as I can, even …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This month, Google told me that &lt;em&gt;I only walked 3 miles!&lt;/em&gt; I purposely
