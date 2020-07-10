@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-07-07T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 46</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-46.html" rel="alternate"></link><published>2020-07-07T00:00:00-07:00</published><updated>2020-07-07T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-07-07:/pelican-test/corona-virus-diary-part-46.html</id><summary type="html">&lt;p&gt;This week, I've been working on learning &lt;strong&gt;DevOps&lt;/strong&gt; things. From
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-07-09T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 47</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-47.html" rel="alternate"></link><published>2020-07-09T00:00:00-07:00</published><updated>2020-07-09T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-07-09:/pelican-test/corona-virus-diary-part-47.html</id><summary type="html">&lt;p&gt;Faced with scarcity, people naturally plan. It is necessary to be
+efficienct when resources are few.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Going on a camping trip with limited food, you'll have to decide
+  &lt;em&gt;what&lt;/em&gt; to eat &lt;em&gt;when&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Knowing you only get &lt;em&gt;one hour to study&lt;/em&gt; for some exam, you'll want
+  to know what the most …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Faced with scarcity, people naturally plan. It is necessary to be
+efficienct when resources are few.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Going on a camping trip with limited food, you'll have to decide
+  &lt;em&gt;what&lt;/em&gt; to eat &lt;em&gt;when&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Knowing you only get &lt;em&gt;one hour to study&lt;/em&gt; for some exam, you'll want
+  to know what the most effective study methods are to extract the
+  most out of this hour&lt;/li&gt;
+&lt;li&gt;Constrained by a budget (e.g. &lt;em&gt;your own money&lt;/em&gt;), you will aim to get
+  the best deals you can; with tooling, you will want to buy quality
+  things that you won't have to soon replace&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;On the other hand, abundance can lead to great waste in time, energy,
+and resources.&lt;/p&gt;
+&lt;h2&gt;Simulating Scarcity&lt;/h2&gt;
+&lt;p&gt;Schedules and structuring time can be used to make "artificial
+scarcity"; you can trick yourself to being more efficient by imposing
+scenarios on yourself that necessitate planning.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you make a plan to eat only one meal per day, you will want to
+  plan to eat something that tastes good and is nutritious. You may
+  arrange your social life around enjoying this one meal &lt;em&gt;with other
+  people&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;You may alot different time blocks for studying different subjects;
+  e.g. focus on studying for one exam for an hour, working on another
+  project for two, etc.&lt;/li&gt;
+&lt;li&gt;Your budgeting plan may amount to deciding to &lt;em&gt;save&lt;/em&gt; a certain
+  portion of the money you bring in on a fixed interval.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Degrees of Freedom&lt;/h2&gt;
+&lt;p&gt;Of course, having the flexibility to change/adjust plans to meet new
+requirements (or ride &lt;em&gt;waves of inspiration&lt;/em&gt;) is a helpful thing.&lt;/p&gt;
+&lt;p&gt;What needs to be done is to strike a balance between having enough
+structure to keep one motivated/working/productive and enough freedom
+to capitalize on unforseen events. Good organization is organization
+that makes sense to do, which you don't have to constantly think
+about.&lt;/p&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 46</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-46.html" rel="alternate"></link><published>2020-07-07T00:00:00-07:00</published><updated>2020-07-07T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-07-07:/pelican-test/corona-virus-diary-part-46.html</id><summary type="html">&lt;p&gt;This week, I've been working on learning &lt;strong&gt;DevOps&lt;/strong&gt; things. From
 wikip, a definition:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;DevOps&lt;/strong&gt; is a set of practices that combines software development
