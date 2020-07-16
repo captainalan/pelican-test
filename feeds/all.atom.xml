@@ -1,5 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-07-09T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 47</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-47.html" rel="alternate"></link><published>2020-07-09T00:00:00-07:00</published><updated>2020-07-09T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-07-09:/pelican-test/corona-virus-diary-part-47.html</id><summary type="html">&lt;p&gt;Faced with scarcity, people naturally plan. It is necessary to be
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-07-14T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 48</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-48.html" rel="alternate"></link><published>2020-07-14T00:00:00-07:00</published><updated>2020-07-14T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-07-14:/pelican-test/corona-virus-diary-part-48.html</id><summary type="html">&lt;p&gt;Today's post will be kind of scattered; there's a few ideas I want to
+discuss.&lt;/p&gt;
+&lt;h2&gt;Productivity Strategy: Circuits&lt;/h2&gt;
+&lt;p&gt;In a &lt;a href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-42.html"&gt;previous blog
+post&lt;/a&gt;
+I briefly discussed how iterating through different "stations" (e.g.
+doing a workout routine with various machines, doing a fixed number of
+reps on each machine) could …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Today's post will be kind of scattered; there's a few ideas I want to
+discuss.&lt;/p&gt;
+&lt;h2&gt;Productivity Strategy: Circuits&lt;/h2&gt;
+&lt;p&gt;In a &lt;a href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-42.html"&gt;previous blog
+post&lt;/a&gt;
+I briefly discussed how iterating through different "stations" (e.g.
+doing a workout routine with various machines, doing a fixed number of
+reps on each machine) could be a good strategy to keep a workout
+going, allowing parts of your body to rest while maintaining
+momentum/intensity.&lt;/p&gt;
+&lt;p&gt;This week I've been working on developing this idea further by
+bringing this into the abstracted/software/computaitonal world as
+well. One could &lt;em&gt;cycle&lt;/em&gt; through different projects; working on one
+until you hit some road block, making some notes about how you think
+you should pick stuff up next time you start, and then moving on to
+the next thing. This way you keep multiple projects going (and hence
+get stuff done) and also do not get too held up on the frustrations of
+any one product.&lt;/p&gt;
+&lt;h2&gt;Philosophy not in the "philosophy" genre&lt;/h2&gt;
+&lt;p&gt;You may have heard stuff about how the ancient greeks/chinese/etc.
+studied "philosophy" was different from the rather obscure field it is
+today. What we now classify as "ancient philosophy" can be a
+combination of practical how-to's, religious revalations, texts on
+governing, etc.&lt;/p&gt;
+&lt;p&gt;Here I think it is important to consider how today's &lt;em&gt;genres&lt;/em&gt; are very
+specific things; perhaps if were to take today's collections of text,
+we might call things like&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;self-help books&lt;/li&gt;
+&lt;li&gt;pop psychology, pop science&lt;/li&gt;
+&lt;li&gt;marketing, communications, business writing&lt;/li&gt;
+&lt;li&gt;assorted blogs on the internet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;...philosophy?!&lt;/p&gt;
+&lt;p&gt;Going further back in time, we have less and less knowledge about what
+was written vs what survived; the ability to use writing and make
+documents that lasted was far less widespread too.&lt;/p&gt;
+&lt;h2&gt;Programing Language Study: Ruby&lt;/h2&gt;
+&lt;p&gt;I worked through the &lt;a href="http://www.rubykoans.com/"&gt;Ruby Koans&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Lots of ideas that are common among Nodejs programers may have come
+from Ruby; for example the "Agile" movement, Test Driven Development
+(TDD), and other ways of organizing programer laber...&lt;/p&gt;
+&lt;p&gt;Approaching Ruby, I'm trying to make extensive use of both the
+interactive interpreter (&lt;code&gt;irb&lt;/code&gt;) and offline documentation (&lt;code&gt;ri&lt;/code&gt;). The
+idea here is that being able to quickly discover new things about a
+language as you work in it is a good strategy to be able to continue
+moving and learning in a language and not to get hung/up stuck due to
+lack of momentum.&lt;/p&gt;
+&lt;h2&gt;Juggling&lt;/h2&gt;
+&lt;p&gt;This week, I started to do some more juggling. I first learned how to
+do this during my elementary school years (long ago). Why would I move
+away from it and then come back later?&lt;/p&gt;
+&lt;p&gt;In summary, I stopped doing juggling and started doing other things
+because there were things that were more interesting to me.&lt;/p&gt;
+&lt;p&gt;However, now juggling is once again interesting to me to practice because&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I want some physical activity that is relatively quiet, can be done
+   in small space,&lt;/li&gt;
+&lt;li&gt;Is not so physically exhausting that it can be done for long
+   periods of time without respite&lt;/li&gt;
+&lt;li&gt;Is analog (lol, as in... not digital, doesn't need the Internet)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So basically I can do some casual juggling practice as
+recreation/sport while listening to music, watching videos, hanging
+out with others, etc. Not bad!&lt;/p&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 47</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-47.html" rel="alternate"></link><published>2020-07-09T00:00:00-07:00</published><updated>2020-07-09T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-07-09:/pelican-test/corona-virus-diary-part-47.html</id><summary type="html">&lt;p&gt;Faced with scarcity, people naturally plan. It is necessary to be
 efficienct when resources are few.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Going on a camping trip with limited food, you'll have to decide
