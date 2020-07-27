@@ -10,7 +10,7 @@ Now is a time to study, to work, to write... ...to pray.
 
 Yesterday, I didn't post my blog to social media. Today, I don't think
 I will post my blog to social media either. I think there are lots
-more useful things to read for my blog for other people&mdash;I'll
+more useful things to read than my blog for other people&mdash;I'll
 keep on writing this here because I think it is useful for me to do,
 but I don't feel an urge to push it out into "the public space" as
 at this time our public spaces are thoroughly advertisement infested
