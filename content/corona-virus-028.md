@@ -114,7 +114,7 @@ against media manipulation&mdash;to which *nobody is immune*.
 By organizing our technology usage with efficiency in mind&mdash;and
 giving ourselves options to work offline&mdash;we can save our time
 and attention from the campaigns of third parties. This way, we can
-spend our resources on things that we *more actively* decide our
+spend our resources on things that we *more actively* decide are
 important to us, rather than being responsive/reactionary consumers.
 
 
