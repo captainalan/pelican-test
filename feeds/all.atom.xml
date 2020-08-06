@@ -1,5 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-07-19T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 49</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-49.html" rel="alternate"></link><published>2020-07-19T00:00:00-07:00</published><updated>2020-07-19T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-07-19:/pelican-test/corona-virus-diary-part-49.html</id><summary type="html">&lt;p&gt;A friend I met through the Internet shared this
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-08-06T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 50</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-50.html" rel="alternate"></link><published>2020-08-06T00:00:00-07:00</published><updated>2020-08-06T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-08-06:/pelican-test/corona-virus-diary-part-50.html</id><summary type="html">&lt;p&gt;The last post here, I shared that I was interested in investigating Orthodox
+Christianity further. So far, it has been an overwhelmingly positive
+experience. In this post, I relate one way in which Orthodox Christianity (as
+opposed to other varieties I've been involved with, Protestant groups) has thus
+far presented …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The last post here, I shared that I was interested in investigating Orthodox
+Christianity further. So far, it has been an overwhelmingly positive
+experience. In this post, I relate one way in which Orthodox Christianity (as
+opposed to other varieties I've been involved with, Protestant groups) has thus
+far presented itself as a sustainable, robust, &lt;em&gt;working&lt;/em&gt; system.&lt;/p&gt;
+&lt;h1&gt;Of Arch Linux and Orthodoxy&lt;/h1&gt;
+&lt;p&gt;The road that led me to do a more serious investigation of Orthodox
+Christianity is something as follows, &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I was aware that Orthodoxy existed from investigating Protestant
+  conceptions of the afterlife (heaven/hell), but put these issues on
+  the back-burner to take a break from religion and pursue normal
+  career stuff&lt;/li&gt;
+&lt;li&gt;After four years or so of wandering around in academia, trying to figure
+  out what to do with my life, I quit and got normal work doing tech/nerd
+  stuff (web programing).&lt;/li&gt;
+&lt;li&gt;I joined the &lt;a href="http://xahlee.info"&gt;Xah Lee&lt;/a&gt; discord chat server (still active
+  there) to have people to chat with about tech/programing and well as general topics.&lt;/li&gt;
+&lt;li&gt;One Internet friend I tended to disagree with on a lot of things, continued
+  to blame many of the world's ills on Russia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note, on my web page on
+&lt;a href="https://captainalan.github.io/language-and-linguistics/languages/russian/index.html"&gt;Russian&lt;/a&gt;
+I mention this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Russian often gets a bad reputation in the United States (e.g. "Russian
+collusion"; in contrast, have you heard about "Japanese collusion"?!). One of
+the reasons I'm motivated to study Russian is that many people I tend to
+disagree with on matters of opinion often have an... instinctive dislike for
+Russian. &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;...so I looked into some things on Russia to learn just &lt;em&gt;why&lt;/em&gt; this fellow might
+have such strong feelings against Russia. I had overall positive feelings about
+Russia at this point because I enjoyed reading Dostoevsky and Tolstoy as an
+undergraduate and always liked the sound/look of the Russian language and
+Cyrillic script.&lt;/p&gt;
+&lt;p&gt;Naturally, an investigation into Russia in current times will lead to many
+mentions of the Orthodox church.&lt;/p&gt;
+&lt;p&gt;Another Internet friend recommended me &lt;a href="https://jaysanalysis.com"&gt;Jay Dyer's&lt;/a&gt;
+content, which I linked on my &lt;a href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-49.html"&gt;previous blog
+post&lt;/a&gt;.
+Jay does long-form, in-depth analyses of lots of issues including theological
+topics.  Jay's content led me to go investigate Orthodoxy in real life as well
+as through chatting with friends I met outside the Internet.&lt;/p&gt;
+&lt;p&gt;So, being a professional nerd (programer) led me to an online chat group, in
+which a guy kept on blaming the Russians. This led me to look into Russia which
+led me to look into Orthodoxy. Other friends helped link me to various stuff,
+share books, etc. Note, much of this searching was done &lt;em&gt;without Google&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;Linux&lt;/h2&gt;
+&lt;p&gt;Now it is time to talk about Linux, and in particular my experience with &lt;a href="https://www.archlinux.org/"&gt;Arch
+Linux&lt;/a&gt;. The main way I see using Linux and Orthodox
+Christianity is as follows: both give a path for how to &lt;em&gt;not do wrong&lt;/em&gt; in a
+particular domain (i.e. have a working, functional system in Arch Linux; living
+a life free of sin in Christianity). Beyond this, the user (&lt;em&gt;you&lt;/em&gt;) is free to
+celebrate the life you've been given through choosing any number of paths. &lt;/p&gt;
+&lt;p&gt;Of course there is a big difference of &lt;strong&gt;scope&lt;/strong&gt; here (Arch Linux falls under
+life; it is certainly possible to sin in a Christian sense while using Arch
+Linux, lol). But some interesting parallels do hold, which I will expound on
+below.&lt;/p&gt;
+&lt;h3&gt;Learning stuff&lt;/h3&gt;
+&lt;p&gt;Another person I've linked a bunch is &lt;a href="https://lukesmith.xyz"&gt;Luke Smith&lt;/a&gt;. Luke
+Smith unironically has a Christian tech channel. His more interesting stuff to
+me are his discussions in his &lt;em&gt;Not Related!&lt;/em&gt; podcast where he's talked about
+stuff like rationality, the scientific method, statistics, and history of the US.
+One thing that Luke got me into was setting up Arch Linux; I have basically
+transcribed one of his videos into my own &lt;a href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html"&gt;Arch Linux installation
+tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To learn about using computers/tech, Luke has emphasized many points I agree
+with,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Read the manual/documentation&lt;/li&gt;
+&lt;li&gt;Ask questions, see what has been done already&lt;/li&gt;
+&lt;li&gt;Don't get caught up in fervor about your new shiny this-or-that; be critical
+  of how newer or flashier solutions (e.g. GUI wrapper for some command line
+  tool) may &lt;em&gt;not&lt;/em&gt; be an improvement&lt;/li&gt;
+&lt;li&gt;Be humble and learn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Through Luke's content, I came to develop a lot of the views I have on
+technology and society. One topic he has touched some on is how to &lt;em&gt;learn to
+use Linux&lt;/em&gt;&amp;mdash;or in internet slang, "git gud". &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Anyone who uses Arch frequently will know of the &lt;a href="https://wiki.archlinux.org/"&gt;Arch
+Wiki&lt;/a&gt;, a resource that is so useful that even
+non-Arch users will frequently use it to help them troubleshoot issues.&lt;/p&gt;
+&lt;p&gt;To learn how to do things in Linux, one could try to read all the &lt;code&gt;man&lt;/code&gt;
+(manual) pages for various tools. In earlier decades, it was quite possible to
+get a basic sense of what was going on this way. But practically speaking, you
+don't want to redo all the work of other people that have already put in
+hours and hours troubleshooting issues.&lt;/p&gt;
+&lt;p&gt;And so, I was pleasantly surprised to find a very well-sourced, readable
+&lt;a href="https://orthodoxwiki.org/Main_Page"&gt;Orthodox Wiki&lt;/a&gt;. Just as someone might
+consult the Arch Wiki to find out information on some cryptic command, one
+would use the Orthodox Wiki to learn about teachings on some particular issue, 
+the history of a particular parish, etc.&lt;/p&gt;
+&lt;p&gt;Christians (e.g. the Church Fathers) have worked through lots of
+problems&amp;mdash;many very deep ones, e.g. metaphysical questions&amp;mdash;over many
+centuries. I've been very impressed by the depth and breadth of knowledge
+transfer from generation to generation in the Orthodox world.&lt;/p&gt;
+&lt;h2&gt;Going forward&lt;/h2&gt;
+&lt;p&gt;Here, I document my journey in hopes that it may be useful to others. It is
+already interesting for me to look back on my old blog posts during this whole
+COVID thing.&lt;/p&gt;
+&lt;p&gt;Thanks to all my readers who have been following this blog, whether
+sporadically or reading every post. &lt;/p&gt;
+&lt;p&gt;tbh covid has been pretty fortuitous to me; e.g. it has given me this
+opportunity to pause from running around, and think not just about career stuff
+for my own life, but to look forward into what kind of life/community I would
+like to give future generations.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;From "get good (at something)"&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 49</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-49.html" rel="alternate"></link><published>2020-07-19T00:00:00-07:00</published><updated>2020-07-19T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-07-19:/pelican-test/corona-virus-diary-part-49.html</id><summary type="html">&lt;p&gt;A friend I met through the Internet shared this
 &lt;a href="https://jaysanalysis.com/"&gt;jaysanalysis&lt;/a&gt; with me. So far, I've been
 really impressed by the quality/depth of the content.
 There's a handful of topics here that interest me, including&lt;/p&gt;
