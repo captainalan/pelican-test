@@ -1,4 +1,4 @@
-title: Corona Virus Diary, Part 49
+title: Corona Virus Diary, Part 50
 date: 2020-08-06
 category: News
 
