@@ -30,7 +30,7 @@ going to have to learn a handful of frequent words and phrases anew.
 This is true even for so-called ["artificial
 languages"](https://captainalan.github.io/language-and-linguistics/essays/constructed.html).
 
-The above technique requires on *text* too; you may have to learn a
+The above technique requires some *text* too; you may have to learn a
 new writing system.
 
 Furthermore, there's non-verbal cultural stuff to learn. Between some
