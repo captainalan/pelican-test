@@ -1,5 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-08-25T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 53</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-53.html" rel="alternate"></link><published>2020-08-25T00:00:00-07:00</published><updated>2020-08-25T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-08-25:/pelican-test/corona-virus-diary-part-53.html</id><summary type="html">&lt;p&gt;It has been a while since I've checked tech news, so I visited &lt;a href="https://news.ycombinator.com/"&gt;Hacker
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-09-05T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 54</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-54.html" rel="alternate"></link><published>2020-09-05T00:00:00-07:00</published><updated>2020-09-05T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-09-05:/pelican-test/corona-virus-diary-part-54.html</id><summary type="html">&lt;p&gt;During these locked-down times, I've been given the opportunity to
+work on studying foreign languages again, which is good fun. Here I
+share some additional tips, tricks, and insights which have been
+helpful to me. Eventually, I plan to integrate this content into my &lt;a
+href="https://captainalan.github.io/language-and-linguistics/learning.html"&gt;language
+learning&lt;/a&gt; page which has additional …&lt;/p&gt;</summary><content type="html">&lt;p&gt;During these locked-down times, I've been given the opportunity to
+work on studying foreign languages again, which is good fun. Here I
+share some additional tips, tricks, and insights which have been
+helpful to me. Eventually, I plan to integrate this content into my &lt;a
+href="https://captainalan.github.io/language-and-linguistics/learning.html"&gt;language
+learning&lt;/a&gt; page which has additional information on this topic.&lt;/p&gt;
+&lt;p&gt;While I specifically discuss learning foreign languages here, I think
+the topics dicussed here are sufficiently general that they could be
+applied to all sorts of learned skills (e.g. computer programing,
+playing piano, making bookshelves).&lt;/p&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Practice&lt;/strong&gt; is refining movements. &lt;strong&gt;Study&lt;/strong&gt; is becoming familiar
+with models that are useful for practice (theory). When we are able to
+do something or understand something we were not able to before, we
+say we are &lt;strong&gt;learning&lt;/strong&gt; something. Through study and practice, we
+learn. &lt;sup id="fnref:0"&gt;&lt;a class="footnote-ref" href="#fn:0"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Once you recognize a pattern (e.g. word, grammatical construction) you
+can refine your movements. Learning the spelling and morphological
+breakdown of a word, or a sentence structure can be called "studying"
+in that you are learning the "theory" of how a language is put
+together.&lt;/p&gt;
+&lt;p&gt;Once you understand what you are looking at, you can become familiar
+with the specifics of how/when that form is used and refine your
+movements reproducing that thing (whether through speaking, typing on
+a keyboard, etc.).&lt;/p&gt;
+&lt;p&gt;Amorphous blobs are impenetrable; they must be broken up ("analyzed").
+When approaching something new, there may be overwhelming complexity.
+Learning how to break down a very complex thing into smaller,
+learnable pieces is how we acquire proficiency in using larger more
+complex systems.&lt;/p&gt;
+&lt;h2&gt;Language learning, early stages&lt;/h2&gt;
+&lt;p&gt;When approaching a new foreign language for the first time, you are
+approaching the aforementioned amorphous blob. You don't know where
+word boundaries are, when you do recognize words you cannot tell how
+they are related to surrounding words, etc.&lt;/p&gt;
+&lt;h3&gt;Don't forget your theory&lt;/h3&gt;
+&lt;p&gt;To start, you need some &lt;em&gt;theory&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Learning by immersion often involves a patient native speaker (or a
+computer program) giving you small, digestible pieces of information.
+For example, you may learn how to name many of the things around you:
+&lt;em&gt;tree&lt;/em&gt;, &lt;em&gt;bench&lt;/em&gt;, &lt;em&gt;COVID-19&lt;/em&gt; (just kidding, but maybe not really).&lt;/p&gt;
+&lt;p&gt;Likewise, you can take a much more Western, direct approach and grab a
+bound dead tree (book) and get an idea of what you're looking for. You
+could watch YouTube or something like that as well, but you might have
+to sift through a lot more noise before getting what you're looking
+for.&lt;/p&gt;
+&lt;p&gt;Once you have something to look for (e.g. recognizing some top 100
+words), you are already to start practicing. Typically in classrooms,
+you will be drilled on producing/understanding basic sentences for a
+while. This can be a decent approach if you get to use these sentences
+in some memorable situations.&lt;/p&gt;
+&lt;h3&gt;Media dumpster dive&lt;/h3&gt;
+&lt;p&gt;In the age of the Internet, you may get faster results using other
+techniques. No matter what you do, focus on one thing at a time during
+these early stages: e.g. grab a long video (2 hours) and just listen
+for all the cognates that you can recognize. When you recognize a
+word, repeat it to yourself so you can become familiar with the sound
+of your target language.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Focus&lt;/em&gt; is key. This is why you &lt;em&gt;shouldn't watch anime with subtitles&lt;/em&gt;
+(you can find plenty of weebs who do this and know almost no
+Japanese). What happens is that instead of focusing on the form of
+Japanese, people lose focus and just read the subs. This is &lt;em&gt;no
+bueno&lt;/em&gt;. If you MUST be a devout weeb, first watch with subtitles for
+the meanings, then rewatch the video you're looking
+at&amp;mdash;understanding what you're watching having already read the
+subs&amp;mdash;and listen to the language.&lt;/p&gt;
+&lt;h3&gt;Memorize just enough, not too much&lt;/h3&gt;
+&lt;p&gt;When learning a new word &lt;em&gt;make sure to learn at least some of the
+relevant information for using it correctly in context&lt;/em&gt;. For instance
+in learning a European language like Spanish or German, you will have
+to deal with grammatical gender. Do memorize the grammatical gender of
+a word when you learn a new word. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;It is a good idea to &lt;em&gt;integrate your knowledge&lt;/em&gt; of lots of separate
+things. For the East Asian languages, you may want to pay attention to
+other words you know that share Chinese characters the word you are
+learning. For instance, there is 내일 &lt;em&gt;nay-il&lt;/em&gt; 'tomorrow' and 일요일
+”il-yo-il&lt;em&gt; 'Sunday' which share 일 &lt;/em&gt;il&lt;em&gt; meaning 'Sun'. One &lt;/em&gt;could*
+learn an East Asian language on sound only, but knowing the associated
+Chinese characters makes acquiring more vocabulary much easier.&lt;/p&gt;
+&lt;p&gt;You can likewise integrate your knowledge &lt;em&gt;across&lt;/em&gt; languages for
+related languages. For example, Chinese, Japanese, and Korean share a
+lot of vocabulary&amp;mdash;much of which is the product of Japan first
+modernizing during the &lt;em&gt;Meiji&lt;/em&gt; era and making up all sorts of new
+words for Western imports. &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;3&lt;/a&gt;&lt;/sup&gt; Likewise, learning French or German
+would probably be a pretty easy choice for a new foreign language for
+a native English speaker. There are many similaries in grammar and
+sound between English and German and French vocabulary is almost
+&lt;em&gt;given&lt;/em&gt; to the English speaker.&lt;/p&gt;
+&lt;p&gt;What you don't want to do, however, is get &lt;em&gt;too caught up on details&lt;/em&gt;
+such that you fail to do more important practice. The scarce resources
+you are working with are &lt;em&gt;time&lt;/em&gt; and &lt;em&gt;attention&lt;/em&gt;. One mistake I made
+when starting to learn Chinese/Japanese/Korean was to get too focused
+on the writing system and lagging behind in my listening and speaking
+skills. I didn't have this problem with Spanish because I would listen
+to Spanish language radio while driving in my car.&lt;/p&gt;
+&lt;h2&gt;Beyond beginner level&lt;/h2&gt;
+&lt;p&gt;At a certain point, you will get pretty comfortable with most of the
+grammar of a target foreign language. From this point on, the new
+challenge is to expand your knowledge of vocabulary, learn idioms, and
+other language-specific things.&lt;/p&gt;
+&lt;p&gt;With the basics in place, you can begin using your target language(s)
+to further learn your target language&amp;mdash;learn in the same way that
+native speakers deepen their command of their own tongues.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:0"&gt;
+&lt;p&gt;This does not employ an "equality" of study and practice; there
+are people that do more study, people that do more practice, etc.
+Which you do more of depends on what your goals are.&amp;#160;&lt;a class="footnote-backref" href="#fnref:0" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;For some languages, you can most often tell the gender of a noun
+by the form of the word, but this is not always the case. For
+instance in Spanish, words that end in &lt;em&gt;-o&lt;/em&gt; are usually masculine,
+but you have &lt;em&gt;las manos&lt;/em&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;A linguist might quibble with you and say "Chinese, Japanese,
+and Korean are not related" with some reference to syntax,
+morphology, or something. Maybe, I dunno. But they share a lot of
+vocabulary and that is good enough for me.&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 53</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-53.html" rel="alternate"></link><published>2020-08-25T00:00:00-07:00</published><updated>2020-08-25T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-08-25:/pelican-test/corona-virus-diary-part-53.html</id><summary type="html">&lt;p&gt;It has been a while since I've checked tech news, so I visited &lt;a href="https://news.ycombinator.com/"&gt;Hacker
 News&lt;/a&gt; this morning to see what's going
 on the minds of the computer nerds. I looked over one article going
 over how Amazon's Kindle devices collect a "surprisingly large amoung
