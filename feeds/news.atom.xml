@@ -1,5 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-09-05T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 54</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-54.html" rel="alternate"></link><published>2020-09-05T00:00:00-07:00</published><updated>2020-09-05T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-09-05:/pelican-test/corona-virus-diary-part-54.html</id><summary type="html">&lt;p&gt;During these locked-down times, I've been given the opportunity to
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-09-08T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 55</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-55.html" rel="alternate"></link><published>2020-09-08T00:00:00-07:00</published><updated>2020-09-08T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-09-08:/pelican-test/corona-virus-diary-part-55.html</id><summary type="html">&lt;p&gt;We can define &lt;strong&gt;positive thinking&lt;/strong&gt; as actively directing one's
+attention towards some goal (e.g. striving for that which is
+beautiful). Positive thinking can be contrasted with &lt;strong&gt;reactionary
+thinking&lt;/strong&gt;&amp;mdash; simply &lt;em&gt;responding&lt;/em&gt; to bad news rather than actively
+working &lt;em&gt;towards&lt;/em&gt; something.&lt;/p&gt;
+&lt;h2&gt;Language Learning&lt;/h2&gt;
+&lt;p&gt;Allow me to provide an example from language …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We can define &lt;strong&gt;positive thinking&lt;/strong&gt; as actively directing one's
+attention towards some goal (e.g. striving for that which is
+beautiful). Positive thinking can be contrasted with &lt;strong&gt;reactionary
+thinking&lt;/strong&gt;&amp;mdash; simply &lt;em&gt;responding&lt;/em&gt; to bad news rather than actively
+working &lt;em&gt;towards&lt;/em&gt; something.&lt;/p&gt;
+&lt;h2&gt;Language Learning&lt;/h2&gt;
+&lt;p&gt;Allow me to provide an example from language learning, a topic of at
+least a few posts here. Now, the goal of most language learners of
+modern languages is to gain communicational competence and hopefully
+"sound native" in some target language.&lt;/p&gt;
+&lt;p&gt;The positive thinking learner focues on &lt;em&gt;what being a speaker of that
+target language&lt;/em&gt; is. The most obvious way to do this is to &lt;em&gt;observe
+the language being used&lt;/em&gt;. Real life face-to-face conversations are
+best for learning conversation, of course, but videos, podcasts, and
+other forms of media are pretty good too&amp;mdash;and often more
+convenient when native speakers are readily available on a day-to-day
+basis.&lt;/p&gt;
+&lt;p&gt;Positive thinking involves getting an increasingly clear idea of what
+"using XYZ" language is. A person that does not speak Icelandic could
+not give you examples of what Icelandic language usage is like because
+they don't speak Icelandic.&lt;/p&gt;
+&lt;p&gt;What would negative thinking look like with respect to language
+learning? Being focused on &lt;em&gt;finding one's errors&lt;/em&gt; and then coming up
+with rules and explanations for why such and such is wrong would be
+one way to see this.&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Some rather fatalistic viewpoints have been advanced in linguistics.
+One such idea is the "critical period"&amp;mdash;there is a certain time
+window (usu. ends around age 13 or so) before which a person must
+learn a language, or else they will never learn that language
+"natively". This is probably true in many respects, particularly if we
+involve discussion of trauma and abuse.&lt;/p&gt;
+&lt;p&gt;However, to tell a 16 year old high student that their Spanish &lt;em&gt;will
+never be "native"&lt;/em&gt; is simply demoralizing and (I think) just plain
+false. Resigning to the fact that language learning will be a futile
+struggle and that achieving native-like command is impossible is a
+recipe to lose sight of a very reachable goal&amp;mdash;visiting YouTube
+you can find all sorts of very successful second language learners for
+any major language.&lt;/p&gt;
+&lt;h2&gt;Computer Stuff&lt;/h2&gt;
+&lt;p&gt;Positive thinking is important to empower computer users as well. You
+may have met someone who had simply decided, "I'm not a computer
+person" or "I don't do technology". &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt; This is a kind of
+self-fulfilling prophecy.&lt;/p&gt;
+&lt;p&gt;While I don't expect everybody to be willing or able to troubleshoot
+any computer problem that comes their way (and hence why I don't do
+any "UNIX evangelism"), I do think certain workflows are accessible to
+anyone who is capable of doing things like writing a short essay or
+driving a car. It is not conceptually difficult to understand what it
+means to,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Send and recieve emails or messages on some chat service&lt;/li&gt;
+&lt;li&gt;Use some sort of calendar (e.g. Google calendar)&lt;/li&gt;
+&lt;li&gt;Do basic word processing/writing (e.g. through MS word, or some
+  boomer program like emacs)&lt;/li&gt;
+&lt;li&gt;Organize files into folders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Having positive (projects) such as,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Keeping a daily diary&lt;/li&gt;
+&lt;li&gt;Maintaining regular corresponce with some people/groups&lt;/li&gt;
+&lt;li&gt;Organizing a digital library&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;...will inform you on the skills you need to develop.&lt;/p&gt;
+&lt;p&gt;Solutions often don't need to be complicated. There are professional
+programers whose computers are total messes outside of their
+programing projects; clearly these people know how to deal with
+complexity in some one domain, but they don't readily apply tools they
+already know how to use to other more accessible domains. &lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;In linguistics, finding "ungrammatical" sentences uses this
+approach.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;If you have principled reasons for not using computers, Internet
+tech, smartphones, etc., I tip my (virtual) fedora to you.&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;For examples of "reformed nerds" you can find many examples of
+engineering types deciding to apply their skills to stuff like
+training as athletes later in their lives when they accept they
+need to work on their physical health.&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 54</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-54.html" rel="alternate"></link><published>2020-09-05T00:00:00-07:00</published><updated>2020-09-05T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-09-05:/pelican-test/corona-virus-diary-part-54.html</id><summary type="html">&lt;p&gt;During these locked-down times, I've been given the opportunity to
 work on studying foreign languages again, which is good fun. Here I
 share some additional tips, tricks, and insights which have been
 helpful to me. Eventually, I plan to integrate this content into my &lt;a
@@ -80,7 +172,7 @@ a word when you learn a new word. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-
 things. For the East Asian languages, you may want to pay attention to
 other words you know that share Chinese characters the word you are
 learning. For instance, there is 내일 &lt;em&gt;nay-il&lt;/em&gt; 'tomorrow' and 일요일
-&lt;em&gt;il-yo-il&lt;/em&gt; 'Sunday' which share 일 &lt;em&gt;il&lt;/em&gt; meaning 'Sun'. One &lt;em&gt;could&lt;/em&gt;
+&lt;em&gt;il-yo-il&lt;/em&gt; 'Sunday' which share 일 &lt;em&gt;il&lt;/em&gt; meaning 'Sun'. One could*
 learn an East Asian language on sound only, but knowing the associated
 Chinese characters makes acquiring more vocabulary much easier.&lt;/p&gt;
 &lt;p&gt;You can likewise integrate your knowledge &lt;em&gt;across&lt;/em&gt; languages for
