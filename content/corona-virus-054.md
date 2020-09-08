@@ -99,7 +99,7 @@ It is a good idea to *integrate your knowledge* of lots of separate
 things. For the East Asian languages, you may want to pay attention to
 other words you know that share Chinese characters the word you are
 learning. For instance, there is 내일 *nay-il* 'tomorrow' and 일요일
-*il-yo-il* 'Sunday' which share 일 *il* meaning 'Sun'. One *could*
+*il-yo-il* 'Sunday' which share 일 *il* meaning 'Sun'. One could*
 learn an East Asian language on sound only, but knowing the associated
 Chinese characters makes acquiring more vocabulary much easier.
 
