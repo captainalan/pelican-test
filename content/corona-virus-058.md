@@ -1,4 +1,4 @@
-title: Corona Virus Diary, Part 57
+title: Corona Virus Diary, Part 58
 date: 2020-09-18
 category: News
 
