@@ -20,8 +20,8 @@ The Weeb
 
 In the West, there are lot of people that have at least a superficial
 interest in places/cultures that they themselves are not ethnically
-connected with. For example, there are the **weebs** who look fawn
-after all things Japanese. Weebs cringe at each other and the Japanese
+connected with. For example, there are the **weebs** who fawn after
+all things Japanese. Weebs cringe at each other and the Japanese
 cringe at weebs. But many people continue down weebdom as a path of
 escapism from their issues they refuse to confront.
 
