@@ -123,7 +123,7 @@ language in accented/broken speech&mdash;is much more edifying to
 speak with than some clown who speaks seven languages with fluency.
 Clickbait YouTube has countless examples of people showing off how
 they can show off; does parroting some local flavor *teach* you
-anything? [^6]
+anything?
 
 [^1]: Indeed, much of the reason why we have
     "Chinese"/"Japanese"/"Korean" to study at all is because these up
