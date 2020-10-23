@@ -17,7 +17,7 @@ summaries of more extensive research I do into etymologies and all
 that.&lt;/p&gt;
 &lt;p&gt;This sort of blog is a kind of technical &lt;em&gt;log&lt;/em&gt; (&lt;code&gt;blog = web + log&lt;/code&gt;)
 and diary combination. It is a diary because it is written
-&lt;em&gt;diariamente&lt;/em&gt;. [^1] The driver for the content of this type of diary
+&lt;em&gt;diariamente&lt;/em&gt;. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; The driver for the content of this type of diary
 is some &lt;strong&gt;work&lt;/strong&gt; outside the log itself (e.g. typesetting some book,
 learning about some topic in order to do something). Words follow to
 be a useful reference of some time whether that is to review later to
@@ -53,7 +53,14 @@ who, and so on and so forth. One might say, you have to become a
 &lt;p&gt;To think that most of news media is just a personal, technical log of
 events like the kind of (work) blogs I describe above is
 naivety&amp;mdash;one musn't be lazy/idle!&lt;/p&gt;
-&lt;p&gt;{^1]: Spanish for "daily"&lt;/p&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 60</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-60.html" rel="alternate"></link><published>2020-10-06T00:00:00-07:00</published><updated>2020-10-06T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-10-06:/pelican-test/corona-virus-diary-part-60.html</id><summary type="html">&lt;p&gt;Thus far, I've categorized these blog posts as "news"&amp;mdash;initially
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Spanish for "daily"&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 60</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-60.html" rel="alternate"></link><published>2020-10-06T00:00:00-07:00</published><updated>2020-10-06T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-10-06:/pelican-test/corona-virus-diary-part-60.html</id><summary type="html">&lt;p&gt;Thus far, I've categorized these blog posts as "news"&amp;mdash;initially
 I was doing more talk about politics this and that and stuff going on
 in the (USA/national) news. Then, this blog has turned to more
 narration and reflection mixed in with notes on stuff I've been trying
