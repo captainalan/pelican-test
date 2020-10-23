@@ -1,5 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-10-06T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 60</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-60.html" rel="alternate"></link><published>2020-10-06T00:00:00-07:00</published><updated>2020-10-06T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-10-06:/pelican-test/corona-virus-diary-part-60.html</id><summary type="html">&lt;p&gt;Thus far, I've categorized these blog posts as "news"&amp;mdash;initially
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-10-23T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 61</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-61.html" rel="alternate"></link><published>2020-10-23T00:00:00-07:00</published><updated>2020-10-23T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-10-23:/pelican-test/corona-virus-diary-part-61.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Idle talk&lt;/strong&gt; is to be avoided; &lt;strong&gt;deceptive talk&lt;/strong&gt; (lying) is
+prohibited. Having been writing blogs of rather informal character for
+a while, it would not be challenging for me to just "post something"
+everyday&amp;mdash;to practice of "producing content" for the sake of
+content amounts to deciding on some schedule …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;Idle talk&lt;/strong&gt; is to be avoided; &lt;strong&gt;deceptive talk&lt;/strong&gt; (lying) is
+prohibited. Having been writing blogs of rather informal character for
+a while, it would not be challenging for me to just "post something"
+everyday&amp;mdash;to practice of "producing content" for the sake of
+content amounts to deciding on some schedule. Then, from that
+schedule, there are endless things to talk about, particularly if you
+are topically driven.&lt;/p&gt;
+&lt;p&gt;Let me give an example&amp;mdash;suppose I started to write frequently on
+the topic of Spanish (or some other foreign language). I could
+document interesting new words I come across and provide short
+summaries of more extensive research I do into etymologies and all
+that.&lt;/p&gt;
+&lt;p&gt;This sort of blog is a kind of technical &lt;em&gt;log&lt;/em&gt; (&lt;code&gt;blog = web + log&lt;/code&gt;)
+and diary combination. It is a diary because it is written
+&lt;em&gt;diariamente&lt;/em&gt;. [^1] The driver for the content of this type of diary
+is some &lt;strong&gt;work&lt;/strong&gt; outside the log itself (e.g. typesetting some book,
+learning about some topic in order to do something). Words follow to
+be a useful reference of some time whether that is to review later to
+observe how progress has or has not been made or to refer to useful
+documented information&amp;mdash;I might reproduce a tasty recipe in a
+blog, for instance.&lt;/p&gt;
+&lt;p&gt;Through an activity driven blog, you can make explicit &lt;em&gt;what&lt;/em&gt; you do
+and (optionally) publish it for others to see if they so choose.&lt;/p&gt;
+&lt;p&gt;Such a blog isn't just a collection of info, but provides
+documentation of a journey. For example, in my experience learning
+languages, I've found out lots of stuff that &lt;em&gt;didn't work&lt;/em&gt;. I've spent
+time doing silly things like &lt;em&gt;learning alternative keyboard layouts&lt;/em&gt;.
+A log of such foolishness can potentially be helpful for someone who
+seeks to follow a similar path&amp;mdash;I'm not trying to sell you
+products or anything and I don't claim "originality" to these ideas.&lt;/p&gt;
+&lt;p&gt;A technical blog on programing, wood working, etc. can similarly be
+informative. Actively working through problems and then posting
+insights into what sorts of design patterns have(n't) worked, whether
+the "next big thing" is just an old idea re-hashed, info on
+tools/hardware... ...all this sort of information can be useful to
+have and if you are looking at it anyways, I think writing a blog can
+be a good way to serve others by providing non-nonsense takes on
+things. However, it is &lt;em&gt;essential that you work&lt;/em&gt; and not just write
+about stuff, because tools are tools and knowing the effectiveness of
+tools means you have to use them to do work.&lt;/p&gt;
+&lt;h2&gt;Regarding Political Content&lt;/h2&gt;
+&lt;p&gt;What is the &lt;em&gt;work&lt;/em&gt; that goes into a political blog? To &lt;em&gt;aggregate&lt;/em&gt; and
+&lt;em&gt;analyze&lt;/em&gt; lots of information is an involved thing&amp;mdash;to do this
+well, you can't just take news sites' word on "face value". You must
+famliarize yourself with the actors/parties involved, who is paying
+who, and so on and so forth. One might say, you have to become a
+"&lt;strong&gt;conspiracy theorist&lt;/strong&gt;".&lt;/p&gt;
+&lt;p&gt;To think that most of news media is just a personal, technical log of
+events like the kind of (work) blogs I describe above is
+naivety&amp;mdash;one musn't be lazy/idle!&lt;/p&gt;
+&lt;p&gt;{^1]: Spanish for "daily"&lt;/p&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 60</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-60.html" rel="alternate"></link><published>2020-10-06T00:00:00-07:00</published><updated>2020-10-06T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-10-06:/pelican-test/corona-virus-diary-part-60.html</id><summary type="html">&lt;p&gt;Thus far, I've categorized these blog posts as "news"&amp;mdash;initially
 I was doing more talk about politics this and that and stuff going on
 in the (USA/national) news. Then, this blog has turned to more
 narration and reflection mixed in with notes on stuff I've been trying
