@@ -20,7 +20,6 @@ in their browser.&lt;/p&gt;
 &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt; &lt;span class="na"&gt;id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;root&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;Using JavaScript to simulate different pages (by rendering different
 "components"), you can provide users with a very fast-feeling
 experience. This is because instead of requesting new pages from a
@@ -53,7 +52,6 @@ greatest technology so I went and learned the basics using
 &lt;span class="nb"&gt;cd&lt;/span&gt; name-of-my-new-app &lt;span class="c1"&gt;# Navigate into the directory of your new app&lt;/span&gt;
 npm start &lt;span class="c1"&gt;# Start the development server&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;The newly created app will contain a &lt;code&gt;README.md&lt;/code&gt; file that includes
 instructions on how to do some basic stuff.&lt;/p&gt;

@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
         <title>Practical Shell Scripting, Part 1</title>
         <link rel="stylesheet" href="https://captainalan.github.io/pelican-test/theme/css/main.css" />
         <link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Alan's Miscellaneous Stuff Blog Atom Feed" />
+        <meta name="description" content="In this series of articles, I will document how I do various things using shell scripts1. My basic approach is to use bash to automate stuff by..." />
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="https://captainalan.github.io/pelican-test/">Alan's Miscellaneous Stuff Blog </a></h1>
+                <h1><a href="https://captainalan.github.io/pelican-test/">Alan's Miscellaneous Stuff Blog</a></h1>
                 <nav><ul>
                     <li><a href="https://captainalan.github.io/pelican-test/category/fun.html">Fun</a></li>
                     <li><a href="https://captainalan.github.io/pelican-test/category/interwebs.html">Interwebs</a></li>
@@ -95,7 +97,6 @@ one line.</p>
 find my-blog-directory -type f -name <span class="s2">&quot;*.md&quot;</span>
 </code></pre></div>
 
-
 <p>We can extend this command to do something else, for example, find all
 instances in these files of the word "foo". Below, we build off our
 previous command which found all markdown files in a directory by
@@ -104,7 +105,6 @@ files that <code>find</code> finds.</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Search markdown files for text &quot;foo&quot;</span>
 find my-blog-directory -type f -name <span class="s2">&quot;*.md&quot;</span> -exec grep <span class="s2">&quot;foo&quot;</span> <span class="o">{}</span> +
 </code></pre></div>
-
 
 <p>One kinda annoying thing about working with (UNIX) shell scripts is
 that each (utility) program will have its own idiosyncratic syntax.
@@ -129,7 +129,6 @@ a preview of the line.</p>
 <div class="highlight"><pre><span></span><code>grep . -rne <span class="s2">&quot;foo&quot;</span>
 </code></pre></div>
 
-
 <p>"Idioms" like this are very nice for quickly doing stuff on the
 command line. To compose such statements, you have to be careful about
 the ordering of arguments, however.</p>
@@ -137,11 +136,9 @@ the ordering of arguments, however.</p>
 <div class="highlight"><pre><span></span><code>grep . -r -n -e <span class="s2">&quot;foo&quot;</span>
 </code></pre></div>
 
-
 <p>With the flags broken up like this, you can re-order stuff, e.g. like</p>
 <div class="highlight"><pre><span></span><code>grep -e <span class="s2">&quot;foo&quot;</span> -rn .
 </code></pre></div>
-
 
 <p>Crucially, the "foo" (string you are searching) must follow the <code>-e</code>
 where it appears because the <code>-e</code> tells <code>grep</code> you are specifying an
@@ -156,7 +153,6 @@ from my the markdown files in my blog directory?</p>
 find my-blog-directory -type f -name <span class="s2">&quot;*.md&quot;</span> -exec <span class="se">\</span>
 grep -h -o <span class="s2">&quot;youtube\.com\/watch?v=[[:alnum:]]*&quot;</span> <span class="o">{}</span> +
 </code></pre></div>
-
 
 <p>With <code>grep</code> I used the <code>-h</code> option to <em>hide</em> the file name of the file
 I'm currently searching and used the <code>-o</code> option to <em>only</em> show the
@@ -241,10 +237,10 @@ stuff!&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to foot
 
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
                 </address><!-- /#about -->
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
         </footer><!-- /#contentinfo -->
 
 </body>

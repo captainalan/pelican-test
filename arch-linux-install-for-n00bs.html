@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
         <title>Arch Linux Install for n00bs</title>
         <link rel="stylesheet" href="https://captainalan.github.io/pelican-test/theme/css/main.css" />
         <link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Alan's Miscellaneous Stuff Blog Atom Feed" />
+        <meta name="description" content="In this tutorial, I will go through installing Arch Linux. These instructions were tried out on both a virtual machine and an old laptop. For..." />
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="https://captainalan.github.io/pelican-test/">Alan's Miscellaneous Stuff Blog </a></h1>
+                <h1><a href="https://captainalan.github.io/pelican-test/">Alan's Miscellaneous Stuff Blog</a></h1>
                 <nav><ul>
                     <li><a href="https://captainalan.github.io/pelican-test/category/fun.html">Fun</a></li>
                     <li><a href="https://captainalan.github.io/pelican-test/category/interwebs.html">Interwebs</a></li>
@@ -82,7 +84,6 @@ nothing to think about. If you are connecting via Wi-Fi, run:</p>
 <div class="highlight"><pre><span></span><code>wifi-menu
 </code></pre></div>
 
-
 <p>I can't help you anymore if you are connecting from McDonald's wifi... But on
 a home network, you will be prompted for your Wi-Fi network's password.
 Once you go through the options <code>wifi-menu</code>, try out your network connection
@@ -114,7 +115,6 @@ work&em;go ahead and try that if you don't believe me!).</p>
 <p>You will now be sent to a new prompt that looks something like:</p>
 <div class="highlight"><pre><span></span><code><span class="err">Command (m for help):</span>
 </code></pre></div>
-
 
 <p>If there are existing partitions you may need to type <code>d</code> to delete them.
 Type <code>p</code> to print partitions. Once you are done deleting existing stuff, type
@@ -185,7 +185,6 @@ below) or else you may not be able to boot your new installation.</p>
 <div class="highlight"><pre><span></span><code>pacstrap /mnt base base-devel linux linux-firmware neovim
 </code></pre></div>
 
-
 <p>Running this command might take a while because it is installing an entire
 base system.</p>
 <h2>Making an <code>fstab</code> file</h2>
@@ -222,12 +221,10 @@ with <code>vim /etc/locale.gen</code>. In this huge list of locales I uncommente
 <span class="err">#en_US ISO-8859-1</span>
 </code></pre></div>
 
-
 <p>to...</p>
 <div class="highlight"><pre><span></span><code><span class="err">en_US.UTF-8 UTF-8</span>
 <span class="err">en_US ISO-8859-1</span>
 </code></pre></div>
-
 
 <p>...in order to set my locale. Note, you can set multiple languages. Save and
 exit this file.</p>
@@ -238,13 +235,11 @@ file.</p>
 <div class="highlight"><pre><span></span><code><span class="err">LANG=en_US.UTF-8</span>
 </code></pre></div>
 
-
 <h3>Setting a timezone</h3>
 <p>By default, in <code>/etc/localtime</code>, there are a bunch of time zones. We want to
 link <code>/usr/share/zoneinfo/</code> with our timezone.</p>
 <div class="highlight"><pre><span></span><code><span class="err">ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime</span>
 </code></pre></div>
-
 
 <p>...where of course you replace <code>.../America/Los_Angles...</code> with where you are.</p>
 <p>If you travel somewhere else, you will rerun the <code>ln...</code> command here to the
@@ -268,7 +263,6 @@ password.</p>
 <div class="highlight"><pre><span></span><code>curl -LO larbs.xyz/larbs.sh  <span class="c1"># Download the script</span>
 bash larbs.sh                <span class="c1"># Run the script you just downloaded!</span>
 </code></pre></div>
-
 
 <h3>Logging in</h3>
 <p>Login with the username and password you set in LARBS. To modify your system,
@@ -342,10 +336,10 @@ get an install for another distro (e.g. Ubuntu) and use the graphical tools
 
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
                 </address><!-- /#about -->
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
         </footer><!-- /#contentinfo -->
 
 </body>
