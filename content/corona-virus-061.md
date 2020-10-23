@@ -61,4 +61,4 @@ To think that most of news media is just a personal, technical log of
 events like the kind of (work) blogs I describe above is
 naivety&mdash;one musn't be lazy/idle!
 
-{^1]: Spanish for "daily"
+[^1]: Spanish for "daily"
