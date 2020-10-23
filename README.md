@@ -60,6 +60,31 @@ again.
 From your project's directory, run `make help` to display some helpful
 information for working with pelican.
 
+### Updating software
+
+Make sure your virtual environment is activate. Now enter,
+
+```bash
+pip list --outdated
+```
+
+...and you will see if you have any outdated packages. You may also
+need to update pip itself. As I write this, I just ran,
+
+```bash
+python -m pip install --upgrade pip
+```
+
+...to upgrade pip.
+
+To upgrade packages, use the `--upgrade` option. Do,
+
+```bash
+pip install --upgrade pelican
+```
+
+...where `pelican` corresponds to whatever package(s) you want to update.
+
 ### Troubleshooting
 
 Using MS Windows you may need to download some extra programs, such as
