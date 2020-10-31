@@ -1,5 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-10-28T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 65</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-65.html" rel="alternate"></link><published>2020-10-28T00:00:00-07:00</published><updated>2020-10-28T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-10-28:/pelican-test/corona-virus-diary-part-65.html</id><summary type="html">&lt;p&gt;Most of the time, there is a "low/no tech" way to make progress on
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-10-31T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 66</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-66.html" rel="alternate"></link><published>2020-10-31T00:00:00-07:00</published><updated>2020-10-31T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-10-31:/pelican-test/corona-virus-diary-part-66.html</id><summary type="html">&lt;p&gt;Learning a new domain of any sort will involve learning new
+terms&amp;mdash;sometimes called (technical) &lt;strong&gt;jargon&lt;/strong&gt;. One challenging
+aspect of doing this is that you will often have to "overload" words
+you already use/know&amp;mdash;learn a new specialized application of some
+word form.&lt;/p&gt;
+&lt;p&gt;What is an "Object" in programing …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Learning a new domain of any sort will involve learning new
+terms&amp;mdash;sometimes called (technical) &lt;strong&gt;jargon&lt;/strong&gt;. One challenging
+aspect of doing this is that you will often have to "overload" words
+you already use/know&amp;mdash;learn a new specialized application of some
+word form.&lt;/p&gt;
+&lt;p&gt;What is an "Object" in programing? For each programing language that
+uses "Objects" in some way, there is a different answer to this
+question. In JavaScript, versus Ruby, versus C++ (and so and so forth)
+you will find that the technical meaning of &lt;em&gt;object&lt;/em&gt; differs. To make
+matters more confusing, we use the word "object" in everyday speech,
+e.g. talking about "objects in a room" or even "speaking objectively".&lt;/p&gt;
+&lt;p&gt;Conversations can fail in many ways when people use the same word
+forms (sounds, spellings) but fail to share the same &lt;em&gt;meanings&lt;/em&gt;. In
+relatively concrete domains, such as cooking, I think this is
+relatively rare. Saying, "please pass the salt shaker" or "this recipe
+calls for two potatoes" will be pretty easy to understand.&lt;/p&gt;
+&lt;p&gt;When moving into realms that involve more abstractions and difficult
+to name things, however, problems proliferate. In the programing
+example given above, we can see how words like &lt;code&gt;object&lt;/code&gt;, &lt;code&gt;function&lt;/code&gt;,
+&lt;code&gt;evaluate&lt;/code&gt;, and &lt;code&gt;return&lt;/code&gt; cannot be naively transferred from natural
+speech into code. Even English speakers have to learn new, precise
+meanings of these terms in the domain of computer programing.&lt;/p&gt;
+&lt;p&gt;In this way it is silly to say "why don't we make XYZ language
+keywords in computer language ABC to make it more accessible to
+such-and-such minority group"&amp;mdash;&lt;em&gt;everyone&lt;/em&gt; has to learn new uses
+for symbols when learning programing and the idea that you just do it
+in "plain" English is a non-starter. People are not computers. What is
+an &lt;code&gt;esac&lt;/code&gt; and a &lt;code&gt;fi&lt;/code&gt;?!?!?!? &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;In mass media, various words/terms are used to attempt to program
+&lt;em&gt;you&lt;/em&gt; like a computer. &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt; Associating a term with very bad feelings
+(e.g. &lt;strong&gt;facism&lt;/strong&gt;, &lt;strong&gt;alt-right&lt;/strong&gt;) and then attaching this label to
+someone/something is an easy way to quickly convey the message &lt;em&gt;XYZ is
+bad&lt;/em&gt;, even if the viewer doesn't have any idea about what &lt;em&gt;XYZ&lt;/em&gt; is &lt;em&gt;on
+their own terms&lt;/em&gt;. Similarly, there are terms that the mass media uses
+to instinctively train "positive" reactions&amp;mdash;consider
+&lt;strong&gt;democracy&lt;/strong&gt;, &lt;strong&gt;freedom&lt;/strong&gt;, &lt;strong&gt;rights&lt;/strong&gt;, &lt;strong&gt;liberation&lt;/strong&gt;, etc.&lt;/p&gt;
+&lt;p&gt;Saying that such-and-such &lt;em&gt;defends democracy&lt;/em&gt; and &lt;em&gt;protects human
+rights&lt;/em&gt; and leads to the &lt;em&gt;liberation&lt;/em&gt; of such-and-such-group from
+&lt;em&gt;extremists&lt;/em&gt; [...] is just a formulaic way to get people conditioned
+to repeat slogans. Uncriticially convinced they are on "the right
+side" of history, you get people marching for the Democratic People's
+Republic of Korea taking for granted that it is &lt;em&gt;democratic&lt;/em&gt; and &lt;em&gt;of
+the people&lt;/em&gt; and that it is indeed &lt;em&gt;a republic&lt;/em&gt; (I can accept that it
+is on the Korean peninsula, lol). &lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;What is the solution to all this confusion? One thing to do is to
+&lt;em&gt;refrain from talking about stuff you don't understand and/or is none
+of your business&lt;/em&gt; (most stuff on the news) and to focus instead on
+learning some skill/domain, which will very likely involve learning
+lots of specialized vocabulary. I don't know much about &lt;em&gt;cars&lt;/em&gt;, but I
+am guessing that somebody who does know about cars very often
+face-palms at non-"car people" driveling on about car matters they
+evidently know nothing about. Regarding car things, it is better if I
+listen and just honestly say that I made some decision trusting some
+authority, rather than pretending I know about what I'm talking about.
+Of course, I could do my own hands-on research reading my car's
+manual, watching some YouTube, poking around my car...&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Key words used in some scripting languages. Note all programing
+languages will have this-and-that syntactic requirements, like
+opening and closing parentheses; these are "artifacts" of the
+technology/form of computer programing just like human speech
+is shaped by the form of our mouths, noses, etc&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;See &lt;strong&gt;behaviorism&lt;/strong&gt; research.&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;Abusing word forms and their associations often appears as the
+"&lt;strong&gt;Word Fallacy&lt;/strong&gt;".&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 65</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-65.html" rel="alternate"></link><published>2020-10-28T00:00:00-07:00</published><updated>2020-10-28T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-10-28:/pelican-test/corona-virus-diary-part-65.html</id><summary type="html">&lt;p&gt;Most of the time, there is a "low/no tech" way to make progress on
 some problem. Yet, very often, we turn toward tech solutions to make
 life "easier". What often happens is that the tech over-complicates
 things and makes us get wrapped up in secondary concerns that prevent
