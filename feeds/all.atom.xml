@@ -1,5 +1,182 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-11-02T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 67</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-67.html" rel="alternate"></link><published>2020-11-02T00:00:00-08:00</published><updated>2020-11-02T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-11-02:/pelican-test/corona-virus-diary-part-67.html</id><summary type="html">&lt;p&gt;Many of the difficulties we face are those of our own choosing. Today
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-11-05T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 68</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-68.html" rel="alternate"></link><published>2020-11-05T00:00:00-08:00</published><updated>2020-11-05T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-11-05:/pelican-test/corona-virus-diary-part-68.html</id><summary type="html">&lt;p&gt;Election stuff is going on, but I'm not watching any news. I will hear
+what others say and thus kind of follow what is going on, but I
+understand that the election outcome isn't really something that is
+under my control, so it is a waste of time and energy …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Election stuff is going on, but I'm not watching any news. I will hear
+what others say and thus kind of follow what is going on, but I
+understand that the election outcome isn't really something that is
+under my control, so it is a waste of time and energy to get worked up
+over following it.&lt;/p&gt;
+&lt;p&gt;The strategy I am describing here&amp;mdash;just talking to friends and
+stuff but not watching the news&amp;mdash;goes beyond "not watching TV"
+(and instead looking on the Internet). Indeed the Internet is
+plastered with election stuff all over the place. We temporarily have
+a new "favorite American past time" (which many non-Americans seem to
+take a lot of interest in as well).&lt;/p&gt;
+&lt;p&gt;No, you cannot just "go on the Internet but not read about election
+stuff" if you simultaenously visit popular websites like Facebook or
+Youtube. One must more actively filter!&lt;/p&gt;
+&lt;h2&gt;Thoughts about elections generally&lt;/h2&gt;
+&lt;p&gt;It is amateur political philosopher hour! Today's topic is &lt;em&gt;why I
+don't like elections&lt;/em&gt; as a way of governance.&lt;/p&gt;
+&lt;p&gt;Firstly, the machinations of elections rely on techniques like
+&lt;strong&gt;flattery&lt;/strong&gt; and &lt;strong&gt;deception&lt;/strong&gt;. No matter who your preferred political
+candidates are, you must recognize how large elections necessarily
+involve lots of propagandizing to &lt;em&gt;get numbers&lt;/em&gt;. Numbers are
+important, so you have to appeal to the &lt;em&gt;lowest common denominator&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Secondly, elections put pressure on people to &lt;em&gt;get involved in deciding
+stuff for other people&lt;/em&gt; that they may have no business deciding. I
+know nothing about... water rights in Nevada. But some stuff I vote on
+may have big implications for that? Someone with a career in political
+things might urge me to "get educated" and be active learning about
+this-and-that. But for people who are not professional political
+analysts, this is really not feasible. At best, you can find someone
+you like and trust with good character who follows politics and follow
+their voting patterns. Regardless, nobody pays you to do this!&lt;/p&gt;
+&lt;p&gt;Thirdly, elections are a huge waste of time, energy, and resources.
+Insofar as US dollars actually are money in the sense that they
+represent value/work done, elections and their side effects are
+costly. These costs are recurrent costs as elections happen in cycles.&lt;/p&gt;
+&lt;p&gt;Finally, there is the question of &lt;em&gt;how well elections actually do at
+representing what people want&lt;/em&gt;. If most people want a justice in the
+sense that crime is punished, a government that is not too intrusive
+such that basic civil liberties are preserved, and reasonable taxes to
+do stuff like maintain roads and provide utilities... do we really
+need &lt;em&gt;elections?&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Conclusions&lt;/h2&gt;
+&lt;p&gt;It is common in the West for people to defend their current forms of
+government as favorable because they are "the best thing we've got,
+though all systems are imperfect". I think there is a strong bias here
+mainly stemming from,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The current system is familiar and so relatively comfortable&lt;/li&gt;
+&lt;li&gt;Assuming that technology, associated with post-Enlightenment
+  thinking and models of government, has improved quality of life and
+  that it would be impossible to have this without
+  republics/democracies, and&lt;/li&gt;
+&lt;li&gt;Enlightenment carciatures of other forms of government as totally
+  depraved/evil/terrible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Associated with the last point is the retort, "Oh so you would like to
+live in Saudi Arabia?" without consideration of hwo
+democracies/republics have been instrumental in propping up many of
+the "third world dictators" we villianize today.&lt;/p&gt;</content><category term="News"></category></entry><entry><title>Uses and Misuses of Single Page Web Applications</title><link href="https://captainalan.github.io/pelican-test/uses-and-misuses-of-single-page-web-applications.html" rel="alternate"></link><published>2020-11-05T00:00:00-08:00</published><updated>2020-11-05T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-11-05:/pelican-test/uses-and-misuses-of-single-page-web-applications.html</id><summary type="html">&lt;p&gt;Today, there are a handful of popular &lt;strong&gt;Web Frameworks&lt;/strong&gt; including
+React, Angular, and Vue. What these things do is allow you to use more
+&lt;em&gt;programatic&lt;/em&gt; ways to spit out websites made of HTML, CSS, and
+JavaScript rather than writing the HTML, CSS, and JavaScript directly.
+The things these web frameworks …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Today, there are a handful of popular &lt;strong&gt;Web Frameworks&lt;/strong&gt; including
+React, Angular, and Vue. What these things do is allow you to use more
+&lt;em&gt;programatic&lt;/em&gt; ways to spit out websites made of HTML, CSS, and
+JavaScript rather than writing the HTML, CSS, and JavaScript directly.
+The things these web frameworks make are often called &lt;strong&gt;single page
+applications&lt;/strong&gt; (SPA) because they involve going to one URL with
+&lt;strong&gt;dynamic data&lt;/strong&gt; as opposed to having you click links to navigate
+through &lt;em&gt;multiple&lt;/em&gt; pages. A popular example of a very complex SPA is
+Facebook (also the company that creates the React library mentioned
+above).&lt;/p&gt;
+&lt;h1&gt;The Dynamic Web App&lt;/h1&gt;
+&lt;p&gt;Web Frameworks offer ways to automate tasks such as, repeating
+elements. These are the bread and butter of SPAs&amp;mdash;relatively
+homogenous data presented in pretty UIs.&lt;/p&gt;
+&lt;p&gt;For instance, on a "newsfeed", you may have a bunch of posts
+structured like,&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;user-post&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;author&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Alan&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;author&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;message&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        Don&amp;#39;t believe everything you see and hear on TV!
+    &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;message&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;user-post&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;user-post&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;author&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Joe&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;author&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;message&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        Do I hear MALARKEY rising?
+    &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;message&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;user-post&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;user-post&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;author&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Donald&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;author&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;message&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        Coofefe through a mask. what a day.
+    &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;message&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;user-post&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;A user that visits your dynamic web app sees this data rendered to
+their web browser, whether on a laptop, phone, or tablet.&lt;/p&gt;
+&lt;p&gt;Data like that above will typically &lt;em&gt;not&lt;/em&gt; be "hardcoded" as it is in
+the example above. Instead, you will likely have some external site (API)
+that gives some data like,&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;[&lt;/span&gt;
+    &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;author&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Alan&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;&amp;quot;message&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Don&amp;#39;t believe everything you see and hear on TV!&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;author&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Joe&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;&amp;quot;message&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Do I hear MALARKEY rising?&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;author&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Donald&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;&amp;quot;message&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Coofefe through a mask. what a day.&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;...and then that data will be "digested" by a web app "frontend".&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;posts.map(post =&amp;gt;
+    &lt;span class="nt"&gt;&amp;lt;user-post&amp;gt;&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;lt;author&amp;gt;&lt;/span&gt;{post.author}&lt;span class="nt"&gt;&amp;lt;/author&amp;gt;&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;lt;message&amp;gt;&lt;/span&gt;{post.message}&lt;span class="nt"&gt;&amp;lt;/message&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;/user-post&amp;gt;&lt;/span&gt;
+);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;An analogy I often give for this is that... the "web framework" makes
+a nice looking bathroom: sink, shower, etc. The backend is the
+delivery of the water to the proper places. Web developers are
+"Internet Plumbers".&lt;/p&gt;
+&lt;h2&gt;The Web "App" versus the Web Site&lt;/h2&gt;
+&lt;p&gt;Looking for a job in "coding", you'll probably get most people telling
+you to go and learn one of the web frameworks mentioned here because
+they are a popular way for large companies to make websites. Social
+media sites like Facebook, Twitter, and the like make use of these
+sorts of things. For these sites, it makes sense to have fancy ways
+for generating &lt;em&gt;dynamic content&lt;/em&gt; because they are constantly updating
+their databases with things people (and robots) produce and displaying
+these things to users as they come in.&lt;/p&gt;
+&lt;p&gt;It makes sense why companies like Facebook, Google, and Twitter have
+been at the forefront of making many of the modern technologies we use
+today when you think about the sort of content they deal with and at
+the massive sacale they strive for. These sites value things like,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Interactivity (users clicking buttons, typing stuff)&lt;/li&gt;
+&lt;li&gt;Huge quantities of data&lt;/li&gt;
+&lt;li&gt;Ease of integrating advertisements, third party components, and
+  other avenues of monetization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In contrast, on a "traditional" website, you cannot get data in "real
+time". It is necessary to refresh webpages to &lt;em&gt;ask the server&lt;/em&gt; for new
+information. "Traditional" webpages are more like books, pamphlets, or
+brochures that don't frequently update but nonetheless may contain
+lots of valuable information presented (hopefully) in an accessible
+way. It is more common for "traditional" websites to have many
+custom-made, unique pages as opposed to homogenous "posts" or "tweets"
+which restrict what kind of content users can post.&lt;/p&gt;
+&lt;h2&gt;Choose the tools for the job&lt;/h2&gt;
+&lt;p&gt;The modern web framework is built for making &lt;strong&gt;web applications&lt;/strong&gt;
+(apps) that deal with dynamic data. Implied with &lt;em&gt;dynamic data&lt;/em&gt; is
+interfacing with some kind of database, which often means using a
+cloud provider like Amazon's AWS or Microsoft's Azure. Creating a web
+app often means committing to working with certain big companies,
+using technology you may need to update, and learning more complex
+tooling.&lt;/p&gt;
+&lt;p&gt;As the attractive high paying sort of web jobs will often mean working
+with big clients in government, NGOs, and big corporations who collect
+lots and lots of data, specializing in making dynamic web apps is a
+popular career path for technophilic individuals who want nice things.&lt;/p&gt;
+&lt;p&gt;On the other hand, making a traditional website can be relatively
+straight forward. There are many very smart people who have their own
+websites, but but care less about fancy styling. For example, a
+college professor may just want to link some publications, give a
+contact address, and post one photo. This is not hard to do and
+doesn't require hiring a full-time developer.&lt;/p&gt;
+&lt;p&gt;It isn't really fair to compare an individual's homepage with
+Facebook&amp;mdash;asking which is &lt;em&gt;better&lt;/em&gt; is kind of non-sensical
+because they are really two different things. One is a fancy kitchen
+sink hooked up to straight to the US government and another may just
+be a weekend project for sharing family recipes.&lt;/p&gt;</content><category term="Interwebs"></category></entry><entry><title>Corona Virus Diary, Part 67</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-67.html" rel="alternate"></link><published>2020-11-02T00:00:00-08:00</published><updated>2020-11-02T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-11-02:/pelican-test/corona-virus-diary-part-67.html</id><summary type="html">&lt;p&gt;Many of the difficulties we face are those of our own choosing. Today
 was a tough day for me in some ways, but the troubles I can think of
 were all of my own causing. Doing web tech work, it is no mystery
 today why I had to spend many …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Many of the difficulties we face are those of our own choosing. Today
