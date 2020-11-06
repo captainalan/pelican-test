@@ -22,7 +22,7 @@ slow decline.
 Agency in Failure
 -----------------
 
-Sometimes it is tempting to brag of **agency** in success&dmash;what
+Sometimes it is tempting to brag of **agency** in success&mdash;what
 role *I* had to play in something that turned out well. Maybe a more
 edifying direction to turn to is to see how I have had agency in all
 the troubles I bring on myself.
@@ -60,7 +60,7 @@ Recognizing our agency in failure means also recognizing our agency to
 choose *not to fail* when similar trials come our way. Whereas one
 might have made bad choices in the past from failing to do research
 and being too passive, or conversely being overly confident and
-aggressive&dmash;there is a common denominator which is *how we choose
+aggressive&mdash;there is a common denominator which is *how we choose
 to live day by day*.
 
 Some ways in which I "shoot myself in the foot"
