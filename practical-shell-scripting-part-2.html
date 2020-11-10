@@ -2,16 +2,14 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <meta name="generator" content="Pelican" />
         <title>Practical Shell Scripting, Part 2</title>
         <link rel="stylesheet" href="https://captainalan.github.io/pelican-test/theme/css/main.css" />
         <link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Alan's Miscellaneous Stuff Blog Atom Feed" />
-        <meta name="description" content="In this post I will discuss a relatively straightforward command: cat. The cat command is used to concatenate files. So if I had three files, I..." />
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="https://captainalan.github.io/pelican-test/">Alan's Miscellaneous Stuff Blog</a></h1>
+                <h1><a href="https://captainalan.github.io/pelican-test/">Alan's Miscellaneous Stuff Blog </a></h1>
                 <nav><ul>
                     <li><a href="https://captainalan.github.io/pelican-test/category/fun.html">Fun</a></li>
                     <li><a href="https://captainalan.github.io/pelican-test/category/interwebs.html">Interwebs</a></li>
@@ -45,6 +43,7 @@ three files, I could do something like</p>
 <div class="highlight"><pre><span></span><code>cat file1.txt file2.txt file3.txt
 </code></pre></div>
 
+
 <p>...and this would display the concatenated content of all these files
 to standard output.</p>
 <h2>A Common Beginner's Mistake</h2>
@@ -56,10 +55,12 @@ you were piping to.</p>
 cat my_file.txt <span class="p">|</span> grep <span class="s2">&quot;feelings&quot;</span>
 </code></pre></div>
 
+
 <p>...you should just do,</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Looking for where I talk about feelings in my_file.txt</span>
 grep <span class="s2">&quot;feelings&quot;</span> my_file.txt
 </code></pre></div>
+
 
 <p>There are efficiency reasons for doing things this way, but most
 importantly you don't want to look silly in front of scoffing
@@ -77,10 +78,12 @@ log files, short scripts, etc.) <code>cat</code> often comes in handy.</p>
 cat &gt; bar.txt  <span class="c1"># Redirect (and replace) text fo bar.txt</span>
 </code></pre></div>
 
+
 <h3>Reading a bunch of stuff in <code>less</code></h3>
 <p>To view/read mixed files on one screen, you can do something like,</p>
 <div class="highlight"><pre><span></span><code>cat file1.txt file2.txt file3.py <span class="p">|</span> less
 </code></pre></div>
+
 
 <p>This could be useful for looking at a bunch of mixed/scattered
 information in a directory at once, creating an on-the-fly "custom
@@ -107,10 +110,12 @@ vegetables.txt</code> to quickly add an item to your TODO list.</p>
 <div class="highlight"><pre><span></span><code>cat vegetables.txt meat.txt <span class="p">|</span> less
 </code></pre></div>
 
+
 <p>You can also use your shell's globbing functions with commands like
 <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
 <div class="highlight"><pre><span></span><code>cat *.txt <span class="c1"># hitting tab will autocomplete filenames</span>
 </code></pre></div>
+
 
 <p>What you have with cat is a kind of duct tape to smash files together
 in many ways; this allows you to create "dynamic views" of textual
@@ -150,10 +155,10 @@ quickly) the possibilities are endless.</p>
 
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
-                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
                 </address><!-- /#about -->
 
-                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
         </footer><!-- /#contentinfo -->
 
 </body>

@@ -41,6 +41,7 @@ structured like,&lt;/p&gt;
 &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;user-post&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
+
 &lt;p&gt;A user that visits your dynamic web app sees this data rendered to
 their web browser, whether on a laptop, phone, or tablet.&lt;/p&gt;
 &lt;p&gt;Data like that above will typically &lt;em&gt;not&lt;/em&gt; be "hardcoded" as it is in
@@ -53,6 +54,7 @@ that gives some data like,&lt;/p&gt;
 &lt;span class="p"&gt;]&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
+
 &lt;p&gt;...and then that data will be "digested" by a web app "frontend".&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;posts.map(post =&amp;gt;
     &lt;span class="nt"&gt;&amp;lt;user-post&amp;gt;&lt;/span&gt;
@@ -61,6 +63,7 @@ that gives some data like,&lt;/p&gt;
     &lt;span class="nt"&gt;&amp;lt;/user-post&amp;gt;&lt;/span&gt;
 );
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 
 &lt;p&gt;An analogy I often give for this is that... the "web framework" makes
 a nice looking bathroom: sink, shower, etc. The backend is the
@@ -136,6 +139,7 @@ in their browser.&lt;/p&gt;
 &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt; &lt;span class="na"&gt;id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;root&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
+
 &lt;p&gt;Using JavaScript to simulate different pages (by rendering different
 "components"), you can provide users with a very fast-feeling
 experience. This is because instead of requesting new pages from a
@@ -168,6 +172,7 @@ greatest technology so I went and learned the basics using
 &lt;span class="nb"&gt;cd&lt;/span&gt; name-of-my-new-app &lt;span class="c1"&gt;# Navigate into the directory of your new app&lt;/span&gt;
 npm start &lt;span class="c1"&gt;# Start the development server&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 
 &lt;p&gt;The newly created app will contain a &lt;code&gt;README.md&lt;/code&gt; file that includes
 instructions on how to do some basic stuff.&lt;/p&gt;
