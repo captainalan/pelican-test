@@ -2,6 +2,18 @@ title: The Third-Person Self Improvement Program
 date: 2020-03-23
 category: Lifestyle
 
+Cautionary note, 11/12/2020&mdash;stay away any
+imagination/visualization technique that separates you from reality.
+Occult/esoteric practices should be avoided. There is a "slippery
+slope" leading there when you do practices that involve imagining what
+is not real, doing stuff with dreams, chanting and/or any form of
+invocation. It is better to be sober, vigilant, and industrious. Using
+"visualization" insofar as you *plan actions to skillfully perform* is
+okay I think, but *DO NOT* do stuff like imagining yourself in a big
+luxury yacht etc.
+
+Original content, below:
+
 Imagine yourself from a *third person perspective*&mdash;watch
 yourself from someone else's viewpoint. What is this person like? Are
 they acting in a self-destructive way? Are they good to others? Are
