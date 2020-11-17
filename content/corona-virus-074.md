@@ -1,4 +1,4 @@
-title: Corona Virus Diary, Part 73
+title: Corona Virus Diary, Part 74
 date: 2020-11-17
 category: News
 
