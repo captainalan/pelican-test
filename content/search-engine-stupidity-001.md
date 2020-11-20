@@ -58,7 +58,7 @@ places where you can do these things, but the search Engine doesn't
 necessarily *teach you how to learn a foreign language* or give you
 the means by which to sort through these options.
 
-### Historical facts
+### History
 
 Google can probably do a very good job giving you dates of birth and
 death of various people, when named battles/wars occured, and so and

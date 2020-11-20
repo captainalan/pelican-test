@@ -90,7 +90,7 @@ told to be. ADHD between these people is not discussed so much as a
 "fact of reality", but instead as a concept that arose for particular
 purposes one might regard as negligent at best and nefarious at worst.
 
-### Use timeless languageo
+### Use timeless language
 
 One way to avoid getting caught up in the latest models/fictions of
 how the world works is to avoid theory-laden speech. What are things
@@ -122,7 +122,7 @@ individual can report on their own experiences. However, to impose a
 particular *model/language* to talk about how the world *must* work is
 a kind of modern "Inquisition" (in the sense of *forcing religion*).
 
-COVID-19 and the Language
+COVID-19 and Language
 -------------------------
 
 In "police society", we are strongly-suggested to describe our
