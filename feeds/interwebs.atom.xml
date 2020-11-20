@@ -86,6 +86,88 @@ the nature of letting somebody else manage your data!&lt;/p&gt;
 can&amp;mdash;that's what they do with these search algorithms.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;/div&gt;</content><category term="Interwebs"></category></entry><entry><title>Search Engine Stupidity, Part 2</title><link href="https://captainalan.github.io/pelican-test/search-engine-stupidity-part-2.html" rel="alternate"></link><published>2020-11-20T00:00:00-08:00</published><updated>2020-11-20T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-11-20:/pelican-test/search-engine-stupidity-part-2.html</id><summary type="html">&lt;p&gt;An Internet friend pointed out to me that my blog was rather
+&lt;strong&gt;anti-SEO&lt;/strong&gt;&amp;mdash;that is, very &lt;em&gt;unoptimized&lt;/em&gt; for search engines.
+Indeed, this is true. Search engines more easily index and point
+people towards certain sorts of content. Many popular websites, which
+may not be of particularly high quality, try to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;An Internet friend pointed out to me that my blog was rather
+&lt;strong&gt;anti-SEO&lt;/strong&gt;&amp;mdash;that is, very &lt;em&gt;unoptimized&lt;/em&gt; for search engines.
+Indeed, this is true. Search engines more easily index and point
+people towards certain sorts of content. Many popular websites, which
+may not be of particularly high quality, try to "game" (or &lt;em&gt;optimize&lt;/em&gt;)
+on these metrics.&lt;/p&gt;
+&lt;p&gt;Suppose you make a website that has&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Many pages on many topics&lt;/li&gt;
+&lt;li&gt;Rather short articles that load quickly&lt;/li&gt;
+&lt;li&gt;Key words provided in &lt;strong&gt;meta data&lt;/strong&gt; &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Such a website may consistently hit top search results. (If you do any
+sort of tech, web programing work, you are probably aware of some
+sites that do this). But these sites might SUCK. They may seem hastily
+written (or even machine &lt;em&gt;generated&lt;/em&gt;), just redisplaying information
+found and presented better elsewhere,&lt;/p&gt;
+&lt;p&gt;Maybe to look up one thing really quickly, these sites might be OK,
+but overally they are unpleasant to use and ugly. Searching the
+official manual/documentation for whatever tech you're using would be
+better in most usecases.&lt;/p&gt;
+&lt;p&gt;Yet sites like the one above often appear at the top of search results.&lt;/p&gt;
+&lt;h2&gt;The Google favored sites&lt;/h2&gt;
+&lt;p&gt;Many companies design products to please Google. Much of &lt;strong&gt;Content
+Creation&lt;/strong&gt; is aimed at producing lots of thing in some form search
+engines like (whether Google's, YouTubes, etc) for the purposes of
+monetizing some niche.&lt;/p&gt;
+&lt;p&gt;For example, in the world of technology, many people choose to use
+&lt;strong&gt;Medium&lt;/strong&gt;. Now, I haven't written for Medium myself, but I've read
+articles on Medium.&lt;/p&gt;
+&lt;p&gt;Lots of things are annoying about Medium to the "end-user".&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Popups/invitations to join&lt;/li&gt;
+&lt;li&gt;Intrusive links and other frills to other content&lt;/li&gt;
+&lt;li&gt;Not owning/exercising full control over your content and how it is
+  presented&lt;/li&gt;
+&lt;li&gt;Limited features (not specifically sure of Medium's limitations, but
+  if you're hard-coding HTML or something you're going to have &lt;em&gt;full
+  control&lt;/em&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Medium makes money from their site and have much more scale than me,
+so I'm not being a "hater" here. I'm just pointing out that Google
+will favor a "social" type content-generation model like that used by
+Medium over a rather than a go-as-I-feel-like-it blog like my own,
+which is primarily shared through word of mouth or private
+communication.&lt;/p&gt;
+&lt;p&gt;On the other hand, you can find many "old-style" websites that are
+very pleasant to use and have a strong "personal touch". In terms of
+just... providing useful or interesting information, these sites are
+&lt;em&gt;just as good, if not better than a big site like Medium&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Yet they often lack SEO (Search Engine Optimization) and so they are
+far less known. They additionally lack many of the "social"
+features&amp;mdash;integrations into big sites like Facebook and Twitter.&lt;/p&gt;
+&lt;h2&gt;Leveraging Social Media and Bypassing Medium&lt;/h2&gt;
+&lt;p&gt;My own strategy is to make use of social media how I see
+fit&amp;mdash;e.g. sharing links to friends and colleagues&amp;mdash;social
+media platforms are increasingly the "marketplace" or common space in
+which we are made to meet one another.&lt;/p&gt;
+&lt;p&gt;However, I try to keep my writings and other files in a less
+centralized place; that's why I use &lt;code&gt;git&lt;/code&gt;, &lt;code&gt;markdown&lt;/code&gt;, and other tools
+to make my sites easy to download, redistribute, and so on if needed.
+Facebook may very well be around for a while, but if I lose access to
+my account, would I also want to lose access to lots of work/effort I
+have put into that?&lt;/p&gt;
+&lt;p&gt;Decentralizing information, making copies, and other techniques
+provide a more robust approach to controlling not just how our words
+may be shared, but also as a guard against libel, censorship, and
+other actions we are vulnerable towards when using social media
+platforms.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Data that is &lt;em&gt;about&lt;/em&gt; the main data; e.g. a digital camera might
+store the date/time of a photo and the name of the model of the
+camera used.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;</content><category term="Interwebs"></category></entry><entry><title>Uses and Misuses of Single Page Web Applications</title><link href="https://captainalan.github.io/pelican-test/uses-and-misuses-of-single-page-web-applications.html" rel="alternate"></link><published>2020-11-05T00:00:00-08:00</published><updated>2020-11-05T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-11-05:/pelican-test/uses-and-misuses-of-single-page-web-applications.html</id><summary type="html">&lt;p&gt;Today, there are a handful of popular &lt;strong&gt;Web Frameworks&lt;/strong&gt; including
 React, Angular, and Vue. What these things do is allow you to use more
 &lt;em&gt;programatic&lt;/em&gt; ways to spit out websites made of HTML, CSS, and
