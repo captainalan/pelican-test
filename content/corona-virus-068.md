@@ -70,6 +70,6 @@ mainly stemming from,
   depraved/evil/terrible
   
 Associated with the last point is the retort, "Oh so you would like to
-live in Saudi Arabia?" without consideration of hwo
+live in Saudi Arabia?" without consideration of how
 democracies/republics have been instrumental in propping up many of
-the "third world dictators" we villianize today.
+the "third world dictators" we villainize today.
