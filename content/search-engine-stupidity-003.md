@@ -3,7 +3,8 @@ date: 11-24-2020
 category: Interwebs
 
 In this article, I will discuss some practical solutions for getting
-around using search engines. For certain fast-changing information.
+around using search engines.
+
 
 Build a library
 ---------------
