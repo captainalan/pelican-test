@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Interwebs</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/interwebs.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-11-24T00:00:00-08:00</updated><entry><title>Search Engine Stupidity, Part 3</title><link href="https://captainalan.github.io/pelican-test/search-engine-stupidity-part-3.html" rel="alternate"></link><published>2020-11-24T00:00:00-08:00</published><updated>2020-11-24T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-11-24:/pelican-test/search-engine-stupidity-part-3.html</id><summary type="html">&lt;p&gt;In this article, I will discuss some practical solutions for getting
-around using search engines. For certain fast-changing information.&lt;/p&gt;
+around using search engines.&lt;/p&gt;
 &lt;h2&gt;Build a library&lt;/h2&gt;
 &lt;p&gt;Having your own curated collection of useful resources is a fast and
 easy way to bypass search engines. For a given topic (e.g. gardening),
-you can find …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In this article, I will discuss some practical solutions for getting
-around using search engines. For certain fast-changing information.&lt;/p&gt;
+you can find out what the most …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In this article, I will discuss some practical solutions for getting
+around using search engines.&lt;/p&gt;
 &lt;h2&gt;Build a library&lt;/h2&gt;
 &lt;p&gt;Having your own curated collection of useful resources is a fast and
 easy way to bypass search engines. For a given topic (e.g. gardening),
