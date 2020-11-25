@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <title>Search Engine Stupidity, Part 4</title>
+        <link rel="stylesheet" href="https://captainalan.github.io/pelican-test/theme/css/main.css" />
+        <link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Alan's Miscellaneous Stuff Blog Atom Feed" />
+        <meta name="description" content="Talk about how information technology works is often cast in mystical terms for the "uninitiated". For example, we're often told about these..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://captainalan.github.io/pelican-test/">Alan's Miscellaneous Stuff Blog</a></h1>
+                <nav><ul>
+                    <li><a href="https://captainalan.github.io/pelican-test/category/fun.html">Fun</a></li>
+                    <li class="active"><a href="https://captainalan.github.io/pelican-test/category/interwebs.html">Interwebs</a></li>
+                    <li><a href="https://captainalan.github.io/pelican-test/category/lifestyle.html">Lifestyle</a></li>
+                    <li><a href="https://captainalan.github.io/pelican-test/category/linux.html">Linux</a></li>
+                    <li><a href="https://captainalan.github.io/pelican-test/category/news.html">News</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://captainalan.github.io/pelican-test/search-engine-stupidity-part-4.html" rel="bookmark"
+           title="Permalink to Search Engine Stupidity, Part 4">Search Engine Stupidity, Part 4</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2020-11-25T00:00:00-08:00">
+                Published: Wed 25 November 2020
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://captainalan.github.io/pelican-test/author/alan-wong.html">Alan Wong</a>
+        </address>
+<p>In <a href="https://captainalan.github.io/pelican-test/category/interwebs.html">Interwebs</a>.</p>
+
+</footer><!-- /.post-info -->      <p>Talk about how information technology works is often cast in mystical
+terms for the "uninitiated". For example, we're often told about these
+things called <strong>"algorithms"</strong> that will replace jobs, protect
+national security/privacy, and so on and so forth.</p>
+<p>We should frame these things in simpler, more transparent terms. All
+an "algorithm" is is a set of instructions for computers. When we talk
+about "losing jobs to AI", this means <em>people</em> choosing to take humans
+out of processes and replace them with machines and then letting
+machines handle decision making.</p>
+<p>For example, instead of having a receptionist, a business might choose
+to have a generic program with a bunch of prompts/menus the user has
+to navigate through. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> The precursor to a system like this might be
+to have receptionists <em>follow some script</em> obeying rules rather than
+using their brains to help customers solve actual problems.</p>
+<p>Search engines are similar. You can think of them as a "librarian
+program". You can ask this AI thing for some information (using a
+<code>search query</code>) and it will return some result.</p>
+<p>This process is <strong>opaque</strong>&mdash;it is a <strong>black box</strong> you cannot look
+into and study directly. Google does what Google will do.</p>
+<h2>An Exmaple Algorithm</h2>
+<p>Let's try to dress things up to look fancy.</p>
+<div class="highlight"><pre><span></span><code><span class="kd">var</span> <span class="nx">special_topics</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s2">&quot;federal reserve&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;tech censorship&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;9-11 conspiracy&quot;</span><span class="p">,</span>
+    <span class="c1">// ...</span>
+<span class="p">];</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="nx">search</span> <span class="k">in</span> <span class="nx">special_topics</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">special_topics</span><span class="p">[</span><span class="nx">search</span><span class="p">]</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="c1">// Use default procedure</span>
+    <span class="nx">normalSearchRoutine</span><span class="p">();</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>In this <strong>code</strong> (another word people will use to cloak their
+activities in mysticism), we return <em>one type of result</em> for certain
+topics and other types of results for other topics.</p>
+<p>The user will approach the search engine and not know how this
+works&mdash;they just enter a <code>query</code> and <em>trust</em> the results.</p>
+<h2>Taking your Job</h2>
+<p>This is what many of the "algorithms" of big tech are doing. The game
+plan is,</p>
+<ol>
+<li>Take some human job, and make it mechanical/codified (like how a
+   call center worker may be made to read a script)</li>
+<li>Slowly reduce human agency, involvement in these processes. You
+   might have a system that only has a human to sign off something at
+   the last step, but the rest of the process proceeds without any
+   human needing to know/trust another human.</li>
+<li>Entirely eliminate humans, reducing the complexity of jobs that
+   need to be done if necessary&mdash;rather than offering custom
+   jobs, offer a configuration of a handful of options</li>
+<li>Collect data, tweak the algorithms, and try to <em>optimize</em> human
+   interaction.</li>
+</ol>
+<p>What a bunch of anti-social nerds.o</p>
+<p>Many areas of work still must be done with human hands. But we can
+expect with more IoT (Internet of Things) technology, robots, drones,
+and more that more and more sectors will be attacked.</p>
+<p>Consider,</p>
+<ul>
+<li>Digital music playback (with holograms?!??) over live performance</li>
+<li>self-checkout at stores</li>
+<li>streaming services</li>
+<li>mass-produced goods (often <em>not user servicable</em>)</li>
+<li>public education&mdash;textbooks and standardized materials</li>
+<li>Apple devices (vs building and configuring your own PC)</li>
+<li>tract homes</li>
+<li>fast food</li>
+</ul>
+<p>In every case above, you can observe the same general pattern.</p>
+<h2>Solutions</h2>
+<p>Exercise your <strong>agency</strong> and take control of what you can. Understand
+<em>your role</em> in turning over stuff to "algorithms" and consider
+carefully if adapting some new technology actually makes things any
+better.</p>
+<p>This is not an anti-technology post&mdash;indeed I'm writing this from
+a computer and publishing it to the Internet!</p>
+<p>Rather, this is a reminder that tools should remain tools. And we
+should make tools useful to us (humans) rather than shaping our habits
+to fit them. You are more than a "cog in the system". You are an
+individual and you do not have to <em>try to be unique</em> by flipping the
+switches to configure a "profile" for some algorithm to process and
+nerds to data perv at.</p>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Often these systems are very annoying. It is easier to talk with
+people.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="https://captainalan.github.io/">Homepage</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="https://github.com/captainalan">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/alan-wong-bb342569/">Linked In</a></li>
+                            <li><a href="https://www.facebook.com/captainalan">Facebook</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

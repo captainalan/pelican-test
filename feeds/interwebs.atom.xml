@@ -1,5 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Interwebs</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/interwebs.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-11-24T00:00:00-08:00</updated><entry><title>Search Engine Stupidity, Part 3</title><link href="https://captainalan.github.io/pelican-test/search-engine-stupidity-part-3.html" rel="alternate"></link><published>2020-11-24T00:00:00-08:00</published><updated>2020-11-24T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-11-24:/pelican-test/search-engine-stupidity-part-3.html</id><summary type="html">&lt;p&gt;In this article, I will discuss some practical solutions for getting
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Interwebs</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/interwebs.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-11-25T00:00:00-08:00</updated><entry><title>Search Engine Stupidity, Part 4</title><link href="https://captainalan.github.io/pelican-test/search-engine-stupidity-part-4.html" rel="alternate"></link><published>2020-11-25T00:00:00-08:00</published><updated>2020-11-25T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-11-25:/pelican-test/search-engine-stupidity-part-4.html</id><summary type="html">&lt;p&gt;Talk about how information technology works is often cast in mystical
+terms for the "uninitiated". For example, we're often told about these
+things called &lt;strong&gt;"algorithms"&lt;/strong&gt; that will replace jobs, protect
+national security/privacy, and so on and so forth.&lt;/p&gt;
+&lt;p&gt;We should frame these things in simpler, more transparent terms. All …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Talk about how information technology works is often cast in mystical
+terms for the "uninitiated". For example, we're often told about these
+things called &lt;strong&gt;"algorithms"&lt;/strong&gt; that will replace jobs, protect
+national security/privacy, and so on and so forth.&lt;/p&gt;
+&lt;p&gt;We should frame these things in simpler, more transparent terms. All
+an "algorithm" is is a set of instructions for computers. When we talk
+about "losing jobs to AI", this means &lt;em&gt;people&lt;/em&gt; choosing to take humans
+out of processes and replace them with machines and then letting
+machines handle decision making.&lt;/p&gt;
+&lt;p&gt;For example, instead of having a receptionist, a business might choose
+to have a generic program with a bunch of prompts/menus the user has
+to navigate through. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; The precursor to a system like this might be
+to have receptionists &lt;em&gt;follow some script&lt;/em&gt; obeying rules rather than
+using their brains to help customers solve actual problems.&lt;/p&gt;
+&lt;p&gt;Search engines are similar. You can think of them as a "librarian
+program". You can ask this AI thing for some information (using a
+&lt;code&gt;search query&lt;/code&gt;) and it will return some result.&lt;/p&gt;
+&lt;p&gt;This process is &lt;strong&gt;opaque&lt;/strong&gt;&amp;mdash;it is a &lt;strong&gt;black box&lt;/strong&gt; you cannot look
+into and study directly. Google does what Google will do.&lt;/p&gt;
+&lt;h2&gt;An Exmaple Algorithm&lt;/h2&gt;
+&lt;p&gt;Let's try to dress things up to look fancy.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;special_topics&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;federal reserve&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;tech censorship&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;9-11 conspiracy&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="c1"&gt;// ...&lt;/span&gt;
+&lt;span class="p"&gt;];&lt;/span&gt;
+
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;search&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="nx"&gt;special_topics&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nx"&gt;special_topics&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;search&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="c1"&gt;// Use default procedure&lt;/span&gt;
+    &lt;span class="nx"&gt;normalSearchRoutine&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In this &lt;strong&gt;code&lt;/strong&gt; (another word people will use to cloak their
+activities in mysticism), we return &lt;em&gt;one type of result&lt;/em&gt; for certain
+topics and other types of results for other topics.&lt;/p&gt;
+&lt;p&gt;The user will approach the search engine and not know how this
+works&amp;mdash;they just enter a &lt;code&gt;query&lt;/code&gt; and &lt;em&gt;trust&lt;/em&gt; the results.&lt;/p&gt;
+&lt;h2&gt;Taking your Job&lt;/h2&gt;
+&lt;p&gt;This is what many of the "algorithms" of big tech are doing. The game
+plan is,&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Take some human job, and make it mechanical/codified (like how a
+   call center worker may be made to read a script)&lt;/li&gt;
+&lt;li&gt;Slowly reduce human agency, involvement in these processes. You
+   might have a system that only has a human to sign off something at
+   the last step, but the rest of the process proceeds without any
+   human needing to know/trust another human.&lt;/li&gt;
+&lt;li&gt;Entirely eliminate humans, reducing the complexity of jobs that
+   need to be done if necessary&amp;mdash;rather than offering custom
+   jobs, offer a configuration of a handful of options&lt;/li&gt;
+&lt;li&gt;Collect data, tweak the algorithms, and try to &lt;em&gt;optimize&lt;/em&gt; human
+   interaction.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;What a bunch of anti-social nerds.o&lt;/p&gt;
+&lt;p&gt;Many areas of work still must be done with human hands. But we can
+expect with more IoT (Internet of Things) technology, robots, drones,
+and more that more and more sectors will be attacked.&lt;/p&gt;
+&lt;p&gt;Consider,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Digital music playback (with holograms?!??) over live performance&lt;/li&gt;
+&lt;li&gt;self-checkout at stores&lt;/li&gt;
+&lt;li&gt;streaming services&lt;/li&gt;
+&lt;li&gt;mass-produced goods (often &lt;em&gt;not user servicable&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;public education&amp;mdash;textbooks and standardized materials&lt;/li&gt;
+&lt;li&gt;Apple devices (vs building and configuring your own PC)&lt;/li&gt;
+&lt;li&gt;tract homes&lt;/li&gt;
+&lt;li&gt;fast food&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In every case above, you can observe the same general pattern.&lt;/p&gt;
+&lt;h2&gt;Solutions&lt;/h2&gt;
+&lt;p&gt;Exercise your &lt;strong&gt;agency&lt;/strong&gt; and take control of what you can. Understand
+&lt;em&gt;your role&lt;/em&gt; in turning over stuff to "algorithms" and consider
+carefully if adapting some new technology actually makes things any
+better.&lt;/p&gt;
+&lt;p&gt;This is not an anti-technology post&amp;mdash;indeed I'm writing this from
+a computer and publishing it to the Internet!&lt;/p&gt;
+&lt;p&gt;Rather, this is a reminder that tools should remain tools. And we
+should make tools useful to us (humans) rather than shaping our habits
+to fit them. You are more than a "cog in the system". You are an
+individual and you do not have to &lt;em&gt;try to be unique&lt;/em&gt; by flipping the
+switches to configure a "profile" for some algorithm to process and
+nerds to data perv at.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Often these systems are very annoying. It is easier to talk with
+people.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Interwebs"></category></entry><entry><title>Search Engine Stupidity, Part 3</title><link href="https://captainalan.github.io/pelican-test/search-engine-stupidity-part-3.html" rel="alternate"></link><published>2020-11-24T00:00:00-08:00</published><updated>2020-11-24T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-11-24:/pelican-test/search-engine-stupidity-part-3.html</id><summary type="html">&lt;p&gt;In this article, I will discuss some practical solutions for getting
 around using search engines.&lt;/p&gt;
 &lt;h2&gt;Build a library&lt;/h2&gt;
 &lt;p&gt;Having your own curated collection of useful resources is a fast and
