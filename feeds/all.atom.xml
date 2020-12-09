@@ -1,5 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-12-08T00:00:00-08:00</updated><entry><title>Memory and Muscle</title><link href="https://captainalan.github.io/pelican-test/memory-and-muscle.html" rel="alternate"></link><published>2020-12-08T00:00:00-08:00</published><updated>2020-12-08T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-12-08:/pelican-test/memory-and-muscle.html</id><summary type="html">&lt;p&gt;Two areas in which many modern people are lacking development are
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-12-09T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 81</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-81.html" rel="alternate"></link><published>2020-12-09T00:00:00-08:00</published><updated>2020-12-09T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-12-09:/pelican-test/corona-virus-diary-part-81.html</id><summary type="html">&lt;p&gt;One major time sink is to do destructive activities to oneself and
+then have to spend a lot of time undoing or repairing the consequences
+of these actions. Sometimes, our work gets thwarted by events outside
+of our control; for instance, one might set out clothes to dry in the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;One major time sink is to do destructive activities to oneself and
+then have to spend a lot of time undoing or repairing the consequences
+of these actions. Sometimes, our work gets thwarted by events outside
+of our control; for instance, one might set out clothes to dry in the
+yard and then the neighbor accidentally sprays those clothes with a
+hose. Other undoing of work happens through mistakes on our
+part&amp;mdash;e.g. accidentally deleting some document that took hours to
+work on. The topic of this post is mostly about "I'll eat a whole tray
+of tater tots and then run miles and miles later to undo the effects
+of overeating".&lt;/p&gt;
+&lt;p&gt;While the logic of the tater tot example given above is pretty easy to
+follow, we often undermine ourselves in more subtle ways. In this
+post, I'll explore some ways in which I've undermined myself and
+clarify some strategies I'm using to try to correct course.&lt;/p&gt;
+&lt;h2&gt;Clarify what you're doing&lt;/h2&gt;
+&lt;p&gt;I've mentioned in other places how I used the &lt;strong&gt;dvorak keyboard
+layout&lt;/strong&gt; for some time. Designed to be better than the default QWERTY
+arrangement of keys, the dvorak layout allows for more comfortable
+typing. That is what proponents of the dvorak layout, at least, will
+tell you.&lt;/p&gt;
+&lt;p&gt;Assuming that the dvoark keyboard has some advantages for comfort of
+typing and over the long run it can help produce repetitive strain
+injury (RSI) for people who type a lot, let us evaluate whether or not
+in makes sense to use this keyboard layout or another.&lt;/p&gt;
+&lt;p&gt;The first matter to examine is &lt;em&gt;typing itself&lt;/em&gt;&amp;mdash;as a tool, as a
+technique, as a skill. When and where do we type? For what purposes do
+we type?&lt;/p&gt;
+&lt;p&gt;A person might switch to dvorak for more effective typing, but another
+question to ask is &lt;em&gt;should I be spending so much time typing?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I think for most people, the answer to this question is &lt;em&gt;no&lt;/em&gt;. I say
+this as someone who types relatively a lot; you are reading my blog,
+for instance. Even if I give myself an ample amount of allowed typing
+for a day (e.g. I can send 10 emails, chat online for 1 hour, and
+write 2 blog posts), I still think that my relative typing volume is
+not so high that I need to further optimize my typing.&lt;/p&gt;
+&lt;p&gt;Now, if somehow I convinced myself that it was a good idea to type
+paragraph upon paragraph of verbose prose on Reddit to prove how smart
+I am to the Internet, maybe I would be typing more. But is this a good
+use of your time to begin with?&lt;/p&gt;
+&lt;h3&gt;Premature Optimization&lt;/h3&gt;
+&lt;p&gt;We can do lots of self-defeating, time-wasting behaviors through
+&lt;em&gt;premature optimization&lt;/em&gt;. That is, trying to "improve" some aspect of
+how we live our lives (e.g. through "life hacks") without adequate
+introspection into what exactly it is that we are doing and why the
+speed or efficiency of that thing should be optimized in the first
+place.&lt;/p&gt;
+&lt;p&gt;Another topic I've been discussing much in the
+&lt;a href="https://captainalan.github.io/pelican-test/category/interwebs.html"&gt;Interwebs&lt;/a&gt;
+category of this blog is &lt;strong&gt;search engines&lt;/strong&gt;. Search engines optimize
+for &lt;em&gt;something&lt;/em&gt;&amp;mdash;giving you a quick big tech approved suggestion
+in response to a string of a characters. But to Google everything in a
+city isn't the best way to &lt;em&gt;get to know a city and the people who live
+there&lt;/em&gt;. You are know more familiar than any tourist who pops through
+that city if you just ask Google for everything.&lt;/p&gt;
+&lt;p&gt;So an optimization like "using Google to make choices XYZ" may give
+you a &lt;em&gt;faster&lt;/em&gt; decision, but it will eliminate important
+activities&amp;mdash;exploring a city, finding out things for yourself,
+speaking with people&amp;mdash;from your "workflow".&lt;/p&gt;
+&lt;p&gt;The Internet may appear to be a convenient way to make things &lt;em&gt;faster&lt;/em&gt;
+and &lt;em&gt;easier&lt;/em&gt;, but by choosing this option you can be self-defeating by
+&lt;em&gt;only knowing how to use Google&lt;/em&gt; and failing to grasp the uniqueness
+of the place you are in.&lt;/p&gt;
+&lt;h2&gt;Take control of your attention&lt;/h2&gt;
+&lt;p&gt;Rarely in the West do we talk about &lt;em&gt;knowing too much&lt;/em&gt;. Since we begin
+schooling, we're told how &lt;em&gt;more reading is better&lt;/em&gt; and the image of a
+"cosmopolitan person" is someone who reads glossy magazines about all
+sorts of world affairs.&lt;/p&gt;
+&lt;p&gt;While being aware is important&amp;mdash;as is being sober and remembering
+useful information&amp;mdash;there is great danger in being endlessly
+distracted and bombarded with unimportant choices.&lt;/p&gt;
+&lt;h3&gt;The cost of knowing&lt;/h3&gt;
+&lt;p&gt;I don't use coupons very often, but I know many people are very keen
+to chase after deals and promotions. For someone with an already fixed
+plan about what they are going to eat, what they will need, etc.,
+coupons can be a useful way to cut costs.&lt;/p&gt;
+&lt;p&gt;However, for the "food tourist", coupons can become a driving force in
+one's life, sucking away time and attention for what&amp;mdash;saving a
+couple of dollars on a burger combo?&lt;/p&gt;
+&lt;p&gt;Similar things can be said for activities like &lt;em&gt;trading stocks&lt;/em&gt;.
+Someone who does some investing or trades on a relatively fixed
+schedule can benifit from this activity. The person who constantly
+checks Robinhood on their phone suffers greatly from watching the ebb
+and flow of stock prices.&lt;/p&gt;
+&lt;p&gt;For a while, I made myself scattered brain by studying too many
+languages. Without a plan for "boxing in" what times were appropriate
+for which languages, I wasted a lot of time and attention with
+questions like, "should I review Japanese now or look at some Spanish
+verbs?" For the single-minded, focused individual &lt;em&gt;this isn't a
+problem&lt;/em&gt;. Similarly, for the person that knows how to &lt;em&gt;outsource work&lt;/em&gt;
+this isn't an issue; we can develop ourselves in many ways, and no one
+individual can know all the languages&amp;mdash;obviously. So the
+sensible, normal person chooses their battles. Better to do pushups
+than learn Hindi grammar.&lt;/p&gt;
+&lt;p&gt;Some of us are nerds who are slowly learning to do better...&lt;/p&gt;
+&lt;h3&gt;Toolbound&lt;/h3&gt;
+&lt;p&gt;To know how to do certain things, you need to have certain objects or
+infrastructure around you. While a guitarist might know some general
+things about music, a guitarist is much more expressive &lt;em&gt;with a
+guitar&lt;/em&gt;, which functions as a kind of extension of the body.&lt;/p&gt;
+&lt;p&gt;It seems that there is a lot of strong dependency &lt;em&gt;by design&lt;/em&gt; in many
+places&amp;mdash;including the corporate world. Many company employees
+cannot do most of the things they do at work away from the
+infrastructure of their corporations&amp;mdash;they use complex software,
+navigate complex bureaucracies, make and receive payments through many
+mechanisms, and so on and so forth.&lt;/p&gt;
+&lt;p&gt;One way in which we can be very self-defeating is to get overly
+involved in some one tool or thing which we &lt;em&gt;do not have good reason
+to believe will continue to be around&lt;/em&gt;. Of course, for every job, you
+must learn some &lt;em&gt;specifics&lt;/em&gt; of what you are doing&amp;mdash;here I am more
+concerned with investing excessive amounts of time in &lt;em&gt;a particular
+configuration&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;For instance, you might have a very elbaorate set-up of custom hotkeys
+in a video game. First, you should ask &lt;em&gt;why you are playing games&lt;/em&gt; to
+begin with (not to say this is bad, but it should be kept in check).
+Second, you should have reasonable expectations about whether or not
+the developer of your game will break your keybindings with patches,
+updates, and so forth.&lt;/p&gt;
+&lt;p&gt;There are many frustrated Apple users who constnatly are fighting off
+breaking changes to MacOS. Probably the same for Windows. I have
+pretty much given up on making custom keys to do things more
+efficiently on computers. &lt;/p&gt;
+&lt;h2&gt;Remain vigilant&lt;/h2&gt;
+&lt;p&gt;Frivolousness, idle talk, and negligence are the proximate causes of
+much pain and suffering. We must be on the guard against
+self-defeating behavior by purposely aligning ourselves and working
+diligently.&lt;/p&gt;</content><category term="News"></category></entry><entry><title>Memory and Muscle</title><link href="https://captainalan.github.io/pelican-test/memory-and-muscle.html" rel="alternate"></link><published>2020-12-08T00:00:00-08:00</published><updated>2020-12-08T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-12-08:/pelican-test/memory-and-muscle.html</id><summary type="html">&lt;p&gt;Two areas in which many modern people are lacking development are
 &lt;strong&gt;memory&lt;/strong&gt; and &lt;strong&gt;muscle&lt;/strong&gt;. The urban, modern person is told to
 constantly make use of new &lt;em&gt;technology&lt;/em&gt; which substitutes for these
 both. Why &lt;em&gt;remember&lt;/em&gt; anything when Google can do it for you? What use
