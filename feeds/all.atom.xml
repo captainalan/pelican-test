@@ -1,5 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-12-15T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 83</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-83.html" rel="alternate"></link><published>2020-12-15T00:00:00-08:00</published><updated>2020-12-15T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-12-15:/pelican-test/corona-virus-diary-part-83.html</id><summary type="html">&lt;p&gt;Looking at the tools we have in front of ourselves today, an exercise
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2020-12-16T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 84</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-84.html" rel="alternate"></link><published>2020-12-16T00:00:00-08:00</published><updated>2020-12-16T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-12-16:/pelican-test/corona-virus-diary-part-84.html</id><summary type="html">&lt;p&gt;Some issues with many of the &lt;em&gt;platforms&lt;/em&gt; of the Internet is that they&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;subject your work to centralized control &lt;/li&gt;
+&lt;li&gt;restrict the &lt;em&gt;form&lt;/em&gt; of the content you can produce&lt;/li&gt;
+&lt;li&gt;may exercise editorial control over your content&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The idea of centralized control here is that by doing something like
+uploading a video …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Some issues with many of the &lt;em&gt;platforms&lt;/em&gt; of the Internet is that they&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;subject your work to centralized control &lt;/li&gt;
+&lt;li&gt;restrict the &lt;em&gt;form&lt;/em&gt; of the content you can produce&lt;/li&gt;
+&lt;li&gt;may exercise editorial control over your content&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The idea of centralized control here is that by doing something like
+uploading a video to YouTube, you are giving YouTube control over a
+lot of data. If you don't keep your own backups, YouTube might delete
+your work. On the other hand, the old adage that "when you do
+something on the Internet, assume it is there forever" rings
+true&amp;mdash;you can never really be sure that a platform like YouTube
+deletes something when you click the &lt;em&gt;delete&lt;/em&gt; button. For all you
+know, they have some big file collection of "things users wanted to
+delete". No matter what types of legislation are passed, you are
+forced to trust third parties to be faithful to their word. Oftentimes
+your arrangements with a big platform are very impersonal&amp;mdash;you
+are one data point, not a client to have a personal relationship with.&lt;/p&gt;
+&lt;p&gt;The second point here relates to &lt;em&gt;what form content you make&lt;/em&gt; can
+have. On Facebook, for instance, posts can only be so many characters
+long, cannot contain things like charts or even bold or italicized
+text, and will appear on users' screens in a way you have little
+control over. Formats like YouTube's videos now &lt;em&gt;appear&lt;/em&gt; much more
+free&amp;mdash;a kind of blank canvas to share content in many formats.
+However, any prolific video creator who makes relatively "high
+production value" videos will be able to tell you about how copyright
+strikes and other issues can erase hours of careful editing effort.&lt;/p&gt;
+&lt;p&gt;The third issue raised here is one that is very pertinent to anyone
+making any even slightly -controversial content&amp;mdash;you may bet
+"shadow banned" (removed from searches) or outright censored/deleted
+for your work.&lt;/p&gt;
+&lt;h2&gt;Solid foundations&lt;/h2&gt;
+&lt;p&gt;While there is no &lt;em&gt;final security&lt;/em&gt; in anything material in this world,
+we can look ahead at how certain platforms/places are more likely to
+cause us trouble than others and seek more &lt;em&gt;robust&lt;/em&gt; solutions.&lt;/p&gt;
+&lt;p&gt;For instance, having a &lt;em&gt;physical library&lt;/em&gt; is a good way to make sure
+you can access certain texts. While you may maintain digital copies
+for purposes like quick searching and indexing, it is not difficult to
+see how electronic copies (or even worse&amp;mdash;streaming/subscription
+services) can work against the person interested in storing/archiving
+valuable knowledge.&lt;/p&gt;
+&lt;p&gt;Before investing a lot of time in doing something like &lt;em&gt;building a
+YouTube following&lt;/em&gt; it is prudent to listen to people who have already
+invested thousands of hours into these platforms and then had their
+work demonetized or removed. Could they see this coming? How did they
+prepare? What did they wish they did(n't) do?&lt;/p&gt;
+&lt;p&gt;One strategy I'm trying here is to make all my stuff (mostly writing)
+in an easy to copy and distribute format&amp;mdash;git source controlled
+text files. So while today I may be using GitHub pages, I understand
+that GitHub might go bankrupt or decide to delete a lot of content or
+something else in the future. In such a case, I could just use a
+different host for the pretty generic files I have.&lt;/p&gt;
+&lt;p&gt;Archiving audio/video material is more complicated because these files
+are typically much much larger&amp;mdash;that is a topic I may have to
+look into further in the near future.&lt;/p&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 83</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-83.html" rel="alternate"></link><published>2020-12-15T00:00:00-08:00</published><updated>2020-12-15T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-12-15:/pelican-test/corona-virus-diary-part-83.html</id><summary type="html">&lt;p&gt;Looking at the tools we have in front of ourselves today, an exercise
 you can do is to ask &lt;em&gt;what sort of thing&lt;/em&gt; is some modern invention.
 For instance, before automobiles there were &lt;em&gt;chariots&lt;/em&gt;. Now, we have
 digital tablets but in earlier times there were &lt;em&gt;stone/clay tablets&lt;/em&gt;.
