@@ -60,7 +60,125 @@ something else in the future. In such a case, I could just use a
 different host for the pretty generic files I have.&lt;/p&gt;
 &lt;p&gt;Archiving audio/video material is more complicated because these files
 are typically much much larger&amp;mdash;that is a topic I may have to
-look into further in the near future.&lt;/p&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 83</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-83.html" rel="alternate"></link><published>2020-12-15T00:00:00-08:00</published><updated>2020-12-15T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-12-15:/pelican-test/corona-virus-diary-part-83.html</id><summary type="html">&lt;p&gt;Looking at the tools we have in front of ourselves today, an exercise
+look into further in the near future.&lt;/p&gt;</content><category term="News"></category></entry><entry><title>Modern UIs and the Rejection of Hierarchy</title><link href="https://captainalan.github.io/pelican-test/modern-uis-and-the-rejection-of-hierarchy.html" rel="alternate"></link><published>2020-12-16T00:00:00-08:00</published><updated>2020-12-16T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-12-16:/pelican-test/modern-uis-and-the-rejection-of-hierarchy.html</id><summary type="html">&lt;p&gt;I've been doing some listening/watching of Jonathan Pageau's &lt;a href="https://thesymbolicworld.com/"&gt;Symbolic
+World&lt;/a&gt; content which has got me
+thinking about symbols and meanings of lots of things around me. In
+this post I want to share a brief analysis of &lt;em&gt;ways to interact with a
+computer&lt;/em&gt; and how even in this area …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've been doing some listening/watching of Jonathan Pageau's &lt;a href="https://thesymbolicworld.com/"&gt;Symbolic
+World&lt;/a&gt; content which has got me
+thinking about symbols and meanings of lots of things around me. In
+this post I want to share a brief analysis of &lt;em&gt;ways to interact with a
+computer&lt;/em&gt; and how even in this area we see a &lt;em&gt;leveling of hierarchy&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;File Hierarchies&lt;/h2&gt;
+&lt;p&gt;Those familiar with Linux or any UNIX based operating system will know
+that the typical organization of a systems's files is hierarchical.
+Typically there is soom &lt;em&gt;root&lt;/em&gt; denoted &lt;code&gt;/&lt;/code&gt;. Below that there is often
+a directory &lt;code&gt;/home/&lt;/code&gt; under which users will have their personal files.
+My user files are under &lt;code&gt;/home/alan/&lt;/code&gt;, for instance. Users can then
+organize their files further with directories like
+&lt;code&gt;/home/alan/Documents/&lt;/code&gt;, &lt;code&gt;/home/alan/Downloads/&lt;/code&gt; and so on and so
+forth.&lt;/p&gt;
+&lt;p&gt;Like a tree where each branch becomes a "mini tree" in a kind of
+recursive process, we can see that individual projects/programs often
+employ a similar structure. Using the &lt;code&gt;tree&lt;/code&gt; utility, for instance, I
+can view the hierarchical structure this very file is found in.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;├── content&lt;/span&gt;
+&lt;span class="err"&gt;│   ├── [...]&lt;/span&gt;
+&lt;span class="err"&gt;│   ├── corona-virus-001.md&lt;/span&gt;
+&lt;span class="err"&gt;│   ├── corona-virus-002.md&lt;/span&gt;
+&lt;span class="err"&gt;│   ├── corona-virus-003.md&lt;/span&gt;
+&lt;span class="err"&gt;│   ├── [...] &lt;/span&gt;
+&lt;span class="err"&gt;│   ├── qwerty-theory.md&lt;/span&gt;
+&lt;span class="err"&gt;│   ├── search-anarchy.md&lt;/span&gt;
+&lt;span class="err"&gt;├── Makefile&lt;/span&gt;
+&lt;span class="err"&gt;├── [...]&lt;/span&gt;
+&lt;span class="err"&gt;├── README.md&lt;/span&gt;
+&lt;span class="err"&gt;└── tasks.py&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Each file has its place. To use a &lt;strong&gt;static site generator&lt;/strong&gt; you must
+put files in their correct place&amp;mdash;alongside other similar
+files&amp;mdash;otherwise you probably won't get the result you're going
+for &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;To become familiar with a system or software project, you will need to
+learn &lt;em&gt;where to find everything&lt;/em&gt;. That is, &lt;em&gt;what are the positions in
+the hierarchy&lt;/em&gt; and which files to go to in order to change the
+program's behavior. A skilled developer or administrator will know
+many quirks or tricks of some particular system.&lt;/p&gt;
+&lt;p&gt;Skilled developers of course aim to make systems that are easy to
+learn about and scale readily.&lt;/p&gt;
+&lt;h2&gt;The Flattened Search-based Model&lt;/h2&gt;
+&lt;p&gt;The MacBook tries to get rid of the need to understand file
+hierarchies and become familiar with projects like in the examples
+above. Using the Finder application, users simply &lt;em&gt;search&lt;/em&gt; and the
+computer (rather than the user) is tasked with finding the relevant
+files.&lt;/p&gt;
+&lt;p&gt;You have probably met someone with a very messy (computer) desktop.
+Today's powerpoint, last week's powerpoint, and e-mail attachments
+from some party you probably don't need to know about all litter the
+same (digital) space of the disordered desktop. For this sort of user,
+the Finder approach provides much help&amp;mdash;nowdays, you might not
+even need to choose meaningful &lt;em&gt;names&lt;/em&gt; for files because the Finder
+application might search &lt;em&gt;within&lt;/em&gt; files and make up keywords based on
+their contents. So &lt;code&gt;Unnamed document.docx&lt;/code&gt; might contain the words
+"biology homework" and a search for "Biology" might be able to point
+to this file even though the user didn't even bother to give it a
+meaningful name.&lt;/p&gt;
+&lt;p&gt;The Finder approach thus allows (or even &lt;em&gt;encourages&lt;/em&gt;) a sort of
+"organizational bankruptcy"&amp;mdash;giving up on keeping stuff
+well-ordered. You might as well dump everything into a folder called
+"Stuff" and let Finder retrieve the appropriate file(s).&lt;/p&gt;
+&lt;h2&gt;Smartphone App Prison&lt;/h2&gt;
+&lt;p&gt;The smartphone app model involves making a kind of "jail" for each
+thing you do&amp;mdash;an e-mail app, a music streaming app, a fitness
+tracking app&amp;mdash;whereby &lt;em&gt;integrating&lt;/em&gt; data between the many things
+you do is not easily done on a phone. Unlike on a desktop PC where you
+might pull up a spreadsheet alongside a word processor and write up an
+analysis or a report on last week's sales, the smartphone shafts most
+things into one small self-contained video-game-like interface.&lt;/p&gt;
+&lt;p&gt;There are some security and marketing advantages to this&amp;mdash;of
+course you don't want your app getting compromised because of a
+security flaw in someone else's app&amp;mdash;likewise you want to be able
+to monetize &lt;em&gt;your&lt;/em&gt; product.&lt;/p&gt;
+&lt;p&gt;But these advantages are more important for the &lt;em&gt;makers&lt;/em&gt; of the apps
+rather than the &lt;em&gt;users&lt;/em&gt;. It shouldn't matter much where a good tool
+comes from as long as it works well, and you shouldn't have to
+constantly think about its special features&amp;mdash;it should seamlessly
+facilitate your work as a kind of extension of your body.&lt;/p&gt;
+&lt;p&gt;Apps invert this relationship whereby tools are an extension of your
+body. Instead, &lt;em&gt;you&lt;/em&gt; become a &lt;em&gt;data point&lt;/em&gt; in an app's network. Rather
+than you exercising agency over a tool, popular apps to gather usage
+statistics on &lt;em&gt;you&lt;/em&gt; and charge &lt;em&gt;you&lt;/em&gt; for how you use the app. The tool
+profits from you using it. You are the eyes, ears, and mouth of the
+app&amp;mdash;the app makes you accept all liability for using it and can
+be taken from you at any time.&lt;/p&gt;
+&lt;h2&gt;Choosing tech, configuring for success&lt;/h2&gt;
+&lt;p&gt;If you're not going to spend much time with technology, it probably
+doesn't matter very much what you do. Most people I know, however, are
+stuck using computers and phones for many hours a day&amp;mdash;especially
+during all this COVID stuff. So we might as well get comfy with how to
+best channel these devices to &lt;em&gt;work for us&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;PCs are often preferable to smart phones. A well-ordered desktop is
+preferable to an indifferntiated pile of files and tools. Similar to
+how you might choose to furnish a room for particular
+purposes&amp;mdash;e.g. as a work room or as a dining room, we can also
+set up your computing environments to encourage &lt;em&gt;time well spent&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;While many aspects of using computers can be annoying, simple
+principles that would be applicable for organizing any workspace,
+whether online or offline, can help you be more productive and focused
+when using digital technology.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Here, all the files I wrote are in the &lt;strong&gt;Markdown&lt;/strong&gt; format
+denoted by the &lt;code&gt;.md&lt;/code&gt; extension. To make a new blog entry, I simply
+make a new markdown file, specify information like the title of my
+blog post and the date, and then run scripts in the &lt;code&gt;Makefile&lt;/code&gt; to
+&lt;em&gt;make&lt;/em&gt; my website.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Linux"></category></entry><entry><title>Corona Virus Diary, Part 83</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-83.html" rel="alternate"></link><published>2020-12-15T00:00:00-08:00</published><updated>2020-12-15T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2020-12-15:/pelican-test/corona-virus-diary-part-83.html</id><summary type="html">&lt;p&gt;Looking at the tools we have in front of ourselves today, an exercise
 you can do is to ask &lt;em&gt;what sort of thing&lt;/em&gt; is some modern invention.
 For instance, before automobiles there were &lt;em&gt;chariots&lt;/em&gt;. Now, we have
 digital tablets but in earlier times there were &lt;em&gt;stone/clay tablets&lt;/em&gt;.

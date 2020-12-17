@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <title>Modern UIs and the Rejection of Hierarchy</title>
+        <link rel="stylesheet" href="https://captainalan.github.io/pelican-test/theme/css/main.css" />
+        <link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Alan's Miscellaneous Stuff Blog Atom Feed" />
+        <meta name="description" content="I've been doing some listening/watching of Jonathan Pageau's Symbolic World content which has got me thinking about symbols and meanings of lots..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://captainalan.github.io/pelican-test/">Alan's Miscellaneous Stuff Blog</a></h1>
+                <nav><ul>
+                    <li><a href="https://captainalan.github.io/pelican-test/category/fun.html">Fun</a></li>
+                    <li><a href="https://captainalan.github.io/pelican-test/category/interwebs.html">Interwebs</a></li>
+                    <li><a href="https://captainalan.github.io/pelican-test/category/lifestyle.html">Lifestyle</a></li>
+                    <li class="active"><a href="https://captainalan.github.io/pelican-test/category/linux.html">Linux</a></li>
+                    <li><a href="https://captainalan.github.io/pelican-test/category/news.html">News</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://captainalan.github.io/pelican-test/modern-uis-and-the-rejection-of-hierarchy.html" rel="bookmark"
+           title="Permalink to Modern UIs and the Rejection of Hierarchy">Modern UIs and the Rejection of Hierarchy</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2020-12-16T00:00:00-08:00">
+                Published: Wed 16 December 2020
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://captainalan.github.io/pelican-test/author/alan-wong.html">Alan Wong</a>
+        </address>
+<p>In <a href="https://captainalan.github.io/pelican-test/category/linux.html">Linux</a>.</p>
+
+</footer><!-- /.post-info -->      <p>I've been doing some listening/watching of Jonathan Pageau's <a href="https://thesymbolicworld.com/">Symbolic
+World</a> content which has got me
+thinking about symbols and meanings of lots of things around me. In
+this post I want to share a brief analysis of <em>ways to interact with a
+computer</em> and how even in this area we see a <em>leveling of hierarchy</em>.</p>
+<h2>File Hierarchies</h2>
+<p>Those familiar with Linux or any UNIX based operating system will know
+that the typical organization of a systems's files is hierarchical.
+Typically there is soom <em>root</em> denoted <code>/</code>. Below that there is often
+a directory <code>/home/</code> under which users will have their personal files.
+My user files are under <code>/home/alan/</code>, for instance. Users can then
+organize their files further with directories like
+<code>/home/alan/Documents/</code>, <code>/home/alan/Downloads/</code> and so on and so
+forth.</p>
+<p>Like a tree where each branch becomes a "mini tree" in a kind of
+recursive process, we can see that individual projects/programs often
+employ a similar structure. Using the <code>tree</code> utility, for instance, I
+can view the hierarchical structure this very file is found in.</p>
+<div class="highlight"><pre><span></span><code><span class="err">├── content</span>
+<span class="err">│   ├── [...]</span>
+<span class="err">│   ├── corona-virus-001.md</span>
+<span class="err">│   ├── corona-virus-002.md</span>
+<span class="err">│   ├── corona-virus-003.md</span>
+<span class="err">│   ├── [...] </span>
+<span class="err">│   ├── qwerty-theory.md</span>
+<span class="err">│   ├── search-anarchy.md</span>
+<span class="err">├── Makefile</span>
+<span class="err">├── [...]</span>
+<span class="err">├── README.md</span>
+<span class="err">└── tasks.py</span>
+</code></pre></div>
+
+<p>Each file has its place. To use a <strong>static site generator</strong> you must
+put files in their correct place&mdash;alongside other similar
+files&mdash;otherwise you probably won't get the result you're going
+for <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<p>To become familiar with a system or software project, you will need to
+learn <em>where to find everything</em>. That is, <em>what are the positions in
+the hierarchy</em> and which files to go to in order to change the
+program's behavior. A skilled developer or administrator will know
+many quirks or tricks of some particular system.</p>
+<p>Skilled developers of course aim to make systems that are easy to
+learn about and scale readily.</p>
+<h2>The Flattened Search-based Model</h2>
+<p>The MacBook tries to get rid of the need to understand file
+hierarchies and become familiar with projects like in the examples
+above. Using the Finder application, users simply <em>search</em> and the
+computer (rather than the user) is tasked with finding the relevant
+files.</p>
+<p>You have probably met someone with a very messy (computer) desktop.
+Today's powerpoint, last week's powerpoint, and e-mail attachments
+from some party you probably don't need to know about all litter the
+same (digital) space of the disordered desktop. For this sort of user,
+the Finder approach provides much help&mdash;nowdays, you might not
+even need to choose meaningful <em>names</em> for files because the Finder
+application might search <em>within</em> files and make up keywords based on
+their contents. So <code>Unnamed document.docx</code> might contain the words
+"biology homework" and a search for "Biology" might be able to point
+to this file even though the user didn't even bother to give it a
+meaningful name.</p>
+<p>The Finder approach thus allows (or even <em>encourages</em>) a sort of
+"organizational bankruptcy"&mdash;giving up on keeping stuff
+well-ordered. You might as well dump everything into a folder called
+"Stuff" and let Finder retrieve the appropriate file(s).</p>
+<h2>Smartphone App Prison</h2>
+<p>The smartphone app model involves making a kind of "jail" for each
+thing you do&mdash;an e-mail app, a music streaming app, a fitness
+tracking app&mdash;whereby <em>integrating</em> data between the many things
+you do is not easily done on a phone. Unlike on a desktop PC where you
+might pull up a spreadsheet alongside a word processor and write up an
+analysis or a report on last week's sales, the smartphone shafts most
+things into one small self-contained video-game-like interface.</p>
+<p>There are some security and marketing advantages to this&mdash;of
+course you don't want your app getting compromised because of a
+security flaw in someone else's app&mdash;likewise you want to be able
+to monetize <em>your</em> product.</p>
+<p>But these advantages are more important for the <em>makers</em> of the apps
+rather than the <em>users</em>. It shouldn't matter much where a good tool
+comes from as long as it works well, and you shouldn't have to
+constantly think about its special features&mdash;it should seamlessly
+facilitate your work as a kind of extension of your body.</p>
+<p>Apps invert this relationship whereby tools are an extension of your
+body. Instead, <em>you</em> become a <em>data point</em> in an app's network. Rather
+than you exercising agency over a tool, popular apps to gather usage
+statistics on <em>you</em> and charge <em>you</em> for how you use the app. The tool
+profits from you using it. You are the eyes, ears, and mouth of the
+app&mdash;the app makes you accept all liability for using it and can
+be taken from you at any time.</p>
+<h2>Choosing tech, configuring for success</h2>
+<p>If you're not going to spend much time with technology, it probably
+doesn't matter very much what you do. Most people I know, however, are
+stuck using computers and phones for many hours a day&mdash;especially
+during all this COVID stuff. So we might as well get comfy with how to
+best channel these devices to <em>work for us</em>.</p>
+<p>PCs are often preferable to smart phones. A well-ordered desktop is
+preferable to an indifferntiated pile of files and tools. Similar to
+how you might choose to furnish a room for particular
+purposes&mdash;e.g. as a work room or as a dining room, we can also
+set up your computing environments to encourage <em>time well spent</em>.</p>
+<p>While many aspects of using computers can be annoying, simple
+principles that would be applicable for organizing any workspace,
+whether online or offline, can help you be more productive and focused
+when using digital technology.</p>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Here, all the files I wrote are in the <strong>Markdown</strong> format
+denoted by the <code>.md</code> extension. To make a new blog entry, I simply
+make a new markdown file, specify information like the title of my
+blog post and the date, and then run scripts in the <code>Makefile</code> to
+<em>make</em> my website.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="https://captainalan.github.io/">Homepage</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="https://github.com/captainalan">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/alan-wong-bb342569/">Linked In</a></li>
+                            <li><a href="https://www.facebook.com/captainalan">Facebook</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
