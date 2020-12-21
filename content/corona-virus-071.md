@@ -56,8 +56,8 @@ Rather, the point to be emphasized here is that it is of utmost
 importants to not adopt a kind of **fatalistic** attittude when we are
 dealing with things that are *within our control*. The mindsets we
 assume and how we relate to others are things unlike the weather,
-politics, and what your native language are in that we can active
-choices to be changed *now* with respect to these.
+politics, and what your native language are in that we can actively
+choose to be changed *now* with respect to these.
 
 [^1]: Suffering "toxic" people may constantly insult you&mdash;it may be
 best to just get away from these type of people because they will
