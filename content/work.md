@@ -310,7 +310,7 @@ We should likewise be "frugal" (not *miserly*) in the sense that we
 aim to be efficient rather than wasteful. Do you *eat to live* or
 *live to eat*? Nothing wrong with enjoying nice food when you have it,
 but working an extra 20 hours a week to blow on (unnecessary)
-alcol/drugs/luxuries might not be the most prudent use of
+alcohol/drugs/luxuries might not be the most prudent use of
 time&mdash;especially if these things aren't consumed in a way that
 develops something else, such as (human) networks.
 
