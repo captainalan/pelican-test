@@ -1,5 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-01-20T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 95</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-95.html" rel="alternate"></link><published>2021-01-20T00:00:00-08:00</published><updated>2021-01-20T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-01-20:/pelican-test/corona-virus-diary-part-95.html</id><summary type="html">&lt;p&gt;You can often identify groups of people by the words and phrases they
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-01-26T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 96</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-96.html" rel="alternate"></link><published>2021-01-26T00:00:00-08:00</published><updated>2021-01-26T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-01-26:/pelican-test/corona-virus-diary-part-96.html</id><summary type="html">&lt;p&gt;For those out there with some experience bossing around computers, you
+may have heard the terms "&lt;strong&gt;higher level&lt;/strong&gt;" versus "&lt;strong&gt;lower level&lt;/strong&gt;"
+programming. "Lower level" work refers to doing things &lt;em&gt;closer to the
+hardware&lt;/em&gt;&amp;mdash;working with computer architecture, sensors on
+Raspberri pis, and stuff like that. You are &lt;em&gt;closer to the …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;For those out there with some experience bossing around computers, you
+may have heard the terms "&lt;strong&gt;higher level&lt;/strong&gt;" versus "&lt;strong&gt;lower level&lt;/strong&gt;"
+programming. "Lower level" work refers to doing things &lt;em&gt;closer to the
+hardware&lt;/em&gt;&amp;mdash;working with computer architecture, sensors on
+Raspberri pis, and stuff like that. You are &lt;em&gt;closer to the machines&lt;/em&gt;.
+In contrast, "higher level" programming deals with stuff closer to the
+"end user". So, doing front-end web programming "higher level"
+programming relative to working on optimizing operating systems. As
+these terms imply, higher vs lower level programming is a &lt;em&gt;relative&lt;/em&gt;
+thing, and one should not get too caught up bickering and in
+categorizing stuff.&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;What is the lowest level programming? Using some definition of
+"programming" that is "giving instructions to machines", the simplest
+instruction is probably to flip some switch on or off. The "computer"
+this can be implemented on can be any number of things. For example,
+you could do arithmetic on an abacus, in which the switches are itself
+the "display". You could likewise communicate over long distances
+using a system of flags to send coded messages.&lt;/p&gt;
+&lt;p&gt;The "higher level" programming beyond this then is organizing systems
+such that work you want to get done is done consistently&amp;mdash;and if
+you set it up correctly, with little or no intervention on your part
+(as the "programmer").&lt;/p&gt;
+&lt;p&gt;In this sense, we can call &lt;strong&gt;entrepreneurship&lt;/strong&gt; as an even &lt;em&gt;higher
+level&lt;/em&gt; of programming than say JavaScript web applications. We can say
+"&lt;strong&gt;business&lt;/strong&gt;" is the operation of systems/programs set up by the big
+branes and risk takers who connect &lt;strong&gt;inputs&lt;/strong&gt; (money, labor) to
+&lt;strong&gt;outputs&lt;/strong&gt; (money, goods, services).&lt;/p&gt;
+&lt;p&gt;As explored in some earlier posts, really, each person is a kind of
+"small business" in the sense that we all have to buy stuff, spend
+money, and so on and so forth. Just how we get money to fund our
+habits differ from person to person&amp;mdash;some people work a normal
+9-5 job, others do trading of some sort (e.g. real estate, stocks),
+some mostly inherit wealth, and so on and so forth. Likewise, everyone
+lives &lt;em&gt;somewhere&lt;/em&gt;&amp;mdash;not everyone has a house of course, but we all
+occupy the same earth together.&lt;/p&gt;
+&lt;p&gt;Given that we are all capable of doing all sorts of labor, and by
+virtue of being alive and having &lt;em&gt;time&lt;/em&gt; each day, the question
+presents itself&amp;mdash;towards what ends will I use &lt;em&gt;myself&lt;/em&gt;, a being
+cooler than any gaming PC ever?!&lt;/p&gt;
+&lt;p&gt;Establishing discipline, getting organized, and being focused on goals
+are essential things to do when writing effective computer programs.
+Similarly, when we look at organizing &lt;em&gt;higher levels&lt;/em&gt; of how &lt;em&gt;we&lt;/em&gt;
+operate, we can seek to improve the efficiency of our operations. &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Many nerds on the Internet, for instance, have had the debate
+"what is &lt;strong&gt;programming&lt;/strong&gt; vs &lt;strong&gt;scripting&lt;/strong&gt;, wherein "scripting"
+usually implies a relatively high level language.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;On YouTuber Alex Becker's channel I heard this funny
+thing&amp;mdash; "everyone is who they want to be in the Sims". That
+is, in some video game, if you could &lt;em&gt;choose&lt;/em&gt; how to live a
+fantastic life given some inputs and outputs, most people would
+live quite differently than how they live day to day (e.g. just
+&lt;em&gt;click a button&lt;/em&gt; to go get exercise everyday; how many people do
+this?). Often, it is what are called the &lt;em&gt;passions&lt;/em&gt; in traditional
+Christian writings that we yield control to, and in doing so
+subject ourselves to doing things we wouldn't allow ourselves to
+do if we were somehow "disembodied" or looking at our bodies from
+a "third person perspective".&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 95</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-95.html" rel="alternate"></link><published>2021-01-20T00:00:00-08:00</published><updated>2021-01-20T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-01-20:/pelican-test/corona-virus-diary-part-95.html</id><summary type="html">&lt;p&gt;You can often identify groups of people by the words and phrases they
 use. For instance, members of the same corporation may be familiar
 with some same corporate jargon and likewise those that make up the
 "fandom" of some book series/movie/etc may often share
