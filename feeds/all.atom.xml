@@ -1,5 +1,291 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-01-26T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 96</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-96.html" rel="alternate"></link><published>2021-01-26T00:00:00-08:00</published><updated>2021-01-26T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-01-26:/pelican-test/corona-virus-diary-part-96.html</id><summary type="html">&lt;p&gt;For those out there with some experience bossing around computers, you
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-02-08T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 98</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-98.html" rel="alternate"></link><published>2021-02-08T00:00:00-08:00</published><updated>2021-02-08T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-08:/pelican-test/corona-virus-diary-part-98.html</id><summary type="html">&lt;p&gt;Today's post treats &lt;strong&gt;STEM&lt;/strong&gt;&amp;mdash;Science Technology Engineering
+Math&amp;mdash;and how an emphasis on training people in these areas fits
+into a broader narrative of &lt;em&gt;what&lt;/em&gt; society is and how individuals
+&lt;em&gt;should&lt;/em&gt; fit into it.&lt;/p&gt;
+&lt;p&gt;You may have heard some quote about "technology being
+indistinguishable from magic" or something similar. Indeed …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Today's post treats &lt;strong&gt;STEM&lt;/strong&gt;&amp;mdash;Science Technology Engineering
+Math&amp;mdash;and how an emphasis on training people in these areas fits
+into a broader narrative of &lt;em&gt;what&lt;/em&gt; society is and how individuals
+&lt;em&gt;should&lt;/em&gt; fit into it.&lt;/p&gt;
+&lt;p&gt;You may have heard some quote about "technology being
+indistinguishable from magic" or something similar. Indeed this is
+often the case, as I will lay out in this article&amp;mdash;the complexity
+of modern technology often requires people to be highly specialized,
+and thus put in containers/modules/departments in which they have
+relatively narrow knowledge of how &lt;em&gt;the system&lt;/em&gt; as a whole operates.&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2&gt;The good and practical&lt;/h2&gt;
+&lt;p&gt;Clearly, there are many things you can learn from studying STEM. In
+terms of "soft skills", the STEM fields have objective criteria by
+which to evaluate students. It is not a clear-cut question which of
+two essays is better, however a definite winner can be declared
+between which of two student performed some large number of
+calculations correctly.&lt;/p&gt;
+&lt;p&gt;Studying STEM fields trains students to be careful and to recognize
+when they make errors. It can also teach teamwork, as working on
+complex projects with teams will require breaking up tasks, some
+people taking up leadership roles, and so on and so forth. In
+contrast, students in fields like the humanities may find that their
+in-depth studying and hard hours of work are often spent
+alone&amp;mdash;for some students this can lead to agnonizing self-doubt
+("imposter syndrome") while for others, unwarranted self-confidence
+can produce more confusion rather than clarity in the academic space.&lt;/p&gt;
+&lt;p&gt;You can look field by field, but generally speaking you will find many
+viable, well-compensated career paths in STEM.&lt;/p&gt;
+&lt;p&gt;The stereotypes about immmigrant parents wanting their children to go
+into STEM mainly&amp;mdash;I think&amp;mdash;have to deal with this idea of
+good economic opportunity. That is why, if you instead landed a job as
+a lawyer or a highly paid real estate agent or so on and so forth,
+this would be OK in the eyes of most "practical" people. You probably
+wouldn't be accused of abandoning the noble pursuit of truth and
+giving up on engineering utopia. Rather, you would be recognized for
+having chosen another path that pays the bills and is respectable in
+society.&lt;/p&gt;
+&lt;h2&gt;"Science", "Technology", "Engineering", and "Math" are Different&lt;/h2&gt;
+&lt;p&gt;Here's some broad definitions,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Science&lt;/strong&gt;: using testing to improve methods of doing things &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technology&lt;/strong&gt;: using tools&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Engineering&lt;/strong&gt;: building stuff&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Math&lt;/strong&gt;: shuffling symbols&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Science&lt;/h3&gt;
+&lt;p&gt;To talk about "science", you will need to understand the model(s) you
+are working with. Someone could work in a lab, take measurements,
+dispose of toxic chemicals, and so on &lt;em&gt;without understanding why they
+are doing what they are doing&lt;/em&gt; (at least from a &lt;em&gt;scientific&lt;/em&gt;
+perspective; that person probably knows they want to keep their job
+and get paid).&lt;/p&gt;
+&lt;p&gt;The term &lt;strong&gt;"science"&lt;/strong&gt; is used in many ways. One common way it is used
+is "the consensus view of (expert) scientists". So a person that is
+called a "science denier" is one who rejects a main stream view which
+is predicated as being a "scientific fact".&lt;/p&gt;
+&lt;p&gt;Philosophically, the above views are quite... uninformed. Statistical
+methods (which are used in all sorts of science) offer a practical
+solution to &lt;em&gt;the problem of induction&lt;/em&gt;&amp;mdash;how do we move from
+particular observations to generalized patterns? Statistical methods
+allow us to make sense of many measurements, manage the "noise" of
+accident/variation, and then use that information to refine models
+about how stuff works.&lt;/p&gt;
+&lt;p&gt;Lots of the &lt;em&gt;math&lt;/em&gt; of the Science of STEM has to deal with creating
+well-defined (mathematical) models of stuff. For instance, if you're
+predicting some fruit fly population will grow &lt;em&gt;exponentially&lt;/em&gt; you
+will need to have a mathematical model to describe how some
+&lt;em&gt;independent variables&lt;/em&gt; you control (like number of flies you are
+starting with, how much of some sugar solution you're feeding them
+with) corresponds with some &lt;em&gt;dependent variables&lt;/em&gt;, probably the
+population of flies, but you might also study other things like &lt;em&gt;rate
+of mutation&lt;/em&gt; by counting flies born with 4 eyes or something.&lt;/p&gt;
+&lt;p&gt;Note that for science to "work" you just have to do the scientific
+paperwork, propose more experiments, and so on. Science doesn't have
+to produce &lt;em&gt;results&lt;/em&gt; beyond some &lt;em&gt;information&lt;/em&gt;, e.g. that X works
+better than Y to get Z result.&lt;/p&gt;
+&lt;h3&gt;Engineering&lt;/h3&gt;
+&lt;p&gt;Let's contrast the above thing with &lt;strong&gt;engineering&lt;/strong&gt;, which I called
+"building stuff". &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt; Engineering might use many models developed by
+scientists. Engineers apply models to solve "real-world problems". So
+in addition to having engineers build things like rockets, we can also
+have "engineers" building other types of systems. The two areas I have
+looked most at are &lt;em&gt;productivity/workflow&lt;/em&gt; and &lt;em&gt;software engineering&lt;/em&gt;
+(and also the intersection of those two areas).&lt;/p&gt;
+&lt;p&gt;One thing I realized being in the social sciences is that lots of the
+engineering that is done is for the purpose of &lt;strong&gt;social
+engineering&lt;/strong&gt;&amp;mdash;that is, designing how society at large should
+run. Let's give some examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Education: figure out how to get students to assimilate bodies of
+  knowledge, develop certain attitudes towards institutions/authority&lt;/li&gt;
+&lt;li&gt;Personality tests: quantify traits to optimize things like "career fit"&lt;/li&gt;
+&lt;li&gt;Linguistics: measure and correlate aspects of speech with societally
+  relevant categories&amp;mdash;race/ethnicity, gender, class, etc &lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Software engineering: creating the systems/channels by which people
+  communicate, shop, submit homework assignments, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note that engineering requires you have the &lt;em&gt;infrastucture&lt;/em&gt; in place
+to implement some system. You can't do much with software engineering
+to a place that isn't already all hooked up to computers. In today's
+world, where everything from banking to grocery deliveries gets routed
+through digital channels, software engineering controls powerful
+systems indeed. Studying "education" as a type of engineering requires
+that you have the schools/system set up in order to dispatch the
+products created by scientific teams (who look at stuff like
+standardized tests). Without a homogenous/controlled setting, the
+&lt;em&gt;science&lt;/em&gt; that feeds the engineering can't be done.&lt;/p&gt;
+&lt;h3&gt;Technology&lt;/h3&gt;
+&lt;p&gt;Is becoming a plumber pursuing a STEM career? I would say &lt;em&gt;yes&lt;/em&gt; in the
+sense that a plumber deals with plumbing technology; they maintain
+systems that require specialized training to work on. Simialrly, in my
+work as a web programmer, I've described myself as an "&lt;strong&gt;internet
+plumber&lt;/strong&gt;". I work with the (data) pipes of the Internet, usually
+working on making pretty sinks (front-end, web design) which can
+interface with existing services (pipes, sewage system).&lt;/p&gt;
+&lt;p&gt;The tech industries of 20 or so years ago might have been dealing with
+big UNIX mainframe things, writing &lt;code&gt;bash&lt;/code&gt; scripts, and so on and so
+forth (nerd talk). Nowadays, lots of tech work takes new
+names&amp;mdash;such as &lt;strong&gt;DevOps&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;What brings all "technology" work together is that you are &lt;em&gt;using&lt;/em&gt;
+previously engineered things (which may be informed by &lt;em&gt;scientific&lt;/em&gt;
+studies).&lt;/p&gt;
+&lt;h3&gt;Math&lt;/h3&gt;
+&lt;p&gt;Math is shuffling symbols according to rules. You can know what is
+"right" and "wrong" in math because you're dealing with abstractions.&lt;/p&gt;
+&lt;h2&gt;What isn't STEM&lt;/h2&gt;
+&lt;p&gt;As discussed above, lots of STEM has to deal with designing,
+manufuacturing, and using technology. Obviously, there's a lot of
+interest and money (no pun intended, har har) behind this
+stuff&amp;mdash;as a society, we're constantly pushing towards a more
+"technological" society. You can see this in all sectors of industry,
+from agriculture/farming to healthcare to education. Much of it is
+centered around &lt;em&gt;technology&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;So, what is &lt;em&gt;not&lt;/em&gt; STEM? One way I think about this is... disregard or
+indifference to technology. You can use whatever technology is
+available to you as it is useful, but your activities need not be
+driven by technologies.&lt;/p&gt;
+&lt;p&gt;Consider,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A restaurant that uses traditional methods of preparation&lt;/li&gt;
+&lt;li&gt;A teacher that likes to use the blackboard, memorization techniques,
+  and other "low-tech" solutions&lt;/li&gt;
+&lt;li&gt;Organic farming &lt;/li&gt;
+&lt;li&gt;Trader/merchant&amp;mdash;will use stuff like stock exchanges, but would
+  just as easily trade at the Bazaar in another time and placd&lt;/li&gt;
+&lt;li&gt;Going for a walk/run, lifting heavy objects, doing
+  calisthenics&amp;mdash;doesn't need the latest fancy "exercise science";
+  sweat and discipline are the essential ingredients&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note that the above approaches are not "un-scientific" in the sense
+that you can certainly test stuff, learn from data, and so on and so
+forth &lt;em&gt;and also choose to go with an older, time-tested way of doing
+things&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;Conclusions&lt;/h2&gt;
+&lt;p&gt;Pushing STEM sounds good in the sense that we want people to be able
+to live lives where they can work hard, increase in understanding and 
+learn to better serve one another with whatever tools are available.
+For this reason, it is a pretty politically correct thing to promote
+STEM broadly and ideas like "teaching kids JavaScript" sound appealing
+to many.&lt;/p&gt;
+&lt;p&gt;Stepping back though, we can see how the promotion of STEM is
+predicated on a kind of technophilic worldview&amp;mdash;a society that is
+built around the continued development of technology and pushing these
+things into all aspects of life.&lt;/p&gt;
+&lt;p&gt;Just as talk about "globalization" has been presented as a kind of
+inevitable thing that will just happen to us, we hear similar talk
+about how we're just going to &lt;em&gt;have to deal with robots and
+Aritificial Intelligence replacing humans&lt;/em&gt;. Why is this?&lt;/p&gt;
+&lt;p&gt;As discussed in this article, it all falls under the ideology of lots
+of STEM-think&amp;mdash;designing systems that are engineered to be
+fault-proof (by getting rid of the pesky human element) &lt;sup id="fnref:4"&gt;&lt;a class="footnote-ref" href="#fn:4"&gt;4&lt;/a&gt;&lt;/sup&gt; The
+prevailing narrative is that using technology, we've created a
+healthier society, where we have better control of disease and famine,
+and where equality/human rights are better than ever.&lt;/p&gt;
+&lt;p&gt;You can go for a walk outside and let me know if you think that is the
+case.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;That is, you can be doing specific tasks&amp;mdash;like writing
+programs&amp;mdash;while being completely unaware with where the
+funding comes from such that you can write those programs, to what
+purposes your programs will be used, and so on&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;I first thought a lot about this contrast between &lt;em&gt;science&lt;/em&gt; and
+&lt;em&gt;engineering&lt;/em&gt; when I read Elon Musk's biography by Ashley Vance; a
+kinda modern "classic" like that thick tome on Steve Jobs&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;This is "&lt;strong&gt;sociolinguistics&lt;/strong&gt;", but other subfields of
+linguistics are put to the same purposes. For example, an
+ethnographic study may be sponsored by a group that wants to
+introduce a particular type of education to a relatively isolated
+people group&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:4"&gt;
+&lt;p&gt;You can't give a vending machine a complicated custom order; by
+designing systems that limit choices you can engineer away
+"inefficiency" through constraint&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 97</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-97.html" rel="alternate"></link><published>2021-01-27T00:00:00-08:00</published><updated>2021-01-27T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-01-27:/pelican-test/corona-virus-diary-part-97.html</id><summary type="html">&lt;p&gt;The subject of this post is &lt;strong&gt;idle learning/study&lt;/strong&gt; which can be
+contrasted with learning/study that is &lt;em&gt;profitable&lt;/em&gt;. I've been very
+guilty of learning about all sorts of stuff&amp;mdash;often things that
+nobody asked me to learn and really that nobody near me is too
+interested in.&lt;/p&gt;
+&lt;p&gt;The reasons …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The subject of this post is &lt;strong&gt;idle learning/study&lt;/strong&gt; which can be
+contrasted with learning/study that is &lt;em&gt;profitable&lt;/em&gt;. I've been very
+guilty of learning about all sorts of stuff&amp;mdash;often things that
+nobody asked me to learn and really that nobody near me is too
+interested in.&lt;/p&gt;
+&lt;p&gt;The reasons I have done this so much are many, but there are some big
+trends. First, we have a culture (in the West, United States) that
+gives some prestige to "trivia" in these sense of "knowing random
+stuff". One might say that much of entertainment is predicated on
+this&amp;mdash;more sports games, for instance, generate more statistics
+for people to know about. Without some immediate work/task in front of
+me or another clear goal, I have been lead into a lot of &lt;em&gt;idle study&lt;/em&gt;
+to just do &lt;em&gt;something&lt;/em&gt; potentially useful in times when I lacked
+direction. Second, there is the matter of &lt;em&gt;ego/pride&lt;/em&gt;. You may be
+aware of the "condescending nerd" stereotype&amp;mdash;some tech
+professional looking down on everyone who doesn't have the exact
+domain-specific knowledge he does. There is a sense in which the IT
+guy is &lt;em&gt;right&lt;/em&gt; in that he does know stuff others don't. But the
+arrogance of the IT guy is misplaced in that his own skills may go
+obsolete (and so he could get fired), there are other people more
+skilled than him even in his domain, and of course the people he is
+looking down on probably know lots about other (useful) things he
+doesn't know&amp;mdash;e.g. a CEO may be hiring him to do some tech stuff
+as to not have to waste valuable time with some really confusing
+technology.&lt;/p&gt;
+&lt;p&gt;Third, I think that having general world knowledge and doing
+exploratory study of various things is not bad in of itself.
+Similarly, &lt;em&gt;cake&lt;/em&gt; itself isn't evil, but of course you shouldn't eat
+cake everyday. Similarly, getting distracted by random this-and-that
+when there are more important matters to attend to.&lt;/p&gt;
+&lt;h2&gt;"Market Backwards" Approach to Learning&lt;/h2&gt;
+&lt;p&gt;I've been studying some entrepreneurs on YouTube. Specifically, I've
+been looking at the work of &lt;strong&gt;FIRE&lt;/strong&gt; (Frugal Investment Retire Early)
+type approaches. Lots of interesting people in this sphere...!&lt;/p&gt;
+&lt;p&gt;One fellow, Sam Ovens, shared a thought I found particularly helpful
+in a video titled something along the lines of "You don't have to be
+an expert" (I'm typing this on a slow computer so I will not dig up
+the specific video now&amp;mdash;we can discuss the idea even without me
+digging up the timestamp and URL!). What Sam shared was this idea of
+the &lt;strong&gt;"market backwards&lt;/strong&gt;" approach.&lt;/p&gt;
+&lt;p&gt;Rather than getting some skills (e.g. &lt;code&gt;LEARN TO CODE&lt;/code&gt;) and then
+rushing to the market to see how those skills may fit in to the
+current marketplace wherever you may happen to be (this would be
+called the "market forwards" approach), you &lt;em&gt;start with the market&lt;/em&gt;,
+looking at what sorts of problems people have which they would &lt;em&gt;pay
+money&lt;/em&gt; to have solved.&lt;/p&gt;
+&lt;p&gt;Then, you can learn the appropriate skills in a short-ish period of
+time to accomplish whatever you need to. For many things, you don't
+even need to become an expert. Let's look at &lt;em&gt;creating a website&lt;/em&gt; for
+instance. There are many Wordpress experts out there&amp;mdash;should you
+become one of these people? Maybe if you have a job lined up, this may
+be a good idea (that is, there is a &lt;em&gt;market waiting for you&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;A better approach, however, might be to hire out the appropriate nerd
+labor &lt;em&gt;OR&lt;/em&gt; to just use some adequately flexible template type system
+that is already tried and true in the marketplace to accomplish your
+website building needs. Rather than hiring or training an expensive
+developer (this may be spending $100k or so a year), you can learn
+enough about web technologies to know what &lt;em&gt;you want&lt;/em&gt; and then take
+care of the business side of things making sure the right work gets
+done rather than wasting your time being frustrated over some large
+tech company's choices of software design.&lt;/p&gt;
+&lt;h2&gt;Advantages of Exploratory Learning&lt;/h2&gt;
+&lt;p&gt;Knowing various things about various stuff can be useful for getting
+connected with different people, finding new clients, and so on and so
+forth. Retarding language learning, you may have heard that "just a
+little bit of time spent learning the language of a country you are
+going to visit will really impress the locals".&lt;/p&gt;
+&lt;p&gt;More generally&amp;mdash;people appreciate it when you put forth even a
+little bit of effort to understand them&amp;mdash;this often means
+understanding what sorts of problems they have to deal with. This also
+might mean &lt;em&gt;business opportunitites&lt;/em&gt; for you; by listening to people
+and finding out what they need, you also position yourself to figure
+out how to have a mutually beneficial relationship where you provide
+the desired/good services. &lt;/p&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 96</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-96.html" rel="alternate"></link><published>2021-01-26T00:00:00-08:00</published><updated>2021-01-26T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-01-26:/pelican-test/corona-virus-diary-part-96.html</id><summary type="html">&lt;p&gt;For those out there with some experience bossing around computers, you
 may have heard the terms "&lt;strong&gt;higher level&lt;/strong&gt;" versus "&lt;strong&gt;lower level&lt;/strong&gt;"
 programming. "Lower level" work refers to doing things &lt;em&gt;closer to the
 hardware&lt;/em&gt;&amp;mdash;working with computer architecture, sensors on
