@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-02-11T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 99</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-99.html" rel="alternate"></link><published>2021-02-11T00:00:00-08:00</published><updated>2021-02-11T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-11:/pelican-test/corona-virus-diary-part-99.html</id><summary type="html">&lt;p&gt;A common thing you'll hear from people who've "made it" is that &lt;em&gt;they
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-02-12T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 100</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-100.html" rel="alternate"></link><published>2021-02-12T00:00:00-08:00</published><updated>2021-02-12T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-12:/pelican-test/corona-virus-diary-part-100.html</id><summary type="html">&lt;p&gt;Is it time to throw a hundreth post party?! Nah; let's instead talk
+about how &lt;em&gt;counting&lt;/em&gt; and numerical measures in general are used as
+(artificial) markers.&lt;/p&gt;
+&lt;p&gt;What is the significance of a 100th post? That a blog has been going
+on for a while? Why not celebrate a 98th post …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Is it time to throw a hundreth post party?! Nah; let's instead talk
+about how &lt;em&gt;counting&lt;/em&gt; and numerical measures in general are used as
+(artificial) markers.&lt;/p&gt;
+&lt;p&gt;What is the significance of a 100th post? That a blog has been going
+on for a while? Why not celebrate a 98th post? Especially considering
+that I don't write new posts here on a regular schedule (e.g. daily),
+what does "100" even signify?&lt;/p&gt;
+&lt;p&gt;Here is where we start to talk about &lt;em&gt;meaning&lt;/em&gt;. Different numbers &lt;em&gt;do
+mean different things to people&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;If Bitcoin goes above $50k soon, that will be a psychological
+significant marker. It is "halfway to $100k".&lt;/p&gt;
+&lt;p&gt;Numbers are words we use to describe reality just like other words.
+For many people, just adding numbers to stuff makes it sound "smart".
+Spouting a bunch of numbers is sufficient to confound many people and
+make them accept you as an expert. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2&gt;The Cult of Data-Driven Decision Making&lt;/h2&gt;
+&lt;p&gt;People these days are obsessed with counting stuff and then turning
+knobs and flipping switches to optimize things. While certainly there
+is a time and a place to optimize stuff, the efficacy of optimizations
+can only help as far as the underlying assumptions about how some
+system works.&lt;/p&gt;
+&lt;p&gt;So for example, an educator might optimize some cirriculum such that
+students score as high as possible on some kind of standardized test.&lt;/p&gt;
+&lt;p&gt;Has &lt;em&gt;LEARNING&lt;/em&gt; therefore been optimized?&lt;/p&gt;
+&lt;p&gt;Well, the students may improve at taking some specific type of test,
+but this doesn't imply that education got "better" in a more holistic
+sense.&lt;/p&gt;
+&lt;p&gt;Similarly, people might apply this sort of thinking to topics like
+diet. Someone might try to go for a maximum "low-fat" or "low-carb"
+diet. Sure, there are correlations between certain metrics, but does
+optimizing for one of these things miss other important "big-picture"
+questions like &lt;em&gt;what is my relationship to food&lt;/em&gt; (to begin with).
+Furthermore, only looking at metrics like those found on nutrition
+fact labels may not distinguish between important considerations about
+what we're eating&amp;mdash;is "grass fed" the same as "normal" meat?&lt;/p&gt;
+&lt;p&gt;Putting on the blinders of numbers can be helpful for focusing and
+improving certain systems. However, as illustrated by the &lt;strong&gt;thought
+experiment&lt;/strong&gt; of the "Artificial Intelligence" system that decides to
+exterminate all humans in order to optimize paper-clip production,
+narrowly specified goals (often which rely on some numeric accounting
+thing) can lead us to engineer our own destruction.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Please don't use this tactic.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 99</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-99.html" rel="alternate"></link><published>2021-02-11T00:00:00-08:00</published><updated>2021-02-11T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-11:/pelican-test/corona-virus-diary-part-99.html</id><summary type="html">&lt;p&gt;A common thing you'll hear from people who've "made it" is that &lt;em&gt;they
 didn't teach XYZ in school&lt;/em&gt;. For instance, who went to public school
 to learn &lt;strong&gt;personal finance&lt;/strong&gt;?&lt;/p&gt;
 &lt;p&gt;Indeed, there are a great many things you don't learn in school
