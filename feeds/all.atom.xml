@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-02-12T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 100</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-100.html" rel="alternate"></link><published>2021-02-12T00:00:00-08:00</published><updated>2021-02-12T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-12:/pelican-test/corona-virus-diary-part-100.html</id><summary type="html">&lt;p&gt;Is it time to throw a hundreth post party?! Nah; let's instead talk
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-02-13T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 101</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-101.html" rel="alternate"></link><published>2021-02-13T00:00:00-08:00</published><updated>2021-02-13T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-13:/pelican-test/corona-virus-diary-part-101.html</id><summary type="html">&lt;p&gt;Today I decided to try to make some old computers I have talk to each other.&lt;/p&gt;
+&lt;p&gt;The first thing I did was spin up a local web server. This gave me a website
+viewable over my local network.&lt;/p&gt;
+&lt;h2&gt;Python web server&lt;/h2&gt;
+&lt;p&gt;Using an old laptop running Linux (Manjaro), I ran …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Today I decided to try to make some old computers I have talk to each other.&lt;/p&gt;
+&lt;p&gt;The first thing I did was spin up a local web server. This gave me a website
+viewable over my local network.&lt;/p&gt;
+&lt;h2&gt;Python web server&lt;/h2&gt;
+&lt;p&gt;Using an old laptop running Linux (Manjaro), I ran&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;python3 -m http.server &lt;span class="m"&gt;8000&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;I found my ip address with &lt;code&gt;ip address&lt;/code&gt;.  It was something like
+&lt;code&gt;192.168.1.NNN&lt;/code&gt;, where &lt;code&gt;N&lt;/code&gt; is some integer.  I am just doing stuff on a
+wireless network, so I looked for my ethernet card thing.&lt;/p&gt;
+&lt;p&gt;I went onto a browser on another computer (a "normal" Windows machine) on this
+same network.  I typed in the URL bar, &lt;code&gt;192.168.1.NNN:8000&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;My files were visible! Web server started successfully! I have created my own
+little digital kingdom!&lt;/p&gt;
+&lt;h2&gt;SSH server&lt;/h2&gt;
+&lt;p&gt;Craving unlimited power, I followed a tutorial by &lt;a href="https://austingwalters.com/configure-ssh-on-an-arch-linux-server/"&gt;Austin G.
+Walters&lt;/a&gt; on
+setting up an SSH server.&lt;/p&gt;
+&lt;p&gt;Basically this means, I can log into my Linux machine from another computer
+(terminal).&lt;/p&gt;
+&lt;h2&gt;Meta Posting&lt;/h2&gt;
+&lt;p&gt;This post is authored using the Linux machine from a Windows machine. Wow!&lt;/p&gt;
+&lt;h2&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;What I'm trying to do is learn more about technology by using many of the tools
+already available to me. There are many trends in tech I don't really
+like&amp;mdash;e.g.  the "mobile-first" approach and bloated web apps everywhere.
+But clearly the Internet can be a very useful tool. So, by looking at networks
+and more "backend" type stuff I hope to get the skills to actively work on
+engineering the sort of Internet I would prefer. &lt;/p&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 100</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-100.html" rel="alternate"></link><published>2021-02-12T00:00:00-08:00</published><updated>2021-02-12T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-12:/pelican-test/corona-virus-diary-part-100.html</id><summary type="html">&lt;p&gt;Is it time to throw a hundreth post party?! Nah; let's instead talk
 about how &lt;em&gt;counting&lt;/em&gt; and numerical measures in general are used as
 (artificial) markers.&lt;/p&gt;
 &lt;p&gt;What is the significance of a 100th post? That a blog has been going
