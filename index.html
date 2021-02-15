@@ -22,7 +22,60 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-101.html">Corona Virus Diary, Part 101</a></h1>
+                    <h1 class="entry-title"><a href="https://captainalan.github.io/pelican-test/easy-file-transfer-with-openssh.html">Easy File Transfer with OpenSSH</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2021-02-14T00:00:00-08:00">
+                Published: Sun 14 February 2021
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://captainalan.github.io/pelican-test/author/alan-wong.html">Alan Wong</a>
+        </address>
+<p>In <a href="https://captainalan.github.io/pelican-test/category/linux.html">Linux</a>.</p>
+
+</footer><!-- /.post-info --><p>Today I learned that <a href="https://www.openssh.com">OpenSSH</a> allows you to easily
+transfer files on a local network! I've started setting up some home network
+stuff to learn how "the cloud" works better and was pleasantly surprised how
+easy this was.</p>
+<h2>Setup</h2>
+<p>OpenSSH is the de-facto standard for remote access via <code>ssh</code>. So if you want to
+log in from one computer to another, chances are you're going to be using
+OpenSSH in 2021. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<p>From a Linux machine, make sure you have a <strong>ssh server</strong> set up. See the
+section under <strong>Server usage</strong> on the ArchWiki article on
+<a href="https://wiki.archlinux.org/index.php/OpenSSH">OpenSSH</a>.</p>
+<h2>Filezilla</h2>
+<p>On Windows, I installed <a href="https://filezilla-project.org">Filezilla</a>. I entered
+in the IP address of my home (Linux) server, my username and password and
+selected the <strong>SFTP</strong> protocol from Filezilla's easy to use GUI.
+I could then easily copy files from my client (Windows) machine to my server
+through my wireless network.</p>
+<h2>Alternatives to "the cloud"</h2>
+<p>Knowing how to do many "cloud computing" tasks yourself is a practical thing to
+learn to take control of your data and understand the "magic" behind services
+offered by big tech.</p>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>This very blog post is being written from a Windows computer connected to
+  a FreeBSD system via OpenSSH!&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-101.html" rel="bookmark"
+                           title="Permalink to Corona Virus Diary, Part 101">Corona Virus Diary, Part 101</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2021-02-13T00:00:00-08:00">
                 Published: Sat 13 February 2021
@@ -33,41 +86,14 @@
         </address>
 <p>In <a href="https://captainalan.github.io/pelican-test/category/news.html">News</a>.</p>
 
-</footer><!-- /.post-info --><p>Today I decided to try to make some old computers I have talk to each other.</p>
+</footer><!-- /.post-info -->                <p>Today I decided to try to make some old computers I have talk to each other.</p>
 <p>The first thing I did was spin up a local web server. This gave me a website
 viewable over my local network.</p>
 <h2>Python web server</h2>
-<p>Using an old laptop running Linux (Manjaro), I ran</p>
-<div class="highlight"><pre><span></span><code>python3 -m http.server <span class="m">8000</span>
-</code></pre></div>
-
-<p>I found my ip address with <code>ip address</code>.  It was something like
-<code>192.168.1.NNN</code>, where <code>N</code> is some integer.  I am just doing stuff on a
-wireless network, so I looked for my ethernet card thing.</p>
-<p>I went onto a browser on another computer (a "normal" Windows machine) on this
-same network.  I typed in the URL bar, <code>192.168.1.NNN:8000</code>.</p>
-<p>My files were visible! Web server started successfully! I have created my own
-little digital kingdom!</p>
-<h2>SSH server</h2>
-<p>Craving unlimited power, I followed a tutorial by <a href="https://austingwalters.com/configure-ssh-on-an-arch-linux-server/">Austin G.
-Walters</a> on
-setting up an SSH server.</p>
-<p>Basically this means, I can log into my Linux machine from another computer
-(terminal).</p>
-<h2>Meta Posting</h2>
-<p>This post is authored using the Linux machine from a Windows machine. Wow!</p>
-<h2>Motivation</h2>
-<p>What I'm trying to do is learn more about technology by using many of the tools
-already available to me. There are many trends in tech I don't really
-like&mdash;e.g.  the "mobile-first" approach and bloated web apps everywhere.
-But clearly the Internet can be a very useful tool. So, by looking at networks
-and more "backend" type stuff I hope to get the skills to actively work on
-engineering the sort of Internet I would prefer. </p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+<p>Using an old laptop running Linux (Manjaro), I ran …</p>
+                <a class="readmore" href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-101.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -285,32 +311,6 @@ Here are some,</p>
 </ul>
 <p>Sometimes …</p>
                 <a class="readmore" href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-94.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-93.html" rel="bookmark"
-                           title="Permalink to Corona Virus Diary, Part 93">Corona Virus Diary, Part 93</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2021-01-14T00:00:00-08:00">
-                Published: Thu 14 January 2021
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://captainalan.github.io/pelican-test/author/alan-wong.html">Alan Wong</a>
-        </address>
-<p>In <a href="https://captainalan.github.io/pelican-test/category/news.html">News</a>.</p>
-
-</footer><!-- /.post-info -->                <p>The question of <em>who</em> (or <em>what</em>) to trust is of utmost importance.
-Since we do not have unlimited time and resources, we must make
-choices about what we rely on for new information or reference
-materials.</p>
-<p>Walking into a book store and choosing to read one of the top selling …</p>
-                <a class="readmore" href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-93.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
                 </ol><!-- /#posts-list -->

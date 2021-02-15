@@ -22,7 +22,60 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://captainalan.github.io/pelican-test/restoring-a-user-practical-linux.html">Restoring a user, practical Linux</a></h1>
+                    <h1 class="entry-title"><a href="https://captainalan.github.io/pelican-test/easy-file-transfer-with-openssh.html">Easy File Transfer with OpenSSH</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2021-02-14T00:00:00-08:00">
+                Published: Sun 14 February 2021
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://captainalan.github.io/pelican-test/author/alan-wong.html">Alan Wong</a>
+        </address>
+<p>In <a href="https://captainalan.github.io/pelican-test/category/linux.html">Linux</a>.</p>
+
+</footer><!-- /.post-info --><p>Today I learned that <a href="https://www.openssh.com">OpenSSH</a> allows you to easily
+transfer files on a local network! I've started setting up some home network
+stuff to learn how "the cloud" works better and was pleasantly surprised how
+easy this was.</p>
+<h2>Setup</h2>
+<p>OpenSSH is the de-facto standard for remote access via <code>ssh</code>. So if you want to
+log in from one computer to another, chances are you're going to be using
+OpenSSH in 2021. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<p>From a Linux machine, make sure you have a <strong>ssh server</strong> set up. See the
+section under <strong>Server usage</strong> on the ArchWiki article on
+<a href="https://wiki.archlinux.org/index.php/OpenSSH">OpenSSH</a>.</p>
+<h2>Filezilla</h2>
+<p>On Windows, I installed <a href="https://filezilla-project.org">Filezilla</a>. I entered
+in the IP address of my home (Linux) server, my username and password and
+selected the <strong>SFTP</strong> protocol from Filezilla's easy to use GUI.
+I could then easily copy files from my client (Windows) machine to my server
+through my wireless network.</p>
+<h2>Alternatives to "the cloud"</h2>
+<p>Knowing how to do many "cloud computing" tasks yourself is a practical thing to
+learn to take control of your data and understand the "magic" behind services
+offered by big tech.</p>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>This very blog post is being written from a Windows computer connected to
+  a FreeBSD system via OpenSSH!&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://captainalan.github.io/pelican-test/restoring-a-user-practical-linux.html" rel="bookmark"
+                           title="Permalink to Restoring a user, practical Linux">Restoring a user, practical Linux</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2021-02-10T00:00:00-08:00">
                 Published: Wed 10 February 2021
@@ -33,81 +86,14 @@
         </address>
 <p>In <a href="https://captainalan.github.io/pelican-test/category/linux.html">Linux</a>.</p>
 
-</footer><!-- /.post-info --><p>I am no Linux guru, but usually if I went to get something done I am
+</footer><!-- /.post-info -->                <p>I am no Linux guru, but usually if I went to get something done I am
 able to. In this post, I will document how I solved a particular
 problem in a fast and easy way.</p>
 <h2>Problem: I really broke my system</h2>
-<p>I had a pretty old computer running Arch Linux. I was using Gnome as a
-Desktop Environment and stuff was getting pretty slow. I tried to have
-a boring, stable setup, but I ended up having a system that got hung
-up a lot. So I wanted to remove Gnome and use a lighter-weight desktop
-environment thing like LXDE or XFCE. Unfortunately, when uninstalling
-Gnome, I did some reckless commands that also uninstalled a bunch of
-important packages. So I ended up with a system that couldn't even
-connect to the Internet to re-install those packages.</p>
-<h2>Solution</h2>
-<p>My solution to this issue was to reinstall my base operating system
-but leave my home directory intact. This way I could fix all the
-things I wanted to fix and not have to go through some complicated
-restoration procedure. While nothing super-important (or not already
-backed up online) was on this computer, having to manually re-do a
-bunch of configurations and stuff would be no fun, so it was
-preferable to repair my existing system rather than starting anew.</p>
-<h3>Partitions helped</h3>
-<p>Fortunately, I had my system set up such that I had a separate root
-(<code>/</code>) and home (<code>/home</code>) partition. So, it would not be too difficult
-to isolate those things that needed fixing and those things that did
-not.</p>
-<h3>Installation</h3>
-<p>I opted for installing <strong>Manjaro</strong> Linux, an Arch-based distribution.
-I downloaded the ISO, used Rufus on a Windows machine to set up a
-bootable USB drive, and then entered the graphical installer. I chose
-manual partitioning. Doing this, I had to set some "flags" (not sure
-on the exact terminology here). Basically I had to tell the installer
-where <code>/</code>, <code>/boot</code> and <code>/home</code> were. I reformatted my boot and root
-partitions, but left the home partition as it was because I didn't
-want to delete my files there.</p>
-<h3>User Stuff</h3>
-<p>That went smoothly. I just used the installer to make a new user. With
-that new user, I created a user account for the main user I was using
-on my old system using <code>useradd</code>. As I didn't want Manjaro to add all
-sorts of configuration stuff automatically, I chose to setup this new
-user (I'll call it <code>alan</code>) from the command line.</p>
-<p>I tried logging with <code>alan</code> after doing this&mdash;uh-oh! didn't
-work. I was returned to Manjaro's login screen thing.</p>
-<p>I guessed the problem had to do with permissions. So, I searched up
-how to change the permissions of my existing <code>/home/alan</code> directory
-which was left over from my broken install.</p>
-<p>Then, to make sure I could run any command from <code>alan</code> via <code>sudo</code>, I
-needed to edit <code>/etc/sudoers</code>. I did this with <code>sudo visudo
-/etc/sudoers</code> from the account I made with Manjaro. I uncommented the
-line giving sudo permissions to the <code>wheel</code> group and then I used
-<code>usermod</code> to add <code>alan</code> to the <code>wheel</code> group.</p>
-<h3>Success</h3>
-<p>I successfully logged on with <code>alan</code>, installed some software, and
-wrote this blog post. All my files and stuff are there.</p>
-<h2>Lessons</h2>
-<p>The specifics of how to do something in Linux can be mind-numbing. For
-this reason, I don't even try to do lots of things&mdash;like dealing
-with audio and video issues. However, if you have a basic idea of what
-you want to accomplish, doling common tasks like dealing with
-partitions and users can be surprisingly easy.</p>
-<p>Search engines are good for solving technical problems. If you know
-exactly what you want to search for, search engines are very good at
-returning you relevant results. Fortunately, Linux problems often
-involve weird strings (e.g. program names) that aren't confused with
-non-computer things. Usually adding the word "linux" or "arch" or
-something easily narrows a search to relevant stuff too.</p>
-<p>Through solving real world problems that come up, you can learn more
-about how computers work, software is organized, and so on and so
-forth. If you choose a lazy option like using an automatic installer
-like I did here, you can avoid looking at many things you don't care
-to struggle with too.</p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+<p>I had a pretty old computer running Arch …</p>
+                <a class="readmore" href="https://captainalan.github.io/pelican-test/restoring-a-user-practical-linux.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -319,11 +305,12 @@ that have decided to take control of their computing. It largely …</p>
         </address>
 <p>In <a href="https://captainalan.github.io/pelican-test/category/linux.html">Linux</a>.</p>
 
-</footer><!-- /.post-info -->                <p>In this tutorial, I will go through installing Arch Linux. These
+</footer><!-- /.post-info -->                <p>(Last updated February 14, 2021)</p>
+<p>In this tutorial, I will go through installing Arch Linux. These
 instructions were tried out on both a virtual machine and an old
 laptop. For further instructions and details, I recommend <em>resisting
 the urge to reflexively search everything</em>, and instead taking the
-time to read through high-quality resources, such as …</p>
+time to read …</p>
                 <a class="readmore" href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>

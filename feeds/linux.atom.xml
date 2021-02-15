@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Linux</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/linux.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-02-10T00:00:00-08:00</updated><entry><title>Restoring a user, practical Linux</title><link href="https://captainalan.github.io/pelican-test/restoring-a-user-practical-linux.html" rel="alternate"></link><published>2021-02-10T00:00:00-08:00</published><updated>2021-02-10T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-10:/pelican-test/restoring-a-user-practical-linux.html</id><summary type="html">&lt;p&gt;I am no Linux guru, but usually if I went to get something done I am
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Linux</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/linux.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-02-14T00:00:00-08:00</updated><entry><title>Easy File Transfer with OpenSSH</title><link href="https://captainalan.github.io/pelican-test/easy-file-transfer-with-openssh.html" rel="alternate"></link><published>2021-02-14T00:00:00-08:00</published><updated>2021-02-14T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-14:/pelican-test/easy-file-transfer-with-openssh.html</id><summary type="html">&lt;p&gt;Today I learned that &lt;a href="https://www.openssh.com"&gt;OpenSSH&lt;/a&gt; allows you to easily
+transfer files on a local network! I've started setting up some home network
+stuff to learn how "the cloud" works better and was pleasantly surprised how
+easy this was.&lt;/p&gt;
+&lt;h2&gt;Setup&lt;/h2&gt;
+&lt;p&gt;OpenSSH is the de-facto standard for remote access via &lt;code&gt;ssh&lt;/code&gt;. So …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Today I learned that &lt;a href="https://www.openssh.com"&gt;OpenSSH&lt;/a&gt; allows you to easily
+transfer files on a local network! I've started setting up some home network
+stuff to learn how "the cloud" works better and was pleasantly surprised how
+easy this was.&lt;/p&gt;
+&lt;h2&gt;Setup&lt;/h2&gt;
+&lt;p&gt;OpenSSH is the de-facto standard for remote access via &lt;code&gt;ssh&lt;/code&gt;. So if you want to
+log in from one computer to another, chances are you're going to be using
+OpenSSH in 2021. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;From a Linux machine, make sure you have a &lt;strong&gt;ssh server&lt;/strong&gt; set up. See the
+section under &lt;strong&gt;Server usage&lt;/strong&gt; on the ArchWiki article on
+&lt;a href="https://wiki.archlinux.org/index.php/OpenSSH"&gt;OpenSSH&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Filezilla&lt;/h2&gt;
+&lt;p&gt;On Windows, I installed &lt;a href="https://filezilla-project.org"&gt;Filezilla&lt;/a&gt;. I entered
+in the IP address of my home (Linux) server, my username and password and
+selected the &lt;strong&gt;SFTP&lt;/strong&gt; protocol from Filezilla's easy to use GUI.
+I could then easily copy files from my client (Windows) machine to my server
+through my wireless network.&lt;/p&gt;
+&lt;h2&gt;Alternatives to "the cloud"&lt;/h2&gt;
+&lt;p&gt;Knowing how to do many "cloud computing" tasks yourself is a practical thing to
+learn to take control of your data and understand the "magic" behind services
+offered by big tech.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;This very blog post is being written from a Windows computer connected to
+  a FreeBSD system via OpenSSH!&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Linux"></category></entry><entry><title>Restoring a user, practical Linux</title><link href="https://captainalan.github.io/pelican-test/restoring-a-user-practical-linux.html" rel="alternate"></link><published>2021-02-10T00:00:00-08:00</published><updated>2021-02-10T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-10:/pelican-test/restoring-a-user-practical-linux.html</id><summary type="html">&lt;p&gt;I am no Linux guru, but usually if I went to get something done I am
 able to. In this post, I will document how I solved a particular
 problem in a fast and easy way.&lt;/p&gt;
 &lt;h2&gt;Problem: I really broke my system&lt;/h2&gt;
@@ -755,11 +789,13 @@ Arch Wiki had lots of helpful information for doing that on my
 &lt;h2&gt;Resources&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://xahlee.info/linux/linux_index.html"&gt;Practical Linux Tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="Linux"></category></entry><entry><title>Arch Linux Install for n00bs</title><link href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html" rel="alternate"></link><published>2019-06-02T00:00:00-07:00</published><updated>2019-06-02T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-06-02:/pelican-test/arch-linux-install-for-n00bs.html</id><summary type="html">&lt;p&gt;In this tutorial, I will go through installing Arch Linux. These
+&lt;/ul&gt;</content><category term="Linux"></category></entry><entry><title>Arch Linux Install for n00bs</title><link href="https://captainalan.github.io/pelican-test/arch-linux-install-for-n00bs.html" rel="alternate"></link><published>2019-06-02T00:00:00-07:00</published><updated>2019-06-02T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2019-06-02:/pelican-test/arch-linux-install-for-n00bs.html</id><summary type="html">&lt;p&gt;(Last updated February 14, 2021)&lt;/p&gt;
+&lt;p&gt;In this tutorial, I will go through installing Arch Linux. These
 instructions were tried out on both a virtual machine and an old
 laptop. For further instructions and details, I recommend &lt;em&gt;resisting
 the urge to reflexively search everything&lt;/em&gt;, and instead taking the
-time to read through high-quality resources, such as …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In this tutorial, I will go through installing Arch Linux. These
+time to read …&lt;/p&gt;</summary><content type="html">&lt;p&gt;(Last updated February 14, 2021)&lt;/p&gt;
+&lt;p&gt;In this tutorial, I will go through installing Arch Linux. These
 instructions were tried out on both a virtual machine and an old
 laptop. For further instructions and details, I recommend &lt;em&gt;resisting
 the urge to reflexively search everything&lt;/em&gt;, and instead taking the
@@ -790,7 +826,8 @@ such as &lt;code&gt;nano&lt;/code&gt;) because doing an Arch install will involv
 some text files on the command line.&lt;/p&gt;
 &lt;h2&gt;Installation Medium&lt;/h2&gt;
 &lt;p&gt;Download the latest Arch linux ISO. The easiest thing to do is probably to
-download from an HTTP mirror near your (physical) location and then install by CD, DVD, or USB.&lt;/p&gt;
+download from an HTTP mirror near your (physical) location and then install by
+CD, DVD, or USB.&lt;/p&gt;
 &lt;p&gt;From Windows, creating your installation medium is easy. Right click
 on the downloaded &lt;code&gt;.iso&lt;/code&gt; file and select "Burn disc image" to create
 CD or DVD to create a your installation medium. Alternatively, you can
@@ -800,18 +837,11 @@ USB drives, SD cards, and more.&lt;/p&gt;
 &lt;p&gt;Restart your computer. You may have to go into your system BIOS to make sure you can boot from your installation medium.&lt;/p&gt;
 &lt;h3&gt;Get an internet connection&lt;/h3&gt;
 &lt;p&gt;If you are already connected to the Internet via an ethernet cable, there is
-nothing to think about. If you are connecting via Wi-Fi, run:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;wifi-menu
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;I can't help you anymore if you are connecting from McDonald's wifi... But on
-a home network, you will be prompted for your Wi-Fi network's password.
-Once you go through the options &lt;code&gt;wifi-menu&lt;/code&gt;, try out your network connection
-with something like &lt;code&gt;ping google.com&lt;/code&gt;. Type &lt;code&gt;ctrl-c&lt;/code&gt; to exit when you are
-done.&lt;/p&gt;
-&lt;p&gt;Edit July 1, 2020&amp;mdash;looks like &lt;code&gt;wifi-menu&lt;/code&gt; might be gone? Consult the Arch
-Wiki; you may need to use &lt;code&gt;iwctl&lt;/code&gt; to connect to a wireless network during
-install.&lt;/p&gt;
+nothing to think about. &lt;/p&gt;
+&lt;p&gt;If you are connecting via Wi-Fi, there may be some more steps to take. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;
+First, run &lt;code&gt;iwctl&lt;/code&gt; see &lt;a href="https://wiki.archlinux.org/index.php/Iwd"&gt;ArchWiki&lt;/a&gt; for
+mroe specifics. Find your wireless card. You may have to scan for networks
+multiple times.&lt;/p&gt;
 &lt;h3&gt;Time and date stuff&lt;/h3&gt;
 &lt;p&gt;Run &lt;code&gt;timedatectl set-ntp true&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Note the 'prefix' &lt;em&gt;-ctl&lt;/em&gt; in the command above. Commands with &lt;em&gt;-ctl&lt;/em&gt;
@@ -1029,4 +1059,13 @@ get an install for another distro (e.g. Ubuntu) and use the graphical tools
 &lt;li&gt;(Add directions for getting a window manager; getting some starter fonts)&lt;/li&gt;
 &lt;li&gt;(Add basic shell setup)&lt;/li&gt;
 &lt;li&gt;(Add directions for setting up &lt;code&gt;yay&lt;/code&gt; or another AUR helper)&lt;/li&gt;
-&lt;/ul&gt;</content><category term="Linux"></category></entry></feed>
+&lt;/ul&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;(Update February 14, 2021) Formerly, this was easier&amp;mdash;you could just
+  run &lt;code&gt;wifi-menu&lt;/code&gt;. Now it seems this program isn't available in the installer.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Linux"></category></entry></feed>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <title>Easy File Transfer with OpenSSH</title>
+        <link rel="stylesheet" href="https://captainalan.github.io/pelican-test/theme/css/main.css" />
+        <link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Alan's Miscellaneous Stuff Blog Atom Feed" />
+        <meta name="description" content="Today I learned that OpenSSH allows you to easily transfer files on a local network! I've started setting up some home network stuff to learn how..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://captainalan.github.io/pelican-test/">Alan's Miscellaneous Stuff Blog</a></h1>
+                <nav><ul>
+                    <li><a href="https://captainalan.github.io/pelican-test/category/fun.html">Fun</a></li>
+                    <li><a href="https://captainalan.github.io/pelican-test/category/interwebs.html">Interwebs</a></li>
+                    <li><a href="https://captainalan.github.io/pelican-test/category/lifestyle.html">Lifestyle</a></li>
+                    <li class="active"><a href="https://captainalan.github.io/pelican-test/category/linux.html">Linux</a></li>
+                    <li><a href="https://captainalan.github.io/pelican-test/category/news.html">News</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://captainalan.github.io/pelican-test/easy-file-transfer-with-openssh.html" rel="bookmark"
+           title="Permalink to Easy File Transfer with OpenSSH">Easy File Transfer with OpenSSH</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2021-02-14T00:00:00-08:00">
+                Published: Sun 14 February 2021
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://captainalan.github.io/pelican-test/author/alan-wong.html">Alan Wong</a>
+        </address>
+<p>In <a href="https://captainalan.github.io/pelican-test/category/linux.html">Linux</a>.</p>
+
+</footer><!-- /.post-info -->      <p>Today I learned that <a href="https://www.openssh.com">OpenSSH</a> allows you to easily
+transfer files on a local network! I've started setting up some home network
+stuff to learn how "the cloud" works better and was pleasantly surprised how
+easy this was.</p>
+<h2>Setup</h2>
+<p>OpenSSH is the de-facto standard for remote access via <code>ssh</code>. So if you want to
+log in from one computer to another, chances are you're going to be using
+OpenSSH in 2021. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<p>From a Linux machine, make sure you have a <strong>ssh server</strong> set up. See the
+section under <strong>Server usage</strong> on the ArchWiki article on
+<a href="https://wiki.archlinux.org/index.php/OpenSSH">OpenSSH</a>.</p>
+<h2>Filezilla</h2>
+<p>On Windows, I installed <a href="https://filezilla-project.org">Filezilla</a>. I entered
+in the IP address of my home (Linux) server, my username and password and
+selected the <strong>SFTP</strong> protocol from Filezilla's easy to use GUI.
+I could then easily copy files from my client (Windows) machine to my server
+through my wireless network.</p>
+<h2>Alternatives to "the cloud"</h2>
+<p>Knowing how to do many "cloud computing" tasks yourself is a practical thing to
+learn to take control of your data and understand the "magic" behind services
+offered by big tech.</p>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>This very blog post is being written from a Windows computer connected to
+  a FreeBSD system via OpenSSH!&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="https://captainalan.github.io/">Homepage</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="https://github.com/captainalan">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/alan-wong-bb342569/">Linked In</a></li>
+                            <li><a href="https://www.facebook.com/captainalan">Facebook</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
