@@ -48,6 +48,7 @@ enviornment you just made.  Install some packages:
     pip install ghp-import
 
 You can now run `make github` to build the site.
+On FreeBSD, you may need to use `gmake github`.
 
 ### Returning to work
 
