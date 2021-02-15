@@ -2,6 +2,8 @@ title: Arch Linux Install for n00bs
 date: 2019-06-02
 category: Linux
 
+(Last updated February 14, 2021)
+
 In this tutorial, I will go through installing Arch Linux. These
 instructions were tried out on both a virtual machine and an old
 laptop. For further instructions and details, I recommend *resisting
@@ -40,7 +42,8 @@ some text files on the command line.
 ## Installation Medium
 
 Download the latest Arch linux ISO. The easiest thing to do is probably to
-download from an HTTP mirror near your (physical) location and then install by CD, DVD, or USB.
+download from an HTTP mirror near your (physical) location and then install by
+CD, DVD, or USB.
 
 From Windows, creating your installation medium is easy. Right click
 on the downloaded `.iso` file and select "Burn disc image" to create
@@ -55,22 +58,12 @@ Restart your computer. You may have to go into your system BIOS to make sure you
 ### Get an internet connection
 
 If you are already connected to the Internet via an ethernet cable, there is
-nothing to think about. If you are connecting via Wi-Fi, run:
+nothing to think about. 
 
-```bash
-wifi-menu
-```
-
-I can't help you anymore if you are connecting from McDonald's wifi... But on
-a home network, you will be prompted for your Wi-Fi network's password.
-Once you go through the options `wifi-menu`, try out your network connection
-with something like `ping google.com`. Type `ctrl-c` to exit when you are
-done.
-
-Edit July 1, 2020&mdash;looks like `wifi-menu` might be gone? Consult the Arch
-Wiki; you may need to use `iwctl` to connect to a wireless network during
-install.
-
+If you are connecting via Wi-Fi, there may be some more steps to take. [^1]
+First, run `iwctl` see [ArchWiki](https://wiki.archlinux.org/index.php/Iwd) for
+mroe specifics. Find your wireless card. You may have to scan for networks
+multiple times.
 
 ### Time and date stuff
 
@@ -377,3 +370,6 @@ These operations will require `su` permissions (e.g. through using `sudo`).
 - (Add directions for getting a window manager; getting some starter fonts)
 - (Add basic shell setup)
 - (Add directions for setting up `yay` or another AUR helper)
+
+[^1]: (Update February 14, 2021) Formerly, this was easier&mdash;you could just
+  run `wifi-menu`. Now it seems this program isn't available in the installer.
