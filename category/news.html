@@ -22,7 +22,71 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-101.html">Corona Virus Diary, Part 101</a></h1>
+                    <h1 class="entry-title"><a href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-102.html">Corona Virus Diary, Part 102</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2021-02-16T00:00:00-08:00">
+                Published: Tue 16 February 2021
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://captainalan.github.io/pelican-test/author/alan-wong.html">Alan Wong</a>
+        </address>
+<p>In <a href="https://captainalan.github.io/pelican-test/category/news.html">News</a>.</p>
+
+</footer><!-- /.post-info --><p>Just a little rant on tooling today. I've been returning to some UNIX learning
+stuff, which has me again studying the problem of "personal computing"
+generally. As <em>modern</em> people, what relationship do we have with computers?</p>
+<p>The tools we have affect how we approach problems. Windows is very <em>corporate</em>
+(as in big tech, corporations) so the solutions that appear to someone who has
+bought into the Microsoft ecosystem are often very, well... <em>Microsofty</em>.
+Indeed, there are tried and true ways to do lots of things by handing over
+control to Microsoft. These may not be the most "elegant" solutions with
+computers, but they do Just Werk (TM).</p>
+<p>If we move beyond the names of particular products and instead start to think
+about stuff in terms of <em>simple actions</em> we are doing, I think that we can
+often arrive at much better solutions than the "one-size fits all"
+<em>enterprise</em> solutions.</p>
+<p>For instance, let's suppose you're trying to solve the problem of "backing up
+files". What you want to do is to make sure that certain data which is
+important to you is saved on multiple pieces of harddrive (e.g hard drives).
+Now, a typical solution to this problem is to use some <strong>cloud</strong> service like
+Microsoft's OneDrive. Automatically, files local to your machine are copied
+and saved across mutliple servers <em>owned by Microsoft</em>. For many customers,
+this is an acceptable arrangement. They trust that Microsoft will do a good
+job making sure they don't lose their files in the event of something like...
+spilling coffee on a laptop. </p>
+<p>However, there are many disadvantages to just using the "default" option.
+Firstly, what if <em>you</em> want to own/control the hardware you're saving stuff
+on&mdash;you might not want to give Microsoft all your data. Or, maybe you're
+okay giving Microsoft <em>some</em> data, but you prefer to not have other data on
+foreign servers. "One-size fits all" solutions typically don't offer finer
+mechanisms of control to set up what you want.</p>
+<p>On the other hand, if you build your own solution&mdash;this is one thing I'm
+working on&mdash;you solve the original problem of backing stuff up, but <em>you
+don't need a third party</em> (like Microsoft, Dropbox, etc) stepping in. You are
+more <em>robust</em> by being decentralized&mdash;problems affecting big corporations
+need not affect you. Similarly, you can be aware of just <em>how</em> you scale your
+own solution; this might mean buying up cheap used computer hardware to make a
+more robust system through redundancy/copies.</p>
+<p>It is hard to start thinking about <em>alternatives</em> if the tools you have always
+suggest a particular way of doing things&mdash;</p>
+<p>This is one of the reasons I kinda detest smartphones. Smartphones are all
+about doing stuff <em>how an app tells you to</em>; on the other hand, even some
+relativelys imple machine like a kitchen timer or a pencil can be used
+in infinite ways of <em>your</em> choosing.</p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-101.html" rel="bookmark"
+                           title="Permalink to Corona Virus Diary, Part 101">Corona Virus Diary, Part 101</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2021-02-13T00:00:00-08:00">
                 Published: Sat 13 February 2021
@@ -33,41 +97,14 @@
         </address>
 <p>In <a href="https://captainalan.github.io/pelican-test/category/news.html">News</a>.</p>
 
-</footer><!-- /.post-info --><p>Today I decided to try to make some old computers I have talk to each other.</p>
+</footer><!-- /.post-info -->                <p>Today I decided to try to make some old computers I have talk to each other.</p>
 <p>The first thing I did was spin up a local web server. This gave me a website
 viewable over my local network.</p>
 <h2>Python web server</h2>
-<p>Using an old laptop running Linux (Manjaro), I ran</p>
-<div class="highlight"><pre><span></span><code>python3 -m http.server <span class="m">8000</span>
-</code></pre></div>
-
-<p>I found my ip address with <code>ip address</code>.  It was something like
-<code>192.168.1.NNN</code>, where <code>N</code> is some integer.  I am just doing stuff on a
-wireless network, so I looked for my ethernet card thing.</p>
-<p>I went onto a browser on another computer (a "normal" Windows machine) on this
-same network.  I typed in the URL bar, <code>192.168.1.NNN:8000</code>.</p>
-<p>My files were visible! Web server started successfully! I have created my own
-little digital kingdom!</p>
-<h2>SSH server</h2>
-<p>Craving unlimited power, I followed a tutorial by <a href="https://austingwalters.com/configure-ssh-on-an-arch-linux-server/">Austin G.
-Walters</a> on
-setting up an SSH server.</p>
-<p>Basically this means, I can log into my Linux machine from another computer
-(terminal).</p>
-<h2>Meta Posting</h2>
-<p>This post is authored using the Linux machine from a Windows machine. Wow!</p>
-<h2>Motivation</h2>
-<p>What I'm trying to do is learn more about technology by using many of the tools
-already available to me. There are many trends in tech I don't really
-like&mdash;e.g.  the "mobile-first" approach and bloated web apps everywhere.
-But clearly the Internet can be a very useful tool. So, by looking at networks
-and more "backend" type stuff I hope to get the skills to actively work on
-engineering the sort of Internet I would prefer. </p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+<p>Using an old laptop running Linux (Manjaro), I ran …</p>
+                <a class="readmore" href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-101.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -285,33 +322,6 @@ choices about what we rely on for new information or reference
 materials.</p>
 <p>Walking into a book store and choosing to read one of the top selling …</p>
                 <a class="readmore" href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-93.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-92.html" rel="bookmark"
-                           title="Permalink to Corona Virus Diary, Part 92">Corona Virus Diary, Part 92</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2021-01-12T00:00:00-08:00">
-                Published: Tue 12 January 2021
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://captainalan.github.io/pelican-test/author/alan-wong.html">Alan Wong</a>
-        </address>
-<p>In <a href="https://captainalan.github.io/pelican-test/category/news.html">News</a>.</p>
-
-</footer><!-- /.post-info -->                <p>Clarifying the purpose of things is a helpful way to find out what
-is(n't) essential to your day to day workflow, cut costs, and improve
-productivity.</p>
-<p>Young adults especially&mdash;upon getting some "disposable
-income"&mdash;may be quick to start accumulating "fun" things,
-equipment for various hobbies, and so on …</p>
-                <a class="readmore" href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-92.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
                 </ol><!-- /#posts-list -->

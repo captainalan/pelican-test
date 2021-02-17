@@ -22,7 +22,71 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://captainalan.github.io/pelican-test/easy-file-transfer-with-openssh.html">Easy File Transfer with OpenSSH</a></h1>
+                    <h1 class="entry-title"><a href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-102.html">Corona Virus Diary, Part 102</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2021-02-16T00:00:00-08:00">
+                Published: Tue 16 February 2021
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://captainalan.github.io/pelican-test/author/alan-wong.html">Alan Wong</a>
+        </address>
+<p>In <a href="https://captainalan.github.io/pelican-test/category/news.html">News</a>.</p>
+
+</footer><!-- /.post-info --><p>Just a little rant on tooling today. I've been returning to some UNIX learning
+stuff, which has me again studying the problem of "personal computing"
+generally. As <em>modern</em> people, what relationship do we have with computers?</p>
+<p>The tools we have affect how we approach problems. Windows is very <em>corporate</em>
+(as in big tech, corporations) so the solutions that appear to someone who has
+bought into the Microsoft ecosystem are often very, well... <em>Microsofty</em>.
+Indeed, there are tried and true ways to do lots of things by handing over
+control to Microsoft. These may not be the most "elegant" solutions with
+computers, but they do Just Werk (TM).</p>
+<p>If we move beyond the names of particular products and instead start to think
+about stuff in terms of <em>simple actions</em> we are doing, I think that we can
+often arrive at much better solutions than the "one-size fits all"
+<em>enterprise</em> solutions.</p>
+<p>For instance, let's suppose you're trying to solve the problem of "backing up
+files". What you want to do is to make sure that certain data which is
+important to you is saved on multiple pieces of harddrive (e.g hard drives).
+Now, a typical solution to this problem is to use some <strong>cloud</strong> service like
+Microsoft's OneDrive. Automatically, files local to your machine are copied
+and saved across mutliple servers <em>owned by Microsoft</em>. For many customers,
+this is an acceptable arrangement. They trust that Microsoft will do a good
+job making sure they don't lose their files in the event of something like...
+spilling coffee on a laptop. </p>
+<p>However, there are many disadvantages to just using the "default" option.
+Firstly, what if <em>you</em> want to own/control the hardware you're saving stuff
+on&mdash;you might not want to give Microsoft all your data. Or, maybe you're
+okay giving Microsoft <em>some</em> data, but you prefer to not have other data on
+foreign servers. "One-size fits all" solutions typically don't offer finer
+mechanisms of control to set up what you want.</p>
+<p>On the other hand, if you build your own solution&mdash;this is one thing I'm
+working on&mdash;you solve the original problem of backing stuff up, but <em>you
+don't need a third party</em> (like Microsoft, Dropbox, etc) stepping in. You are
+more <em>robust</em> by being decentralized&mdash;problems affecting big corporations
+need not affect you. Similarly, you can be aware of just <em>how</em> you scale your
+own solution; this might mean buying up cheap used computer hardware to make a
+more robust system through redundancy/copies.</p>
+<p>It is hard to start thinking about <em>alternatives</em> if the tools you have always
+suggest a particular way of doing things&mdash;</p>
+<p>This is one of the reasons I kinda detest smartphones. Smartphones are all
+about doing stuff <em>how an app tells you to</em>; on the other hand, even some
+relativelys imple machine like a kitchen timer or a pencil can be used
+in infinite ways of <em>your</em> choosing.</p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://captainalan.github.io/pelican-test/easy-file-transfer-with-openssh.html" rel="bookmark"
+                           title="Permalink to Easy File Transfer with OpenSSH">Easy File Transfer with OpenSSH</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2021-02-14T00:00:00-08:00">
                 Published: Sun 14 February 2021
@@ -33,41 +97,15 @@
         </address>
 <p>In <a href="https://captainalan.github.io/pelican-test/category/linux.html">Linux</a>.</p>
 
-</footer><!-- /.post-info --><p>Today I learned that <a href="https://www.openssh.com">OpenSSH</a> allows you to easily
+</footer><!-- /.post-info -->                <p>Today I learned that <a href="https://www.openssh.com">OpenSSH</a> allows you to easily
 transfer files on a local network! I've started setting up some home network
 stuff to learn how "the cloud" works better and was pleasantly surprised how
 easy this was.</p>
 <h2>Setup</h2>
-<p>OpenSSH is the de-facto standard for remote access via <code>ssh</code>. So if you want to
-log in from one computer to another, chances are you're going to be using
-OpenSSH in 2021. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
-<p>From a Linux machine, make sure you have a <strong>ssh server</strong> set up. See the
-section under <strong>Server usage</strong> on the ArchWiki article on
-<a href="https://wiki.archlinux.org/index.php/OpenSSH">OpenSSH</a>.</p>
-<h2>Filezilla</h2>
-<p>On Windows, I installed <a href="https://filezilla-project.org">Filezilla</a>. I entered
-in the IP address of my home (Linux) server, my username and password and
-selected the <strong>SFTP</strong> protocol from Filezilla's easy to use GUI.
-I could then easily copy files from my client (Windows) machine to my server
-through my wireless network.</p>
-<h2>Alternatives to "the cloud"</h2>
-<p>Knowing how to do many "cloud computing" tasks yourself is a practical thing to
-learn to take control of your data and understand the "magic" behind services
-offered by big tech.</p>
-<div class="footnote">
-<hr>
-<ol>
-<li id="fn:1">
-<p>This very blog post is being written from a Windows computer connected to
-  a FreeBSD system via OpenSSH!&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+<p>OpenSSH is the de-facto standard for remote access via <code>ssh</code>. So …</p>
+                <a class="readmore" href="https://captainalan.github.io/pelican-test/easy-file-transfer-with-openssh.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -276,41 +314,6 @@ with some same corporate jargon and likewise those that make up the
 "fandom" of some book series/movie/etc may often share
 allusions/references to that …</p>
                 <a class="readmore" href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-95.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-94.html" rel="bookmark"
-                           title="Permalink to Corona Virus Diary, Part 94">Corona Virus Diary, Part 94</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2021-01-16T00:00:00-08:00">
-                Published: Sat 16 January 2021
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://captainalan.github.io/pelican-test/author/alan-wong.html">Alan Wong</a>
-        </address>
-<p>In <a href="https://captainalan.github.io/pelican-test/category/news.html">News</a>.</p>
-
-</footer><!-- /.post-info -->                <p>"Thinking" is a term with many different senses in English.
-Here are some,</p>
-<ul>
-<li>Considering</li>
-<li>Deliberating</li>
-<li>Imagining</li>
-<li>Calculating (especially in modern times where computer and brain
-  comparisons are so widespread)</li>
-<li>Repeating (e.g. to memorize something)</li>
-<li>Worrying (to which someone might say to you, "quit <em>thinking</em> so much!")</li>
-<li>Planning</li>
-<li>Analyzing</li>
-</ul>
-<p>Sometimes …</p>
-                <a class="readmore" href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-94.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
                 </ol><!-- /#posts-list -->

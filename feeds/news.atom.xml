@@ -1,5 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-02-13T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 101</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-101.html" rel="alternate"></link><published>2021-02-13T00:00:00-08:00</published><updated>2021-02-13T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-13:/pelican-test/corona-virus-diary-part-101.html</id><summary type="html">&lt;p&gt;Today I decided to try to make some old computers I have talk to each other.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-02-16T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 102</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-102.html" rel="alternate"></link><published>2021-02-16T00:00:00-08:00</published><updated>2021-02-16T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-16:/pelican-test/corona-virus-diary-part-102.html</id><summary type="html">&lt;p&gt;Just a little rant on tooling today. I've been returning to some UNIX learning
+stuff, which has me again studying the problem of "personal computing"
+generally. As &lt;em&gt;modern&lt;/em&gt; people, what relationship do we have with computers?&lt;/p&gt;
+&lt;p&gt;The tools we have affect how we approach problems. Windows is very &lt;em&gt;corporate&lt;/em&gt;
+(as …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Just a little rant on tooling today. I've been returning to some UNIX learning
+stuff, which has me again studying the problem of "personal computing"
+generally. As &lt;em&gt;modern&lt;/em&gt; people, what relationship do we have with computers?&lt;/p&gt;
+&lt;p&gt;The tools we have affect how we approach problems. Windows is very &lt;em&gt;corporate&lt;/em&gt;
+(as in big tech, corporations) so the solutions that appear to someone who has
+bought into the Microsoft ecosystem are often very, well... &lt;em&gt;Microsofty&lt;/em&gt;.
+Indeed, there are tried and true ways to do lots of things by handing over
+control to Microsoft. These may not be the most "elegant" solutions with
+computers, but they do Just Werk (TM).&lt;/p&gt;
+&lt;p&gt;If we move beyond the names of particular products and instead start to think
+about stuff in terms of &lt;em&gt;simple actions&lt;/em&gt; we are doing, I think that we can
+often arrive at much better solutions than the "one-size fits all"
+&lt;em&gt;enterprise&lt;/em&gt; solutions.&lt;/p&gt;
+&lt;p&gt;For instance, let's suppose you're trying to solve the problem of "backing up
+files". What you want to do is to make sure that certain data which is
+important to you is saved on multiple pieces of harddrive (e.g hard drives).
+Now, a typical solution to this problem is to use some &lt;strong&gt;cloud&lt;/strong&gt; service like
+Microsoft's OneDrive. Automatically, files local to your machine are copied
+and saved across mutliple servers &lt;em&gt;owned by Microsoft&lt;/em&gt;. For many customers,
+this is an acceptable arrangement. They trust that Microsoft will do a good
+job making sure they don't lose their files in the event of something like...
+spilling coffee on a laptop. &lt;/p&gt;
+&lt;p&gt;However, there are many disadvantages to just using the "default" option.
+Firstly, what if &lt;em&gt;you&lt;/em&gt; want to own/control the hardware you're saving stuff
+on&amp;mdash;you might not want to give Microsoft all your data. Or, maybe you're
+okay giving Microsoft &lt;em&gt;some&lt;/em&gt; data, but you prefer to not have other data on
+foreign servers. "One-size fits all" solutions typically don't offer finer
+mechanisms of control to set up what you want.&lt;/p&gt;
+&lt;p&gt;On the other hand, if you build your own solution&amp;mdash;this is one thing I'm
+working on&amp;mdash;you solve the original problem of backing stuff up, but &lt;em&gt;you
+don't need a third party&lt;/em&gt; (like Microsoft, Dropbox, etc) stepping in. You are
+more &lt;em&gt;robust&lt;/em&gt; by being decentralized&amp;mdash;problems affecting big corporations
+need not affect you. Similarly, you can be aware of just &lt;em&gt;how&lt;/em&gt; you scale your
+own solution; this might mean buying up cheap used computer hardware to make a
+more robust system through redundancy/copies.&lt;/p&gt;
+&lt;p&gt;It is hard to start thinking about &lt;em&gt;alternatives&lt;/em&gt; if the tools you have always
+suggest a particular way of doing things&amp;mdash;&lt;/p&gt;
+&lt;p&gt;This is one of the reasons I kinda detest smartphones. Smartphones are all
+about doing stuff &lt;em&gt;how an app tells you to&lt;/em&gt;; on the other hand, even some
+relativelys imple machine like a kitchen timer or a pencil can be used
+in infinite ways of &lt;em&gt;your&lt;/em&gt; choosing.&lt;/p&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 101</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-101.html" rel="alternate"></link><published>2021-02-13T00:00:00-08:00</published><updated>2021-02-13T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-13:/pelican-test/corona-virus-diary-part-101.html</id><summary type="html">&lt;p&gt;Today I decided to try to make some old computers I have talk to each other.&lt;/p&gt;
 &lt;p&gt;The first thing I did was spin up a local web server. This gave me a website
 viewable over my local network.&lt;/p&gt;
 &lt;h2&gt;Python web server&lt;/h2&gt;
