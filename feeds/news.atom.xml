@@ -1,5 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-02-16T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 102</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-102.html" rel="alternate"></link><published>2021-02-16T00:00:00-08:00</published><updated>2021-02-16T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-16:/pelican-test/corona-virus-diary-part-102.html</id><summary type="html">&lt;p&gt;Just a little rant on tooling today. I've been returning to some UNIX learning
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-02-17T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 103</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-103.html" rel="alternate"></link><published>2021-02-17T00:00:00-08:00</published><updated>2021-02-17T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-17:/pelican-test/corona-virus-diary-part-103.html</id><summary type="html">&lt;p&gt;You may have heard that it is often better to &lt;em&gt;start slow&lt;/em&gt; and &lt;em&gt;learn
+correctly&lt;/em&gt; first rather than jumping to (overly) advanced learning.
+How is it that we find out what it is to &lt;em&gt;learn correctly?&lt;/em&gt; In modern times,
+sometimes this is tricky.&lt;/p&gt;
+&lt;p&gt;With respect to technology stuff, there are …&lt;/p&gt;</summary><content type="html">&lt;p&gt;You may have heard that it is often better to &lt;em&gt;start slow&lt;/em&gt; and &lt;em&gt;learn
+correctly&lt;/em&gt; first rather than jumping to (overly) advanced learning.
+How is it that we find out what it is to &lt;em&gt;learn correctly?&lt;/em&gt; In modern times,
+sometimes this is tricky.&lt;/p&gt;
+&lt;p&gt;With respect to technology stuff, there are endless details one might master.
+For instance, if someone says that they are going to study some
+"coding/programming", this could mean any number of &lt;em&gt;bossing around machines&lt;/em&gt;,
+generally. Probably the first coding I did was trying out some exercise in a
+book; for others it was programming graphic calculators. I don't think the
+"entry" into programming matters so much&amp;mdash;&lt;/p&gt;
+&lt;p&gt;There seem to be distinguishing marks between good vs bad (or skilled vs
+unskilled) &lt;strong&gt;technologists&lt;/strong&gt;, regardless of specifics of technology.
+Anybody can copy and paste some code or go through a tutorial to reproduce some
+results someone else designed&amp;mdash;similarly, it is not too difficult to
+follow a recipe or tutorial video to cook some dish &lt;em&gt;once&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;Experience &amp;amp; results as a measure of success&lt;/h2&gt;
+&lt;p&gt;What distinguishes a more skilled technical practioner is being able to adapt
+some (familiar) toolset to whatever problems/demands arise. For some things,
+like web programming, it may be necessary to learn more tools/techniques as
+approaches people take change. A skilled coder will know not to get too caught
+up in any one technique because experience teaches how transient fads in
+technology are. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;A distinguishing feature of people that have at some point &lt;em&gt;enjoyed&lt;/em&gt; working
+with technology is that they experienced a sense of freedom "experimenting" or
+"hacking" with their tools. This sort of person tends to enjoy a kinda
+"reward/feedback" loop, writing more and more programs (or equivalently with
+other tech, using some toolset like a hammer and nails) and thus&amp;mdash;given
+adequate self-criticism/awareness&amp;mdash;iterative improvement.&lt;br&gt;
+On the other hand, a "purist" might get too obsessed with some one &lt;em&gt;thing&lt;/em&gt; that
+prevents them from making progress. Let's suppose a person early on decides that
+"I will be a &lt;em&gt;python&lt;/em&gt; programmer". Well, this might work out for a while, but
+what happens if/when python specifically falls out of a favor? &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;An experienced and skilled technologist will be able to recognize what is
+really new/different and what is just marketing or unhelpful abstraction.
+For example, in the world of web programming, there are a lot of different "Web
+Frameworks" which give various ways to smash together HTML, CSS, and JavaScript
+which are the fundamental "building blocks" of the (front end) web. You might learn
+some new system like &lt;strong&gt;Angular&lt;/strong&gt; or &lt;strong&gt;React&lt;/strong&gt; in order to &lt;em&gt;generate&lt;/em&gt; a site
+that is HTML, CSS, and JavaScript "under the hood". Now, anyone skilled in
+using one of these frameworks will tell you that having a good grasp of the
+&lt;em&gt;basic&lt;/em&gt; underlying HTML/CSS/JavaScript is essential for knowing what the
+framework can and can't do. You need to understand &lt;em&gt;why&lt;/em&gt; big tech companies
+invested so much money into developing these frameworks&amp;mdash;without a good
+understanding of the &lt;em&gt;problems&lt;/em&gt; some tool is supposed to solve, it is hard to
+make good use of it.&lt;/p&gt;
+&lt;p&gt;We typically don't say "I'm going to practice &lt;em&gt;using a pencil&lt;/em&gt;" or "I'm going
+to go do &lt;em&gt;hammer exercises&lt;/em&gt;". Rather, we'd practice handwriting/drawing or
+building fences or have some other more concrete goal.&lt;/p&gt;
+&lt;p&gt;Without some kind of goal, it is hard to tell if we're getting better at what
+we're doing or if we're just going in circles becoming increasingly
+idiosyncratic but not any more effective. Clearly, you can spend lots and lots
+of time doing &lt;em&gt;something&lt;/em&gt; that nobody ever asked you to do&amp;mdash;many aspiring
+"creative" types may pour hours and hours into some projects nobody asked for.
+Are they getting better at what they do?&lt;/p&gt;
+&lt;p&gt;Some way of evaluating stuff is needed to make progress.&lt;/p&gt;
+&lt;p&gt;Thus the heading here, &lt;em&gt;experience &amp;amp; results as a measure of success&lt;/em&gt;.
+The skilled technical practioner can't progress in increasing their skill if
+they cease to work by building stuff.&lt;/p&gt;
+&lt;h2&gt;Regaining focus&lt;/h2&gt;
+&lt;p&gt;There are some underlying technologies that change slower than
+others. Understanding the essentials of "base" underlying technologies can be
+thought of as the tech equivalent to "returning to fundamentals" and thus
+locating the things that need to be &lt;em&gt;learned correctly&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;By learning some basic things well, it is much easier to get to the
+&lt;em&gt;comfortably building&lt;/em&gt; stuff phase as opposed to the &lt;em&gt;recipe look-up phase&lt;/em&gt;.
+Like learning to write stuff, we first learn how to combine smaller parts, and
+then we find that we can piece together increasingly longer-form pieces.&lt;/p&gt;
+&lt;p&gt;One way I have lost a lot of time (and focus) is by getting too caught up in
+over-complicated tooling/configurations. Back in the day, I think this was less
+of a problem as the early computer users couldn't really complicate computing
+beyond how complicated it was inherently&amp;mdash;you might have &lt;em&gt;no choices&lt;/em&gt; with
+regard to which programming language was available to use with your machine!
+Now, you can find &lt;strong&gt;listicle&lt;/strong&gt; upon listicle comparing/ranking your many, many
+choices of programming language, database, cloud service, etc.&lt;/p&gt;
+&lt;p&gt;I'm finding a useful heuristic is to &lt;em&gt;ignore&lt;/em&gt; these and turn instead to,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is the market demanding? You can learn technologies based on what you
+  know people will pay for&lt;/li&gt;
+&lt;li&gt;Learning fundamentals; the more (useful) technologies they are common to, the
+  better&lt;/li&gt;
+&lt;li&gt;Understand &lt;em&gt;problems&lt;/em&gt; before (proposed/complex) solutions&amp;mdash;this is to
+  say, &lt;em&gt;know what sort of thing you want to build and why&lt;/em&gt; before getting too
+  attached to some new tooling/technique&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I'll use "computer stuff" as a case study.  If you are doing any kind of
+software development, chances are you're going to be using &lt;code&gt;git&lt;/code&gt; for source
+control. It would probably be a good idea to learn some of that well (enough).
+Similarly, all over the Open Source software world, you see UNIX/Linux stuff
+everywhere&amp;mdash;probably most of the tools used today are connected with this
+tradition. So it makes sense to get comfy with how people have used these
+systems to do stuff for a long while.  Learning terminal/command-line stuff
+might seem archaic and overly complicated until you understand what problems it
+solves and how it is useful&amp;mdash;first try interacting with any remote system;
+chances are you will need &lt;code&gt;ssh&lt;/code&gt;. You will find that learning all these
+text-based commands is really useful for describing and repeating actions.
+Compared with something like GUI-based mouse motion recording, you can see that
+a whole class of problems&amp;mdash;such as how big your monitor is&amp;mdash;vanish as
+dimensionality is collapsed.&lt;/p&gt;
+&lt;h2&gt;Sometimes, we have too many opinions&lt;/h2&gt;
+&lt;p&gt;Knowing a little bit about a whole bunch of different things is a quick way to
+become a scatter-brained, opinion filled person. Is this a good state of affairs?
+For getting stuff done, it probably isn't. It would be better if you were more
+effective at acting in the world and had no time for endless opinion spouting
+(or perhaps even worse, being butthurt because other people don't listen to or
+respect your opinions).&lt;/p&gt;
+&lt;p&gt;Thinking that you are right, it can be hard to see this in oneself&amp;mdash;surely
+I have all these opinions because &lt;em&gt;I know what I'm talking about!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I think it is better to just get good at what you do. Therefore, by sheer
+results, others will go do you and &lt;em&gt;ask you how you got your results&lt;/em&gt;. Your
+opinions will be &lt;em&gt;solicited&lt;/em&gt; rather than &lt;em&gt;unsolicited&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;nobody is making u read my blog, btw... lol :D&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Note that the people who &lt;em&gt;make&lt;/em&gt; tools aren't usually the same people who
+  use them. Making swords is different from being a practicing swordsman;
+  likewise with lots of technology stuff, domains like computer science
+  (theory), hardware, making software libraries, writing applications, and
+  setting up IT infrastucture may involve very different day-to-day activities.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;Xah Lee's &lt;a href="http://xahlee.info/comp/comp_index.html"&gt;Computing and Its
+  People&lt;/a&gt; essays/links offer many
+  insights into interactions between people, technologies, and
+  business&amp;mdash;e.g. which programing languages have succeeded and why?&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 102</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-102.html" rel="alternate"></link><published>2021-02-16T00:00:00-08:00</published><updated>2021-02-16T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-16:/pelican-test/corona-virus-diary-part-102.html</id><summary type="html">&lt;p&gt;Just a little rant on tooling today. I've been returning to some UNIX learning
 stuff, which has me again studying the problem of "personal computing"
 generally. As &lt;em&gt;modern&lt;/em&gt; people, what relationship do we have with computers?&lt;/p&gt;
 &lt;p&gt;The tools we have affect how we approach problems. Windows is very &lt;em&gt;corporate&lt;/em&gt;
