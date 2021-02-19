@@ -1,5 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-02-17T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 103</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-103.html" rel="alternate"></link><published>2021-02-17T00:00:00-08:00</published><updated>2021-02-17T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-17:/pelican-test/corona-virus-diary-part-103.html</id><summary type="html">&lt;p&gt;You may have heard that it is often better to &lt;em&gt;start slow&lt;/em&gt; and &lt;em&gt;learn
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-02-18T00:00:00-08:00</updated><entry><title>Search Engine Stupidity, Part 5</title><link href="https://captainalan.github.io/pelican-test/search-engine-stupidity-part-5.html" rel="alternate"></link><published>2021-02-18T00:00:00-08:00</published><updated>2021-02-18T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-18:/pelican-test/search-engine-stupidity-part-5.html</id><summary type="html">&lt;p&gt;I found a video, &lt;a href="https://youtu.be/jti77KQKYuc"&gt;How Artificial Intelligence is Reshaping Humanity - With Dr.
+Paula Boddington&lt;/a&gt; (Jonathan Pageau, 02/18/2021)
+which provides analysis on lots of the ideas I started to explore here in this
+blog. &lt;/p&gt;
+&lt;p&gt;Notes with timestamps follow,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;01:00&amp;mdash;introduction to "pop science" conception of this topic; people …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;I found a video, &lt;a href="https://youtu.be/jti77KQKYuc"&gt;How Artificial Intelligence is Reshaping Humanity - With Dr.
+Paula Boddington&lt;/a&gt; (Jonathan Pageau, 02/18/2021)
+which provides analysis on lots of the ideas I started to explore here in this
+blog. &lt;/p&gt;
+&lt;p&gt;Notes with timestamps follow,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;01:00&amp;mdash;introduction to "pop science" conception of this topic; people
+  coming up with "Codes of Ethics" for AI ("Artificial Intelligence"); in order
+  to do this right, you have to get more fundamental issues clarified. For
+  instance, what are &lt;em&gt;people&lt;/em&gt; (and what are systems we call AI)&lt;/li&gt;
+&lt;li&gt;05:10&amp;mdash;AI gets "personified"; "intelligence" viewed as the pinnacle of
+  human existence&lt;/li&gt;
+&lt;li&gt;06:10&amp;mdash;when do we &lt;em&gt;want&lt;/em&gt; to replace humans? enhance humans? clearing a
+  landmine is a good use-case for not using a human. but what about &lt;em&gt;enhancing&lt;/em&gt;
+  humans? bias towards the "cognitive"&lt;/li&gt;
+&lt;li&gt;07:10&amp;mdash;image of &lt;strong&gt;golem&lt;/strong&gt;; popular in 19th c w/ Frankenstein and stuff.
+  It is a kind of &lt;em&gt;mirror;&lt;/em&gt; reflects our ideas of morality. Making people
+  "better" usually means something like... adding power/capacity.&lt;/li&gt;
+&lt;li&gt;08:30&amp;mdash;"AI &lt;em&gt;dethroning&lt;/em&gt; humans"; anthropological issue of the place of
+  humans relative to other things and creatures in the world&lt;/li&gt;
+&lt;li&gt;09:30&amp;mdash;What are humans being "dethroned" at? Obviously, we have machines
+  that can travel faster than people, lift heavier objects, etc. Is winning at
+  chess/go/etc similar?&lt;/li&gt;
+&lt;li&gt;10:20&amp;mdash;"underdog/revolutionary" story dominant in the West. &lt;em&gt;Desire&lt;/em&gt; for
+  AI takeover, alien takeover... cuckolding? Stories from Greeks&lt;/li&gt;
+&lt;li&gt;11:30&amp;mdash;technical impossibility of "general intelligence"; beyond this
+  issue is &lt;em&gt;what people believe is true&lt;/em&gt;. We don't even &lt;em&gt;know&lt;/em&gt; if other people
+  are conscious; how can we tell that machines are? We operate in the world
+  with &lt;em&gt;assumptions&lt;/em&gt; about how stuff works. e.g. we assume people are more
+  important than animals&lt;/li&gt;
+&lt;li&gt;13:50&amp;mdash;&lt;strong&gt;idols&lt;/strong&gt; as the &lt;em&gt;creation of a body to host intelligence&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;14:40&amp;mdash;we &lt;em&gt;trust&lt;/em&gt; big tech in the same way the ancients trusted their
+  gods; system set up so you are forced to interact with these entities&lt;/li&gt;
+&lt;li&gt;16:00&amp;mdash;some people &lt;em&gt;looking forward&lt;/em&gt; to "superintelligence", others
+  afraid&amp;mdash;a &lt;strong&gt;false dichotomy&lt;/strong&gt; in that we're already in this system.
+  Similar to in ancient times, through a &lt;strong&gt;"priestly caste"&lt;/strong&gt; the will of these
+  things is explained to us. Nowadays, this caste includes tech elites.
+  Superior in understanding? Do you want to entrust your fate to them?&lt;/li&gt;
+&lt;li&gt;18:25&amp;mdash;analogy of "ethics of weapon making"; can you impose an ethical
+  system on AI? or, just recognize moral implications&lt;/li&gt;
+&lt;li&gt;20:20&amp;mdash;the way we think about &lt;strong&gt;privacy&lt;/strong&gt; is shaped by how we use
+  technology. Technology is changing the way in which we interact with each
+  other &lt;em&gt;in its own image&lt;/em&gt;. There is a kind of parasitic relationship between
+  info tech and people.&lt;/li&gt;
+&lt;li&gt;21:30&amp;mdash;humans as "sex organs of the machine"; 22:30&amp;mdash; however, we
+  should also recognize the agency of tech oligarchs in operating/directing the
+  machine&lt;/li&gt;
+&lt;li&gt;21:50&amp;mdash;without the Internet, social media, etc the whole COVID phenomena
+  we are experiencing now wouldn't be possible. Lock-downs wouldn't be
+  possible.&lt;/li&gt;
+&lt;li&gt;24:20&amp;mdash;"In reality, there was no lock-down. There were just middle class
+  people hiding with working class people delivering stuff to them"&lt;/li&gt;
+&lt;li&gt;25:00&amp;mdash;digital interactions strip lots of things from
+  interactions&amp;mdash;"body language", smells in the room, etc; we sense lots of
+  things in places where we meet people&lt;/li&gt;
+&lt;li&gt;25:40&amp;mdash;social media as &lt;em&gt;entertainment brought to the person-to-person level&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;26:30&amp;mdash;&lt;strong&gt;electricity&lt;/strong&gt;, electricity going beyond our bodies&lt;/li&gt;
+&lt;li&gt;27:00&amp;mdash;we can &lt;em&gt;sense&lt;/em&gt; people looking at us. Animals too have all sorts
+  of ways of perceiving. Digital tech is extremely focusing/limiting&lt;/li&gt;
+&lt;li&gt;28:00&amp;mdash;digital interactions "clean up" interactions&amp;mdash;this makes me
+  think too of how all these cartoon avatars/profiles and stuff are popular.
+  People are trying to get rid of the "messiness" of interactions&lt;/li&gt;
+&lt;li&gt;29:10&amp;mdash;&lt;strong&gt;attention&lt;/strong&gt; as the basis of reality; LIKE mechanism as a
+  measure of attention. Quantifying attention.&lt;/li&gt;
+&lt;li&gt;30:20&amp;mdash;attending to a person is a very complex thing. LIKE as a
+  "currency of attention" is rather crude in that all sorts of ways of paying
+  attention can be reduced to the same thing&amp;mdash;all "likes" counted the
+  same, regardless if some video/article/etc is &lt;em&gt;life-changing&lt;/em&gt; or just seen in
+  passing. quantity &amp;gt; quality&lt;/li&gt;
+&lt;li&gt;32:00&amp;mdash;the system itself ("turning attention into currency") limits the
+  extent to which ethics can be applied&lt;/li&gt;
+&lt;li&gt;33:40&amp;mdash;reducing intelligence to quantity, mechanizing this&amp;mdash;humans
+  are treated like animals or machines&lt;/li&gt;
+&lt;li&gt;34:40&amp;mdash;FB and Twitter recognized you &lt;em&gt;get&lt;/em&gt; people via attention. Setting
+  up a "false god" they didn't yet realize the way to optimize attention
+  grabbing is by appealing to the "&lt;strong&gt;lizard-brain&lt;/strong&gt;" (base passions)&lt;/li&gt;
+&lt;li&gt;36:00&amp;mdash;intelligence comes from &lt;em&gt;humans&lt;/em&gt;; human output is fed to
+  machines. Horrendous jobs of &lt;strong&gt;content moderation&lt;/strong&gt;. Actual &lt;em&gt;people&lt;/em&gt; doing
+  the labor; it is false to say machines are doing this. Rather, poorly paid
+  people are&lt;/li&gt;
+&lt;li&gt;36:40&amp;mdash;human intelligence is "farmed" and fed to machines&lt;/li&gt;
+&lt;li&gt;37:30&amp;mdash;Unlike the film &lt;em&gt;The Matrix&lt;/em&gt;, humans are being farmed for
+  "intelligence" rather than body/heat&lt;/li&gt;
+&lt;li&gt;38:00&amp;mdash;whole system is really "energy hungry"; rather than having
+  endless leisure because machines do all the labor for us, what do we find?&lt;/li&gt;
+&lt;li&gt;39:50&amp;mdash;Genie and the wish; people wanted something, but didn't think of
+  the &lt;em&gt;side effects&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;40:00&amp;mdash;"hate speech" detection. Can machines detect irony? Or all the
+  people that inform the machine algorithms? Can you get rid of "bias" to begin
+  with? Cultural issues!&lt;/li&gt;
+&lt;li&gt;41:15&amp;mdash;social media itself &lt;em&gt;fuels&lt;/em&gt; the creation of "hate speech". People
+  are trying to control a thing they themselves created. Anonymization,
+  physical distance, and so on gives people more opportunity to unleash darker
+  aspects of themselves. Efforts to control these problems (online) end up
+  spilling out into "normal society". Things like "dogpiling" in comments
+  sections don't occur so often in normal interactions. Unfair oustings also
+  less common.&lt;/li&gt;
+&lt;li&gt;43:45&amp;mdash;weird "appeal process". How can you appeal some action if you
+  don't even know what you're being accused of? Opaque rules&lt;/li&gt;
+&lt;li&gt;44:50&amp;mdash;people working on problems of "hate speech" have certain
+  assumptions; they don't seem to realize how these rules might be applied to
+  them&lt;/li&gt;
+&lt;li&gt;46:30&amp;mdash;contradiction. &lt;em&gt;Unification&lt;/em&gt; with the dominance of a particular
+  sort of English. E-mail autocompletion. On the other hand we see
+  &lt;em&gt;fragmentation&lt;/em&gt;, e.g. in the multiplication of different gender categories.
+  Marginalized groups have their voices amplified so they appear as larger
+  portions of society than they actually comprise. This in turn leads to more
+  attention &lt;em&gt;against&lt;/em&gt; these people.&lt;/li&gt;
+&lt;li&gt;50:20&amp;mdash;weird upside down world "created" to combat "hate"; margin has to
+  be &lt;em&gt;promoted&lt;/em&gt; in this inverted hierarchy. "Activists" boosted in this
+  &lt;em&gt;attention economy&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;52:00&amp;mdash;AI effectively boosts the power of the &lt;em&gt;leading players&lt;/em&gt;; e.g.
+  &lt;em&gt;What appears on the first page of Google?&lt;/em&gt; people are fighting over this.
+  Clearly there are &lt;em&gt;people&lt;/em&gt; behind this.&lt;/li&gt;
+&lt;li&gt;52:50&amp;mdash;handwavy explanation of "Oh, it's the &lt;em&gt;algorithm&lt;/em&gt;"; we know this
+  isn't true and that people bake their biases into things... Is there even
+  such a thing as an "unbiased view of the world"?&lt;/li&gt;
+&lt;li&gt;53:50&amp;mdash;problem isn't &lt;em&gt;getting rid of bias&lt;/em&gt;, but rather &lt;em&gt;imposing your
+  bias&lt;/em&gt; on others. Refusing to acknowledge problems... imagining things are
+  more "equal" when in fact there is just a &lt;em&gt;different&lt;/em&gt; hierarchy.&lt;/li&gt;
+&lt;li&gt;55:40&amp;mdash;are &lt;em&gt;emotions&lt;/em&gt; seen as the problem? ironic because the whole
+  system is based on &lt;em&gt;manipulating&lt;/em&gt; emotions; AI are better because they don't
+  have emotions, yet they exploit our emotions?&lt;/li&gt;
+&lt;li&gt;57:00&amp;mdash;relationship of tech companies to &lt;strong&gt;politics&lt;/strong&gt;. Tech company
+  people are &lt;em&gt;unelected!&lt;/em&gt; This is compounded by lock downs where we're all
+  forced to look at screens for a long time each day. A totalitarian system.&lt;/li&gt;
+&lt;li&gt;58:20&amp;mdash;we shouldn't despair. Some people have tried to set up
+  alternatives (and then we see these got attacked); it seems control from big
+  tech is extremely strong... 1:01:00&amp;mdash;but maybe people are getting ready
+  to "let out". Studying AI technology can be like a &lt;em&gt;mirror&lt;/em&gt; reminding us to
+  look at what we (people) are.&lt;/li&gt;
+&lt;li&gt;1:00:00&amp;mdash;taken for granted that private conversations are "shady"&lt;/li&gt;
+&lt;li&gt;1:03:00&amp;mdash;lots of work on AI ethics stuff is "utilitarian" or
+  "consequentialist"; definitions of intelligence like "being able to take
+  steps to reach goals" (&lt;strong&gt;instrumentalist&lt;/strong&gt; type view). "Enlightenment" ideas
+  of rationalism/reason, like Steven Pinker type stuff.&lt;/li&gt;
+&lt;li&gt;1:04:40&amp;mdash;but we can have &lt;em&gt;lower&lt;/em&gt; and &lt;em&gt;higher&lt;/em&gt; goals; understanding
+  intelligence in terms of goals might be fine, but we have to consider what
+  sorts of goals we can have, and to identify &lt;em&gt;quality&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;1:09:05&amp;mdash;we need to realize that we still have free will; we should use
+  our will and also think about what sorts of lives we want to live&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Interwebs"></category></entry><entry><title>Corona Virus Diary, Part 103</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-103.html" rel="alternate"></link><published>2021-02-17T00:00:00-08:00</published><updated>2021-02-17T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-17:/pelican-test/corona-virus-diary-part-103.html</id><summary type="html">&lt;p&gt;You may have heard that it is often better to &lt;em&gt;start slow&lt;/em&gt; and &lt;em&gt;learn
 correctly&lt;/em&gt; first rather than jumping to (overly) advanced learning.
 How is it that we find out what it is to &lt;em&gt;learn correctly?&lt;/em&gt; In modern times,
 sometimes this is tricky.&lt;/p&gt;
