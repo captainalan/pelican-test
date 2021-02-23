@@ -1,5 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Linux</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/linux.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-02-14T00:00:00-08:00</updated><entry><title>Easy File Transfer with OpenSSH</title><link href="https://captainalan.github.io/pelican-test/easy-file-transfer-with-openssh.html" rel="alternate"></link><published>2021-02-14T00:00:00-08:00</published><updated>2021-02-14T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-14:/pelican-test/easy-file-transfer-with-openssh.html</id><summary type="html">&lt;p&gt;Today I learned that &lt;a href="https://www.openssh.com"&gt;OpenSSH&lt;/a&gt; allows you to easily
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Linux</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/linux.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-02-22T11:57:00-08:00</updated><entry><title>Law and Code, Impersonal systems</title><link href="https://captainalan.github.io/pelican-test/law-and-code-impersonal-systems.html" rel="alternate"></link><published>2021-02-22T11:57:00-08:00</published><updated>2021-02-22T11:57:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-22:/pelican-test/law-and-code-impersonal-systems.html</id><summary type="html">&lt;p&gt;Today I thought a bit about &lt;strong&gt;software licensing&lt;/strong&gt; mostly in simple human
+terms&amp;mdash;I was thinking about this considering the fact that all widely used
+pieces of software will contain software licenses in their &lt;strong&gt;source code&lt;/strong&gt;.
+In what ways can we understand "law as code"?&lt;/p&gt;
+&lt;h1&gt;Nerds just wanna coooooooooode&lt;/h1&gt;
+&lt;p&gt;I …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Today I thought a bit about &lt;strong&gt;software licensing&lt;/strong&gt; mostly in simple human
+terms&amp;mdash;I was thinking about this considering the fact that all widely used
+pieces of software will contain software licenses in their &lt;strong&gt;source code&lt;/strong&gt;.
+In what ways can we understand "law as code"?&lt;/p&gt;
+&lt;h1&gt;Nerds just wanna coooooooooode&lt;/h1&gt;
+&lt;p&gt;I think many people that get into software just like writing programs. With a
+nice environment, it feels great to order symbols, seamlessly translating
+thought into characters on the screen, which in turn can &lt;em&gt;do work&lt;/em&gt; even outside
+of machines.&lt;/p&gt;
+&lt;p&gt;Open Source and Free Software enthusiasts will be the first to tell you about
+how licensing not only affects &lt;em&gt;which software you have to pay for&lt;/em&gt; (with US
+Dollars or your favorite fiat currency), but perhaps more importantly &lt;em&gt;what
+kind of software gets developed&lt;/em&gt;. That is, different licenses and approaches to
+&lt;em&gt;software engineering&lt;/em&gt; lead to different sorts of projects &amp;amp; outcomes. &lt;/p&gt;
+&lt;p&gt;Hobbyists (people that just like working with computers) will often have
+attitudes like,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;"I don't care if anyone re-uses my code if they find it useful"&lt;/li&gt;
+&lt;li&gt;"I want to use software I can freely copy, modify, distribute, etc"&lt;/li&gt;
+&lt;li&gt;"I have more trust in publicly available software that can be &lt;em&gt;audited&lt;/em&gt; by
+  3rd party specialists"&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;On the other hand, business owners might have concerns like,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;"I want to use software that is as inexpensive as possible"&amp;mdash;this not only
+  includes paying for things like Windows licenses, it also includes stuff like
+  &lt;em&gt;wages for employees&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;"I want to outsource/distribute risk if possible"&amp;mdash;if Microsoft or
+  Google can deal with expensive security, this would often be preferable to
+  dealing with the potentially very high legal costs of getting sued&lt;/li&gt;
+&lt;li&gt;"I want to appeal to customers"&amp;mdash;a business owner might feel that
+  choosing more established/conservative solutions is preferable to using
+  cutting-edge tools as these things have been proven to deliver value to
+  customers. On the other hand, a startup might try to appear to be
+  "cutting-edge/ahead-of-the-curve" by adapting unconventional, experimental
+  technologies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We thus might find that hobbyists want to work with things that businesses
+don't. Hobbyists might want decentralized, idiosyncratic setups while
+businesses may opt for standardization (even if it means working with "boring
+technology"). Businesses might not trust home-brewed solutions as much as
+"official" solutions, even if a programmer could demonstrate how some Windows
+setup or something is in many ways worse than some custom free software stack.&lt;/p&gt;
+&lt;h1&gt;Law as a Platform&lt;/h1&gt;
+&lt;p&gt;When talking computer stuff, you &lt;em&gt;must talk about "big tech"&lt;/em&gt; to understand the
+shape stuff takes. For instance one reason someone might choose to use Windows
+over Linux is because of &lt;strong&gt;hardware support&lt;/strong&gt;, often in the context of playing
+games on a fancy graphics card or something. The software choice of Windows is
+based indirectly on the fact that big companies like Microsoft, Intel and NVIDIA and
+so forth can work together behind closed doors to make certain "stacks" (or
+"configurations") perform better than others. You might only be able to "fully
+utilize" some graphics card by running a handful of proprietary pieces of software.&lt;/p&gt;
+&lt;p&gt;Legal considerations about what information you can/can't access is very
+important for companies that fund research. Assuming some business is operating
+to make money (and by extension gain power through market dominance), the big
+companies that are able to fund research at big scale don't want to just
+swallow all the costs of what they're doing without special benefits.&lt;/p&gt;
+&lt;p&gt;Legal documents are a higher level of "code" underwhich instructions to
+machines are written.&lt;/p&gt;
+&lt;p&gt;You can think of programming as dealing with "legal documents" in different
+scopes. For example, in Browser Land, people typically use JavaScript to
+&lt;em&gt;govern&lt;/em&gt; what buttons do, maybe how some UI elements move around, and so on. In
+"real life", you likewise have rules to determine stuff like &lt;em&gt;when trash gets
+picked up&lt;/em&gt;. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Both law and computer programming can be realms where &lt;em&gt;morality&lt;/em&gt; doesn't exist;
+rather there is some other stinking pile of complications by which judgements can be made.
+That is why there can be silly "legal loopholes" that "don't make sense". Code
+might work but not be "elegant". In both cases, you have beastly systems that
+are crucially &lt;strong&gt;impersonal&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The project of &lt;strong&gt;automation&lt;/strong&gt; is often doing something like taking &lt;em&gt;personal&lt;/em&gt;
+aspects out of work (which could involve dishonesty, negligence) by putting
+completely subservient machines in the place of human actors.&lt;/p&gt;
+&lt;h2&gt;What protocols can(n't) guarantee&lt;/h2&gt;
+&lt;p&gt;Consider the whole idea of a &lt;em&gt;protocol&lt;/em&gt;. We can guarantee data is transmitted
+in a particular way with protols like HTTP; on the other hand, it would be very
+difficult to get another person to correctly transmit some message
+word-for-word orally.&lt;/p&gt;
+&lt;p&gt;While we are able to guarantee some form of "data integrity", we clearly can't
+ensure some message is effectively communicated if we consider actual
+&lt;em&gt;meaning&lt;/em&gt;. We've all read things we didn't understand well, even if the
+characters forming such-and-such texts were correctly transmitted.&lt;/p&gt;
+&lt;p&gt;Thus we have law, code, and more in place to help remove error and make things
+more effectively. But what often happens is we just created alternative, often
+increasingly absurd systems that operate by &lt;em&gt;rules&lt;/em&gt;&amp;mdash;but these rules do
+not necessarily "map to reality" to accomplish basic goals like "facilitating
+communication" or "satisfying material needs" better than older, non-digital
+technologies.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;It is not coincidental that many terms in computer stuff broadly
+  correspond to "real world" analogs&amp;mdash;consider &lt;strong&gt;garbage collection&lt;/strong&gt; in
+  relation to the previously stated analogy.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Linux"></category></entry><entry><title>Easy File Transfer with OpenSSH</title><link href="https://captainalan.github.io/pelican-test/easy-file-transfer-with-openssh.html" rel="alternate"></link><published>2021-02-14T00:00:00-08:00</published><updated>2021-02-14T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-14:/pelican-test/easy-file-transfer-with-openssh.html</id><summary type="html">&lt;p&gt;Today I learned that &lt;a href="https://www.openssh.com"&gt;OpenSSH&lt;/a&gt; allows you to easily
 transfer files on a local network! I've started setting up some home network
 stuff to learn how "the cloud" works better and was pleasantly surprised how
 easy this was.&lt;/p&gt;
