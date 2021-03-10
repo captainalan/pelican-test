@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-03-01T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 106</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-106.html" rel="alternate"></link><published>2021-03-01T00:00:00-08:00</published><updated>2021-03-01T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-03-01:/pelican-test/corona-virus-diary-part-106.html</id><summary type="html">&lt;p&gt;One tool for decision making is &lt;strong&gt;casting lots&lt;/strong&gt;. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; Often, we aren't sure
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-03-09T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 107</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-107.html" rel="alternate"></link><published>2021-03-09T00:00:00-08:00</published><updated>2021-03-09T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-03-09:/pelican-test/corona-virus-diary-part-107.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Libraries&lt;/strong&gt; of earlier times were primarily collections of (paper) books.
+Nowadays, many things which may have been previously stored on paper are found
+in databases on servers. A "digital transformation" is largely complete. &lt;/p&gt;
+&lt;h2&gt;There are lots of different sorts of books&lt;/h2&gt;
+&lt;p&gt;When modern people think of books, people often think …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;Libraries&lt;/strong&gt; of earlier times were primarily collections of (paper) books.
+Nowadays, many things which may have been previously stored on paper are found
+in databases on servers. A "digital transformation" is largely complete. &lt;/p&gt;
+&lt;h2&gt;There are lots of different sorts of books&lt;/h2&gt;
+&lt;p&gt;When modern people think of books, people often think of types like &lt;strong&gt;novels&lt;/strong&gt;
+or "non-fiction" books&amp;mdash;documents on history, politics, etc.&lt;/p&gt;
+&lt;p&gt;Likewise, we have practical books like &lt;strong&gt;cookbooks&lt;/strong&gt; and manuals. Many (most?)
+people don't bother using paper books for these. Instead, they'll look up
+recipes online, access the most recent documentation for some machine...&lt;/p&gt;
+&lt;h3&gt;Digital assets&lt;/h3&gt;
+&lt;p&gt;Another type of "library" is an (originally) digital collection.
+Libraries of digital assets can be things like,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Software libraries&lt;/li&gt;
+&lt;li&gt;3D textures, models&lt;/li&gt;
+&lt;li&gt;Stock images&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Artists might buy reference books full of many images of a particular
+type&amp;mdash;e.g. birds, swordsman poses&lt;/p&gt;
+&lt;p&gt;Once you have a useful set of pre-made things, you can compose them in ways
+that are useful to you provided you have the necessary skill. Libraries save
+time because you don't have to re-do "re-inventing the wheel" or doing
+"original research" (which can be costly and time consuming).&lt;/p&gt;
+&lt;h2&gt;The dangers of (digital) centralization&lt;/h2&gt;
+&lt;p&gt;The new digital way of doing libraries has a lot of problems. Crucially, if a
+"client-server" setup where you access a library through your terminal (e.g.
+smartphone, web browser), you &lt;em&gt;do not control the resources you are accessing&lt;/em&gt;.
+While practically, we cannot control everything we use&amp;mdash;the modern way is
+to be in a highly networked world&amp;mdash;certain stuff which we access everyday
+is probably best left de-centralized.&lt;/p&gt;
+&lt;p&gt;One example of this is a "music library". Nowadays, many people turn over their
+music listening to a service like Spotify. What happened to having a curated
+collection of carefully selected things to listen to?  Now &lt;em&gt;somebody else&lt;/em&gt; can
+alter your music collection remotely.&lt;/p&gt;
+&lt;p&gt;Centralized control means that 3rd parties (big corporations, governments) can 
+control what information people have access to. Obviously, this can be used to
+"control the narrative", to-down.&lt;/p&gt;
+&lt;h3&gt;"You don't know what you're missing"&lt;/h3&gt;
+&lt;p&gt;People born into this system of digital centralized control will not have the
+same experiences of browsing libraries, open forums of discussion, and other more organic means of &lt;em&gt;discovery&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Rather, information is being fed to people like how a &lt;em&gt;guided tour&lt;/em&gt; seeks to
+contextualize and control how visitors see some place.&lt;/p&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 106</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-106.html" rel="alternate"></link><published>2021-03-01T00:00:00-08:00</published><updated>2021-03-01T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-03-01:/pelican-test/corona-virus-diary-part-106.html</id><summary type="html">&lt;p&gt;One tool for decision making is &lt;strong&gt;casting lots&lt;/strong&gt;. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; Often, we aren't sure
 which of multiple choices is better. So rather than being held back by
 &lt;em&gt;inaction&lt;/em&gt; ("paralysis by analysis"), we can appeal to some &lt;em&gt;random&lt;/em&gt; process
 to give us a decision. I use the word "random" here in the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;One tool for decision making is &lt;strong&gt;casting lots&lt;/strong&gt;. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; Often, we aren't sure
