@@ -1,5 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Interwebs</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/interwebs.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-02-18T00:00:00-08:00</updated><entry><title>Search Engine Stupidity, Part 5</title><link href="https://captainalan.github.io/pelican-test/search-engine-stupidity-part-5.html" rel="alternate"></link><published>2021-02-18T00:00:00-08:00</published><updated>2021-02-18T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-18:/pelican-test/search-engine-stupidity-part-5.html</id><summary type="html">&lt;p&gt;I found a video, &lt;a href="https://youtu.be/jti77KQKYuc"&gt;How Artificial Intelligence is Reshaping Humanity - With Dr.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - Interwebs</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/interwebs.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-03-16T00:00:00-07:00</updated><entry><title>Written Communication, 2021</title><link href="https://captainalan.github.io/pelican-test/written-communication-2021.html" rel="alternate"></link><published>2021-03-16T00:00:00-07:00</published><updated>2021-03-16T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-03-16:/pelican-test/written-communication-2021.html</id><summary type="html">&lt;p&gt;What follows is an analysis on various forms of &lt;em&gt;written&lt;/em&gt; communication and how
+to make these tools useful to you. Choose the right (write? &lt;em&gt;har har&lt;/em&gt;) tool for
+the right job!&lt;/p&gt;
+&lt;h2&gt;What is available&lt;/h2&gt;
+&lt;p&gt;Most modern people make frequent use of at least a few different tools to do
+written …&lt;/p&gt;</summary><content type="html">&lt;p&gt;What follows is an analysis on various forms of &lt;em&gt;written&lt;/em&gt; communication and how
+to make these tools useful to you. Choose the right (write? &lt;em&gt;har har&lt;/em&gt;) tool for
+the right job!&lt;/p&gt;
+&lt;h2&gt;What is available&lt;/h2&gt;
+&lt;p&gt;Most modern people make frequent use of at least a few different tools to do
+written communication. Here they are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;e-mail&lt;/li&gt;
+&lt;li&gt;messaging apps (Messenger, LINE, WeChat etc)^[1]&lt;/li&gt;
+&lt;li&gt;websites (static)&amp;mdash;sites you go on to "look up information"; contrast
+  this with a &lt;em&gt;dynamic&lt;/em&gt; website like Facebook which has constantly
+  changing/updating content&lt;/li&gt;
+&lt;li&gt;books and other print resources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each of these tools have properties that make them well-suited for certain
+jobs, but terrible fits for others. Through my experience being an Internet
+nerd, I will share how to use and &lt;em&gt;not&lt;/em&gt; use these tools.&lt;/p&gt;
+&lt;h3&gt;E-mail&lt;/h3&gt;
+&lt;p&gt;The basic form of these things is pretty fixed for now. While Gmail and other
+"modern" e-mail applications might introduce new (anti-)features like various
+notification this-and-that, the basic functions of e-mail have now been
+established for decades. The name &lt;strong&gt;e-mail&lt;/strong&gt; accurately expresses what it
+is&amp;mdash;electronic (or &lt;em&gt;digital&lt;/em&gt;) mail.&lt;/p&gt;
+&lt;p&gt;E-mail is good for longer-form, carefully written messsages. For instance, many
+people will still go to e-mail first for the purposes of...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reaching the author of a book/paper with a question&lt;/li&gt;
+&lt;li&gt;Contacting a company to inquire about job openings/offerings&lt;/li&gt;
+&lt;li&gt;Checking up on a friend/relative who doesn't use social media like Facebook,
+  Instagram, etc&lt;/li&gt;
+&lt;li&gt;Detailing/documenting some situation or issue and sending a report to
+  relevant parties&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Like physical mail, dealing with e-mail often involves the issue of dealing
+with some accumulating pile of &lt;em&gt;unread&lt;/em&gt; or &lt;em&gt;unsorted&lt;/em&gt; messages. Before Gmail
+became widespread, people also had to &lt;em&gt;delete&lt;/em&gt; messages to manage a finite
+amount of storage space. Gmail made the idea of "archiving" mainstream&amp;mdash;
+never deleting anything so Google, federal agents, and maybe you, can easily
+search past messages for relevant information you won't "throw away" on
+accident.&lt;/p&gt;
+&lt;p&gt;This &lt;em&gt;archiving&lt;/em&gt; ability of e-mail makes it useful as a &lt;em&gt;log of
+communications&lt;/em&gt;. So suppose you need to have some work done on your home.
+E-mail communications provide a "paper trail" to make sure everything gets
+taken care of, workers are fairly compensated, and so on and so forth.  Trying
+to track these things through a messier chat log would be difficult.  Having
+clearly written but thorough e-mail messages written with the intention of
+being easily searchable and providing documentation beats an app like FB
+Messenger.&lt;/p&gt;
+&lt;p&gt;E-mail is thus &lt;em&gt;good for doing work&lt;/em&gt; that involves clear, intentional
+communication. It discourages idle talk because you know that your chatter will
+be more junk to sort through later. &lt;em&gt;You will annoy yourself later&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;E-mail is not so good for "pinging" people, multi-party (more than two people)
+conversations or sending messages that require more than text and/or a couple
+of images. Many people (myself included) don't constantly watch their e-mail
+inboxes while working. You probably have better things to do than to stare at
+your mailbox waiting for the postman&amp;mdash;unless you're a dog. So to reach
+someone "instantly", a phone call, a message on a chatting app, etc may be a
+more sure-fire way to establish contact. Or, of course, you can schedule a time
+to call via e-mail.&lt;/p&gt;
+&lt;p&gt;Threads with a lot of people are difficult and confusing to read&amp;mdash;not much
+more to say on this one.&lt;/p&gt;
+&lt;p&gt;Finally, the form of e-mails is limited by the medium. If you have to present
+information in a very specific way (e.g. you have a gallery of photos to
+share), then linking to a website &lt;em&gt;in an e-mail&lt;/em&gt; is preferable to a chain of 25
+e-mails each with a giant &lt;code&gt;.jpeg&lt;/code&gt; attached to it.&lt;/p&gt;
+&lt;h3&gt;Messaging Apps&lt;/h3&gt;
+&lt;p&gt;Messaging apps are useful for havin conversations in the "digital world". While
+I think a lot can be said about how "face-to-face" or "in-person" conversations
+are superior to online conversations, I think we can appreciate how in the
+modern world most of us often have to interface with the &lt;strong&gt;digital veil&lt;/strong&gt; which
+rests above "base reality".&lt;/p&gt;
+&lt;p&gt;Like different physical places, different chatting platforms have different
+properties. In 2021, &lt;strong&gt;Discord&lt;/strong&gt; is the de-facto "chat room" app for NEETs
+awaiting government stimulus checks. &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt; It is a useful place to connect with
+interest-centered communities&amp;mdash;e.g. computer programmers, digital artists,
+and organic farmers.&lt;/p&gt;
+&lt;p&gt;Facebook messenger is a go-to place for "real life" contacts. Many people
+around my age (millennial generation) understand that Faceboook "glows", but
+this is acceptable for nearly all "normal/everyday" conversations. &lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;
+Deciding where to meet a group of friends under surveillance cameras is already
+being watched and recorded, so you might as well use the nice IT infrastructure
+big tech provides to facilitate such a meeting.&lt;/p&gt;
+&lt;p&gt;Most people you see walking around, sitting on benches, etc with mobile devices
+probably are using some chat app. &lt;sup id="fnref:4"&gt;&lt;a class="footnote-ref" href="#fn:4"&gt;4&lt;/a&gt;&lt;/sup&gt; A fact of 2021 is that lots of people do
+much of their chatting online. So getting skilled/comfy in these platforms can
+be helpful for getting stuff done.&lt;/p&gt;
+&lt;h3&gt;Websites (Static)&lt;/h3&gt;
+&lt;p&gt;I'm a big fan of &lt;em&gt;static&lt;/em&gt; websites&amp;mdash;that is, websites that aren't
+"social", fueled by ever-changing data contributed by users. You can think of a
+static website like a print resource you can access via a phone, computer, etc.&lt;/p&gt;
+&lt;p&gt;Think about useful information you might want to look up:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Recipes to cook&lt;/li&gt;
+&lt;li&gt;Manuals for machines, programming languages&lt;/li&gt;
+&lt;li&gt;Charts, reference books, etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Rather than having a ginormous (paper) library, having easily searchable
+digital documents can be nice.&lt;/p&gt;
+&lt;p&gt;At their best, these resources are freely available, don't annoy you with
+advertisements, and display nicely on a wide variety of devices (like desktop,
+tablet, mobile).&lt;/p&gt;
+&lt;h3&gt;Print Resources&lt;/h3&gt;
+&lt;p&gt;Print resources can't be changed by some central server and thus are a valuable
+decentralized data store. &lt;em&gt;You&lt;/em&gt; are in charge of the security of these things.
+You won't be "gaslit" by Big Brother so easily with these materials.&lt;/p&gt;
+&lt;p&gt;The cost of this is convenience; oftentimes using paper resources may be a
+slower, more complex process than using digital technology.&lt;/p&gt;
+&lt;p&gt;Maybe in the long run, however, this is actually good. For instance, I learned
+how to read/write lots of Chinese characters via the "old-fashioned" pen and
+paper methods. I am not sure I could have learned what I have with only digital
+resources.&lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;In 2021, digital written communications are everywhere. Understanding various
+properties of each common form of digital communication can be helpful for
+avoiding useless "innovations" and making the most of existing platforms.&lt;/p&gt;
+&lt;p&gt;If e-mail does something better, you gain no advantage having everyone in your
+project switch to some new fancy chat service. Likewise, trying to smash
+something that is better done via chatting to e-mail will make your inbox bleed
+and lead to confusion. Some things need no "discussion"&amp;mdash;static webpages
+&lt;em&gt;without&lt;/em&gt; comments and stuff can be best for lots of content.&lt;/p&gt;
+&lt;p&gt;Thinking first of the &lt;em&gt;work that needs to be done&lt;/em&gt; and then choosing the
+appropriate tool is better than trying to use some one tool for 8 hours a day
+(just because it is in some job description made by some HR person).&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Different nations seem to have their favorite "preferred" app. Likewise,
+  there will be online communities centered around particular apps&amp;mdash;lots
+  of privacy concerned people like &lt;strong&gt;Signal&lt;/strong&gt;. Neckbeards (&lt;em&gt;ackshual&lt;/em&gt; or in
+  character) enjoy &lt;strong&gt;Discord&lt;/strong&gt;, Crypto enthusiasts like Telegram...&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;Not Employed, in Education, or Training&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;"Glows" refers to federal agents, government surveillance, etc.;
+  Facebook/Messenger clearly isn't a "free" and "privacy-centric" platform.&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:4"&gt;
+&lt;p&gt;I don't have a source. Go back to reddit, nerd!&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Interwebs"></category></entry><entry><title>Search Engine Stupidity, Part 5</title><link href="https://captainalan.github.io/pelican-test/search-engine-stupidity-part-5.html" rel="alternate"></link><published>2021-02-18T00:00:00-08:00</published><updated>2021-02-18T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-02-18:/pelican-test/search-engine-stupidity-part-5.html</id><summary type="html">&lt;p&gt;I found a video, &lt;a href="https://youtu.be/jti77KQKYuc"&gt;How Artificial Intelligence is Reshaping Humanity - With Dr.
 Paula Boddington&lt;/a&gt; (Jonathan Pageau, 02/18/2021)
 which provides analysis on lots of the ideas I started to explore here in this
 blog. &lt;/p&gt;
