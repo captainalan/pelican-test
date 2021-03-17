@@ -1,5 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-03-09T00:00:00-08:00</updated><entry><title>Corona Virus Diary, Part 107</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-107.html" rel="alternate"></link><published>2021-03-09T00:00:00-08:00</published><updated>2021-03-09T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-03-09:/pelican-test/corona-virus-diary-part-107.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Libraries&lt;/strong&gt; of earlier times were primarily collections of (paper) books.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-03-16T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 108</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-108.html" rel="alternate"></link><published>2021-03-16T00:00:00-07:00</published><updated>2021-03-16T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-03-16:/pelican-test/corona-virus-diary-part-108.html</id><summary type="html">&lt;p&gt;Just recently, we  had "Daylight Savings Time" something-something in
+California. I heard at least one person complain about software problems with
+this. The &lt;em&gt;quantification of time&lt;/em&gt; remains a complex issue that you probably
+shouldn't ever try to write software for yourself unless you are a specialist
+with a deep understanding …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Just recently, we  had "Daylight Savings Time" something-something in
+California. I heard at least one person complain about software problems with
+this. The &lt;em&gt;quantification of time&lt;/em&gt; remains a complex issue that you probably
+shouldn't ever try to write software for yourself unless you are a specialist
+with a deep understanding of this topic. I will not go into extensive details
+about the specifics of stuff here as to not tire you (the reader) and because
+I wouldn't know what I was talking about.&lt;/p&gt;
+&lt;h2&gt;Everyday Experiences of Time&lt;/h2&gt;
+&lt;p&gt;Each day begins with the rising of the sun and ends with the setting of the
+sun. You can verify "midday/noon" by when the sun is directly
+overhead&amp;mdash;you can see this by how shadows are cast.&lt;/p&gt;
+&lt;p&gt;During different seasons, we would say the days are &lt;em&gt;longer&lt;/em&gt; or &lt;em&gt;shorter&lt;/em&gt;. In
+this sense, we can understand time in a &lt;em&gt;relative&lt;/em&gt; way. Timing events like
+&lt;em&gt;when to wake&lt;/em&gt; and &lt;em&gt;when to sleep&lt;/em&gt; with the seasons, you can see how the
+generic "8 hour workday" of the modern world does violence to how we might more
+naturally experience time doing some work more closely tied to the earth.&lt;/p&gt;
+&lt;p&gt;So the sun gives us a rhythm for each &lt;em&gt;day&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;When counting more than one day, we look to the moon. The moon will appear
+differently on different days of a &lt;em&gt;month&lt;/em&gt;. Note the word
+&lt;a href="https://en.wiktionary.org/wiki/month"&gt;"month"&lt;/a&gt; comes from a form
+meaning &lt;em&gt;moon&lt;/em&gt;. In other languages I have experience with, we also find that
+this is the case. For instance, in East Asian languages the character used for
+months is the same one for &lt;em&gt;moon&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Calendars measuring time based on cycles of the moon&amp;mdash;&lt;strong&gt;lunar
+calendars&lt;/strong&gt;&amp;mdash; have been developed in many different civilizations.  The
+following line from the Psalms plainly states this reality we all experience:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;He appointed the moon for seasons: the sun knowest his going down.&lt;br&gt;
+(Psalm 104:19, &lt;a href="https://biblehub.com/kjv/psalms/104.htm"&gt;KJV&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You may have heard something like "Chinese people used the &lt;em&gt;lunar&lt;/em&gt; calendar,
+but in the modern world we use a &lt;em&gt;solar&lt;/em&gt; calendar". This is a big
+oversimplification of this complex issue of counting time&amp;mdash;Wikipedia on
+the Lunar calendar says:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The most commonly used calendar, the Gregorian calendar, is a solar calendar
+system that originally evolved out of a lunar calendar system.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Our current "best" calendar (the Gregorian calendar) is a smash-up of lunar
+this and solar that with additional calculations mixed in. I couldn't recreate
+it off the top of my head. I'll let Microsoft and stuff keep track of it for
+now...&lt;/p&gt;
+&lt;h2&gt;Modernity on Time&lt;/h2&gt;
+&lt;p&gt;Fluent English speakers will be familiar with the phrase "like clockwork".
+Clocks, for many people, represent &lt;strong&gt;precision&lt;/strong&gt;. A clock represents the
+accurate accounting of time past. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; Luxury watches are something people
+spend thousands of dollars on because among other reasons people admire the
+craftsmanship of a visible and audible "mechanical genius". To behold a
+well-made clock is to see the apex of human hands buildling automated
+quantification&amp;mdash;while a digital "quartz" watch may be more accurate, this
+opacity of this sort of device (you can't see &lt;em&gt;how it works&lt;/em&gt;; it is like a
+"black box") makes it far less... romantic. &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;To the modern person, a "day" is not so much defined by the cycles of the sun
+and the moon, but by a quantification imposed by "the establishment". A day is
+24 hours, we are told, and of those you should spend 8 working, 8 sleeping,
+around 1 on a lunch break possibly, and the rest attending to various other
+duties. For many, the "6 day work week" doesn't exist. &lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt; You get
+"productivity" obsessed people trying to "squeeze more work out of less hours".&lt;/p&gt;
+&lt;p&gt;Indeed, for the modern person, we are often trained to think of time &lt;em&gt;not as
+humans&lt;/em&gt; but rather &lt;em&gt;as machines&lt;/em&gt;. A boss does calculations&amp;mdash;"how many
+widgets per an hour can I produce and at what cost?" This boss may then add or
+remove coffee machines, raise or lower rages, and exercise other buttons,
+switches, and levers to extract as much &lt;em&gt;hourly output&lt;/em&gt; as possible from his
+(or her) hybrid workforce of humans and machines.&lt;/p&gt;
+&lt;p&gt;Our bodies groan under the unnatural structure of this quantified toil. Looking
+at what people &lt;em&gt;ackshually&lt;/em&gt; do in offices, you will be unsurprised to find a
+lot of "slacking off". This isn't just because people are "lazy"&amp;mdash;it is
+also because we are trying to "install" largely "incompatible software" on
+ourselves.&lt;/p&gt;
+&lt;p&gt;This isn't to say that &lt;em&gt;nobody&lt;/em&gt; actually works as they do in business school
+theory. Rather we can look at how certain "rhythms" of switching between
+various activities (as well as social arrangements) are more or less &lt;em&gt;natural&lt;/em&gt;
+to us.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;I've heard that is is bad luck in Chinese (folk) culture to give a clock
+  as a gift. This is because it is like "counting down till death".&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;See Wikip on &lt;a href="https://en.wikipedia.org/wiki/Romanticism"&gt;Romanticism&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;Genesis describes the creation of the world in six days, with rest on the
+  seventh. Have any cultures ever successfully gone against this pattern?&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 107</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-107.html" rel="alternate"></link><published>2021-03-09T00:00:00-08:00</published><updated>2021-03-09T00:00:00-08:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-03-09:/pelican-test/corona-virus-diary-part-107.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Libraries&lt;/strong&gt; of earlier times were primarily collections of (paper) books.
 Nowadays, many things which may have been previously stored on paper are found
 in databases on servers. A "digital transformation" is largely complete. &lt;/p&gt;
 &lt;h2&gt;There are lots of different sorts of books&lt;/h2&gt;
