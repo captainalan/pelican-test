@@ -72,7 +72,7 @@ posts all over social media so that other people too can be afraid of anti-Alan
 discrimination and help spread my message. Maybe they'll even buy a T-Shirt or
 something from me.
 
-### Coersion
+### Coercion
 
 Some "businesses" you have to interface with whether you want to or not, albeit
 indirectly. This is where *taxation* comes in. Governments dish out tons of
@@ -88,7 +88,7 @@ equated with particular instantiations/institutions such that if you oppose
 some group&mdash;like a union&mdash;you will likely be branded as
 "anti-education" and called mean names like a Luddite Dummy-head.
 
-Other forms of profiting off of coersion come from making money off of
+Other forms of profiting off of coercion come from making money off of
 mandatory training, licensing, and regulating. Here, you don't really "make/do"
 anything&mdash;you're in the business of getting people in trouble.
 
