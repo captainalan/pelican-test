@@ -1,98 +1,142 @@
 title: Corona Virus Diary, Part 108
-date: 2021-03-16
+date: 2021-03-18
 category: News
 
-Just recently, we  had "Daylight Savings Time" something-something in
-California. I heard at least one person complain about software problems with
-this. The *quantification of time* remains a complex issue that you probably
-shouldn't ever try to write software for yourself unless you are a specialist
-with a deep understanding of this topic. I will not go into extensive details
-about the specifics of stuff here as to not tire you (the reader) and because
-I wouldn't know what I was talking about.
+Fundamentally, what a **business** does is exchange some good or service for
+some form of payment. So if you buy a chair for $30, you give the business $30
+somehow and then they get a chair to you, somehow. Business can of course be
+more *abstract/complex*. Insurance, for instance, has deals where you pay some
+(hopefully) small-ish agreed upon amount at regular intervals. The insurance
+company will then give you large sums of money in the case of whatever events
+you are buying insurance for come to pass&mdash;e.g. a forest fire, theft, etc.
+That is of course, how stuff is *supposed* to work by the textbook.
 
-Everyday Experiences of Time
-----------------------------
+Essentials
+----------
 
-Each day begins with the rising of the sun and ends with the setting of the
-sun. You can verify "midday/noon" by when the sun is directly
-overhead&mdash;you can see this by how shadows are cast.
+"Normal expenses" include things like groceries, clothes, and tools for work. 
 
-During different seasons, we would say the days are *longer* or *shorter*. In
-this sense, we can understand time in a *relative* way. Timing events like
-*when to wake* and *when to sleep* with the seasons, you can see how the
-generic "8 hour workday" of the modern world does violence to how we might more
-naturally experience time doing some work more closely tied to the earth.
+But life has gotten more complicated in the modern era. Using some kind of
+**credit** is extremely common&mdash;people go into debt for daily purchases
+with credit cards as well as get into complex payment plans for bigger things
+like homes and cars.
 
-So the sun gives us a rhythm for each *day*.
+It is quite "expensive" to live&mdash;that's why we have this term
+"**affordability**" or even "**livability**" to talk about how in some places,
+you can work *reasonable* hours and earn enough money to pay your expenses and
+still have time to do other things versus other places where you might work 3
+part time jobs and sleep for 4 hours each night to barely get by.
 
-When counting more than one day, we look to the moon. The moon will appear
-differently on different days of a *month*. Note the word
-["month"](https://en.wiktionary.org/wiki/month) comes from a form
-meaning *moon*. In other languages I have experience with, we also find that
-this is the case. For instance, in East Asian languages the character used for
-months is the same one for *moon*.
+"Everyday business" involves what you practically need to get by
+day-to-day&mdash;food/water, clothing, and shelter. Then, there's everything else.
 
-Calendars measuring time based on cycles of the moon&mdash;**lunar
-calendars**&mdash; have been developed in many different civilizations.  The
-following line from the Psalms plainly states this reality we all experience:
+Creating Demand Creates Business
+--------------------------------
 
-> He appointed the moon for seasons: the sun knowest his going down.  
-> (Psalm 104:19, [KJV](https://biblehub.com/kjv/psalms/104.htm))
+Beyond food/water, clothing, and shelter, there is *everything else*. This is
+where most of the money in the world is. Day by day, most people take care of
+"everyday business" stuff in one way or another&mdash;this could mean living in
+a tent, getting free Costco samples, and wearing the same clothes for three
+decades. Yet, all the *essentials* are met. This is not dating advice.
 
-You may have heard something like "Chinese people used the *lunar* calendar,
-but in the modern world we use a *solar* calendar". This is a big
-oversimplification of this complex issue of counting time&mdash;Wikipedia on
-the Lunar calendar says:
+So people begin to produce things that go *beyond the basics*. Any large city
+will have many foods&mdash;not just to allow you to stay alive but to draw you
+in with artistic arrangements, various combinations of ingredients, and
+ingredients like salt and oil that can make nearly any product of the earth
+taste rich. People will rent land/office space and provide various
+services&mdash;whether it is a barber shop giving haircuts or an ice skating
+rink, you can exchange payment for people to give you access to things you
+can't or won't do yourself.
 
-> The most commonly used calendar, the Gregorian calendar, is a solar calendar
-> system that originally evolved out of a lunar calendar system.
+Up to this point, we're still talking about fine and honest business.
 
-Our current "best" calendar (the Gregorian calendar) is a smash-up of lunar
-this and solar that with additional calculations mixed in. I couldn't recreate
-it off the top of my head. I'll let Microsoft and stuff keep track of it for
-now...
+### Fear
 
-Modernity on Time
------------------
+Where business gets bad is when it begins *preying* upon "customers" to create
+more demand. You can say that businesses that do this fail the "vibe
+check"&mdash;they add more negativity to the air without offering additional
+help, drawing in more money through harmful messaging.
 
-Fluent English speakers will be familiar with the phrase "like clockwork".
-Clocks, for many people, represent **precision**. A clock represents the
-accurate accounting of time past. [^1] Luxury watches are something people
-spend thousands of dollars on because among other reasons people admire the
-craftsmanship of a visible and audible "mechanical genius". To behold a
-well-made clock is to see the apex of human hands buildling automated
-quantification&mdash;while a digital "quartz" watch may be more accurate, this
-opacity of this sort of device (you can't see *how it works*; it is like a
-"black box") makes it far less... romantic. [^2]
+The past year, 2020, has been super-charged by fear-based business. People will
+purchase additional security (like cameras to monitor their homes), protective
+equipment, and arrange the structure of their lives to *avoid risk*&mdash;at
+least this is the selling point.
 
-To the modern person, a "day" is not so much defined by the cycles of the sun
-and the moon, but by a quantification imposed by "the establishment". A day is
-24 hours, we are told, and of those you should spend 8 working, 8 sleeping,
-around 1 on a lunch break possibly, and the rest attending to various other
-duties. For many, the "6 day work week" doesn't exist. [^3] You get
-"productivity" obsessed people trying to "squeeze more work out of less hours".
+Note that "fear is contagious"; so if one person is afraid of something (e.g. a
+darkmatter wave perturbation thingy) then suddenly others will begin to feel
+they too are *licensed to fear* this same thing. In modern jargon, we call this
+"**raising awareness**'.
 
-Indeed, for the modern person, we are often trained to think of time *not as
-humans* but rather *as machines*. A boss does calculations&mdash;"how many
-widgets per an hour can I produce and at what cost?" This boss may then add or
-remove coffee machines, raise or lower rages, and exercise other buttons,
-switches, and levers to extract as much *hourly output* as possible from his
-(or her) hybrid workforce of humans and machines.
+So I might "raise awareness" of anti-Alan discrimination by making all sorts of
+posts all over social media so that other people too can be afraid of anti-Alan
+discrimination and help spread my message. Maybe they'll even buy a T-Shirt or
+something from me.
 
-Our bodies groan under the unnatural structure of this quantified toil. Looking
-at what people *ackshually* do in offices, you will be unsurprised to find a
-lot of "slacking off". This isn't just because people are "lazy"&mdash;it is
-also because we are trying to "install" largely "incompatible software" on
-ourselves.
+### Coersion
 
-This isn't to say that *nobody* actually works as they do in business school
-theory. Rather we can look at how certain "rhythms" of switching between
-various activities (as well as social arrangements) are more or less *natural*
-to us.
+Some "businesses" you have to interface with whether you want to or not, albeit
+indirectly. This is where *taxation* comes in. Governments dish out tons of
+money all over the place, and you often have little to no say in what's going
+on.
+
+I would put *compulsory* education in this category; we're forced to pay for
+schools whether we like what they're doing or not. Nobody is really against
+"education" in the real sense of teaching people how to do useful stuff. 
+
+But what's happened little by little is that terms like "education" become
+equated with particular instantiations/institutions such that if you oppose
+some group&mdash;like a union&mdash;you will likely be branded as
+"anti-education" and called mean names like a Luddite Dummy-head.
+
+Other forms of profiting off of coersion come from making money off of
+mandatory training, licensing, and regulating. Here, you don't really "make/do"
+anything&mdash;you're in the business of getting people in trouble.
+
+This is not to say that there isn't a real need for regulation. I've read my
+Ayn Rand and I'm not one of these "anarcho-capitalist" types. The issue is
+whether the regulators and regulations are doing what they're supposed to do or
+if they are simply getting in the way of good, honest business.
+
+In 2020, many small businesses had to shut down. Rules related to the Big Coof
+(TM) meant that restaurants had to change much of how they operated and put a
+lot of space to waste&mdash;chairs stacked on tables in empty restaurants... 
+
+Business owners were required by law to follow these guidelines. Breaking rules
+of course *is* possible, but you might get in trouble especially if you're
+surrounded by snitches.
+
+I'm sure some businesses profited greatly from this all&mdash;many probably
+popped up just to meet new manufactured needs. You can see scores of
+"designer/fashion" masks, fancy COVID this-and-that posters, etc. None of this
+was "free"&mdash;people got paid handsomely to perpetuate this narrative.
 
 
-[^1]: I've heard that is is bad luck in Chinese (folk) culture to give a clock
-  as a gift. This is because it is like "counting down till death".
-[^2]: See Wikip on [Romanticism](https://en.wikipedia.org/wiki/Romanticism).
-[^3]: Genesis describes the creation of the world in six days, with rest on the
-  seventh. Have any cultures ever successfully gone against this pattern?
+### Scams/Fraud
+
+What I'll call a **scam** is a business built off of a model of a *fake problem*.
+If I tell you that you have some illness which you don't have and then convince
+you to pay me a lot of money for a product that does nothing, all I've done is
+lie and deceive to make my quick buck. This is a scam/fraud.
+
+Ask yourself&mdash;do you think scam/fraud can occur at scale, even by our
+"sacred" institutions? Do shiny advertisements and snappy websites *prove*
+anything beyond lots of money spent?
+
+
+Problems will present themselves to you
+---------------------------------------
+
+If you have a tooth ache, I don't need to tell you that *you should visit the
+dentist*. Someone with a tooth ache will most likely start seeking out options
+themselves to a problem they know they have. "My tooth is hurting and it is
+distracting me from other things I need to give my attention to!"
+
+A lot of media is in the business of telling you about *problems you didn't
+know you had*. One might call this *meddling in business that is not your own*.
+Who does it profit to get enraged about issue XYZ when you are not in a
+position to do anything about it?
+
+And the activist replies, "Oh, but *you can* do something about it. Give my NGO
+money and help spread awareness".
+
+`Money printer go brrrrrr...`
