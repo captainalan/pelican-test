@@ -1,4 +1,4 @@
-title: Corona Virus Diary, Part 108
+title: Corona Virus Diary, Part 109
 date: 2021-03-18
 category: News
 
