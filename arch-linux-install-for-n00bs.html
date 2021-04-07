@@ -108,7 +108,7 @@ This will probably be <code>/dev/sda</code> if you are installing onto an old co
 partition table on (don't do <code>fdisk /dev/sda123</code>; this won't
 work&em;go ahead and try that if you don't believe me!).</p>
 <p>You will now be sent to a new prompt that looks something like:</p>
-<div class="highlight"><pre><span></span><code><span class="err">Command (m for help):</span>
+<div class="highlight"><pre><span></span><code><span class="nv">Command</span> <span class="ss">(</span><span class="nv">m</span> <span class="k">for</span> <span class="nv">help</span><span class="ss">)</span>:
 </code></pre></div>
 
 <p>If there are existing partitions you may need to type <code>d</code> to delete them.
@@ -212,13 +212,13 @@ file. (This might be done automatically.)</p>
 <h3>Setting a locale</h3>
 <p>Use your text editor (here I use <code>vim</code>) to edit <code>/etc/locale.gen</code>. I do this
 with <code>vim /etc/locale.gen</code>. In this huge list of locales I uncommented</p>
-<div class="highlight"><pre><span></span><code><span class="err">#en_US.UTF-8 UTF-8</span>
-<span class="err">#en_US ISO-8859-1</span>
+<div class="highlight"><pre><span></span><code>#en_US.UTF-8 UTF-8
+#en_US ISO-8859-1
 </code></pre></div>
 
 <p>to...</p>
-<div class="highlight"><pre><span></span><code><span class="err">en_US.UTF-8 UTF-8</span>
-<span class="err">en_US ISO-8859-1</span>
+<div class="highlight"><pre><span></span><code>en_US.UTF-8 UTF-8
+en_US ISO-8859-1
 </code></pre></div>
 
 <p>...in order to set my locale. Note, you can set multiple languages. Save and
@@ -227,13 +227,13 @@ exit this file.</p>
 file.</p>
 <p>Let's edit one more file to set our (default) language: <code>vim
 /etc/locale.conf</code>. I changed the contents of this file to:</p>
-<div class="highlight"><pre><span></span><code><span class="err">LANG=en_US.UTF-8</span>
+<div class="highlight"><pre><span></span><code>LANG=en_US.UTF-8
 </code></pre></div>
 
 <h3>Setting a timezone</h3>
 <p>By default, in <code>/etc/localtime</code>, there are a bunch of time zones. We want to
 link <code>/usr/share/zoneinfo/</code> with our timezone.</p>
-<div class="highlight"><pre><span></span><code><span class="err">ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime</span>
+<div class="highlight"><pre><span></span><code>ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime
 </code></pre></div>
 
 <p>...where of course you replace <code>.../America/Los_Angles...</code> with where you are.</p>

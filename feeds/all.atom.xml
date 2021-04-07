@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-04-05T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 116</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-116.html" rel="alternate"></link><published>2021-04-05T00:00:00-07:00</published><updated>2021-04-05T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-04-05:/pelican-test/corona-virus-diary-part-116.html</id><summary type="html">&lt;p&gt;Cleaning out some stuff in my room, I noticed that I have often kept
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/all.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-04-06T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 117</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-117.html" rel="alternate"></link><published>2021-04-06T00:00:00-07:00</published><updated>2021-04-06T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-04-06:/pelican-test/corona-virus-diary-part-117.html</id><summary type="html">&lt;p&gt;Ice Age Farmer put out &lt;a href="https://www.iceagefarmer.com/2021/04/06/absolute-slavery-zero-carbon-agenda-deconstructed/"&gt;a
+video&lt;/a&gt;
+video in which he pointed out a common pattern for introducing global
+changes. Start with some grand narrative, e.g. &lt;em&gt;climate change due to
+carbon emissions&lt;/em&gt;. Then, take some terrible exemplar of what something
+current looks like&amp;mdash;e.g. a factory farm. Next …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ice Age Farmer put out &lt;a href="https://www.iceagefarmer.com/2021/04/06/absolute-slavery-zero-carbon-agenda-deconstructed/"&gt;a
+video&lt;/a&gt;
+video in which he pointed out a common pattern for introducing global
+changes. Start with some grand narrative, e.g. &lt;em&gt;climate change due to
+carbon emissions&lt;/em&gt;. Then, take some terrible exemplar of what something
+current looks like&amp;mdash;e.g. a factory farm. Next, beat this
+easy-to-hate &lt;strong&gt;strawman&lt;/strong&gt; as a representative with some entire
+position&amp;mdash;in this example &lt;em&gt;people should be free to consume
+meat&lt;/em&gt;. Furthermore, no explanation is given for how the current
+situation arose. Why is meat production so centralized these days to
+begin with?&lt;/p&gt;
+&lt;p&gt;Narratives like the one above pull on the emotional strings of people
+based on a truth&amp;mdash;factory farms look nasty. But then, this image
+is tied with things that are not so directly related to it. Does
+sustaining human populations &lt;em&gt;demand&lt;/em&gt; farming as we currently have it?&lt;/p&gt;
+&lt;p&gt;Going in the other direction, we can see how all sorts of things get
+attached to labels like &lt;strong&gt;"education"&lt;/strong&gt; and &lt;strong&gt;"science"&lt;/strong&gt;. Getting
+smeared as being "against education" or "against science" emotionally
+manipulates people based ont he &lt;em&gt;positive&lt;/em&gt; associations of these
+terms.&lt;/p&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 116</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-116.html" rel="alternate"></link><published>2021-04-05T00:00:00-07:00</published><updated>2021-04-05T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-04-05:/pelican-test/corona-virus-diary-part-116.html</id><summary type="html">&lt;p&gt;Cleaning out some stuff in my room, I noticed that I have often kept
 packaging for various stuff&amp;mdash;for instance, the original box that
 came with some electronic gadget. At times, this has been helpful for
 getting more resale value buying/selling used stuff, but overall it is
@@ -3164,18 +3188,18 @@ forth.&lt;/p&gt;
 recursive process, we can see that individual projects/programs often
 employ a similar structure. Using the &lt;code&gt;tree&lt;/code&gt; utility, for instance, I
 can view the hierarchical structure this very file is found in.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;├── content&lt;/span&gt;
-&lt;span class="err"&gt;│   ├── [...]&lt;/span&gt;
-&lt;span class="err"&gt;│   ├── corona-virus-001.md&lt;/span&gt;
-&lt;span class="err"&gt;│   ├── corona-virus-002.md&lt;/span&gt;
-&lt;span class="err"&gt;│   ├── corona-virus-003.md&lt;/span&gt;
-&lt;span class="err"&gt;│   ├── [...] &lt;/span&gt;
-&lt;span class="err"&gt;│   ├── qwerty-theory.md&lt;/span&gt;
-&lt;span class="err"&gt;│   ├── search-anarchy.md&lt;/span&gt;
-&lt;span class="err"&gt;├── Makefile&lt;/span&gt;
-&lt;span class="err"&gt;├── [...]&lt;/span&gt;
-&lt;span class="err"&gt;├── README.md&lt;/span&gt;
-&lt;span class="err"&gt;└── tasks.py&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;├── content
+│   ├── [...]
+│   ├── corona-virus-001.md
+│   ├── corona-virus-002.md
+│   ├── corona-virus-003.md
+│   ├── [...] 
+│   ├── qwerty-theory.md
+│   ├── search-anarchy.md
+├── Makefile
+├── [...]
+├── README.md
+└── tasks.py
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Each file has its place. To use a &lt;strong&gt;static site generator&lt;/strong&gt; you must
@@ -4010,11 +4034,11 @@ abstracted way that is looking more and more like "social
 credit"&amp;mdash;the idea that by being a good citizen you get little
 tokens to spend at a institution approved store. In a very simplified
 example we can express this like so,&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;From&lt;/span&gt; &lt;span class="nb"&gt;REAL&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ER&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;MONEY&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="n"&gt;MONOPOLY&lt;/span&gt; &lt;span class="n"&gt;MONEY&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="n"&gt;VIDEO&lt;/span&gt; &lt;span class="n"&gt;GAMES&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;From&lt;/span&gt; &lt;span class="n"&gt;REAL&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ER&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;MONEY&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;MONOPOLY&lt;/span&gt; &lt;span class="n"&gt;MONEY&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;VIDEO&lt;/span&gt; &lt;span class="n"&gt;GAMES&lt;/span&gt;
 
 &lt;span class="n"&gt;gold&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;silver&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;paper&lt;/span&gt; &lt;span class="n"&gt;money&lt;/span&gt;      &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;fiat&lt;/span&gt; &lt;span class="n"&gt;currency&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;social&lt;/span&gt; &lt;span class="n"&gt;credit&lt;/span&gt;
-                  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;backed&lt;/span&gt; &lt;span class="k"&gt;by&lt;/span&gt; &lt;span class="n"&gt;gold&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;                     &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;weaponized&lt;/span&gt;
-                   &lt;span class="n"&gt;lending&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;                             &lt;span class="n"&gt;nanny&lt;/span&gt; &lt;span class="k"&gt;state&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+                  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;backed&lt;/span&gt; &lt;span class="n"&gt;by&lt;/span&gt; &lt;span class="n"&gt;gold&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;                     &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;weaponized&lt;/span&gt;
+                   &lt;span class="n"&gt;lending&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;                             &lt;span class="n"&gt;nanny&lt;/span&gt; &lt;span class="n"&gt;state&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;I do a bit of stock trading (I use no technical analysis; I just buy
@@ -9281,16 +9305,16 @@ files. This can be very convenient for separating data from the logic
 of some script.&lt;/p&gt;
 &lt;p&gt;Let's suppose you have some directory &lt;code&gt;media_to_consoom_later/&lt;/code&gt;. Here,
 you queue up YouTube links like,&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;youtube.com/video1&lt;/span&gt;
-&lt;span class="err"&gt;youtube.com/video2&lt;/span&gt;
-&lt;span class="err"&gt;youtube.com/video3&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;youtube.com/video1
+youtube.com/video2
+youtube.com/video3
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;...in a file called &lt;code&gt;youtube-videos.txt&lt;/code&gt;. You have another video
 called &lt;code&gt;youtube-music.txt&lt;/code&gt; that follows the same format:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;youtube.com/track1&lt;/span&gt;
-&lt;span class="err"&gt;youtube.com/track2&lt;/span&gt;
-&lt;span class="err"&gt;youtube.com/track3&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;youtube.com/track1
+youtube.com/track2
+youtube.com/track3
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Using &lt;code&gt;xargs&lt;/code&gt; you can quickly execute two commands to download all the
@@ -12978,7 +13002,7 @@ This will probably be &lt;code&gt;/dev/sda&lt;/code&gt; if you are installing on
 partition table on (don't do &lt;code&gt;fdisk /dev/sda123&lt;/code&gt;; this won't
 work&amp;em;go ahead and try that if you don't believe me!).&lt;/p&gt;
 &lt;p&gt;You will now be sent to a new prompt that looks something like:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;Command (m for help):&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nv"&gt;Command&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;m&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nv"&gt;help&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;:
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;If there are existing partitions you may need to type &lt;code&gt;d&lt;/code&gt; to delete them.
@@ -13082,13 +13106,13 @@ file. (This might be done automatically.)&lt;/p&gt;
 &lt;h3&gt;Setting a locale&lt;/h3&gt;
 &lt;p&gt;Use your text editor (here I use &lt;code&gt;vim&lt;/code&gt;) to edit &lt;code&gt;/etc/locale.gen&lt;/code&gt;. I do this
 with &lt;code&gt;vim /etc/locale.gen&lt;/code&gt;. In this huge list of locales I uncommented&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;#en_US.UTF-8 UTF-8&lt;/span&gt;
-&lt;span class="err"&gt;#en_US ISO-8859-1&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;#en_US.UTF-8 UTF-8
+#en_US ISO-8859-1
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;to...&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;en_US.UTF-8 UTF-8&lt;/span&gt;
-&lt;span class="err"&gt;en_US ISO-8859-1&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;en_US.UTF-8 UTF-8
+en_US ISO-8859-1
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;...in order to set my locale. Note, you can set multiple languages. Save and
@@ -13097,13 +13121,13 @@ exit this file.&lt;/p&gt;
 file.&lt;/p&gt;
 &lt;p&gt;Let's edit one more file to set our (default) language: &lt;code&gt;vim
 /etc/locale.conf&lt;/code&gt;. I changed the contents of this file to:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;LANG=en_US.UTF-8&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;LANG=en_US.UTF-8
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3&gt;Setting a timezone&lt;/h3&gt;
 &lt;p&gt;By default, in &lt;code&gt;/etc/localtime&lt;/code&gt;, there are a bunch of time zones. We want to
 link &lt;code&gt;/usr/share/zoneinfo/&lt;/code&gt; with our timezone.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;...where of course you replace &lt;code&gt;.../America/Los_Angles...&lt;/code&gt; with where you are.&lt;/p&gt;
