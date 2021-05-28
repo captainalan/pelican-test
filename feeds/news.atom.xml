@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-05-19T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 126</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-126.html" rel="alternate"></link><published>2021-05-19T00:00:00-07:00</published><updated>2021-05-19T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-05-19:/pelican-test/corona-virus-diary-part-126.html</id><summary type="html">&lt;p&gt;What is "10 minutes"? If you're running late for something, it may be
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alan's Miscellaneous Stuff Blog - News</title><link href="https://captainalan.github.io/pelican-test/" rel="alternate"></link><link href="https://captainalan.github.io/pelican-test/feeds/news.atom.xml" rel="self"></link><id>https://captainalan.github.io/pelican-test/</id><updated>2021-05-28T00:00:00-07:00</updated><entry><title>Corona Virus Diary, Part 127</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-127.html" rel="alternate"></link><published>2021-05-28T00:00:00-07:00</published><updated>2021-05-28T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-05-28:/pelican-test/corona-virus-diary-part-127.html</id><summary type="html">&lt;p&gt;In the past, I've been interested in things like the &lt;strong&gt;Dvorak keyboard
+layout&lt;/strong&gt; and old text editors&amp;mdash;namely &lt;strong&gt;vim&lt;/strong&gt; and &lt;strong&gt;emacs&lt;/strong&gt;. Why
+is this? In specific domains, these tools confer some neat advantages.
+To summarize, the Dvorak keyboard layout gives a more comfortable
+typing experience as the letters are arranged …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In the past, I've been interested in things like the &lt;strong&gt;Dvorak keyboard
+layout&lt;/strong&gt; and old text editors&amp;mdash;namely &lt;strong&gt;vim&lt;/strong&gt; and &lt;strong&gt;emacs&lt;/strong&gt;. Why
+is this? In specific domains, these tools confer some neat advantages.
+To summarize, the Dvorak keyboard layout gives a more comfortable
+typing experience as the letters are arranged in such a way that you
+can type the most common letters without moving your hands from the
+"home row". Key presses are more balanced between your right and left
+hands. Vim and emacs are both &lt;strong&gt;text editors&lt;/strong&gt;&amp;mdash;programs used to
+type stuff. For programmers, system administrators, and other "power
+users" being able to quickly create and edit files is a valuable
+skill.&lt;/p&gt;
+&lt;p&gt;Practically, however, the world has moved beyond many of the
+applications for these tools. If you were tasked with choosing how to
+do information technology in a small community from scratch, you very
+well might teach these tools and keep things simple. People would be
+able to work very efficiently and wouldn't need to learn much more
+computing beyond some basic UNIX stuff.&lt;/p&gt;
+&lt;p&gt;However, in our modern world, this is not the case. It would be a real
+pain to try to &lt;strong&gt;retrofit&lt;/strong&gt; emacs or vim or some other old editor to
+try to program in the "new style" of &lt;strong&gt;web frameworks&lt;/strong&gt; like Angular
+or React (yeah yeah... I know it is a "front end library"!). Simply
+put, "modern" software development is designed for "modern" tooling.&lt;/p&gt;
+&lt;p&gt;To work on mastering cool old tools can be educational&amp;mdash;you are
+studying case studies of things that worked well with certain
+limitations. LARPing as a 90s programmer and using vim to do
+everything may be a fun way to practice solving some well-defined
+problems by writing simple command line programs. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; However, for
+"real world" applications (that is, what bosses might demand) you are
+probably better off just using whatever the current "industry
+standard" is...&lt;/p&gt;
+&lt;p&gt;This is my basic conclusion from enjoying using lots of "retro" or
+specialized stuff/techniques&amp;mdash;it isn't worth it to try to do
+things in a &lt;em&gt;different&lt;/em&gt; way if it isn't paying. Take the lessons from
+it (e.g. keyboard commands are useful) and then move on; it is not
+worth the overhead to try to customize the world to your
+idiosyncracies. Just be normal!&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Aside from web programming, this is where most of my experience is.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="News"></category></entry><entry><title>Corona Virus Diary, Part 126</title><link href="https://captainalan.github.io/pelican-test/corona-virus-diary-part-126.html" rel="alternate"></link><published>2021-05-19T00:00:00-07:00</published><updated>2021-05-19T00:00:00-07:00</updated><author><name>Alan Wong</name></author><id>tag:captainalan.github.io,2021-05-19:/pelican-test/corona-virus-diary-part-126.html</id><summary type="html">&lt;p&gt;What is "10 minutes"? If you're running late for something, it may be
 all someone needs to feel relief; if you're doing a workout, it may
 feel like prolonged torture. When we are at rest, it is easy to look
 at time abstractly&amp;mdash;e.g. I can play to study …&lt;/p&gt;</summary><content type="html">&lt;p&gt;What is "10 minutes"? If you're running late for something, it may be
