@@ -39,7 +39,7 @@ Some posts I've done (with newly penned titles):
 - [What is "entertainment"?](https://captainalan.github.io/pelican-test/corona-virus-diary-part-120.html)
 - [Avoidng problems through simple living](https://captainalan.github.io/pelican-test/corona-virus-diary-part-121.html)
 - [How language/books/media are a tool](https://captainalan.github.io/pelican-test/corona-virus-diary-part-123.html)
-- 
+
 
 On this site, I think I will plan on continuing to do *topical* posts,
 but I don't find much point in continuing a series called "Corona
